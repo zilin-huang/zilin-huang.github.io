@@ -1,0 +1,71 @@
+<!-- <div class="news">
+  {% if site.news != blank -%} 
+    {%- assign news_size = site.news | size -%}
+    <div class="table-responsive" {% if site.news_scrollable and news_size > 10 %}style="max-height: 10vw"{% endif %}>
+      <table class="table table-sm table-borderless">
+        {%- assign news = site.news | reverse -%}
+        {% for item in news %} 
+          <tr>
+            <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+            <td>
+              {% if item.inline -%} 
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%} 
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {%- endif %} 
+            </td>
+          </tr>
+        {%- endfor %} 
+      </table>
+    </div>
+  {%- else -%} 
+    <p>No news so far...</p>
+  {%- endif %} 
+</div> -->
+
+<style>
+  .news-year th {
+    font-size: 1.2rem;
+  }
+  .news-items th:first-child {
+    width: 15%;
+  }
+  .news-items th:last-child {
+    width: 85%;
+  }
+  </style>
+  
+  <div class="news">
+    {% if site.news != blank -%} 
+      {%- assign news_size = site.news | size -%}
+      <div class="table-responsive" {% if site.news_scrollable and news_size > 10 %}style="max-height: 10vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+          {%- assign news = site.news | reverse -%}
+          {% assign current_year = null %}
+          {% for item in news %} 
+            {% capture year %}{{ item.date | date: "%Y" }}{% endcapture %}
+            {% if year != current_year %}
+              {% if current_year != null %}</tbody>{% endif %}
+              <tbody class="news-year"><tr><th colspan="2"><strong>{{ year }}</strong></th></tr></tbody>
+              <tbody class="news-items">
+              {% assign current_year = year %}
+            {% endif %}
+            <tr>
+              <th scope="row" class="date-col">{{ item.date | date: "%b %-d, %Y" }}</th>
+              <td>
+                {% if item.inline -%} 
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {%- else -%} 
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {%- endif %} 
+              </td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {%- else -%} 
+      <p>No news so far...</p>
+    {%- endif %} 
+  </div>
+  
