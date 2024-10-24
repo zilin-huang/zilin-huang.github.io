@@ -20,20 +20,37 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
+    
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.1'
-        bundler-cache: true
+        bundler-cache: false  
+    
+    - name: Configure Bundler
+      run: |
+        bundle config --local path 'vendor/bundle'
+        bundle config --local deployment true
+        
     - name: Update Gemfile.lock
       run: |
+        rm -f Gemfile.lock  
         bundle lock --add-platform x86_64-linux
         bundle lock --add-platform ruby
-    - name: Install and Build 🔧
+        bundle lock --add-platform x64-mingw-ucrt
+        
+    - name: Install Dependencies
+      run: |
+        bundle install
+        
+    - name: Install Additional Dependencies
       run: |
         npm install -g mermaid.cli
-        bundle install
+        
+    - name: Build Site
+      run: |
         bundle exec jekyll build
+        
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
