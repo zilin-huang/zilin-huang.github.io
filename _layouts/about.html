@@ -47,7 +47,7 @@ layout: default
           {% if page.news -%}
             <h2><a href="{{ '/personal_news/' | relative_url }}" style="color: inherit;">Recent News</a></h2>
             {%- include news.html %}
-            <p>Please check <a href="{{ '/personal_news/' | relative_url }}">this webpage</a> for the latest news about myself!</p>
+            <p>Please check <a href="{{ '/personal_news/' | relative_url }}">this webpage</a> for more news about me.</p>
           {%- endif %}
           
           <!-- Divider -->
@@ -57,6 +57,7 @@ layout: default
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
+            <p>Please check <a href="{{ '/publications/' | relative_url }}">this webpage</a> for more publications.</p>
           {%- endif %}
 
           <!-- Social -->

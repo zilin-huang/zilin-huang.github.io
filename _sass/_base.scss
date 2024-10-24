@@ -553,8 +553,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    // margin-bottom: -2rem;
-    margin-bottom: 2rem;
+    margin-bottom: -2rem;
     text-align: right;
   }
 
@@ -564,17 +563,11 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      // margin-bottom: 1rem;
-      margin-bottom: 2rem; // 增加底部边距来增加出版物之间的间距
-
-      .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
-      }
+      padding-bottom: 1.5rem;
 
       .abbr {
-        height: 2rem;
+        min-height: 150px;
+        min-width: 200px;
         margin-bottom: 0.5rem;
 
         abbr {
@@ -582,6 +575,9 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          position: absolute;
+          top: 12px;
+          left: 16px;
 
           a {
             color: white;
@@ -600,33 +596,34 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 110%;
+        padding-bottom: 0.2em;
       }
 
       .author {
+
+        font-size: 100%;
+
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px;
 
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
           }
+
+          border-bottom: 1px dashed var(--global-text-color);
+          color: var(--global-text-color)
         }
 
-        >em {
+        > em {
           border-bottom: 1px solid;
           font-style: normal;
         }
+      }
 
-        >span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
-          cursor: pointer;
-
-          &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
-          }
-        }
+      .periodical {
+        font-size: 100%;
       }
 
       .links {
@@ -645,26 +642,12 @@ footer.sticky-bottom {
         }
       }
 
-      .badges {
-        span {
-          display: inline-block;
-          color: $black-color;
-          height: 100%;
-          padding-left: 0.5rem;
-          vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
+        -webkit-transition: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -684,7 +667,7 @@ footer.sticky-bottom {
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
+        -webkit-transition: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -702,7 +685,17 @@ footer.sticky-bottom {
       .teaser {
         border-radius: 8px;
         box-shadow: 3px 3px 6px #888;
-        height: 120px;
+        height: 180px;
+        width: 300px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        object-fit: cover;
+      }
+
+      .videoplayer {
+        border-radius: 8px;
+        height: 150px;
         width: 200px;
         margin-top: 5px;
         margin-left: 5px;
@@ -710,17 +703,20 @@ footer.sticky-bottom {
         object-fit: cover;
       }
 
+      .videoplayer video {
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #888;
+        height: 150px;
+        width: 200px;
+        object-fit: cover;
+      }
+
+      // Hack to remove useless links
+      .details {
+        font-size: 0em;
+      }
     }
   }
-
-  // // 在这里添加 .thumbnail-size 类
-  //   .thumbnail-size {
-  //     width: 250px; // 设置缩略图宽度
-  //     height: 120px; // 设置缩略图高度
-  //     object-fit: cover; // 保持图片的纵横比，多余部分会被裁剪
-  // }
-
-
 }
 
 // Rouge Color Customization
@@ -879,3 +875,5 @@ pre {
     opacity: 1;
   }
 }
+
+
