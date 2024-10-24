@@ -25,13 +25,17 @@ jobs:
       with:
         ruby-version: '3.2.1'
         bundler-cache: true
+    - name: Update Gemfile.lock
+      run: |
+        bundle lock --add-platform x86_64-linux
+        bundle lock --add-platform ruby
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
+        bundle install
         bundle exec jekyll build
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-
