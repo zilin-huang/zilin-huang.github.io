@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zilin-huang.github.io/sitemap.xml
+Sitemap: zilin-huang.github.io/sitemap.xml
