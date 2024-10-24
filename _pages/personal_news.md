@@ -1,7 +1,7 @@
 ---
 layout: page
 title: News
-permalink: /group-news/
+permalink: /personal_news/
 nav: true
 nav_order: 6
 ---

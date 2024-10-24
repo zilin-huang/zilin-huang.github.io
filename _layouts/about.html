@@ -40,13 +40,18 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Divider -->
+          <hr class="dashed-divider">
+
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/group-news/' | relative_url }}" style="color: inherit;">Recent News</a></h2>
+            <h2><a href="{{ '/personal_news/' | relative_url }}" style="color: inherit;">Recent News</a></h2>
             {%- include news.html %}
+            <p>Please check <a href="{{ '/personal_news/' | relative_url }}">this webpage</a> for the latest news about myself!</p>
           {%- endif %}
-
-          <br>
+          
+          <!-- Divider -->
+          <hr class="dashed-divider">
           
           <!-- Selected papers -->
           {% if page.selected_papers -%}
