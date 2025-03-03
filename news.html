@@ -4,6 +4,68 @@ title: News
 permalink: /news/
 ---
 
-{% include news.html %}
+<style>
+  .news-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .news-header {
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .news-header:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #9c27b0, #e1bee7);
+    border-radius: 3px;
+  }
+  
+  .news-header h1 {
+    font-size: 1.3em;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .news-header p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 600px;
+  }
+  
+  /* 移除表格边框和线条 */
+  .table {
+    border: none;
+  }
+  
+  .table td, .table th {
+    border: none;
+  }
+  
+  /* 确保年份标题下方没有额外的线条 */
+  .news-year th {
+    border: none !important;
+  }
+  
+  .news-year tr {
+    border: none !important;
+  }
+</style>
+
+<div class="news-container">
+  <div class="news-header">
+    <h1>Latest Updates</h1>
+    <p>Stay informed about our research activities, publications, and events.</p>
+  </div>
+  
+  {% include news_all.html %}
+</div>
 
 

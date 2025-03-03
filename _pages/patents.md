@@ -20,7 +20,7 @@ nav_order: 5
   padding-left: 2.5em;
   margin-bottom: 1.5em;
   padding-bottom: 1em;
-  border-bottom: 1px dashed rgba(156, 39, 176, 0.1);
+  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
   transition: all 0.3s ease;
 }
 
@@ -29,7 +29,7 @@ nav_order: 5
 }
 
 .artistic-list li:hover {
-  background-color: rgba(156, 39, 176, 0.03);
+  background-color: rgba(var(--global-theme-color-rgb), 0.03);
   padding-left: 3em;
   border-radius: 4px;
 }
@@ -48,24 +48,24 @@ nav_order: 5
   height: 1.8em;
   line-height: 1.8em;
   border-radius: 50%;
-  background-color: #f8f4ff;
-  color: #9c27b0;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-theme-color);
   text-align: center;
-  box-shadow: 0 2px 4px rgba(156, 39, 176, 0.2);
-  border: 1px solid #e1bee7;
+  box-shadow: 0 2px 4px var(--global-shadow-color);
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
   transition: all 0.3s ease;
 }
 
 .artistic-list li:hover:before {
-  background-color: #9c27b0;
-  color: white;
-  box-shadow: 0 3px 6px rgba(156, 39, 176, 0.3);
+  background-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+  box-shadow: 0 3px 6px var(--global-shadow-color-hover);
   transform: scale(1.05);
 }
 
 /* 链接样式 */
 .artistic-list a {
-  color: #9c27b0;
+  color: var(--global-theme-color);
   text-decoration: none;
   transition: color 0.2s ease;
   display: inline-flex;
@@ -74,7 +74,7 @@ nav_order: 5
 }
 
 .artistic-list a:hover {
-  color: #7b1fa2;
+  color: var(--global-hover-color);
   text-decoration: underline;
 }
 
@@ -89,7 +89,7 @@ h4 {
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  color: #333;
+  color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
 }
@@ -101,7 +101,7 @@ h4:after {
   left: 0;
   width: 50px;
   height: 3px;
-  background: linear-gradient(to right, #9c27b0, #e1bee7);
+  background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
   border-radius: 3px;
 }
 
@@ -116,20 +116,20 @@ h4:after {
 }
 
 .invention {
-  background-color: rgba(156, 39, 176, 0.1);
-  color: #7b1fa2;
-  border: 1px solid rgba(156, 39, 176, 0.2);
+  background-color: rgba(var(--global-theme-color-rgb), 0.1);
+  color: var(--global-theme-color);
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
 }
 
 .utility-model {
   background-color: rgba(33, 150, 243, 0.1);
-  color: #1976d2;
+  color: rgba(33, 150, 243, 0.8);
   border: 1px solid rgba(33, 150, 243, 0.2);
 }
 
 .software {
   background-color: rgba(76, 175, 80, 0.1);
-  color: #388e3c;
+  color: rgba(76, 175, 80, 0.8);
   border: 1px solid rgba(76, 175, 80, 0.2);
 }
 
