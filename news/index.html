@@ -101,12 +101,6 @@
         </div>
       </nav>
 
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
     </header>
 
 
@@ -121,91 +115,339 @@
           </header>
 
           <article>
-            <!--       
-<div class="news">
+            <style>
+  .news-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .news-header {
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .news-header:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #9c27b0, #e1bee7);
+    border-radius: 3px;
+  }
+  
+  .news-header h1 {
+    font-size: 1.3em;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .news-header p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 600px;
+  }
+  
+  /* 移除表格边框和线条 */
+  .table {
+    border: none;
+  }
+  
+  .table td, .table th {
+    border: none;
+  }
+  
+  /* 确保年份标题下方没有额外的线条 */
+  .news-year th {
+    border: none !important;
+  }
+  
+  .news-year tr {
+    border: none !important;
+  }
+</style>
+
+<div class="news-container">
+  <div class="news-header">
+    <h1>Latest Updates</h1>
+    <p>Stay informed about our research activities, publications, and events.</p>
+  </div>
+  
+  <!-- <div class="news">
   <div class="table-responsive" >
-    <table class="table table-sm table-borderless">
-     
-      <tr>
-        <th scope="row">Oct 18, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
+      <table class="table table-sm table-borderless"> 
+          <tr>
+            <th scope="row">Oct 18, 2024</th>
+            <td>
+              🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Sep 1, 2024</th>
-        <td>
-          📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Sep 1, 2024</th>
+            <td>
+              📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Jun 13, 2024</th>
-        <td>
-          🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Jun 13, 2024</th>
+            <td>
+              🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Apr 8, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Apr 8, 2024</th>
+            <td>
+              🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Jan 12, 2024</th>
-        <td>
-          <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
-        </td>
-      </tr> 
-    </table>
-  </div> 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Mar 3, 2024</th>
+            <td>
+              🛠️ The website’s news section has been reorganized with a more structured file system, making it easier to manage and maintain news updates.
+ 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Jan 12, 2024</th>
+            <td>
+              <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
+            </td>
+          </tr> 
+      </table>
+    </div> 
 </div> -->
 
+<style>
+    /* 年份标题样式 - 完全匹配patents.md中的样式 */
+    .news-year {
+      font-size: 1.3em;
+      color: var(--global-text-color);
+      font-weight: 600;
+      padding: 10px 0;
+      margin-top: 15px;
+      position: relative;
+      text-align: left;
+      margin-bottom: 10px;
+      border: none;
+      background: none;
+    }
+    
+    .news-year:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(to right, var(--global-theme-color), var(--global-hover-color));
+      border-radius: 3px;
+    }
+    
+    .news-image {
+      width: 120px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px var(--global-shadow-color);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: var(--global-bg-color);
+    }
+    
+    .news-image:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px var(--global-shadow-color-hover);
+    }
+    
+    /* 表格样式 */
+    .news table {
+      width: 100%;
+      border-collapse: collapse;
+      border: none;
+      margin-top: 10px;
+    }
+    
+    .news td, .news th {
+      border: none;
+      padding: 8px 0;
+      vertical-align: middle;
+    }
+    
+    .news tr {
+      transition: all 0.3s ease;
+      border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
+    }
+    
+    .news tr:hover {
+      background-color: rgba(var(--global-theme-color-rgb), 0.03);
+      padding-left: 10px;
+      border-radius: 4px;
+    }
+    
+    /* Add left-right hover effect to news rows */
+    .news td.news-content {
+      padding-left: 10px;
+      transition: padding-left 0.3s ease;
+    }
+    
+    .news tr:hover td.news-content {
+      padding-left: 20px;
+    }
+    
+    /* 每个年份组的第一个项目不需要上边框 */
+    .news-items tr:first-child {
+      border-top: none;
+    }
+    
+    /* 每个年份组的最后一个项目不需要下边框 */
+    .news-items tr:last-child {
+      border-bottom: none;
+    }
+    
+    .date-col {
+      width: 15%;
+      color: var(--global-text-color-light);
+      font-weight: 500;
+      padding-right: 0;
+    }
+    
+    .image-col {
+      width: 15%;
+      text-align: left;
+      padding-left: 5px;
+    }
+    
+    .news-content {
+      padding-left: 10px;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease-in;
+    }
+</style>
+    
 <div class="news">
-  <div class="table-responsive">
-    <table class="table table-sm table-borderless">
-       
-      <tr>
-        <th scope="row" style="width: 15%;">Oct 18, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258" rel="external nofollow noopener" target="_blank">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
+    <div class="table-responsive">
+         
+            
+            
+                
+                <h3 class="news-year">2024</h3>
+                <table class="table table-sm table-borderless">
+                <tbody class="news-items">
+                
+            
+            <tr>
+                <th scope="row" class="date-col">Oct 18, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/sheng_traffic.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258" rel="external nofollow noopener" target="_blank">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row" style="width: 15%;">Sep 1, 2024</th>
-        <td>
-          📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858" rel="external nofollow noopener" target="_blank">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Sep 1, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858" rel="external nofollow noopener" target="_blank">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row" style="width: 15%;">Jun 13, 2024</th>
-        <td>
-          🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814" rel="external nofollow noopener" target="_blank">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Jun 13, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814" rel="external nofollow noopener" target="_blank">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row" style="width: 15%;">Apr 8, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106" rel="external nofollow noopener" target="_blank">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Apr 8, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/huang_haim.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106" rel="external nofollow noopener" target="_blank">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
  
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row" style="width: 15%;">Jan 12, 2024</th>
-        <td>
-          <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
-        </td>
-      </tr> 
-    </table>
-  </div> 
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Mar 3, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/website-update.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    🛠️ The website’s news section has been reorganized with a more structured file system, making it easier to manage and maintain news updates.
+ 
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Jan 12, 2024</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/img/news-thumbnails/trb2024.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
+                </td>
+            </tr>
+            
+            </tbody>
+            </table>
+            
+        
+    </div> 
 </div>
-          
+    
+</div>
 
 
 
@@ -270,83 +512,6 @@
 
     
     
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
 
   </body>
 </html>
