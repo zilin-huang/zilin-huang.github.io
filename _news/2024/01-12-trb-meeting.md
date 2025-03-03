@@ -19,4 +19,4 @@ I participated in the Transportation Research Board (TRB) 103nd Annual Meeting (
 <br>
 <div style="text-align: center;">
 <img src="../../assets/img/news-photo/trb2024/trb2024-3.jpg" alt="Sky-Lab members in TRB 2024" style="max-width: 100%;">
-</div>
+</div> 
