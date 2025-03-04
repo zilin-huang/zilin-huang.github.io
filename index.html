@@ -83,6 +83,9 @@
                 <a class="nav-link" href="/patents/">Patents</a>
               </li>
               <li class="nav-item ">
+                <a class="nav-link" href="/honors/">Honors</a>
+              </li>
+              <li class="nav-item ">
                 <a class="nav-link" href="/personal_news/">News</a>
               </li>
               <li class="nav-item ">
@@ -185,10 +188,9 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
         </td>
       </tr> 
       <tr>
-        <th scope="row">Mar 3, 2024</th>
+        <th scope="row">Jan 12, 2024</th>
         <td>
-          🛠️ The website’s news section has been reorganized with a more structured file system, making it easier to manage and maintain news updates.
- 
+          <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
         </td>
       </tr> 
     </table>
@@ -204,6 +206,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
     box-shadow: 0 2px 5px var(--global-shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: var(--global-bg-color);
+    margin-left: 0; /* Reset margin */
   }
   
   .news-image:hover {
@@ -257,16 +260,17 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
   }
   
   .date-col {
-    width: 15%;
+    width: 12%; /* Reduced from 15% to bring date closer to image */
     color: var(--global-text-color-light);
     font-weight: 500;
-    padding-right: 0; /* Reduce space between date and image */
+    padding-right: 0; /* Remove padding to minimize space */
+    text-align: left; /* Left-align dates as requested */
   }
   
   .image-col {
-    width: 15%;
-    text-align: left; /* Align images to the left, closer to dates */
-    padding-left: 5px; /* Small padding to keep some space */
+    width: 15%; /* Maintained width */
+    text-align: left; /* Align images to the left */
+    padding-left: 0; /* Remove padding completely to minimize space */
   }
   
   .news-content {
@@ -363,15 +367,14 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           </td>
         </tr> 
         <tr>
-          <th scope="row" class="date-col">Mar 3, 2024</th>
+          <th scope="row" class="date-col">Jan 12, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/website-update.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/trb2024.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
             
           </td>
           <td class="news-content">
-            🛠️ The website’s news section has been reorganized with a more structured file system, making it easier to manage and maintain news updates.
- 
+            <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
           </td>
         </tr>
       </tbody>
