@@ -38,6 +38,7 @@
     box-shadow: 0 2px 5px var(--global-shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: var(--global-bg-color);
+    margin-left: 0; /* Reset margin */
   }
   
   .news-image:hover {
@@ -91,16 +92,17 @@
   }
   
   .date-col {
-    width: 15%;
+    width: 12%; /* Reduced from 15% to bring date closer to image */
     color: var(--global-text-color-light);
     font-weight: 500;
-    padding-right: 0; /* Reduce space between date and image */
+    padding-right: 0; /* Remove padding to minimize space */
+    text-align: left; /* Left-align dates as requested */
   }
   
   .image-col {
-    width: 15%;
-    text-align: left; /* Align images to the left, closer to dates */
-    padding-left: 5px; /* Small padding to keep some space */
+    width: 15%; /* Maintained width */
+    text-align: left; /* Align images to the left */
+    padding-left: 0; /* Remove padding completely to minimize space */
   }
   
   .news-content {
