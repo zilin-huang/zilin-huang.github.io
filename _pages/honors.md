@@ -170,7 +170,7 @@ h4:after {
   </li>
   <li>
     <span class="award-year">2018-2020</span>
-    <strong>Research and Innovation Scholarships for Outstanding Graduate Students</strong><br>
+    <strong>Science and Innovation Scholarships for Outstanding Graduate Students</strong><br>
     Awarded for three consecutive years in 2018-2020 (three times).
   </li>
   <li>
@@ -184,7 +184,7 @@ h4:after {
   </li>
   <li>
     <span class="award-year">2017</span>
-    <strong>Research and Innovation Scholarships for Outstanding Undergraduate Students </strong>
+    <strong>Science and Innovation Scholarships for Outstanding Undergraduate Students </strong>
   </li>
   <li>
     <span class="award-year">2017</span>
@@ -206,11 +206,7 @@ h4:after {
   </li>
   <li>
     <span class="award-year">2018</span>
-    <strong>Outstanding Bachelor's Degree Graduates (Top 1%)</strong>
-  </li>
-  <li>
-    <span class="award-year">2017</span>
-    <strong>Top 10 Outstanding Graduates of the School of Electromechanical Engineering (≈ 10/780)</strong>
+    <strong>Outstanding Bachelor's Degree Graduates (≈ 10/780)</strong>
   </li>
   <li>
     <span class="award-year">2017</span>
