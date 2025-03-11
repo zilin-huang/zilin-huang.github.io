@@ -17,9 +17,8 @@ nav_order: 6
 .awards-list li {
   position: relative;
   padding-left: 2.5em;
-  margin-bottom: 1.2em;
-  padding-bottom: 0.8em;
-  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
+  margin-bottom: 0.7em;
+  padding-bottom: 0.4em;
   transition: all 0.3s ease;
 }
 
@@ -28,8 +27,8 @@ nav_order: 6
 }
 
 .awards-list li:hover {
-  background-color: rgba(var(--global-theme-color-rgb), 0.03);
-  padding-left: 3em;
+  /* background-color: rgba(var(--global-theme-color-rgb), 0.03); */ /* Commented out to disable the background color change on hover */
+  /* padding-left: 3em; */ /* Commented out to disable the left-right sliding effect */
   border-radius: 4px;
 }
 
@@ -60,7 +59,7 @@ nav_order: 6
 }
 
 .awards-list li:hover:before {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */ /* Commented out to disable the icon scaling effect */
 }
 
 /* 年份标签样式 */
@@ -151,12 +150,12 @@ h4:after {
 @media (max-width: 768px) {
   .awards-list li {
     padding-left: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
   }
   
   .awards-list li:hover {
-    padding-left: 2.2em;
+    /* padding-left: 2.2em; */ /* Commented out to disable the left-right sliding effect on mobile */
   }
 }
 </style>

@@ -134,6 +134,7 @@ h5 {
     <li>Transportation Research Part C: Emerging Technologies (Part C)</li>
     <li>IEEE Transactions on Image Processing (TIP)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
+    <li>IEEE Intelligent Transportation Systems Magazine</li>
   </ul>
 </div>
 

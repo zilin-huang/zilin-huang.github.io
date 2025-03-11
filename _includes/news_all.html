@@ -149,6 +149,7 @@
             {% if year != current_year %}
                 {% if current_year != null %}
                 </tbody>
+                </table>
                 {% endif %}
                 <h3 class="news-year">{{ year }}</h3>
                 <table class="table table-sm table-borderless">
@@ -175,9 +176,9 @@
             </table>
             {% endif %}
         {% endfor %}
-    </div>
+    </div><!-- End of table-responsive -->
     {%- else -%} 
     <p>No news so far...</p>
     {%- endif %} 
-</div>
+</div><!-- End of news -->
     

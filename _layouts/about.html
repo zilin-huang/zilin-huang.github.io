@@ -43,9 +43,29 @@ layout: default
           <!-- Divider -->
           <hr class="dashed-divider">
 
+          <!-- CSS for gradient line under headings -->
+          <style>
+            h3.gradient-heading {
+              position: relative;
+              padding-bottom: 10px;
+              margin-bottom: 20px;
+            }
+            
+            h3.gradient-heading:after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 50px;
+              height: 3px;
+              background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
+              border-radius: 3px;
+            }
+          </style>
+
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/personal_news/' | relative_url }}" style="color: inherit;">Recent News</a></h2>
+            <h3 class="gradient-heading"><a href="{{ '/personal_news/' | relative_url }}" style="color: inherit;">Recent News</a></h3>
             {%- include news.html %}
             <p>Please check <a href="{{ '/personal_news/' | relative_url }}">this webpage</a> for more news about me.</p>
           {%- endif %}
@@ -55,7 +75,7 @@ layout: default
           
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
+            <h3 class="gradient-heading"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h3>
             {%- include selected_papers.html %}
             <p>Please check <a href="{{ '/publications/' | relative_url }}">this webpage</a> for more publications.</p>
           {%- endif %}
