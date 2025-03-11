@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2015 | Zilin  Huang</title>
+    <title>Teaching | Zilin  Huang</title>
     <meta name="author" content="Zilin  Huang">
     <meta name="description" content="">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%9A%97&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="zilin-huang.github.io/blog/2015/">
+    <link rel="canonical" href="zilin-huang.github.io/teaching/">
     
     <!-- Dark Mode -->
     
@@ -94,8 +94,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/talks/">Talks</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">Teaching</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/teaching/">Teaching<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -115,66 +115,209 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-<i class="fa-solid fa-calendar fa-sm"></i> 2015</h1>
-    <p class="post-description">an archive of posts from this year</p>
-  </header>
+      <!-- page.html -->
+        <div class="post">
 
-  <article class="archive">
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-          <tr>
-            <th scope="row">Oct 20, 2015</th>
-            <td>
-              
-                <a class="post-link" href="/sample-posts/external-services/2015/10/20/disqus-comments.html">a post with disqus comments</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row">Oct 20, 2015</th>
-            <td>
-              
-                <a class="post-link" href="/sample-posts/2015/10/20/math.html">a post with math</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row">Jul 15, 2015</th>
-            <td>
-              
-                <a class="post-link" href="/sample-posts/2015/07/15/code.html">a post with code</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row">May 15, 2015</th>
-            <td>
-              
-                <a class="post-link" href="/sample-posts/2015/05/15/images.html">a post with images</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row">Mar 15, 2015</th>
-            <td>
-              
-                <a class="post-link" href="/sample-posts/2015/03/15/formatting-and-links.html">a post with formatting and links</a>
-              
-            </td>
-          </tr>
-        
-      </table>
-    </div>
-  </article>
+          <header class="post-header">
+            <!-- <h1 class="post-title">Teaching</h1> -->
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <style>
+.teaching-container {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.teaching-list {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.teaching-list li {
+  position: relative;
+  padding-left: 0.5em;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.2em;
+}
+
+.teaching-image {
+  width: 250px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px var(--global-shadow-color);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.teaching-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 3px 6px var(--global-shadow-color);
+}
+
+.teaching-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.teaching-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
+  transition: all 0.3s ease;
+}
+
+.teaching-container:last-child .teaching-item {
+  border-bottom: none;
+}
+
+.teaching-course {
+  display: block;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: var(--global-text-color);
+  margin-bottom: 0.3em;
+}
+
+.teaching-semester {
+  font-weight: bold;
+  color: var(--global-theme-color);
+}
+
+.teaching-role {
+  font-style: italic;
+  margin-left: 0.5em;
+}
+
+.teaching-instructor {
+  display: block;
+  margin-top: 0.3em;
+  color: var(--global-text-color-light);
+}
+
+.teaching-department {
+  display: block;
+  color: var(--global-text-color-light);
+  margin-top: 0.3em;
+}
+
+.teaching-institution {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.95em;
+  margin-top: 0.3em;
+}
+
+.quote-container {
+  margin: 2em 0;
+  padding: 1.5em;
+  background-color: var(--global-card-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  font-style: italic;
+}
+
+.quote-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 0.5em;
+  color: var(--global-text-color);
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+@media (max-width: 768px) {
+  .teaching-container {
+    flex-direction: column;
+  }
+  
+  .teaching-image {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+<div class="quote-container">
+  <p class="quote-text">"The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires."</p>
+  <p class="quote-author">— William Arthur Ward</p>
 </div>
+
+<div class="teaching-container">
+  <img src="/assets/img/teaching/2024-CEE679.png" alt="Teaching CEE 679 AI &amp; Data Science in Transportation 2024" class="teaching-image">
+  
+  <div class="teaching-content">
+    <div class="teaching-item">
+      <span class="teaching-course">CEE 679 AI &amp; Data Science in Transportation</span>
+      <div>
+<span class="teaching-semester">Fall 2024</span><span class="teaching-role">(Teaching Assistant)</span>
+</div>
+      <span class="teaching-instructor">Instructor: Sikai (Sky) Chen</span>
+      <span class="teaching-department">Department of Civil and Environmental Engineering</span>
+      <span class="teaching-institution">University of Wisconsin-Madison</span>
+    </div>
+  </div>
+</div>
+
+<div class="teaching-container">
+  <img src="/assets/img/teaching/2023-CEE679.png" alt="Teaching CEE 679 AI &amp; Data Science in Transportation 2023" class="teaching-image">
+  
+  <div class="teaching-content">
+    <div class="teaching-item">
+      <span class="teaching-course">CEE 679 AI &amp; Data Science in Transportation</span>
+      <div>
+<span class="teaching-semester">Fall 2023</span><span class="teaching-role">(Teaching Assistant)</span>
+</div>
+      <span class="teaching-instructor">Instructor: Sikai (Sky) Chen</span>
+      <span class="teaching-department">Department of Civil and Environmental Engineering</span>
+      <span class="teaching-institution">University of Wisconsin-Madison</span>
+    </div>
+  </div>
+</div>
+
+<div class="teaching-container">
+  <img src="/assets/img/teaching/2023-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2023" class="teaching-image">
+  
+  <div class="teaching-content">
+    <div class="teaching-item">
+      <span class="teaching-course">CEE 370 Transportation Engineering</span>
+      <div>
+<span class="teaching-semester">Spring 2023</span><span class="teaching-role">(Grader)</span>
+</div>
+      <span class="teaching-instructor">Instructor: Soyoung (Sue) Ahn, Sikai (Sky) Chen</span>
+      <span class="teaching-department">Department of Civil and Environmental Engineering</span>
+      <span class="teaching-institution">University of Wisconsin-Madison</span>
+    </div>
+  </div>
+</div>
+
+<div class="teaching-container">
+  <img src="/assets/img/teaching/2022-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2022" class="teaching-image">
+  
+  <div class="teaching-content">
+    <div class="teaching-item">
+      <span class="teaching-course">CEE 370 Transportation Engineering</span>
+      <div>
+<span class="teaching-semester">Fall 2022</span><span class="teaching-role">(Grader)</span>
+</div>
+      <span class="teaching-instructor">Instructor: Soyoung (Sue) Ahn, Sikai (Sky) Chen</span>
+      <span class="teaching-department">Department of Civil and Environmental Engineering</span>
+      <span class="teaching-institution">University of Wisconsin-Madison</span>
+    </div>
+  </div>
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 

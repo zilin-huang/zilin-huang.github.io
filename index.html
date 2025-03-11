@@ -91,6 +91,12 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/services/">Services</a>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/talks/">Talks</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">Teaching</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -152,51 +158,28 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <!-- Divider -->
           <hr class="dashed-divider">
 
-          <!-- News -->
-          <h2><a href="/personal_news/" style="color: inherit;">Recent News</a></h2>
-<!--       
-<div class="news">
-  <div class="table-responsive" >
-    <table class="table table-sm table-borderless">
-     
-      <tr>
-        <th scope="row">Oct 18, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
- 
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Sep 1, 2024</th>
-        <td>
-          📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
- 
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Jun 13, 2024</th>
-        <td>
-          🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
- 
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Apr 8, 2024</th>
-        <td>
-          🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
- 
-        </td>
-      </tr> 
-      <tr>
-        <th scope="row">Jan 12, 2024</th>
-        <td>
-          <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
-        </td>
-      </tr> 
-    </table>
-  </div> 
-</div> -->
+          <!-- CSS for gradient line under headings -->
+          <style>
+            h3.gradient-heading {
+              position: relative;
+              padding-bottom: 10px;
+              margin-bottom: 20px;
+            }
+            
+            h3.gradient-heading:after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 50px;
+              height: 3px;
+              background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
+              border-radius: 3px;
+            }
+          </style>
 
+          <!-- News -->
+          <h3 class="gradient-heading"><a href="/personal_news/" style="color: inherit;">Recent News</a></h3>
 <style>
   .news-image {
     width: 120px;
@@ -319,10 +302,21 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       <tbody class="news-items">
        
         <tr>
+          <th scope="row" class="date-col">Mar 10, 2025</th>
+          <td class="image-col">
+            
+            <img src="/assets/img/news-thumbnails/2025/Nvidia.png" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            
+          </td>
+          <td class="news-content">
+            <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received NVIDIA Academic Grant Program Award ($25,800 USD)</a> 
+          </td>
+        </tr> 
+        <tr>
           <th scope="row" class="date-col">Oct 18, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/sheng_traffic.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/sheng_traffic.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
             
           </td>
           <td class="news-content">
@@ -334,7 +328,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <th scope="row" class="date-col">Sep 1, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
             
           </td>
           <td class="news-content">
@@ -346,7 +340,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <th scope="row" class="date-col">Jun 13, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
             
           </td>
           <td class="news-content">
@@ -358,23 +352,12 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <th scope="row" class="date-col">Apr 8, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/huang_haim.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/huang_haim.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
             
           </td>
           <td class="news-content">
             🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106" rel="external nofollow noopener" target="_blank">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
  
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Jan 12, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/img/news-thumbnails/trb2024.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
-            
-          </td>
-          <td class="news-content">
-            <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
           </td>
         </tr>
       </tbody>
@@ -388,7 +371,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <hr class="dashed-divider">
           
           <!-- Selected papers -->
-          <h2><a href="/publications/" style="color: inherit;">Selected Publications</a></h2>
+          <h3 class="gradient-heading"><a href="/publications/" style="color: inherit;">Selected Publications</a></h3>
 <div class="publications">
   <ol class="bibliography">
 <li><div class="row align-items-start">
@@ -849,7 +832,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: March 08, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: March 11, 2025.
       </div>
     </footer> -->
 
@@ -859,7 +842,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: March 08, 2025.
+    Last updated: March 11, 2025.
   </div>
 </footer>
 
