@@ -545,7 +545,7 @@ footer.sticky-bottom {
   left: 0;
   width: 50px;
   height: 3px;
-  background: linear-gradient(to right, #9c27b0, #e1bee7);
+  background: var(--global-theme-color);
   border-radius: 3px;
 }
 .publications ol.bibliography {

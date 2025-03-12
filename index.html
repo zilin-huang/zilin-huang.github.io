@@ -74,28 +74,31 @@
 
               <!-- Other pages -->
               <li class="nav-item ">
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+              <li class="nav-item ">
                 <a class="nav-link" href="/publications/">Publications</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/research%20areas%20and%20projects/">Research &amp; Projects</a>
+                <a class="nav-link" href="/projects/">Projects</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/patents/">Patents</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/honors/">Honors</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/personal_news/">News</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/services/">Services</a>
+                <a class="nav-link" href="/teaching/">Teaching</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/talks/">Talks</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">Teaching</a>
+                <a class="nav-link" href="/honors/">Honors</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/services/">Services</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/memories/">Memories</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -818,12 +821,114 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       <!-- Divider -->
       <hr class="dashed-divider">
 
-      <!-- Visitor count -->
-      <div class="visitor-count" style="text-align: center; margin-top: 30px;">
-        <div style="transform: scale(0.7); transform-origin: top center;">
-          <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=tt&amp;d=Ua0zZzeE3XHL81hvm5CP8-7Jf6tbfY30p6GcYxFzU5c"></script>
+      <!-- Visitor Statistics Section -->
+      <div class="visitor-statistics">
+        <h3 class="gradient-heading">Global Visitor Statistics</h3>
+        
+        <div class="visitor-container">
+          <div class="visitor-map-container">
+            <div class="visitor-map">
+              <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=0e1633&amp;w=a&amp;t=tt&amp;d=Ua0zZzeE3XHL81hvm5CP8-7Jf6tbfY30p6GcYxFzU5c&amp;co=0b4975&amp;cmo=3acc3a&amp;cmn=ff5353&amp;ct=cdd4d9"></script>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Script to extract visitor count from Clustrmaps -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Function to check for the visitor count and update it
+          function updateVisitorCount() {
+            // Look for the element that contains the total pageviews
+            const clusterMapTitle = document.querySelector('.clustrmaps-map-title');
+            if (clusterMapTitle) {
+              const titleText = clusterMapTitle.textContent;
+              const match = titleText.match(/([0-9,]+)\s+Total\s+Pageviews/i);
+              if (match && match[1]) {
+                document.getElementById('visitor-count').textContent = match[1];
+              }
+            } else {
+              // If not found yet, try again after a short delay
+              setTimeout(updateVisitorCount, 500);
+            }
+          }
+          
+          // Start checking for the visitor count
+          setTimeout(updateVisitorCount, 1000);
+        });
+      </script>
+
+      <!-- CSS for visitor statistics section -->
+      <style>
+        .visitor-statistics {
+          margin: 40px 0;
+          text-align: center;
+        }
+        
+        .visitor-container {
+          background-color: rgba(245, 245, 245, 0.7);
+          border-radius: 12px;
+          padding: 20px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+          transition: all 0.3s ease;
+          margin-top: 20px;
+          max-width: 900px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .visitor-container:hover {
+          box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+          transform: translateY(-2px);
+        }
+        
+        .visitor-info {
+          margin-bottom: 15px;
+          color: #555;
+          font-size: 0.95rem;
+        }
+        
+        .visitor-map-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          border-radius: 8px;
+          width: 100%;
+        }
+        
+        .visitor-map {
+          transform: scale(0.8);
+          transform-origin: center center;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+        }
+        
+        /* Fix for Clustrmaps iframe positioning */
+        .visitor-map iframe,
+        .visitor-map > div {
+          margin: 0 auto !important;
+          display: block !important;
+        }
+        
+        /* Ensure the map is responsive */
+        @media (max-width: 768px) {
+          .visitor-container {
+            padding: 15px 10px;
+          }
+          
+          .visitor-info {
+            font-size: 0.85rem;
+          }
+          
+          .visitor-map {
+            transform: scale(0.7);
+          }
+        }
+      </style>
 
 </div>
 
@@ -832,7 +937,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: March 11, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: March 12, 2025.
       </div>
     </footer> -->
 
@@ -842,7 +947,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: March 11, 2025.
+    Last updated: March 12, 2025.
   </div>
 </footer>
 
