@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /research areas and projects/
-title: Research & Projects
+permalink: /projects/
+title: Projects
 description: 
 nav: true
 nav_order: 3

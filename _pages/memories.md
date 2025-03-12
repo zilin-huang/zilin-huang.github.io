@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Talks
-permalink: /talks/
+title: Memories
+permalink: /memories/
 description: 
 nav: true
-nav_order: 6
+nav_order: 9
 ---
 
 <style>
 /* 基础样式 */
-.talks-container {
+.memories-container {
   margin-bottom: 20px;
 }
 
-.talks-list {
+.memories-list {
   list-style-type: disc;
   padding-left: 1.5em;
 }
 
-.talks-list li {
+.memories-list li {
   position: relative;
   padding-left: 0.5em;
   margin-bottom: 0.3em;
@@ -26,35 +26,35 @@ nav_order: 6
   border-bottom: none;
 }
 
-.talks-list li:last-child {
+.memories-list li:last-child {
   border-bottom: none;
 }
 
 /* 移除悬停效果 */
-.talks-list li:hover {
+.memories-list li:hover {
   background-color: transparent;
   padding-left: 0.5em;
   border-radius: 0;
 }
 
 /* 图标样式 */
-.talks-list li:before {
+.memories-list li:before {
   content: none;
 }
 
-.invited-talks li:before {
+.personal-memories li:before {
   content: none;
 }
 
-.conference-talks li:before {
+.travel-memories li:before {
   content: none;
 }
 
-.workshop-talks li:before {
+.academic-memories li:before {
   content: none;
 }
 
-.talks-list li:hover:before {
+.memories-list li:hover:before {
   transform: none;
 }
 
@@ -93,7 +93,7 @@ h5 {
 }
 
 /* 标签样式 */
-.talk-tag {
+.memory-tag {
   display: inline-block;
   font-size: 0.75em;
   padding: 2px 8px;
@@ -102,26 +102,26 @@ h5 {
   vertical-align: middle;
 }
 
-.invited {
+.personal {
   background-color: rgba(33, 150, 243, 0.1);
   color: rgba(33, 150, 243, 0.8);
   border: 1px solid rgba(33, 150, 243, 0.2);
 }
 
-.conference {
+.travel {
   background-color: rgba(76, 175, 80, 0.1);
   color: rgba(76, 175, 80, 0.8);
   border: 1px solid rgba(76, 175, 80, 0.2);
 }
 
-.workshop {
+.academic {
   background-color: rgba(255, 152, 0, 0.1);
   color: rgba(255, 152, 0, 0.8);
   border: 1px solid rgba(255, 152, 0, 0.2);
 }
 
 /* 日期样式 */
-.talk-date {
+.memory-date {
   font-size: 0.9em;
   color: var(--global-text-color-light);
   margin-left: 5px;
@@ -129,41 +129,41 @@ h5 {
 
 /* 响应式调整 */
 @media (max-width: 768px) {
-  .talks-list li {
+  .memories-list li {
     padding-left: 2em;
     padding-bottom: 0.8em;
     margin-bottom: 0.8em;
   }
   
-  .talks-list li:hover {
+  .memories-list li:hover {
     padding-left: 2.2em;
   }
 }
 </style>
 
-<h4 style="text-align: left;">Invited Talks</h4>
+<h4 style="text-align: left;">Personal Memories</h4>
 
-<!-- <div class="talks-container">
-  <ul class="talks-list invited-talks">
-    <li><span class="talk-tag invited">Invited</span> Title of Invited Talk 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag invited">Invited</span> Title of Invited Talk 2 <span class="talk-date">(Month Year)</span></li>
+<!-- <div class="memories-container">
+  <ul class="memories-list personal-memories">
+    <li><span class="memory-tag personal">Personal</span> Title of Personal Memory 1 <span class="memory-date">(Month Year)</span></li>
+    <li><span class="memory-tag personal">Personal</span> Title of Personal Memory 2 <span class="memory-date">(Month Year)</span></li>
   </ul>
 </div>
 
-<h4 style="text-align: left;">Conference Presentations</h4>
+<h4 style="text-align: left;">Travel Memories</h4>
 
-<div class="talks-container">
-  <ul class="talks-list conference-talks">
-    <li><span class="talk-tag conference">Conference</span> Title of Conference Presentation 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag conference">Conference</span> Title of Conference Presentation 2 <span class="talk-date">(Month Year)</span></li>
+<div class="memories-container">
+  <ul class="memories-list travel-memories">
+    <li><span class="memory-tag travel">Travel</span> Title of Travel Memory 1 <span class="memory-date">(Month Year)</span></li>
+    <li><span class="memory-tag travel">Travel</span> Title of Travel Memory 2 <span class="memory-date">(Month Year)</span></li>
   </ul>
 </div>
 
-<h4 style="text-align: left;">Workshop Presentations</h4>
+<h4 style="text-align: left;">Academic Memories</h4>
 
-<div class="talks-container">
-  <ul class="talks-list workshop-talks">
-    <li><span class="talk-tag workshop">Workshop</span> Title of Workshop Presentation 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag workshop">Workshop</span> Title of Workshop Presentation 2 <span class="talk-date">(Month Year)</span></li>
+<div class="memories-container">
+  <ul class="memories-list academic-memories">
+    <li><span class="memory-tag academic">Academic</span> Title of Academic Memory 1 <span class="memory-date">(Month Year)</span></li>
+    <li><span class="memory-tag academic">Academic</span> Title of Academic Memory 2 <span class="memory-date">(Month Year)</span></li>
   </ul>
-</div>  -->
+</div> --> 
