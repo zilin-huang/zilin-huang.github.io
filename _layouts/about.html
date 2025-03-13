@@ -98,9 +98,110 @@ layout: default
       <!-- Divider -->
       <hr class="dashed-divider">
 
+      <!-- Sponsors Section -->
+      <div class="sponsors-section">
+        <h3 class="gradient-heading" style="text-align: left;">Sponsors</h3>
+        <p class="sponsors-text" style="text-align: left;">We are thankful for the generous funding award and gift from the following sponsors:</p>
+        
+        <div class="sponsors-row">
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/NSF.png' | relative_url }}" alt="National Science Foundation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/USDOT.png' | relative_url }}" alt="US Department of Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/WisDOT.png' | relative_url }}" alt="Wisconsin Department of Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/CCAT.png' | relative_url }}" alt="Center for Connected and Automated Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/UW-COE.png' | relative_url }}" alt="University of Wisconsin College of Engineering" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/WARF.png' | relative_url }}" alt="Wisconsin Alumni Research Foundation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="{{ '/assets/img/sponsors/NVIDIA.png' | relative_url }}" alt="NVIDIA" class="sponsor-img nvidia-logo">
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS for sponsors section -->
+      <style>
+        .sponsors-section {
+          margin: 40px 0;
+          width: 100%;
+        }
+        
+        .sponsors-text {
+          margin-bottom: 25px;
+          font-size: 1.1rem;
+          color: #333;
+        }
+        
+        .sponsors-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          width: 100%;
+        }
+        
+        .sponsor-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80px;
+          flex: 1;
+          min-width: 120px;
+          transition: transform 0.3s ease;
+        }
+        
+        .sponsor-item:hover {
+          transform: scale(1.05);
+        }
+        
+        .sponsor-img {
+          max-width: 100%;
+          max-height: 80px;
+          object-fit: contain;
+        }
+        
+        @media (max-width: 768px) {
+          .sponsors-row {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          
+          .sponsor-item {
+            width: 100%;
+            justify-content: flex-start;
+          }
+        }
+        
+        .nvidia-logo {
+          max-height: 95px;
+          transform: scale(1.15);
+        }
+        
+        @media (max-width: 768px) {
+          .sponsor-img {
+            max-width: 100%;
+            max-height: 80px;
+            object-fit: contain;
+          }
+        }
+      </style>
+
+      <!-- Divider -->
+      <hr class="dashed-divider">
+
       <!-- Visitor Statistics Section -->
       <div class="visitor-statistics">
-        <h3 class="gradient-heading">Global Visitor Statistics</h3>
+        <h3 class="gradient-heading" style="text-align: left;">Global Visitor Statistics</h3>
         
         <div class="visitor-container">
           <div class="visitor-map-container">

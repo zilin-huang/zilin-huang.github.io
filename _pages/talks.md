@@ -141,29 +141,14 @@ h5 {
 }
 </style>
 
-<h4 style="text-align: left;">Invited Talks</h4>
 
-<!-- <div class="talks-container">
+
+<h4 style="text-align: left;">Presentations (e.g., Talks/Lectures)</h4>
+
+<h5 style="text-align: left;">2025</h5>
+<div class="talks-container">
   <ul class="talks-list invited-talks">
-    <li><span class="talk-tag invited">Invited</span> Title of Invited Talk 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag invited">Invited</span> Title of Invited Talk 2 <span class="talk-date">(Month Year)</span></li>
+    <li>March 14, 2025: Li Auto Autonomous Driving Team, Virtual.<br>
+    Topic: VLM-RL: Vision-Language Models for Reinforcement Learning in Autonomous Driving.</li>
   </ul>
 </div>
-
-<h4 style="text-align: left;">Conference Presentations</h4>
-
-<div class="talks-container">
-  <ul class="talks-list conference-talks">
-    <li><span class="talk-tag conference">Conference</span> Title of Conference Presentation 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag conference">Conference</span> Title of Conference Presentation 2 <span class="talk-date">(Month Year)</span></li>
-  </ul>
-</div>
-
-<h4 style="text-align: left;">Workshop Presentations</h4>
-
-<div class="talks-container">
-  <ul class="talks-list workshop-talks">
-    <li><span class="talk-tag workshop">Workshop</span> Title of Workshop Presentation 1 <span class="talk-date">(Month Year)</span></li>
-    <li><span class="talk-tag workshop">Workshop</span> Title of Workshop Presentation 2 <span class="talk-date">(Month Year)</span></li>
-  </ul>
-</div>  -->

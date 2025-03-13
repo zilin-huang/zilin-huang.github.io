@@ -5,6 +5,7 @@ date: 2024-01-12 16:11:00-0400
 inline: false
 related_posts: false
 image: 2024/trb2024.jpg
+image_fit: cover
 ---
 
 I participated in the Transportation Research Board (TRB) 103nd Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging with transportation professionals from around the world for feedback and future collaboration opportunities. Cheers!

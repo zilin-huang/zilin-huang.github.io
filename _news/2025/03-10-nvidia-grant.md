@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 🎉 Received NVIDIA Academic Grant Program Award ($25,800 USD)
+title: 🎉 Received NVIDIA Academic Grant Program Award ($25,800 USD).
 date: 2025-03-10 15:59:00-0400
 inline: false
 related_posts: false
 image: 2025/Nvidia.png
+image_fit: contain
 ---
 
 We are thrilled to announce that our project, **SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management**, has been selected for inclusion in the NVIDIA Academic Grant Program!
