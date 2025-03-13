@@ -187,7 +187,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
   .news-image {
     width: 120px;
     height: 90px;
-    object-fit: cover;
+    object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -305,21 +305,33 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       <tbody class="news-items">
        
         <tr>
-          <th scope="row" class="date-col">Mar 10, 2025</th>
+          <th scope="row" class="date-col">Mar 14, 2025</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/2025/Nvidia.png" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2025/Li-Auto.png" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: contain;">
             
           </td>
           <td class="news-content">
-            <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received NVIDIA Academic Grant Program Award ($25,800 USD)</a> 
+            🎉 We delivered a presentation to <a href="https://www.lixiang.com/en#li" rel="external nofollow noopener" target="_blank">Li Auto AD team</a> on our latest work <a href="https://www.huang-zilin.com/VLM-RL-website/" rel="external nofollow noopener" target="_blank">VLM-RL</a>. The presentation attracted over 330+ engineers to attend.
+ 
+          </td>
+        </tr> 
+        <tr>
+          <th scope="row" class="date-col">Mar 10, 2025</th>
+          <td class="image-col">
+            
+            <img src="/assets/img/news-thumbnails/2025/Nvidia.png" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: contain;">
+            
+          </td>
+          <td class="news-content">
+            <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received NVIDIA Academic Grant Program Award ($25,800 USD).</a> 
           </td>
         </tr> 
         <tr>
           <th scope="row" class="date-col">Oct 18, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/2024/sheng_traffic.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/sheng_traffic.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
             
           </td>
           <td class="news-content">
@@ -331,7 +343,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <th scope="row" class="date-col">Sep 1, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/2024/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
             
           </td>
           <td class="news-content">
@@ -343,23 +355,11 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <th scope="row" class="date-col">Jun 13, 2024</th>
           <td class="image-col">
             
-            <img src="/assets/img/news-thumbnails/2024/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy">
+            <img src="/assets/img/news-thumbnails/2024/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
             
           </td>
           <td class="news-content">
             🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814" rel="external nofollow noopener" target="_blank">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
- 
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Apr 8, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/img/news-thumbnails/2024/huang_haim.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy">
-            
-          </td>
-          <td class="news-content">
-            🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106" rel="external nofollow noopener" target="_blank">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
  
           </td>
         </tr>
@@ -821,9 +821,110 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       <!-- Divider -->
       <hr class="dashed-divider">
 
+      <!-- Sponsors Section -->
+      <div class="sponsors-section">
+        <h3 class="gradient-heading" style="text-align: left;">Sponsors</h3>
+        <p class="sponsors-text" style="text-align: left;">We are thankful for the generous funding award and gift from the following sponsors:</p>
+        
+        <div class="sponsors-row">
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/NSF.png" alt="National Science Foundation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/USDOT.png" alt="US Department of Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/WisDOT.png" alt="Wisconsin Department of Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/CCAT.png" alt="Center for Connected and Automated Transportation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/UW-COE.png" alt="University of Wisconsin College of Engineering" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/WARF.png" alt="Wisconsin Alumni Research Foundation" class="sponsor-img">
+          </div>
+          <div class="sponsor-item">
+            <img src="/assets/img/sponsors/NVIDIA.png" alt="NVIDIA" class="sponsor-img nvidia-logo">
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS for sponsors section -->
+      <style>
+        .sponsors-section {
+          margin: 40px 0;
+          width: 100%;
+        }
+        
+        .sponsors-text {
+          margin-bottom: 25px;
+          font-size: 1.1rem;
+          color: #333;
+        }
+        
+        .sponsors-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          width: 100%;
+        }
+        
+        .sponsor-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80px;
+          flex: 1;
+          min-width: 120px;
+          transition: transform 0.3s ease;
+        }
+        
+        .sponsor-item:hover {
+          transform: scale(1.05);
+        }
+        
+        .sponsor-img {
+          max-width: 100%;
+          max-height: 80px;
+          object-fit: contain;
+        }
+        
+        @media (max-width: 768px) {
+          .sponsors-row {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          
+          .sponsor-item {
+            width: 100%;
+            justify-content: flex-start;
+          }
+        }
+        
+        .nvidia-logo {
+          max-height: 95px;
+          transform: scale(1.15);
+        }
+        
+        @media (max-width: 768px) {
+          .sponsor-img {
+            max-width: 100%;
+            max-height: 80px;
+            object-fit: contain;
+          }
+        }
+      </style>
+
+      <!-- Divider -->
+      <hr class="dashed-divider">
+
       <!-- Visitor Statistics Section -->
       <div class="visitor-statistics">
-        <h3 class="gradient-heading">Global Visitor Statistics</h3>
+        <h3 class="gradient-heading" style="text-align: left;">Global Visitor Statistics</h3>
         
         <div class="visitor-container">
           <div class="visitor-map-container">
@@ -931,13 +1032,12 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       </style>
 
 </div>
-
     </div>
 
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: March 12, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: March 13, 2025.
       </div>
     </footer> -->
 
@@ -947,7 +1047,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: March 12, 2025.
+    Last updated: March 13, 2025.
   </div>
 </footer>
 
