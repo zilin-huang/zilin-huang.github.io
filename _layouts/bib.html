@@ -141,7 +141,7 @@
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
             {% endif %}
             {% if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
             {% endif %}
             {% if entry.supp %}
             {% if entry.supp contains '://' %}
@@ -156,6 +156,14 @@
             {% endif %}
             {% if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+            {% endif %}
+            {% if entry.github %}
+            {% assign github_repo = entry.github | split: '/' | last | split: '.' | first %}
+            {% assign github_user = entry.github | split: '/' | slice: -2, 1 | first %}
+            <a href="{{ entry.github }}/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank">
+              <i class="fas fa-star"></i>
+              <span class="stars" data-github-repo="{{ github_user }}/{{ github_repo }}"></span>
+            </a>
             {% endif %}
             {% if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
