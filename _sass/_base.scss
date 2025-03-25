@@ -911,4 +911,86 @@ pre {
   }
 }
 
+// Mobile-first responsive design
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .profile {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    text-align: center;
+
+    img {
+      width: 60%;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+
+    .address {
+      text-align: center;
+    }
+  }
+
+  .news {
+    margin-top: 2rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .social {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    td, th {
+      white-space: nowrap;
+      padding: 0.5rem;
+    }
+  }
+
+  .publications {
+    .title {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Tablet and larger screens adjustments
+@media (min-width: 577px) and (max-width: 991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .profile {
+    width: 40%;
+  }
+}
+
 

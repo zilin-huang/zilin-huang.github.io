@@ -51,3 +51,50 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Responsive layout adjustments
+@media (max-width: 576px) {
+  body {
+    padding-top: 56px;  // Account for fixed navbar
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  // Adjust spacing for better mobile reading
+  .post-content {
+    p, ul, ol {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  }
+
+  // Better spacing for sections
+  section {
+    margin: 2rem 0;
+  }
+
+  // Improve footer spacing
+  footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+}
+
+// Tablet adjustments
+@media (min-width: 577px) and (max-width: 991px) {
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
+// Desktop and larger screens
+@media (min-width: 992px) {
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
