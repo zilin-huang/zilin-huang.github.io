@@ -12,7 +12,7 @@ We are thrilled to announce that two of our projects have been selected for incl
 
 NVIDIA has generously awarded the University of Wisconsin-Madison with:
 1. **20,000 A100 GPU-Hours on Saturn Cloud** (valued at $25,800 USD) for our project **SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management**
-2. **Two RTX 6000 Ada Generation GPUs** (valued at $18,000 USD) for our project **EdgeTwin: An Edge AI-Enabled Digital Twin for Intelligent Traffic Management**
+2. **Two RTX PRO 6000 Blackwell GPUs** (valued at $18,000 USD) for our project **EdgeTwin: An Edge AI-Enabled Digital Twin for Intelligent Traffic Management**
 
 These grants, with a combined value of **$43,800 USD**, will significantly accelerate our research in developing specialized AI models for transportation safety applications and intelligent traffic management systems.
 
