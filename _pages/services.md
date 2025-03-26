@@ -135,6 +135,7 @@ h5 {
     <li>IEEE Transactions on Image Processing (TIP)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
     <li>IEEE Intelligent Transportation Systems Magazine</li>
+    <li>Journal of Advanced Transportation <a href="{{ '/assets/pdf/ATR_Reviewer_Certificate_2024.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
   </ul>
 </div>
 
