@@ -141,7 +141,7 @@ h5 {
 }
 </style>
 
-<h4 style="text-align: left;">Personal Memories</h4>
+<h4 style="text-align: left;">Memories</h4>
 
 <!-- <div class="memories-container">
   <ul class="memories-list personal-memories">
@@ -167,3 +167,22 @@ h5 {
     <li><span class="memory-tag academic">Academic</span> Title of Academic Memory 2 <span class="memory-date">(Month Year)</span></li>
   </ul>
 </div> --> 
+
+
+<h4 style="text-align: left;">Hobbies</h4>
+
+<div class="honors-container">
+  <h5 style="text-align: left;">Basketball</h5>
+  <p style="text-align: justify;">
+    Basketball has been my favorite sport since elementary school. The rhythm of basketball is like the beating of my heart - constant, energetic, and life-giving. Throughout my basketball journey, I've faced numerous injuries - sprained ankles and scraped knees, but these setbacks never diminished my passion for the game. Basketball has not only strengthened my body but also taught me invaluable lessons about teamwork, perseverance, and rising after every fall.
+  </p>
+  <p style="text-align: justify;">
+    As an avid NBA fan, I've drawn inspiration from legendary players like Allen Iverson, Kobe Bryant, and LeBron James. Their dedication, skill, and impact on the game have deeply influenced my approach to both basketball and life.
+  </p>
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
+    <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      <source src="../assets/personal/basketball/2018-basketball-team.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>

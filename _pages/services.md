@@ -130,12 +130,19 @@ h5 {
   <h5 style="text-align: left;">Journal Reviewer</h5>
   <ul class="services-list academic-services">
     <li>IEEE Transactions on Intelligent Transportation Systems (TITS)</li>
+    <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
+    <li>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</li>
     <li>IEEE Transactions on Intelligent Vehicles (TIV)</li>
     <li>Transportation Research Part C: Emerging Technologies (Part C)</li>
+    <li>Computer-Aided Civil and Infrastructure Engineering (CACAIE)</li>
     <li>IEEE Transactions on Image Processing (TIP)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
-    <li>IEEE Intelligent Transportation Systems Magazine</li>
-    <li>Journal of Advanced Transportation <a href="{{ '/assets/pdf/ATR_Reviewer_Certificate_2024.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
+    <li>IEEE Intelligent Transportation Systems Magazine (ITSM)</li>
+    <li>Journal of Advanced Transportation (JAT) <a href="{{ '/assets/pdf/ATR_Reviewer_Certificate_2024.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
+    <li>Neural Computing and Applications (NCAA)</li>
+    <li>IEEE Access</li>
+    <li>Applied Intelligence</li>
+    <li>Scientific Reports</li>
   </ul>
 </div>
 
