@@ -78,6 +78,24 @@
     padding-left: 10px;
   }
   
+  .news-excerpt {
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+  
+  .read-more {
+    color: var(--global-theme-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+  
   /* 年份标题样式 - 完全匹配patents.md中的样式 */
   .news-year {
     font-size: 1.3em;
@@ -139,6 +157,9 @@
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {%- else -%} 
             <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.excerpt %}
+            <div class="news-excerpt">{{ item.excerpt | strip_html | truncatewords: 30 }} <a href="{{ item.url | relative_url }}" class="read-more">Read more →</a></div>
+            {% endif %}
             {%- endif %} 
           </td>
         </tr>

@@ -179,10 +179,126 @@ h5 {
   <p style="text-align: justify;">
     As an avid NBA fan, I've drawn inspiration from legendary players like Allen Iverson, Kobe Bryant, and LeBron James. Their dedication, skill, and impact on the game have deeply influenced my approach to both basketball and life.
   </p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 20px;">
-    <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-      <source src="../assets/personal/basketball/2018-basketball-team.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+  
+  <h6 style="text-align: left; margin-top: 25px; font-weight: 600;">Basketball Journey</h6>
+  
+  <!-- Row 1 -->
+  <div class="row">
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 20%;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2023 Basketball Personal
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2021 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2021 Basketball Team Photo
+      </p>
+    </div>
+  </div>
+  
+  <!-- Row 2 -->
+  <div class="row mt-2">
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2020 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <div style="position: relative; height: 200px; overflow: hidden;">
+        <video controls style="width: 100%; height: 200px; object-fit: cover;">
+          <source src="../assets/personal/basketball/2019-basketball-team-highlights.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2019 Basketball Team Highlights
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2019 Basketball Team Photo
+      </p>
+    </div>
+  </div>
+  
+  <!-- Row 3 -->
+  <div class="row mt-2">
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2018 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2018 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2017 Basketball Team Photo
+      </p>
+    </div>
+  </div>
+  
+  <!-- Row 4 -->
+  <div class="row mt-2">
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2017 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 40%;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2016 Basketball Team Action
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2016 Basketball Championship
+      </p>
+    </div>
+  </div>
+  
+  <!-- Row 5 -->
+  <div class="row mt-2">
+    <div class="col-md-4 mt-3">
+      <div style="position: relative; height: 200px; overflow: hidden;">
+        <video controls style="width: 100%; height: 200px; object-fit: cover;">
+          <source src="../assets/personal/basketball/2015-baksetball-team-highlights.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2015 Basketball Team Highlights
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2015-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2015 Basketball Team Photo
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2014-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2014 Basketball Team Photo
+      </p>
+    </div>
   </div>
 </div>

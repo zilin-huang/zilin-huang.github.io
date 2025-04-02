@@ -165,7 +165,7 @@ h5 {
 <div class="honors-container">
   <h5 style="text-align: left;">2023</h5>
   <ul class="awards-list">
-    <li><strong>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), Wes Lafayette, USA </strong> <a href="{{ '2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[News Links]</a> </li>
+    <li><strong>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), Wes Lafayette, USA </strong> <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
     <li>Student Research Grants Competition (SRGC) Award, University of Wisconsin-Madison (USD $1,500)</li>
   </ul>
 </div>

@@ -6,6 +6,7 @@ inline: false
 related_posts: false
 image: 2025/Nvidia.png
 image_fit: contain
+excerpt: We received two NVIDIA grants for AI research in transportation - 20,000 A100 GPU hours for SafetyGPT and two RTX PRO 6000 Blackwell GPUs for EdgeTwin Project.
 ---
 
 We are thrilled to announce that two of our projects have been selected for inclusion in the NVIDIA Academic Grant Program!
