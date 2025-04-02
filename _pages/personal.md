@@ -205,7 +205,7 @@ h5 {
   </div>
   
   <!-- Row 2 -->
-  <div class="row mt-2">
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -232,15 +232,15 @@ h5 {
   </div>
   
   <!-- Row 3 -->
-  <div class="row mt-2">
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         2018 Basketball Team Photo
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         2018 Basketball Team Photo
       </p>
@@ -254,29 +254,29 @@ h5 {
   </div>
   
   <!-- Row 4 -->
-  <div class="row mt-2">
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2017 Basketball Team Photo
+        2017 Basketball Game Action
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 80%;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2016 Basketball Team Action
+        2016 Basketball Team Photo
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2016 Basketball Championship
+        2016 Basketball Team Photo
       </p>
     </div>
   </div>
   
   <!-- Row 5 -->
-  <div class="row mt-2">
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <div style="position: relative; height: 200px; overflow: hidden;">
         <video controls style="width: 100%; height: 200px; object-fit: cover;">
