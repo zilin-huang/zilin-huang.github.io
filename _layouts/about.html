@@ -45,29 +45,33 @@ layout: default
 
           <!-- CSS for gradient line under headings -->
           <style>
-            h3.gradient-heading {
+            h3 {
               position: relative;
               padding-bottom: 10px;
               margin-bottom: 20px;
+              margin-top: 40px;
+              color: var(--global-text-color);
+              font-size: 1.5em;
+              font-weight: 600;
             }
             
-            h3.gradient-heading:after {
+            h3:after {
               content: "";
               position: absolute;
               bottom: 0;
               left: 0;
               width: 50px;
               height: 3px;
-              background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
+              background: var(--global-theme-color);
               border-radius: 3px;
             }
           </style>
 
           <!-- News -->
           {% if page.news -%}
-            <h3 class="gradient-heading"><a href="{{ '/personal_news/' | relative_url }}" style="color: inherit;">Recent News</a></h3>
-            {%- include news.html %}
-            <p>Please check <a href="{{ '/personal_news/' | relative_url }}">this webpage</a> for more news about me.</p>
+            <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News</a></h3>
+            {%- include news_select.html %}
+            <p>Please check <a href="{{ '/news/' | relative_url }}">this webpage</a> for more news about me.</p>
           {%- endif %}
           
           <!-- Divider -->
@@ -75,7 +79,7 @@ layout: default
           
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h3 class="gradient-heading"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h3>
+            <h3><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h3>
             {%- include selected_papers.html %}
             <p>Please check <a href="{{ '/publications/' | relative_url }}">this webpage</a> for more publications.</p>
           {%- endif %}
@@ -250,7 +254,7 @@ layout: default
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
           transition: all 0.3s ease;
           margin-top: 20px;
-          max-width: 900px;
+          max-width: 1100px;
           margin-left: auto;
           margin-right: auto;
         }

@@ -6,7 +6,36 @@ description:
 nav: true
 nav_order: 3
 ---
-<h2 style="text-align: left;">Research Areas</h2>
+
+<style>
+/* 标题样式 */
+h4 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: var(--global-text-color);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+h4:first-of-type {
+  margin-top: 0;
+}
+
+h4:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--global-theme-color);
+  border-radius: 3px;
+}
+</style>
+
+<h4>Research Areas</h4>
 
 <div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;">
   <div style="margin: 6px; max-height: 360px;">
@@ -62,7 +91,7 @@ nav_order: 3
 <br> <!-- 这里插入了一个换行标签 -->
 
 ---
-<h2 style="text-align: left;">Projects (to be added)</h2>
+<h4>Projects (to be added)</h4>
 
 <!-- <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; display: flex;">
   <img src="../../assets/img/projects_photo/frank-GCQ.gif" style="width: 300px; height: 250px; margin-right: 20px;">
