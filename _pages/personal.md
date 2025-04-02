@@ -85,11 +85,27 @@ h4:after {
 }
 
 h5 {
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   color: var(--global-text-color);
-  font-size: 1.1em;
-  font-weight: 500;
+  font-size: 1.05em;
+  font-weight: 600;
+  padding-left: 0;
+  border-left: none;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(120deg, rgba(33, 150, 243, 0.12), rgba(3, 169, 244, 0.05));
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(33, 150, 243, 0.15);
+  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.05);
+  transition: all 0.3s ease;
+}
+
+h5:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.1);
+  background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
 }
 
 /* 标签样式 */
