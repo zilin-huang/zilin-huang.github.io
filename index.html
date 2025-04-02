@@ -150,7 +150,7 @@
   <li>Emobodied AI</li>
   </ul>
 
-The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br> <br>
+The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br> 
 
 <!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, <b>Interactive</b>, and <b>Social Awareness</b> autonomous embodied agents that can perceive, understand, and reason about complex and dynamic environments (e.g., urban transportation systems and off-road terrains). These agents will safely interact and collaborate with humans, vehicles, and other autonomous agents in diverse contexts, enabling efficient and sustainable coordination. The agents will contribute to enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b> in society’s daily life and advancing <b>innovative autonomous solutions</b> for challenging environments  (e.g., emergency response operations and lunar surface exploration).
  -->
@@ -163,26 +163,30 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 
           <!-- CSS for gradient line under headings -->
           <style>
-            h3.gradient-heading {
+            h3 {
               position: relative;
               padding-bottom: 10px;
               margin-bottom: 20px;
+              margin-top: 40px;
+              color: var(--global-text-color);
+              font-size: 1.5em;
+              font-weight: 600;
             }
             
-            h3.gradient-heading:after {
+            h3:after {
               content: "";
               position: absolute;
               bottom: 0;
               left: 0;
               width: 50px;
               height: 3px;
-              background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
+              background: var(--global-theme-color);
               border-radius: 3px;
             }
           </style>
 
           <!-- News -->
-          <h3 class="gradient-heading"><a href="/personal_news/" style="color: inherit;">Recent News</a></h3>
+          <h3><a href="/news/" style="color: inherit;">Recent News</a></h3>
 <style>
   .news-image {
     width: 120px;
@@ -302,7 +306,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
     left: 0;
     width: 50px;
     height: 3px;
-    background: linear-gradient(to right, var(--global-theme-color), var(--global-hover-color));
+    background: var(--global-theme-color);
     border-radius: 3px;
   }
   
@@ -388,15 +392,14 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
       </tbody>
     </table>
   </div> 
-</div>
-          
-            <p>Please check <a href="/personal_news/">this webpage</a> for more news about me.</p>
+</div> 
+            <p>Please check <a href="/news/">this webpage</a> for more news about me.</p>
           
           <!-- Divider -->
           <hr class="dashed-divider">
           
           <!-- Selected papers -->
-          <h3 class="gradient-heading"><a href="/publications/" style="color: inherit;">Selected Publications</a></h3>
+          <h3><a href="/publications/" style="color: inherit;">Selected Publications</a></h3>
 <div class="publications">
   <ol class="bibliography">
 <li><div class="row align-items-start">
@@ -1215,7 +1218,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
           transition: all 0.3s ease;
           margin-top: 20px;
-          max-width: 900px;
+          max-width: 1100px;
           margin-left: auto;
           margin-right: auto;
         }

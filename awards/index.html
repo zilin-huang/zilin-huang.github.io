@@ -202,7 +202,7 @@ h4:after {
   left: 0;
   width: 50px;
   height: 3px;
-  background: linear-gradient(to right, var(--global-theme-color), rgba(var(--global-theme-color-rgb), 0.5));
+  background: var(--global-theme-color);
   border-radius: 3px;
 }
 
@@ -214,6 +214,7 @@ h5 {
   font-weight: 500;
   padding-left: 0;
   border-left: none;
+  position: relative;
 }
 
 /* 强调文本 */
@@ -274,8 +275,7 @@ h5 {
   
   h5 {
     font-size: 1.1em;
-    padding-left: 8px;
-    border-left: 3px solid rgba(var(--global-theme-color-rgb), 0.6);
+    padding-left: 0;
   }
 }
 </style>
