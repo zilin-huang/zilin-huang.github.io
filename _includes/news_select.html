@@ -1,7 +1,7 @@
 <style>
   .news-image {
-    width: 120px;
-    height: 90px;
+    width: 180px;
+    height: 135px;
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
@@ -149,7 +149,7 @@
           <th scope="row" class="date-col">{{ item.date | date: "%b %-d, %Y" }}</th>
           <td class="image-col">
             {% if item.image %}
-            <img src="{{ item.image | prepend: '/assets/img/news-thumbnails/' | relative_url }}" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: {% if item.image_fit %}{{ item.image_fit }}{% else %}contain{% endif %};">
+            <img src="{{ item.image | prepend: '/assets/news_photo/news_thumbnails/' | relative_url }}" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: {% if item.image_fit %}{{ item.image_fit }}{% else %}contain{% endif %};">
             {% endif %}
           </td>
           <td class="news-content">

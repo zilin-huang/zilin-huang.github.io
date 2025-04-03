@@ -5,7 +5,7 @@ title: Publications
 description: 
 years: [2025, 2024]
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 The list below may not be up to date, please check <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en">Google Scholar</a> for my latest publications.

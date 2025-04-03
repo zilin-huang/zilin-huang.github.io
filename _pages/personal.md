@@ -159,31 +159,60 @@ h5:hover {
 
 <h4 style="text-align: left;">Memories</h4>
 
-<!-- <div class="memories-container">
-  <ul class="memories-list personal-memories">
-    <li><span class="memory-tag personal">Personal</span> Title of Personal Memory 1 <span class="memory-date">(Month Year)</span></li>
-    <li><span class="memory-tag personal">Personal</span> Title of Personal Memory 2 <span class="memory-date">(Month Year)</span></li>
-  </ul>
+
+
+<h4 style="text-align: left;">Entrepreneurship</h4>
+
+<p style="text-align: justify;">
+  Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
+</p>
+  
+<p style="text-align: justify;">  
+  During my university years, I founded two technology companies, attempting to translate my scientific discoveries into practical innovations. Throughout this journey, I had the opportunity to connect with industry professionals. More fortunately, my companies attracted millions of potential investment from prominent institutions such as Yueke Securities and CITIC Securities. This greatly encouraged me to pursue innovation further. I've always adhered to one principle: "When scientific discoveries transcend the boundaries of the laboratory, they can truly make a meaningful impact on the world."
+</p>
+
+<!-- Entrepreneurship images -->
+<div class="row">
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2021 Qinglan Project
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2021 Qinglan Project
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Winning Guangdong Competition
+    </p>
+  </div>
 </div>
 
-<h4 style="text-align: left;">Travel Memories</h4>
-
-<div class="memories-container">
-  <ul class="memories-list travel-memories">
-    <li><span class="memory-tag travel">Travel</span> Title of Travel Memory 1 <span class="memory-date">(Month Year)</span></li>
-    <li><span class="memory-tag travel">Travel</span> Title of Travel Memory 2 <span class="memory-date">(Month Year)</span></li>
-  </ul>
+<div class="row mt-1">
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Winning Guangdong Competition
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Chuangke Guangdong Competition
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Chuangke Guangdong Competition
+    </p>
+  </div>
 </div>
-
-<h4 style="text-align: left;">Academic Memories</h4>
-
-<div class="memories-container">
-  <ul class="memories-list academic-memories">
-    <li><span class="memory-tag academic">Academic</span> Title of Academic Memory 1 <span class="memory-date">(Month Year)</span></li>
-    <li><span class="memory-tag academic">Academic</span> Title of Academic Memory 2 <span class="memory-date">(Month Year)</span></li>
-  </ul>
-</div> --> 
-
 
 <h4 style="text-align: left;">Hobbies</h4>
 
@@ -198,19 +227,19 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Chef Huang
+        2025 Chef Huang (黄小厨)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        ‌Chicken Clay Pot‌
+        ‌Chicken Clay Pot‌ (啫啫鸡煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-3.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Seafood Tofu Clay Pot
+        Seafood Tofu Clay Pot (海鲜豆腐煲)
       </p>
     </div>
   </div>
@@ -220,22 +249,23 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-4.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Beef Clay Pot
+        Beef Clay Pot (牛肉煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-5.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Fish-Fragrant Eggplant Clay Pot
+        Fish-Fragrant Eggplant Clay Pot (鱼香茄子煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-6.jpg" style="width: 100%; height: 200px; object-fit: cover;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Beef Brisket Clay Pot
+        Beef Brisket Clay Pot (牛腩煲)
       </p>
     </div>
   </div>
+
 
   <h5 style="text-align: left;">Basketball</h5>
   <p style="text-align: justify;">
@@ -255,7 +285,7 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 23%;">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2023 Basketball Personal
+        2023 Bakke Gym, UW-Madison, US
       </p>
     </div>
     <div class="col-md-4 mt-3">
@@ -369,4 +399,39 @@ h5:hover {
       </p>
     </div>
   </div>
+
+  <h5 style="text-align: left;">Photography</h5>
+  <p style="text-align: justify;">
+    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history." I served as the vice president of the photography association, and regularly contributed photos to the university's official website. I am a photographer for Visual China and a member of the Guangzhou Photography Association. I also have developed an interest in astrophotography and I am a member of the Astronomy Club. My journey in photography began with a Nikon D700, followed by a Canon 70D, and later a Canon 6D. 
+  </p>
+  
+  <p style="text-align: justify;">
+    During my university years, I co-founded a creative media studio with senior students, focusing on MG animation and micro-film production. Our studio's original character "Zuiyao B (最耀B)" garnered over 100 million views across platforms. You can find our works on <a href="https://www.youtube.com/playlist?list=PLnQTmrTdfHskys9PPoE_mWQStAVr59GtY" target="_blank">YouTube</a> and <a href="https://space.bilibili.com/26055201" target="_blank">Bilibili</a>. Additionally, my micro-film "Drinking Water and Remembering the Source (饮水思源)" won the "Best Film Silver Award" (RMB ¥40,000) <a href="{{ '/assets/personal/Photography/2016-movie-award.png' | relative_url }}" target="_blank">[Certificate]</a>. I'm particularly proud of my role as executive producer in the university commemorative graduation video <a href="https://v.qq.com/x/page/k0702zufnaj.html" target="_blank">"The Journey (走过)"</a>.
+  </p>
+  
+  <!-- Photography images -->
+  <div class="row">
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2018-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2018 Astrophotography Activities
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2016 Photography Activities
+      </p>
+    </div>
+    <div class="col-md-4 mt-3">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2014-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        2014 The camera I own
+      </p>
+    </div>
+  </div>
+
 </div>
+
+
+

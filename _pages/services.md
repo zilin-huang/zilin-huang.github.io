@@ -154,7 +154,7 @@ h5:hover {
     <li>IEEE Transactions on Image Processing (TIP)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
     <li>IEEE Intelligent Transportation Systems Magazine (ITSM)</li>
-    <li>Journal of Advanced Transportation (JAT) <a href="{{ '/assets/pdf/ATR_Reviewer_Certificate_2024.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
+    <li>Journal of Advanced Transportation (JAT) <a href="{{ '/assets/services/2024_ATR_Reviewer_Certificate.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>Neural Computing and Applications (NCAA)</li>
     <li>IEEE Access</li>
     <li>Applied Intelligence</li>
@@ -183,7 +183,9 @@ h5:hover {
 <h4 style="text-align: left;">Community Services</h4>
 
 <div class="services-container">
+  <h5 style="text-align: left;">Conference Organizer</h5>
   <ul class="services-list community-services">
-    <li>.</li>
+    <li>Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, USA, February 21, 2024 <a href="{{ '/assets/services/2024-MARC.jpg' | relative_url }}" target="_blank">[News Links]</a></li>
+    <li>Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, USA, May 16-18, 2023 <a href="{{ '/assets/services/2023-NGTS-Flyer.pdf' | relative_url }}" target="_blank">[News Links]</a></li>
   </ul>
 </div> 

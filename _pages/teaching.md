@@ -136,7 +136,7 @@ nav_order: 5
 
 
 <div class="teaching-container">
-  <img src="/assets/img/teaching/2024-CEE679.png" alt="Teaching CEE 679 AI & Data Science in Transportation 2024" class="teaching-image">
+  <img src="/assets/teaching/2024-CEE679.png" alt="Teaching CEE 679 AI & Data Science in Transportation 2024" class="teaching-image">
   
   <div class="teaching-content">
     <div class="teaching-item">
@@ -151,7 +151,7 @@ nav_order: 5
 
 
 <div class="teaching-container">
-  <img src="/assets/img/teaching/2023-CEE679.png" alt="Teaching CEE 679 AI & Data Science in Transportation 2023" class="teaching-image">
+  <img src="/assets/teaching/2023-CEE679.png" alt="Teaching CEE 679 AI & Data Science in Transportation 2023" class="teaching-image">
   
   <div class="teaching-content">
     <div class="teaching-item">
@@ -166,7 +166,7 @@ nav_order: 5
 
 
 <div class="teaching-container">
-  <img src="/assets/img/teaching/2023-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2023" class="teaching-image">
+  <img src="/assets/teaching/2023-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2023" class="teaching-image">
   
   <div class="teaching-content">
     <div class="teaching-item">
@@ -180,7 +180,7 @@ nav_order: 5
 </div>
 
 <div class="teaching-container">
-  <img src="/assets/img/teaching/2022-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2022" class="teaching-image">
+  <img src="/assets/teaching/2022-CEE370.png" alt="Teaching CEE 370 Transportation Engineering 2022" class="teaching-image">
   
   <div class="teaching-content">
     <div class="teaching-item">
