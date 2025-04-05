@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Ph.D. Student <br> Research Assistant <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Centers Building 1066 <br> Email:&nbsp;<a href="zilin.huang@wisc.edu">zilin.huang@wisc.edu</a> <br>  <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en" target="_blank"> <img src="assets/img/icon/google-scholar-logo.png" alt="Google Scholar" width="34" height="34"/> </a> &nbsp; <a href="https://www.linkedin.com/in/zilin-huang/"> <img src="assets/img/icon/LinkedIn-logo.png" width="34" height="34"/> </a> &nbsp; <a href="https://www.researchgate.net/profile/Zilin-Huang-8"> <img src="assets/img/icon/researchgate-logo.png" width="34" height="34"/></a> &nbsp; <a href="https://x.com/Zilin_Huang_UWM"> <img src="assets/img/icon/x-logo.png" width="42" height="42"/></a>  </a> &nbsp; <a href="https://github.com/zilin-huang"> <img src="assets/img/icon/github-logo.png" width="34" height="34"/></a>  </p>
+subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Ph.D. Student <br> Research Assistant <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Centers Building 1066 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
 
 # profile:
 #   align: right
@@ -17,6 +17,19 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<div style="margin-bottom: 2em;">
+  <ul style="list-style-type: none; padding-left: 0; display: flex; flex-wrap: wrap; column-gap: 2em;">
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/GoogleScholar-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en">Google Scholar</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/LinkedIn-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.linkedin.com/in/zilin-huang/">LinkedIn</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/GitHub-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://github.com/zilin-huang">GitHub</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Twitter-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> Twitter: <a href="https://x.com/Zilin_Huang_UWM">@Zilin_Huang_UWM</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ResearchGate-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.researchgate.net/profile/Zilin-Huang-8">ResearchGate</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Wechat-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="assets/img/icon/Wechat.jpg">WeChat (微信)</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Website-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> Website: <a href="https://zilin-huang.github.io">zilin-huang.github.io</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ORCID-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> ORCID: <a href="https://orcid.org/0000-0003-3754-4821">0000-0003-3754-4821</a></li>
+  </ul>
+</div>
 
 ---
 Hey, thanks for stopping by! :wave:
@@ -40,6 +53,6 @@ More specifically,  I am currently interested in these challenges:
 
 The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br /> 
 
-<!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, <b>Interactive</b>, and <b>Social Awareness</b> autonomous embodied agents that can perceive, understand, and reason about complex and dynamic environments (e.g., urban transportation systems and off-road terrains). These agents will safely interact and collaborate with humans, vehicles, and other autonomous agents in diverse contexts, enabling efficient and sustainable coordination. The agents will contribute to enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b> in society’s daily life and advancing <b>innovative autonomous solutions</b> for challenging environments  (e.g., emergency response operations and lunar surface exploration).
+<!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, <b>Interactive</b>, and <b>Social Awareness</b> autonomous embodied agents that can perceive, understand, and reason about complex and dynamic environments (e.g., urban transportation systems and off-road terrains). These agents will safely interact and collaborate with humans, vehicles, and other autonomous agents in diverse contexts, enabling efficient and sustainable coordination. The agents will contribute to enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b> in society's daily life and advancing <b>innovative autonomous solutions</b> for challenging environments  (e.g., emergency response operations and lunar surface exploration).
  -->
 </div>
