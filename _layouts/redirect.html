@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0;url={{ page.redirect | relative_url }}">
+  <link rel="canonical" href="{{ page.redirect | relative_url }}">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    p {
+      margin: 1rem 0;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected automatically, follow <a href="{{ page.redirect | relative_url }}">this link</a>.</p>
+  <script>
+    window.location.href = "{{ page.redirect | relative_url }}";
+  </script>
+</body>
+</html> 

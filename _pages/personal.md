@@ -402,7 +402,13 @@ h5:hover {
 
   <h5 style="text-align: left;">Photography</h5>
   <p style="text-align: justify;">
-    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history." I served as the vice president of the photography association, and regularly contributed photos to the university's official website. I am a photographer for Visual China and a member of the Guangzhou Photography Association. I also have developed an interest in astrophotography and I am a member of the Astronomy Club. My journey in photography began with a Nikon D700, followed by a Canon 70D, and later a Canon 6D. 
+    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history." I served as the vice president of the photography association, and regularly contributed photos to the university's official website. I am a photographer for Visual China and a member of the Guangzhou Photography Association. I also have developed an interest in astrophotography and I am a member of the Astronomy Club. This is a collection of postcards I created from my photography work <a href="{{ '/photographic_works/postcards/' | relative_url }}">here</a>找到。
+    
+    
+    
+    
+    
+    My journey in photography began with a Nikon D700, followed by a Canon 70D, and later a Canon 6D. 
   </p>
   
   <p style="text-align: justify;">
