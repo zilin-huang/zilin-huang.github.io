@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/GitHub-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://github.com/zilin-huang">GitHub</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Twitter-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/>  <a href="https://x.com/Zilin_Huang_UWM">Twitter</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ResearchGate-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.researchgate.net/profile/Zilin-Huang-8">ResearchGate</a></li>
-    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Wechat-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="assets/img/icon/Wechat.jpg">WeChat (微信)</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Wechat-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="assets/img/icon/Wechat.jpg">WeChat</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Website-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> Website: <a href="https://zilin-huang.github.io">zilin-huang.github.io</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ORCID-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> ORCID: <a href="https://orcid.org/0000-0003-3754-4821">0000-0003-3754-4821</a></li>
   </ul>
