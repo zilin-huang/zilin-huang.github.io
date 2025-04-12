@@ -1,15 +1,10 @@
 import json
 import os
 from datetime import datetime
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 
 def get_citation_count():
     try:
-        # 设置代理生成器来避免被封禁
-        pg = ProxyGenerator()
-        pg.FreeProxies()
-        scholarly.use_proxy(pg)
-        
         # 你的Google Scholar ID
         AUTHOR_ID = 'RgO7ppoAAAAJ'
         print(f"Fetching citations for author ID: {AUTHOR_ID}")
@@ -28,6 +23,7 @@ def get_citation_count():
             
     except Exception as e:
         print(f"Error fetching citations: {e}")
+        print("Full error details:", str(e))
         return None
 
 def update_citation_file():
