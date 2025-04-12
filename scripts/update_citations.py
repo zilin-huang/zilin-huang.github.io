@@ -1,40 +1,34 @@
-import requests
-from bs4 import BeautifulSoup
 import json
 import os
 from datetime import datetime
+from scholarly import scholarly, ProxyGenerator
 
 def get_citation_count():
-    # 你的Google Scholar ID
-    SCHOLAR_ID = 'RgO7ppoAAAAJ'
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    
-    url = f'https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en'
-    print(f"Fetching citations from: {url}")
-    
     try:
-        response = requests.get(url, headers=headers)
-        print(f"Response status code: {response.status_code}")
+        # 设置代理生成器来避免被封禁
+        pg = ProxyGenerator()
+        pg.FreeProxies()
+        scholarly.use_proxy(pg)
         
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # 你的Google Scholar ID
+        AUTHOR_ID = 'RgO7ppoAAAAJ'
+        print(f"Fetching citations for author ID: {AUTHOR_ID}")
         
-        # 找到引用数的元素
-        citation_element = soup.find('td', class_='gsc_rsb_std')
-        if citation_element:
-            citations = citation_element.text
+        # 获取作者资料
+        author = scholarly.search_author_id(AUTHOR_ID)
+        if author:
+            # 获取完整的作者信息
+            author = scholarly.fill(author)
+            citations = author['citedby']
             print(f"Found citations: {citations}")
-            return int(citations)
+            return citations
         else:
-            print("Citation element not found in the page")
-            print("Page content:", response.text[:500])  # 打印页面前500个字符用于调试
+            print("Author not found")
+            return None
+            
     except Exception as e:
         print(f"Error fetching citations: {e}")
         return None
-    
-    return None
 
 def update_citation_file():
     citations = get_citation_count()
