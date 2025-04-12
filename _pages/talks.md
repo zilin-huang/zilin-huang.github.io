@@ -228,11 +228,63 @@ h5:hover {
   border-bottom: 1px solid var(--global-theme-color) !important;
   color: var(--global-theme-color-darker) !important;
 }
+
+/* Year navigation sidebar styles */
+.year-nav {
+  position: fixed;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.year-nav a {
+  display: block;
+  padding: 8px 25px;
+  margin: 6px 0;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.year-nav a:hover {
+  background-color: rgba(var(--global-theme-color-rgb), 0.1);
+}
+
+.year-nav a.active {
+  background-color: var(--global-theme-color);
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .year-nav {
+    display: none;
+  }
+}
 </style>
+
+<!-- Year navigation sidebar -->
+<div class="year-nav">
+  <a href="#year-2025">2025</a>
+  <a href="#year-2024">2024</a>
+  <a href="#year-2023">2023</a>
+  <a href="#earlier">Earlier</a>
+</div>
 
 <h4 style="text-align: left;">Presentations (e.g., Talks/Lectures)</h4>
 
-<h5 style="text-align: left;">2025</h5>
+<h5 id="year-2025" style="text-align: left;">2025</h5>
 <div class="talks-container">
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
@@ -273,7 +325,7 @@ h5:hover {
   </div>
 </div>
 
-<h5 style="text-align: left;">2024</h5>
+<h5 id="year-2024" style="text-align: left;">2024</h5>
 <div class="talks-container">
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
@@ -323,7 +375,7 @@ h5:hover {
   </div>
 </div>
 
-<h5 style="text-align: left;">2023</h5>
+<h5 id="year-2023" style="text-align: left;">2023</h5>
 <div class="talks-container">
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
@@ -395,13 +447,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/ngts2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/NGTS2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 NGTS-3 Conference
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/ngts2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/NGTS2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 NGTS-3 Conference
             </p>
@@ -420,6 +472,59 @@ h5:hover {
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
       </div>
+      <div class="talk-images">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/TRB/TRB2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              2023 TRB Annual Meeting
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/TRB/TRB2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              2023 TRB Annual Meeting
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- Add JavaScript for active state -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const yearLinks = document.querySelectorAll('.year-nav a');
+  
+  // Set first year as active by default
+  yearLinks[0].classList.add('active');
+  
+  // Update active state on scroll
+  function updateActiveYear() {
+    const scrollPosition = window.scrollY;
+    const yearSections = document.querySelectorAll('h5[id^="year-"]');
+    
+    yearSections.forEach((section, index) => {
+      const sectionTop = section.offsetTop - 100;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        yearLinks.forEach(link => link.classList.remove('active'));
+        yearLinks[index].classList.add('active');
+      }
+    });
+  }
+  
+  // Update active state on click
+  yearLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      yearLinks.forEach(l => l.classList.remove('active'));
+      e.target.classList.add('active');
+    });
+  });
+  
+  window.addEventListener('scroll', updateActiveYear);
+  updateActiveYear();
+});
+</script>

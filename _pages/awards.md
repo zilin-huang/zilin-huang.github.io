@@ -8,6 +8,50 @@ nav_order: 6
 ---
 
 <style>
+/* Year navigation sidebar styles */
+.year-nav {
+  position: fixed;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.year-nav a {
+  display: block;
+  padding: 8px 25px;
+  margin: 6px 0;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.year-nav a:hover {
+  background-color: rgba(var(--global-theme-color-rgb), 0.1);
+}
+
+.year-nav a.active {
+  background-color: var(--global-theme-color);
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .year-nav {
+    display: none;
+  }
+}
+
 /* 基础样式 */
 .honors-container {
   margin-bottom: 5px;
@@ -173,10 +217,22 @@ h5:hover {
 }
 </style>
 
+<!-- Year navigation sidebar -->
+<div class="year-nav">
+  <a href="#year-2023">2023</a>
+  <a href="#year-2021">2021</a>
+  <a href="#year-2020">2020</a>
+  <a href="#year-2019">2019</a>
+  <a href="#year-2018">2018</a>
+  <a href="#year-2017">2017</a>
+  <a href="#year-2016">2016</a>
+  <a href="#year-2015">2015</a>
+</div>
+
 <h4 style="text-align: left;">Honors & Awards</h4>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2023</h5>
+  <h5 id="year-2023" style="text-align: left;">2023</h5>
   <ul class="awards-list">
     <li><strong>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, USA </strong> <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
     <li>Student Research Grants Competition (SRGC) Award, University of Wisconsin-Madison (USD $1,500)</li>
@@ -184,7 +240,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2021</h5>
+  <h5 id="year-2021" style="text-align: left;">2021</h5>
   <ul class="awards-list">
     <li><strong>"Qinglan Plan" Competition Award, Guangzhou, China (RMB ¥50,000)</strong> <a href="{{ 'https://www.panyu.gov.cn/tgl/qkgsxj/content/post_6903583.html' | relative_url }}" target="_blank">[News Links]</a> <br>
     <span class="award-description">Awarded to students with high potential for commercial translation of their research.</span></li>
@@ -194,7 +250,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2020</h5>
+  <h5 id="year-2020" style="text-align: left;">2020</h5>
   <ul class="awards-list">
     <li><strong>Special Funds Project for Science and Technology Innovation Strateg Award, Guangdong Province, China (RMB ¥60,000) </strong><a href="{{ 'https://www.gdcyl.org/xxb/ShowArticle.asp?ArticleID=241940' | relative_url }}" target="_blank">[News Links]</a> <br>
     <span class="award-description">Awarded to students with very strong research potential (Key project, No. pdjh2020a0030).</span></li>
@@ -207,7 +263,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2019</h5>
+  <h5 id="year-2019" style="text-align: left;">2019</h5>
   <ul class="awards-list">
     <li>National Scholarship for Graduate Student, China (RMB ¥20,000) <a href="{{ '/assets/honors/2019-national-scholarship.jpg' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li><strong>Graduate Student Academic Competition Award, SCUT (RMB ¥20,000)</strong><br>
@@ -219,7 +275,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2018</h5>
+  <h5 id="year-2018" style="text-align: left;">2018</h5>
   <ul class="awards-list">
     <li>Graduate Student Academic Competition Award, SCUT (RMB ¥5,000)<br>
     <span class="award-description">Awarded to students with strong research potential (No. j2tw202004010).</span></li>
@@ -232,7 +288,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2017</h5>
+  <h5 id="year-2017" style="text-align: left;">2017</h5>
   <ul class="awards-list">
     <li><strong>Special Funds Project for Science and Technology Innovation Strateg Award, Guangdong Province, China (RMB ¥20,000 + ¥10,000) </strong> <br>
     <span class="award-description">Awarded to students with strong research potential (No. phjh2017b0161 & No. phjh2017b0169).</span></li>
@@ -245,7 +301,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2016</h5>
+  <h5 id="year-2016" style="text-align: left;">2016</h5>
   <ul class="awards-list">
     <li>College Student 'Summer Rural Social Practice' Advanced Individual Award, Guangdong Province, China (≈ 6/40,000)</li>
     <li>Top 10 Student Volunteers for Social Work Award (≈ 10/40,000)</li>
@@ -253,7 +309,7 @@ h5:hover {
 </div>
 
 <div class="honors-container">
-  <h5 style="text-align: left;">2015</h5>
+  <h5 id="year-2015" style="text-align: left;">2015</h5>
   <ul class="awards-list">
     <li>1st Prize Scholarship for Excellent Undergraduate Student (Top 2%, RMB ¥2500)<br>
     <span class="award-description">Awarded for three consecutive years in 2015-2017 (three times).</span></li>
@@ -294,3 +350,39 @@ h5:hover {
     <span class="award-description">The competition selected 262 2nd prizes from more than 120,000 projects in China.</span></li>
   </ul>
 </div> 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const yearLinks = document.querySelectorAll('.year-nav a');
+  
+  // Set first year as active by default
+  yearLinks[0].classList.add('active');
+  
+  // Update active state on scroll
+  function updateActiveYear() {
+    const scrollPosition = window.scrollY;
+    const yearSections = document.querySelectorAll('h5[id^="year-"]');
+    
+    yearSections.forEach((section, index) => {
+      const sectionTop = section.offsetTop - 100;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        yearLinks.forEach(link => link.classList.remove('active'));
+        yearLinks[index].classList.add('active');
+      }
+    });
+  }
+  
+  // Update active state on click
+  yearLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      yearLinks.forEach(l => l.classList.remove('active'));
+      e.target.classList.add('active');
+    });
+  });
+  
+  window.addEventListener('scroll', updateActiveYear);
+  updateActiveYear();
+});
+</script> 
