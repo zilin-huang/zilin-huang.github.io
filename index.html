@@ -1265,8 +1265,10 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           // Start checking for the visitor count
           setTimeout(updateVisitorCount, 1000);
           
-          // Update citation count from JSON file
-          fetch('/_data/citations.json')
+          // Update citation count from Google Scholar
+          // In a production environment, this would need to be handled by a backend service
+          // or with a CORS proxy due to Google Scholar's restrictions
+          fetch('/assets/js/citation-count.json?v=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
               if (data && data.citations) {
@@ -1275,7 +1277,6 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
             })
             .catch(error => {
               console.error('Error fetching citation count:', error);
-              // 如果获取失败，保持默认值
             });
         });
       </script>
