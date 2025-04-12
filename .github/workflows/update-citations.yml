@@ -2,19 +2,22 @@ name: Update Citation Count
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
+    - cron: '0 */12 * * *'  # Run every 12 hours
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
   update-citations:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          cache: 'pip'
           
       - name: Install dependencies
         run: |
@@ -23,11 +26,36 @@ jobs:
           
       - name: Update citation count
         run: |
-          python .github/scripts/update_citations.py
+          # Try up to 3 times with increasing delays
+          for i in 1 2 3
+          do
+            python .github/scripts/update_citations.py && break || {
+              if [ $i -lt 3 ]; then
+                echo "Attempt $i failed! Waiting $((i*30)) seconds..."
+                sleep $((i*30))
+              else
+                echo "All attempts failed!"
+                exit 1
+              fi
+            }
+          done
           
-      - name: Commit and push if changed
+      - name: Configure Git
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add _data/citations.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update citation count" && git push) 
+          
+      - name: Commit and push if changed
+        run: |
+          if [[ -f _data/citations.json ]]; then
+            git add _data/citations.json
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "Update citation count [skip ci]"
+              git push
+            fi
+          else
+            echo "citations.json not found"
+            exit 1
+          fi 
