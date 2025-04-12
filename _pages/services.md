@@ -104,6 +104,30 @@ h5:hover {
   background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
 }
 
+/* Image styles */
+.talk-images {
+  margin-top: 8px;
+  margin-bottom: -5px;
+}
+
+.talk-images .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.talk-images .col-md-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.talk-images img {
+  margin-bottom: 5px;
+}
+
+.talk-images p {
+  margin-bottom: 0;
+}
+
 /* 服务类型标签 */
 .service-type {
   display: inline-block;
@@ -185,7 +209,24 @@ h5:hover {
 <div class="services-container">
   <h5 style="text-align: left;">Conference Organizer</h5>
   <ul class="services-list community-services">
-    <li>Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, USA, February 21, 2024 <a href="{{ '/assets/services/2024-MARC.jpg' | relative_url }}" target="_blank">[News Links]</a></li>
-    <li>Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, USA, May 16-18, 2023 <a href="{{ '/assets/services/2023-NGTS-Flyer.pdf' | relative_url }}" target="_blank">[News Links]</a></li>
+    <li>Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, USA, February 21, 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
+    <li>Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, USA, May 16-18, 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a>
+      <div class="talk-images">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              NGTS-3 Conference
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_2.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              NGTS-3 Conference
+            </p>
+          </div>
+        </div>
+      </div>
+    </li>
   </ul>
 </div> 

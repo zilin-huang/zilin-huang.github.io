@@ -186,7 +186,7 @@ h5:hover {
     </p>
   </div>
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-3.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       2020 Winning Guangdong Competition
     </p>
@@ -201,7 +201,7 @@ h5:hover {
     </p>
   </div>
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-5.png" style="width: 100%; height: 200px; object-fit: cover;">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" style="width: 100%; height: 200px; object-fit: cover;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       2020 Winning Guangdong Competition
     </p>

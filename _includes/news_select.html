@@ -1,7 +1,7 @@
 <style>
   .news-image {
-    width: 180px;
-    height: 135px;
+    width: 200px;
+    height: 150px;
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
@@ -13,6 +13,26 @@
   .news-image:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px var(--global-shadow-color-hover);
+  }
+  
+  /* 新闻标题样式 */
+  .news-title {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--global-theme-color);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .news-title:hover {
+    color: var(--global-hover-color);
+    text-decoration: none !important;
+    border-bottom: 1px dashed var(--global-theme-color) !important;
+  }
+  
+  .news-title-icon {
+    font-size: 0.8em;
+    margin-left: 5px;
   }
   
   /* 表格样式 */
@@ -69,7 +89,7 @@
   }
   
   .image-col {
-    width: 15%; /* Maintained width */
+    width: 18%; /* Increased from 15% to accommodate larger images */
     text-align: left; /* Align images to the left */
     padding-left: 0; /* Remove padding completely to minimize space */
   }
@@ -156,7 +176,7 @@
             {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {%- else -%} 
-            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }} <i class="fas fa-external-link-alt news-title-icon"></i></a>
             {% if item.excerpt %}
             <div class="news-excerpt">{{ item.excerpt | strip_html | truncatewords: 30 }} <a href="{{ item.url | relative_url }}" class="read-more">Read more →</a></div>
             {% endif %}
