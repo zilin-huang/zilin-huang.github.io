@@ -170,6 +170,18 @@
             </td>
           </tr> 
           <tr>
+            <th scope="row">Jan 12, 2025</th>
+            <td>
+              <a class="news-title" href="/news/2025/01-12-trb-meeting/">👏 I attended the TRB 2025 Annual Meeting.</a> 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Jan 10, 2025</th>
+            <td>
+              <a class="news-title" href="/news/2025/01-10-google-visit/">👏 I was invited to visit Google in Washington DC.</a> 
+            </td>
+          </tr> 
+          <tr>
             <th scope="row">Oct 18, 2024</th>
             <td>
               🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
@@ -203,12 +215,30 @@
               <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a> 
             </td>
           </tr> 
+          <tr>
+            <th scope="row">Oct 19, 2023</th>
+            <td>
+              <a class="news-title" href="/news/2023/10-19-informs-meeting/">👏 I attended the 2023 INFORMS Annual Meeting.</a> 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Oct 17, 2023</th>
+            <td>
+              <a class="news-title" href="/news/2023/10-17-asu-beliv-lab-visit/">👏 I visited the BELIV Lab at Arizona State University.</a> 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">May 18, 2023</th>
+            <td>
+              <a class="news-title" href="/news/2023/05-18-ngts-conference/">👏 I attended the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3).</a> 
+            </td>
+          </tr> 
       </table>
     </div> 
 </div> -->
 
 <style>
-    /* 年份标题样式 - 完全匹配patents.md中的样式 */
+    /* 年份标题样式 */
     .news-year {
       font-size: 1.3em;
       color: var(--global-text-color);
@@ -234,19 +264,39 @@
     }
     
     .news-image {
-      width: 160px;
-      height: 120px;
-      object-fit: contain; /* 默认值，会被内联样式覆盖 */
+      width: 200px;
+      height: 150px;
+      object-fit: contain;
       border-radius: 6px;
       box-shadow: 0 2px 5px var(--global-shadow-color);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       background-color: transparent;
-      margin-left: 0; /* Reset margin */
+      margin-left: 0;
     }
     
     .news-image:hover {
       transform: scale(1.05);
       box-shadow: 0 4px 8px var(--global-shadow-color-hover);
+    }
+    
+    /* 新闻标题样式 */
+    .news-title {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--global-theme-color);
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .news-title:hover {
+      color: var(--global-hover-color);
+      text-decoration: none !important;
+      border-bottom: 1px dashed var(--global-theme-color) !important;
+    }
+    
+    .news-title-icon {
+      font-size: 0.8em;
+      margin-left: 5px;
     }
     
     /* 表格样式 */
@@ -274,7 +324,7 @@
       border-radius: 4px;
     }
     
-    /* Add left-right hover effect to news rows */
+    /* 悬停效果 */
     .news td.news-content {
       padding-left: 10px;
       transition: padding-left 0.3s ease;
@@ -284,28 +334,27 @@
       padding-left: 20px;
     }
     
-    /* 每个年份组的第一个项目不需要上边框 */
+    /* 边框样式 */
     .news-items tr:first-child {
       border-top: none;
     }
     
-    /* 每个年份组的最后一个项目不需要下边框 */
     .news-items tr:last-child {
       border-bottom: none;
     }
     
     .date-col {
-      width: 12%; /* Reduced from 15% to bring date closer to image */
+      width: 12%;
       color: var(--global-text-color-light);
       font-weight: 500;
-      padding-right: 0; /* Remove padding to minimize space */
-      text-align: left; /* Left-align dates as requested */
+      padding-right: 0;
+      text-align: left;
     }
     
     .image-col {
-      width: 15%; /* Maintained width */
-      text-align: left; /* Align images to the left */
-      padding-left: 0; /* Remove padding completely to minimize space */
+      width: 18%;
+      text-align: left;
+      padding-left: 0;
     }
     
     .news-content {
@@ -359,7 +408,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD).</a>
+                    <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD). <i class="fas fa-external-link-alt news-title-icon"></i></a>
                     
                     <div class="news-excerpt">We received two NVIDIA grants for AI research in transportation - 20,000 A100 GPU hours for SafetyGPT and two RTX PRO 6000 Blackwell GPUs for EdgeTwin Project. <a href="/news/2025/03-10-nvidia-grant/" class="read-more">Read more →</a>
 </div>
@@ -380,6 +429,44 @@
                 <td class="news-content">
                     🎉 We delivered a presentation to <a href="https://www.lixiang.com/en#li" rel="external nofollow noopener" target="_blank">Li Auto AD team</a> on our latest work <a href="https://www.huang-zilin.com/VLM-RL-website/" rel="external nofollow noopener" target="_blank">VLM-RL</a>. The presentation attracted over 330+ engineers to attend.
  
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Jan 12, 2025</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2025/TRB.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2025/01-12-trb-meeting/">👏 I attended the TRB 2025 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 104th Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2025/01-12-trb-meeting/" class="read-more">Read more →</a>
+</div>
+                     
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Jan 10, 2025</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2025/Google.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2025/01-10-google-visit/">👏 I was invited to visit Google in Washington DC. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I was invited to visit Google’s office in Washington DC on January 10, 2025. During the visit, I had the opportunity to meet with Google’s research team and discuss potential... <a href="/news/2025/01-10-google-visit/" class="read-more">Read more →</a>
+</div>
+                     
                 </td>
             </tr>
             
@@ -463,13 +550,79 @@
                 <th scope="row" class="date-col">Jan 12, 2024</th>
                 <td class="image-col">
                     
-                    <img src="/assets/news_photo/news_thumbnails/2024/trb2024.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    <img src="/assets/news_photo/news_thumbnails/2024/TRB.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a>
+                    <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
                     
                     <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 103nd Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2024/01-12-trb-meeting/" class="read-more">Read more →</a>
+</div>
+                     
+                </td>
+            </tr>
+            
+         
+            
+            
+                
+                </tbody>
+                </table>
+                
+                <h3 class="news-year">2023</h3>
+                <table class="table table-sm table-borderless">
+                <tbody class="news-items">
+                
+            
+            <tr>
+                <th scope="row" class="date-col">Oct 19, 2023</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2023/Informs.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2023/10-19-informs-meeting/">👏 I attended the 2023 INFORMS Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I participated in the 2023 INFORMS Annual Meeting (October 19) at Phoenix, Arizona, US. I presented our work “TFs-DGAN: Multi-View Temporal Factorizations-Based Dynamic Adaptive Generative Adversarial Networks for Hybrid Recovery... <a href="/news/2023/10-19-informs-meeting/" class="read-more">Read more →</a>
+</div>
+                     
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Oct 17, 2023</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2023/ASU.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2023/10-17-asu-beliv-lab-visit/">👏 I visited the BELIV Lab at Arizona State University. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I visited the Battery Electric &amp; Intelligent Vehicle (BELIV) Lab at Arizona State University on October 17, 2023. During the visit, I had the opportunity to explore their cutting-edge autonomous... <a href="/news/2023/10-17-asu-beliv-lab-visit/" class="read-more">Read more →</a>
+</div>
+                     
+                </td>
+            </tr>
+            
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">May 18, 2023</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2023/NGTS.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2023/05-18-ngts-conference/">👏 I attended the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3). <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I participated in the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3) held on May 18, 2023, at West Lafayette, Indiana, US. I presented our research titled “Roadside Unit-Enabled Cooperative... <a href="/news/2023/05-18-ngts-conference/" class="read-more">Read more →</a>
 </div>
                      
                 </td>

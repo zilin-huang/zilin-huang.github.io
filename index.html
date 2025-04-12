@@ -218,8 +218,8 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           <h3><a href="/news/" style="color: inherit;">Recent News</a></h3>
 <style>
   .news-image {
-    width: 180px;
-    height: 135px;
+    width: 200px;
+    height: 150px;
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
@@ -231,6 +231,26 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
   .news-image:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px var(--global-shadow-color-hover);
+  }
+  
+  /* 新闻标题样式 */
+  .news-title {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--global-theme-color);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .news-title:hover {
+    color: var(--global-hover-color);
+    text-decoration: none !important;
+    border-bottom: 1px dashed var(--global-theme-color) !important;
+  }
+  
+  .news-title-icon {
+    font-size: 0.8em;
+    margin-left: 5px;
   }
   
   /* 表格样式 */
@@ -287,7 +307,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
   }
   
   .image-col {
-    width: 15%; /* Maintained width */
+    width: 18%; /* Increased from 15% to accommodate larger images */
     text-align: left; /* Align images to the left */
     padding-left: 0; /* Remove padding completely to minimize space */
   }
@@ -363,7 +383,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
             
           </td>
           <td class="news-content">
-            <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD).</a>
+            <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD). <i class="fas fa-external-link-alt news-title-icon"></i></a>
             
             <div class="news-excerpt">We received two NVIDIA grants for AI research in transportation - 20,000 A100 GPU hours for SafetyGPT and two RTX PRO 6000 Blackwell GPUs for EdgeTwin Project. <a href="/news/2025/03-10-nvidia-grant/" class="read-more">Read more →</a>
 </div>
@@ -383,6 +403,36 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           </td>
         </tr> 
         <tr>
+          <th scope="row" class="date-col">Jan 12, 2025</th>
+          <td class="image-col">
+            
+            <img src="/assets/news_photo/news_thumbnails/2025/TRB.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+            
+          </td>
+          <td class="news-content">
+            <a class="news-title" href="/news/2025/01-12-trb-meeting/">👏 I attended the TRB 2025 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+            
+            <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 104th Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2025/01-12-trb-meeting/" class="read-more">Read more →</a>
+</div>
+             
+          </td>
+        </tr> 
+        <tr>
+          <th scope="row" class="date-col">Jan 10, 2025</th>
+          <td class="image-col">
+            
+            <img src="/assets/news_photo/news_thumbnails/2025/Google.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+            
+          </td>
+          <td class="news-content">
+            <a class="news-title" href="/news/2025/01-10-google-visit/">👏 I was invited to visit Google in Washington DC. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+            
+            <div class="news-excerpt">I was invited to visit Google’s office in Washington DC on January 10, 2025. During the visit, I had the opportunity to meet with Google’s research team and discuss potential... <a href="/news/2025/01-10-google-visit/" class="read-more">Read more →</a>
+</div>
+             
+          </td>
+        </tr> 
+        <tr>
           <th scope="row" class="date-col">Oct 18, 2024</th>
           <td class="image-col">
             
@@ -391,30 +441,6 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           </td>
           <td class="news-content">
             🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000258" rel="external nofollow noopener" target="_blank">Traffic expertise meets residual RL: Knowledge-informed model-based residual reinforcement learning for CAV trajectory control</a> is published on <em>Communications in Transportation Research</em>.
- 
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Sep 1, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2024/huang_trustworthy.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858" rel="external nofollow noopener" target="_blank">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
- 
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Jun 13, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2024/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814" rel="external nofollow noopener" target="_blank">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
  
           </td>
         </tr>
@@ -429,7 +455,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           
           <!-- Selected papers -->
           <h3>
-<a href="/publications/" style="color: inherit;">Selected Publications</a> <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" class="citations-container" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">1049</span></span></a>
+<a href="/publications/" style="color: inherit;">Selected Publications</a> <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" class="citations-container" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">404</span></span></a>
 </h3>
 <div class="publications">
   <ol class="bibliography">
