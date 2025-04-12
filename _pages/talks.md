@@ -355,15 +355,39 @@ h5:hover {
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">International Conference on Transportation and Development (ICTD 2023)</div>
+      <div class="talk-title">
+        <a href="/news/2023/06-17-ictd-conference/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
+          International Conference on Transportation and Development (ICTD 2023) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        </a>
+      </div>
       <div class="talk-venue">June 17, 2023 | Austin, Texas, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
       </div>
+      <div class="talk-images">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/ICTD/ICTD2023-0.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              2023 ICTD Conference
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/ICTD/ICTD2023-4.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+              2023 ICTD Conference
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">3rd Annual Conference on Next-Generation Transport Systems (NGTS-3)</div>
+      <div class="talk-title">
+        <a href="/news/2023/05-18-ngts-conference/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
+          3rd Annual Conference on Next-Generation Transport Systems (NGTS-3) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        </a>
+      </div>
       <div class="talk-venue">May 18, 2023 | West Lafayette, Indiana, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
@@ -399,4 +423,3 @@ h5:hover {
     </div>
   </div>
 </div>
-
