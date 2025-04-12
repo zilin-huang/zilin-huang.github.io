@@ -1,5 +1,8 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import json
 import os
 from datetime import datetime
@@ -9,72 +12,53 @@ def get_citation_count():
     # 你的Google Scholar ID
     SCHOLAR_ID = 'RgO7ppoAAAAJ'
     
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Cache-Control': 'max-age=0'
-    }
-    
-    url = f'https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en'
-    print(f"Attempting to fetch citations from: {url}")
+    print("Setting up Chrome options...")
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')  # 无界面模式
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--window-size=1920x1080')
+    chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
     
     try:
-        # 添加重试机制
-        max_retries = 3
-        for attempt in range(max_retries):
-            try:
-                print(f"Attempt {attempt + 1} of {max_retries}")
-                response = requests.get(url, headers=headers, timeout=30)  # 增加超时时间
-                response.raise_for_status()  # 检查是否有HTTP错误
-                print(f"Response status code: {response.status_code}")
-                break
-            except (requests.RequestException, requests.Timeout) as e:
-                print(f"Attempt {attempt + 1} failed: {e}")
-                if attempt == max_retries - 1:  # 最后一次尝试
-                    print(f"Failed after {max_retries} attempts: {e}")
-                    return None
-                print("Waiting before retry...")
-                time.sleep(5)  # 增加重试等待时间
+        print("Starting Chrome browser...")
+        driver = webdriver.Chrome(options=chrome_options)
         
-        # 保存响应内容以供调试
-        with open('debug_response.html', 'w', encoding='utf-8') as f:
-            f.write(response.text)
-        print("Saved response content to debug_response.html")
+        url = f'https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en'
+        print(f"Navigating to: {url}")
+        driver.get(url)
         
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # 等待页面加载
+        print("Waiting for page to load...")
+        time.sleep(3)
         
-        # 尝试不同的选择器
-        citation_element = None
-        selectors = [
-            ('td', {'class_': 'gsc_rsb_std'}),
-            ('div', {'class_': 'gsc_rsb_std'}),
-            ('td', {'class_': 'gsc_rsb_sc1'})
-        ]
+        # 等待引用数元素出现
+        print("Looking for citation count...")
+        wait = WebDriverWait(driver, 10)
+        citation_element = wait.until(
+            EC.presence_of_element_located((By.CLASS_NAME, "gsc_rsb_std"))
+        )
         
-        for tag, attrs in selectors:
-            citation_element = soup.find(tag, attrs)
-            if citation_element:
-                print(f"Found citation element using selector: {tag}, {attrs}")
-                break
+        citations = citation_element.text.strip()
+        print(f"Found citation text: {citations}")
         
-        if citation_element and citation_element.text:
-            citations = citation_element.text.strip()
-            print(f"Found citation text: {citations}")
-            try:
-                return int(citations)
-            except ValueError:
-                print(f"Could not convert citation count '{citations}' to integer")
-                return None
-        else:
-            print("Citation element not found in the page")
+        # 保存页面源代码以供调试
+        with open('debug_page.html', 'w', encoding='utf-8') as f:
+            f.write(driver.page_source)
+        
+        driver.quit()
+        
+        try:
+            return int(citations)
+        except ValueError:
+            print(f"Could not convert citation count '{citations}' to integer")
             return None
             
     except Exception as e:
         print(f"Error fetching citations: {e}")
+        if 'driver' in locals():
+            driver.quit()
         return None
 
 def update_citation_file():
