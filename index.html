@@ -1266,7 +1266,7 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
           setTimeout(updateVisitorCount, 1000);
           
           // Update citation count from JSON file
-          fetch('/data/citations.json')
+          fetch('/_data/citations.json')
             .then(response => response.json())
             .then(data => {
               if (data && data.citations) {
