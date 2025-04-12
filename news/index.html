@@ -128,6 +128,50 @@
 
           <article>
             <style>
+  /* Year navigation sidebar styles */
+  .year-nav {
+    position: fixed;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
+  }
+
+  .year-nav a {
+    display: block;
+    padding: 8px 25px;
+    margin: 6px 0;
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .year-nav a:hover {
+    background-color: rgba(var(--global-theme-color-rgb), 0.1);
+  }
+
+  .year-nav a.active {
+    background-color: var(--global-theme-color);
+    color: white;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .year-nav {
+      display: none;
+    }
+  }
+
   .news-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -151,6 +195,13 @@
     border: none !important;
   }
 </style>
+
+<!-- Year navigation sidebar -->
+<div class="year-nav">
+  <a href="#year-2025">2025</a>
+  <a href="#year-2024">2024</a>
+  <a href="#year-2023">2023</a>
+</div>
 
 <div class="news-container">
   <!-- <div class="news">
@@ -237,6 +288,12 @@
             <th scope="row">May 18, 2023</th>
             <td>
               <a class="news-title" href="/news/2023/05-18-ngts-conference/">👏 I attended the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3).</a> 
+            </td>
+          </tr> 
+          <tr>
+            <th scope="row">Jan 12, 2023</th>
+            <td>
+              <a class="news-title" href="/news/2023/01-12-trb-meeting/">👏 I attended the TRB 2023 Annual Meeting.</a> 
             </td>
           </tr> 
       </table>
@@ -401,7 +458,7 @@
             
             
                 
-                <h3 class="news-year">2025</h3>
+                <h3 class="news-year" id="year-2025">2025</h3>
                 <table class="table table-sm table-borderless">
                 <tbody class="news-items">
                 
@@ -483,7 +540,7 @@
                 </tbody>
                 </table>
                 
-                <h3 class="news-year">2024</h3>
+                <h3 class="news-year" id="year-2024">2024</h3>
                 <table class="table table-sm table-borderless">
                 <tbody class="news-items">
                 
@@ -575,7 +632,7 @@
                 </tbody>
                 </table>
                 
-                <h3 class="news-year">2023</h3>
+                <h3 class="news-year" id="year-2023">2023</h3>
                 <table class="table table-sm table-borderless">
                 <tbody class="news-items">
                 
@@ -653,6 +710,25 @@
                 </td>
             </tr>
             
+         
+            
+            
+            <tr>
+                <th scope="row" class="date-col">Jan 12, 2023</th>
+                <td class="image-col">
+                    
+                    <img src="/assets/news_photo/news_thumbnails/2023/TRB.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" style="object-fit: cover;">
+                    
+                </td>
+                <td class="news-content">
+                    <a class="news-title" href="/news/2023/01-12-trb-meeting/">👏 I attended the TRB 2023 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    
+                    <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 102nd Annual Meeting (January 8-12) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2023/01-12-trb-meeting/" class="read-more">Read more →</a>
+</div>
+                     
+                </td>
+            </tr>
+            
             </tbody>
             </table>
             
@@ -664,6 +740,42 @@
     
 </div>
 <!-- End of news-container -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const yearLinks = document.querySelectorAll('.year-nav a');
+  
+  // Set first year as active by default
+  yearLinks[0].classList.add('active');
+  
+  // Update active state on scroll
+  function updateActiveYear() {
+    const scrollPosition = window.scrollY;
+    const yearSections = document.querySelectorAll('.news-year');
+    
+    yearSections.forEach((section, index) => {
+      const sectionTop = section.offsetTop - 100;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        yearLinks.forEach(link => link.classList.remove('active'));
+        yearLinks[index].classList.add('active');
+      }
+    });
+  }
+  
+  // Update active state on click
+  yearLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      yearLinks.forEach(l => l.classList.remove('active'));
+      e.target.classList.add('active');
+    });
+  });
+  
+  window.addEventListener('scroll', updateActiveYear);
+  updateActiveYear();
+});
+</script>
 
 
 
