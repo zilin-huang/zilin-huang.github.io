@@ -34,7 +34,7 @@ I participated in the International Conference on Transportation and Development
     </p>
   </div>
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-4.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       2023 ICTD Conference Session
     </p>

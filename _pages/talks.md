@@ -341,13 +341,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2024/TRB/trb2024-12.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2024 TRB Annual Meeting
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2024/TRB/trb2024-2.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-12.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2024 TRB Annual Meeting
             </p>
@@ -391,13 +391,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/Informs/informs2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 INFORMS Annual Meeting
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/Informs/informs2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 INFORMS Annual Meeting
             </p>
@@ -419,13 +419,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/ICTD/ICTD2023-0.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 ICTD Conference
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/ICTD/ICTD2023-4.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 ICTD Conference
             </p>
@@ -447,13 +447,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/NGTS2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 NGTS-3 Conference
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/NGTS/NGTS2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 NGTS-3 Conference
             </p>
@@ -475,13 +475,13 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/TRB/TRB2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/TRB2023.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 TRB Annual Meeting
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/talks/2023/TRB/TRB2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/trb2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 TRB Annual Meeting
             </p>

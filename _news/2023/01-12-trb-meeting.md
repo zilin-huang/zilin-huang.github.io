@@ -4,7 +4,7 @@ title: 👏 I attended the TRB 2023 Annual Meeting.
 date: 2023-01-12 16:11:00-0400
 inline: false
 related_posts: false
-image: 2023/TRB.jpg
+image: 2023/TRB2023.jpg
 image_fit: cover
 ---
 
@@ -13,7 +13,7 @@ I participated in the Transportation Research Board (TRB) 102nd Annual Meeting (
 <!-- Zilin Huang photos -->
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/trb2023/TRB2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/trb2023/TRB2023-0.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Zilin Huang in TRB 2023
     </p>
