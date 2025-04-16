@@ -8,6 +8,59 @@ nav_order: 5
 ---
 
 <style>
+/* 背景图片样式 */
+.teaching-header {
+  width: 100%;
+  height: 250px;
+  background-image: url('../../assets/teaching/uwm_background.jpg');
+  background-size: cover;
+  background-position: center 80%;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: -20px;
+}
+
+/* 引用样式 */
+.quote-section {
+  position: relative;
+  margin: -60px 40px 40px 40px;
+  padding: 25px 40px;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.quote-text {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  font-family: "Georgia", serif;
+  font-style: italic;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.quote-author {
+  text-align: right;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.quote-border {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 50%;
+  background: var(--global-theme-color);
+  border-radius: 2px;
+}
+
 .teaching-container {
   margin-bottom: 40px;
   display: flex;
@@ -94,27 +147,6 @@ nav_order: 5
   margin-top: 0.3em;
 }
 
-.quote-container {
-  margin: 2em 0;
-  padding: 1.5em;
-  background-color: var(--global-card-bg-color);
-  border-left: 4px solid var(--global-theme-color);
-  font-style: italic;
-}
-
-.quote-text {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 0.5em;
-  color: var(--global-text-color);
-}
-
-.quote-author {
-  text-align: right;
-  font-weight: 500;
-  color: var(--global-text-color);
-}
-
 @media (max-width: 768px) {
   .teaching-container {
     flex-direction: column;
@@ -129,9 +161,12 @@ nav_order: 5
 }
 </style>
 
-<div class="quote-container">
-  <p class="quote-text">"The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires."</p>
-  <p class="quote-author">— William Arthur Ward</p>
+<div class="teaching-header"></div>
+
+<div class="quote-section">
+  <div class="quote-border"></div>
+  <p class="quote-text">"I shall never be content until the beneficent influence of the University reaches every family of the state."</p>
+  <p class="quote-author">— Charles Van Hise, President of the University of Wisconsin, 1905</p>
 </div>
 
 

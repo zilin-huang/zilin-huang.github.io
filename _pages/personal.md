@@ -13,6 +13,50 @@ nav_order: 9
   margin-bottom: 20px;
 }
 
+/* 添加导航栏样式 */
+.section-nav {
+  position: fixed;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.section-nav a {
+  display: block;
+  padding: 8px 25px;
+  margin: 6px 0;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.section-nav a:hover {
+  background-color: rgba(var(--global-theme-color-rgb), 0.1);
+}
+
+.section-nav a.active {
+  background-color: var(--global-theme-color);
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section-nav {
+    display: none;
+  }
+}
+
 .memories-list {
   list-style-type: disc;
   padding-left: 1.5em;
@@ -157,11 +201,18 @@ h5:hover {
 }
 </style>
 
-<h4 style="text-align: left;">Memories</h4>
+<!-- Section navigation sidebar -->
+<div class="section-nav">
+  <a href="#memories">Memories</a>
+  <a href="#entrepreneurship">Entrepreneurship</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#volunteering">Volunteering</a>
+  <a href="#hobbies">Hobbies</a>
+</div>
 
+<h4 id="memories" style="text-align: left;">Memories</h4>
 
-
-<h4 style="text-align: left;">Entrepreneurship</h4>
+<h4 id="entrepreneurship" style="text-align: left;">Entrepreneurship</h4>
 
 <p style="text-align: justify;">
   Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
@@ -224,7 +275,7 @@ h5:hover {
 </div>
 
 
-<h4 style="text-align: left;">Leadership</h4>
+<h4 id="leadership" style="text-align: left;">Leadership</h4>
 
 <p style="text-align: justify;">
   My leadership philosophy centers on empowering others and creating positive change through collective action. 
@@ -239,14 +290,14 @@ h5:hover {
   <li>Class Leader, School of Mechanical and Electrical Engineering (2014.09-2015.09)</li>
 </ul>
 
-<h4 style="text-align: left;">Volunteering</h4>
+<h4 id="volunteering" style="text-align: left;">Volunteering</h4>
 
 <p style="text-align: justify;">
   I believe in the power of volunteering to create positive change in our communities. Throughout my academic journey, I've been actively involved in various community service initiatives that have not only made a difference in people's lives but have also shaped my perspective on social responsibility and leadership.
 </p>
 
 
-<h4 style="text-align: left;">Hobbies</h4>
+<h4 id="hobbies" style="text-align: left;">Hobbies</h4>
 
 <div class="honors-container">
   <h5 style="text-align: left;">Chef</h5>
@@ -483,6 +534,42 @@ h5:hover {
   </p>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const sectionLinks = document.querySelectorAll('.section-nav a');
+  
+  // Set first section as active by default
+  sectionLinks[0].classList.add('active');
+  
+  // Update active state on scroll
+  function updateActiveSection() {
+    const scrollPosition = window.scrollY;
+    const sections = document.querySelectorAll('h4[id]');
+    
+    sections.forEach((section, index) => {
+      const sectionTop = section.offsetTop - 100;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        sectionLinks.forEach(link => link.classList.remove('active'));
+        sectionLinks[index].classList.add('active');
+      }
+    });
+  }
+  
+  // Update active state on click
+  sectionLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      sectionLinks.forEach(l => l.classList.remove('active'));
+      e.target.classList.add('active');
+    });
+  });
+  
+  window.addEventListener('scroll', updateActiveSection);
+  updateActiveSection();
+});
+</script>
 
 
 

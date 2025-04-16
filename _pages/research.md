@@ -33,7 +33,39 @@ h4:after {
   background: var(--global-theme-color);
   border-radius: 3px;
 }
+
+/* 背景图片样式 */
+.research-header {
+  width: 100%;
+  height: 250px;
+  background-image: url('../../assets/research/av_background.jpg');
+  background-size: cover;
+  background-position: center 80%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-top: -20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 添加标题文字样式 */
+.research-header-title {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
 </style>
+
+<div class="research-header">
+  <div class="research-header-title">Human-centered AI & Transportation</div>
+</div>
 
 <h4>Research</h4>
 
