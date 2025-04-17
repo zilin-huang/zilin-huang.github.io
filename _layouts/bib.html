@@ -154,10 +154,8 @@
             {% if entry.news %}
             <a href="{{ entry.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank">News</a>
             {% endif %}
-            {% if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-            {% endif %}
             {% if entry.github %}
+            <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
             {% assign github_repo = entry.github | split: '/' | last | split: '.' | first %}
             {% assign github_user = entry.github | split: '/' | slice: -2, 1 | first %}
             <a href="{{ entry.github }}/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank">

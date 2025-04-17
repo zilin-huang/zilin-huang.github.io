@@ -26,7 +26,10 @@ social: true # includes social icons at the bottom of the page
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Twitter-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/>  <a href="https://x.com/Zilin_Huang_UWM">Twitter</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ResearchGate-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.researchgate.net/profile/Zilin-Huang-8">ResearchGate</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Wechat-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="assets/img/icon/Wechat.jpg">WeChat</a></li>
-    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Website-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> Website: <a href="https://zilin-huang.github.io">zilin-huang.github.io</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/youtube-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.youtube.com/@zilin-huang">YouTube</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Bilibili-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://space.bilibili.com/285270054">Bilibili</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/zhihu-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.zhihu.com/people/huang-zi-lin-10">Zhihu</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/web-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> Website: <a href="https://zilin-huang.github.io">www.huang-zilin.com</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ORCID-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> ORCID: <a href="https://orcid.org/0000-0003-3754-4821">0000-0003-3754-4821</a></li>
   </ul>
 </div>

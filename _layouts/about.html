@@ -69,9 +69,13 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News</a></h3>
+            <h3 style="display: flex; justify-content: space-between; align-items: center;">
+              <a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News</a>
+              <a href="{{ '/news/' | relative_url }}" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
+                View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
+              </a>
+            </h3>
             {%- include news_select.html %}
-            <p>Please check <a href="{{ '/news/' | relative_url }}">this webpage</a> for more news about me.</p>
           {%- endif %}
           
           <!-- Divider -->
@@ -79,9 +83,16 @@ layout: default
           
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h3><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a> <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en" class="citations-container" target="_blank"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">404</span></span></a></h3>
+            <h3 style="display: flex; justify-content: space-between; align-items: center;">
+              <div style="display: flex; align-items: center;">
+                <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a>
+                <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en" class="citations-container" target="_blank"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">404</span></span></a>
+              </div>
+              <a href="{{ '/publications/' | relative_url }}" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
+                View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
+              </a>
+            </h3>
             {%- include selected_papers.html %}
-            <p>Please check <a href="{{ '/publications/' | relative_url }}">this webpage</a> for more publications.</p>
           {%- endif %}
 
           <!-- Social -->
