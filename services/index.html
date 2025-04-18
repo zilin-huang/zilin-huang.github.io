@@ -234,24 +234,41 @@ h5:hover {
   background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
 }
 
+/* Image customization variables */
+:root {
+  --talk-image-height: 300px;
+  --talk-image-width: 80%;
+  --talk-image-margin: 10px;
+  --talk-image-padding: 30px;
+}
+
 /* Image styles */
 .talk-images {
   margin-top: 8px;
   margin-bottom: -5px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .talk-images .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--talk-image-margin);
+  max-width: var(--talk-image-width);
+  padding: 0;
 }
 
 .talk-images .col-md-6 {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0;
+  padding-right: var(--talk-image-padding);
+  margin-bottom: var(--talk-image-margin);
 }
 
 .talk-images img {
   margin-bottom: 5px;
+  height: var(--talk-image-height) !important;
+  object-fit: cover;
+  width: 100%;
 }
 
 .talk-images p {

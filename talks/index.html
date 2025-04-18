@@ -164,22 +164,42 @@
   margin-bottom: -5px;
 }
 
-.talk-images .row {
-  margin-left: -10px;
-  margin-right: -10px;
+/* Image customization variables */
+:root {
+  --talk-image-height: 300px;
+  --talk-image-width: 80%;
+  --talk-image-margin: 10px;
+  --talk-image-padding: 40px;
 }
 
-.talk-images .col-md-4 {
-  padding-left: 10px;
-  padding-right: 10px;
+.talk-images .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--talk-image-margin);
+  max-width: var(--talk-image-width);
+  padding: 0;
+}
+
+.talk-images .col-md-6 {
+  padding-left: 0;
+  padding-right: var(--talk-image-padding);
+  margin-bottom: var(--talk-image-margin);
 }
 
 .talk-images img {
   margin-bottom: 5px;
+  height: var(--talk-image-height) !important;
+  object-fit: cover;
+  width: 100%;
 }
 
 .talk-images p {
   margin-bottom: 0;
+}
+
+.talk-images {
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .year-section {
