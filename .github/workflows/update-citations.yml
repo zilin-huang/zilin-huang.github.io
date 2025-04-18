@@ -1,0 +1,38 @@
+# This workflow runs daily to fetch the latest Google Scholar citation count and commits the updated JSON
+name: Update Citation Count
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at UTC midnight every day
+  workflow_dispatch:    # Allows manual trigger
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # So the commit step can push back
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install scholarly
+
+      - name: Fetch and update citation count
+        run: python scripts/update_citations.py
+        env:
+          GS_USER_ID: ${{ secrets.GS_USER_ID }}  # Set this secret in your repo settings if you need a custom user ID
+
+      - name: Commit updated citation JSON
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "chore: daily update citation count"
+          add: assets/js/citation-count.json
+          push: true 
