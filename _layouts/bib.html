@@ -4,7 +4,9 @@
 <div class="row align-items-start">
     <div class="col-sm-4 abbr">
         {% if entry.teaser %}
-        <img src="../assets/teaser/{{entry.teaser}}" class="teaser img-fluid z-depth-1" loading="lazy">
+        <div style="position: relative;">
+            <img src="../assets/teaser/{{entry.teaser}}" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
         {% endif %}
 
         {% if entry.teaser_video %}
@@ -30,7 +32,9 @@
         {% if entry.type == "thesis" %}
         {{reference}}
         {% else %}
-        <div class="title">{{entry.title}}</div>
+        <div class="title">
+            {{entry.title}}{% if entry.selected %} <span style="font-size: 20px;">🔥🔥🔥</span>{% endif %}
+        </div>
         <div class="author">
             {% for author in entry.author_array %}
             {% assign author_is_self = false %}
