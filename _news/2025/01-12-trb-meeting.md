@@ -45,3 +45,13 @@ I participated in the Transportation Research Board (TRB) 104th Annual Meeting (
     </p>
   </div>
 </div> 
+
+
+<div class="row justify-content-center">
+  <div class="col-md-10 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/trb2025/trb2025-5.jpg" style="width: 85%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Poster session at TRB 2025
+    </p>
+  </div>
+</div> 

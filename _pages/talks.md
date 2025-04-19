@@ -320,7 +320,7 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-1.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-5.jpg" style="width: 100%; height: 350px; object-fit: cover; object-position: center 70%;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2025 TRB Annual Meeting
             </p>
