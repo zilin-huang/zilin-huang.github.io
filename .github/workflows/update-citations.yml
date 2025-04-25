@@ -21,7 +21,8 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install scholarly
+        run: |
+          pip install scholarly==1.7.0 httpx==0.24.1
 
       - name: Fetch and update citation count
         run: python scripts/update_citations.py
