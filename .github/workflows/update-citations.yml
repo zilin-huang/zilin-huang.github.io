@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scholarly==1.7.0 httpx==0.24.1 free-proxy==1.0.6
+          pip install requests beautifulsoup4
 
       - name: Fetch and update citation count
         run: python scripts/update_citations.py

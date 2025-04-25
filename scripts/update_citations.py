@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 import os
 import json
-from scholarly import scholarly, ProxyGenerator
+import requests
+from bs4 import BeautifulSoup
 
-# Use FreeProxies to avoid rate limits on Google Scholar
+# Fetch author basics and citation count via scraping Google Scholar
 GS_USER_ID = os.getenv("GS_USER_ID", "RgO7ppoAAAAJ")
-pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.use_proxy(pg)
-
-# Fetch author basics and citation count
-author = scholarly.search_author_id(GS_USER_ID)
-author = scholarly.fill(author, sections=["basics"])
-total_citations = str(author.get("citedby", "0"))
+url = f"https://scholar.google.com/citations?user={GS_USER_ID}&hl=en"
+try:
+    res = requests.get(url, timeout=10)
+    res.raise_for_status()
+    soup = BeautifulSoup(res.text, 'html.parser')
+    stats = soup.find_all("td", class_="gsc_rsb_std")
+    total_citations = stats[0].text if stats and len(stats) > 0 else "0"
+except Exception as e:
+    print(f"Error fetching citation count: {e}")
+    total_citations = "0"
 
 # Prepare output JSON
 data = {"citations": total_citations}
