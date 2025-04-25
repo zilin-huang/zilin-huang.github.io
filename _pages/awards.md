@@ -52,6 +52,46 @@ nav_order: 6
   }
 }
 
+/* Image customization styles */
+.award-images {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.award-images .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  max-width: 80%;
+  padding: 0;
+}
+
+.award-images .col-md-6 {
+  padding-left: 0;
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+
+.award-images img {
+  margin-bottom: 5px;
+  height: 300px !important;
+  object-fit: cover;
+  width: 100%;
+}
+
+.award-images p {
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+}
+
+.award-images {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 /* 基础样式 */
 .honors-container {
   margin-bottom: 5px;
@@ -234,7 +274,16 @@ h5:hover {
 <div class="honors-container">
   <h5 id="year-2023" style="text-align: left;">2023</h5>
   <ul class="awards-list">
-    <li><strong>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, USA </strong> <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
+    <li><strong>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, USA </strong> <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> 
+      <div class="award-images">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid rounded z-depth-1" src="{{ '/assets/honors/2023-Best-Presentation-Award-Photo.jpg' | relative_url }}" style="width: 100%; height: 350px; object-fit: contain;" loading="lazy">
+            <!-- <p>NGTS-3 Best Presentation Award Certificate</p> -->
+          </div>
+        </div>
+      </div>
+    </li>
     <li>Student Research Grants Competition (SRGC) Award, University of Wisconsin-Madison (USD $1,500)</li>
   </ul>
 </div>

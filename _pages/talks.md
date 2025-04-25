@@ -320,7 +320,7 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-5.jpg" style="width: 100%; height: 350px; object-fit: cover; object-position: center 70%;" loading="lazy">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" style="width: 100%; height: 350px; object-fit: cover; object-position: center 70%;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2025 TRB Annual Meeting
             </p>
@@ -367,7 +367,7 @@ h5:hover {
             </p>
           </div>
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-12.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2024 TRB Annual Meeting
             </p>
@@ -377,7 +377,7 @@ h5:hover {
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">Transportation Alliance WeChat Official Account</div>
+      <div class="talk-title">Transportation Alliance Official Account （"交通邦"）</div>
       <div class="talk-venue">February 25, 2024 | Virtual</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
@@ -411,7 +411,7 @@ h5:hover {
       <div class="talk-images">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
+            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
               2023 INFORMS Annual Meeting
             </p>

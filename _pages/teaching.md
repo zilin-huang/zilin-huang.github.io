@@ -12,7 +12,7 @@ nav_order: 5
 .teaching-header {
   width: 100%;
   height: 250px;
-  background-image: url('../../assets/teaching/uwm_background.jpg');
+  background-image: url('../../assets/teaching/background.jpg');
   background-size: cover;
   background-position: center 80%;
   margin-bottom: 40px;
@@ -33,12 +33,12 @@ nav_order: 5
 }
 
 .quote-text {
-  font-size: 1.2em;
+  font-size: 1.06em;
   line-height: 1.6;
   color: var(--global-text-color);
   font-family: "Georgia", serif;
   font-style: italic;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -165,8 +165,8 @@ nav_order: 5
 
 <div class="quote-section">
   <div class="quote-border"></div>
-  <p class="quote-text">"I shall never be content until the beneficent influence of the University reaches every family of the state."</p>
-  <p class="quote-author">— Charles Van Hise, President of the University of Wisconsin, 1905</p>
+  <p class="quote-text">"The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires."</p>
+  <p class="quote-author">— William Arthur Ward</p>
 </div>
 
 
