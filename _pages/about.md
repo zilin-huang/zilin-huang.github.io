@@ -41,7 +41,7 @@ I am currently a third-year Ph.D. student in Transportation Engineering at the U
 
 <!-- My research interest lies at the intersection of <b>Artificial Intelligence (AI)</b>, <b>Robotics</b>, <b>Human-computer Interactions</b>, <b>Traffic Flow Theory</b>, <b>Control Theory</b>, <b>Cognitive Sciences</b>, and their applications to intelligent autonomous systems (e.g., autonomous vehicles, mobile robots, drones, cyber-physical systems). And, I have a strong passion for bridging the gap between technical findings and their practical implementation. Before embarking on my Ph.D. journey, I established two technology companies in China. :grin: -->
 
-I envision that future transportation systems will be composed of diverse intelligent agents, such as autonomous vehicles, delivery robots, and flying vehicles. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users.Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that enable agents to not only perceive and reason about complex and dynamic traffic environments, but more importantly, to interact naturally with humans and make safe, human-aligned, and socially-compliant decisions. By advancing these capabilities, we can achieve better societal goals, such as enhanced <b>safety</b>, <b>mobility</b>, <b>efficiency</b>, and <b>sustainability</b>, as well as improved user <b>trust</b> and <b>satisfaction</b>, ultimately building a future where humans and intelligent agents coexist harmoniously.
+I envision that future transportation systems will be composed of diverse intelligent agents, such as autonomous vehicles, delivery robots, and flying vehicles. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that enable agents to not only perceive and reason about complex and dynamic traffic environments, but more importantly, to interact naturally with humans and make safe, human-aligned, and socially-compliant decisions. By advancing these capabilities, we can achieve better societal goals, such as enhanced <b>safety</b>, <b>mobility</b>, <b>efficiency</b>, and <b>sustainability</b>, as well as improved user <b>trust</b> and <b>satisfaction</b>, ultimately building a future where humans and intelligent agents coexist harmoniously.
 
 Methodologically, I am interested in the following areas:
 
@@ -54,6 +54,9 @@ Methodologically, I am interested in the following areas:
   <li>Digital Twin</li>
   <li>Traffic Flow Theory</li>
   </ul>
+</div>
+
+<p style="color: var(--global-theme-color); font-style: italic;">Please feel free to reach out to me for potential research collaboration!</p>
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
   <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in December 2025 and will be on the academic job market. I welcome any inquiries about potential opportunities.</p>
