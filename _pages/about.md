@@ -43,11 +43,11 @@ I am currently a third-year Ph.D. student in Transportation Engineering at the U
 
 I envision that future transportation systems will be composed of diverse intelligent agents, such as autonomous vehicles, delivery robots, and flying vehicles. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that enable agents to not only perceive and reason about complex and dynamic traffic environments, but more importantly, to interact naturally with humans and make safe, human-aligned, and socially-compliant decisions. By advancing these capabilities, we can achieve better societal goals, such as enhanced <b>safety</b>, <b>mobility</b>, <b>efficiency</b>, and <b>sustainability</b>, as well as improved user <b>trust</b> and <b>satisfaction</b>, ultimately building a future where humans and intelligent agents coexist harmoniously.
 
-Methodologically, I am interested in the following areas:
+Technologically , I am interested in the following areas:
 
 <div> 
   <ul>
-  <li>Autonomous Vehicles</li>
+  <li>Autonomous Vehicles/Robots</li>
   <li>Human-AI Collaboration</li> 
   <li>Large Language Models</li>
   <li>Reinforcement Learning</li>
