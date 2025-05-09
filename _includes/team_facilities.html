@@ -1,0 +1,56 @@
+<div class="team-facilities">
+  <div class="facilities-gallery">
+    <!-- 暂时为空 -->
+  </div>
+</div>
+
+<style>
+  .facilities-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .facility-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .facility-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .facility-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .facility-info {
+    padding: 15px;
+  }
+  
+  .facility-title {
+    color: var(--global-theme-color);
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  
+  .facility-description {
+    font-size: 0.9em;
+    color: var(--global-text-color);
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .facilities-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style> 

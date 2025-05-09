@@ -15,6 +15,8 @@ subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" ali
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_projects: true # includes a selection of projects
+team_facilities: true # includes team facilities section
 social: true # includes social icons at the bottom of the page
 ---
 

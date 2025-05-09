@@ -26,7 +26,7 @@ nav_order: 5
 .quote-section {
   position: relative;
   margin: -60px 40px 40px 40px;
-  padding: 25px 40px;
+  padding: 15px 40px;
   background: var(--global-bg-color);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);

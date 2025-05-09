@@ -53,7 +53,7 @@ h4:after {
 /* 添加标题文字样式 */
 .research-header-title {
   color: white;
-  font-size: 2.5em;
+  font-size: 2.4em;
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -91,10 +91,49 @@ h4:after {
 </style>
 
 <div class="research-header">
-  <div class="research-header-title">Human-centered AI & Transportation</div>
+  <div class="research-header-title"><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd Trustwo<u>r</u>thy Au<u>t</u>onomous Systems (HEART)</div>
 </div>
 
-<h4>Research Vision</h4>
+<!-- <h4>Research Vision</h4> -->
+
+<div style="
+  background-color: rgba(var(--global-theme-color-rgb), 0.05);
+  border-left: 4px solid var(--global-theme-color);
+  padding: 15px 30px;
+  margin: 25px 0;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+">
+  <p style="
+    font-style: italic;
+    font-size: 1em;
+    color: var(--global-text-color);
+    margin: 0;
+    line-height: 1.6;
+    text-align: justify;
+  ">
+    "We're not just developing technology. We're creating human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future where humans and machines coexist in harmony."
+  </p>
+  <div style="
+    text-align: right;
+    margin-top: 15px;
+    font-size: 0.95em;
+    color: var(--global-text-color);
+    font-style: normal;
+  ">
+    — Zilin Huang
+  </div>
+</div>
+
+
+<h4>Research Project</h4>
+
+
+
+
+<h4>Team Facilities</h4>
+
+
 
 <!-- <p>
 My research vision is to develop next-generation intelligent transportation systems through the integration of artificial intelligence, robotics, and human-centered design. My work bridges fundamental theoretical research with practical applications, creating solutions that enhance transportation safety, efficiency, and sustainability.
@@ -194,6 +233,3 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 
 
  -->
-
-
-<h4>Selected Projects</h4>
