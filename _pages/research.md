@@ -112,9 +112,9 @@ h4:after {
     line-height: 1.6;
     text-align: justify;
   ">
-    "HAL 9000 made the ‘logical’ choice—to kill the crew." This iconic moment from 2001: A Space Odyssey reveals a chilling truth: intelligence without empathy, alignment, or trust can be dangerous.
+    "HAL 9000 made the ‘logical’ choice—to kill the crew." This iconic moment from 2001: A Space Odyssey reveals a chilling truth: AI without empathy, alignment, or trust can be dangerous.
     
-    We must not only develop technology, but also create human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future where humans and machines coexist in harmony.
+   Our mission is to give technology a HEART—developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation ecosystem where humans and AI-powered agents coexist in harmony.
   </p>
   <div style="
     text-align: right;

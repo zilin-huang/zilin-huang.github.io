@@ -61,7 +61,7 @@ Technologically , I am interested in the following areas:
 <p style="color: var(--global-theme-color); font-style: italic;">Please feel free to reach out to me for potential research collaboration!</p>
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in December 2025 and will be on the academic job market. I welcome any inquiries about potential opportunities.</p>
+  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in December 2025 and will be on the job market. I welcome any inquiries about potential opportunities.</p>
 </div>
 
 <!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br />  -->
