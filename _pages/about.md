@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Ph.D. Student <br> Research Assistant <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Centers Building 1066 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
+subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Ph.D. Candidate <br> Research Assistant | Teaching Assistant<br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Centers Building 1066 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
 
 # profile:
 #   align: right
@@ -16,7 +16,7 @@ subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" ali
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_projects: true # includes a selection of projects
-team_facilities: true # includes team facilities section
+team_facilities: false # includes team facilities section
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -38,12 +38,12 @@ social: true # includes social icons at the bottom of the page
 ---
 Hey, thanks for stopping by! :wave:
 
-I am currently a third-year Ph.D. student in Transportation Engineering at the University of Wisconsin-Madison, working under the guidance of [Prof. Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Faculty/Chen_Sikai/). I'm also the Co-Founder of [Sky-Lab](https://sky-lab-uw.github.io/). Before joining UW-Madison, I worked with [Prof. Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416) at the [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267), Purdue University. 
+I am currently a fourth-year Ph.D. student at the <img src="assets/img/uwmadison-logo.png" width="24" height="26" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, working under the guidance of [Prof. Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Faculty/Chen_Sikai/). I'm also the Co-Founder of <img src="assets/img/sky-lab-logo-red.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px; border-radius: 3px;"/> [Sky-Lab](https://sky-lab-uw.github.io/). Before joining UW-Madison, I worked with [Prof. Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416) at the <img src="assets/img/sponsors/CCAT.png" width="35" height="20" style="vertical-align: middle; margin: 0 2px;"/> [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267), <img src="assets/img/Purdue-logo.png" width="20" height="20" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>. 
 
 
 <!-- My research interest lies at the intersection of <b>Artificial Intelligence (AI)</b>, <b>Robotics</b>, <b>Human-computer Interactions</b>, <b>Traffic Flow Theory</b>, <b>Control Theory</b>, <b>Cognitive Sciences</b>, and their applications to intelligent autonomous systems (e.g., autonomous vehicles, mobile robots, drones, cyber-physical systems). And, I have a strong passion for bridging the gap between technical findings and their practical implementation. Before embarking on my Ph.D. journey, I established two technology companies in China. :grin: -->
 
-I envision that future transportation systems will be composed of diverse intelligent agents, such as autonomous vehicles, delivery robots, and flying vehicles. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that enable agents to not only perceive and reason about complex and dynamic traffic environments, but more importantly, to interact naturally with humans and make safe, human-aligned, and socially-compliant decisions. By advancing these capabilities, we can achieve better societal goals, such as enhanced <b>safety</b>, <b>mobility</b>, <b>efficiency</b>, and <b>sustainability</b>, as well as improved user <b>trust</b> and <b>satisfaction</b>, ultimately building a future where humans and intelligent agents coexist harmoniously.
+I envision that future transportation systems will consist of humans and a wide range of intelligent agents (e.g., autonomous vehicles, delivery robots, and flying vehicles) coexisting and interacting in dynamic traffic environments. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that empower agents not only to ensure safety in complex settings, but more importantly, to interact naturally with humans and make decisions that are reliable, human-aligned, and socially compliant. To realize this vision, I adopt a <b>sim-to-real</b> research paradigm that integrates simulation-based development with real-world deployment in a tightly coupled, iterative loop. By advancing these capabilities, we can achieve broader societal goals—enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user <b>trust</b> and <b>satisfaction</b>—ultimately enabling a future where humans and intelligent agents coexist harmoniously.
 
 Technologically , I am interested in the following areas:
 
@@ -54,7 +54,6 @@ Technologically , I am interested in the following areas:
   <li>Large Language Models</li>
   <li>Reinforcement Learning</li>
   <li>Digital Twin</li>
-  <li>Traffic Flow Theory</li>
   </ul>
 </div>
 

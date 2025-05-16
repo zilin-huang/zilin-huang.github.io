@@ -204,6 +204,7 @@ h5:hover {
     <li>Computer-Aided Civil and Infrastructure Engineering (CACAIE)</li>
     <li>IEEE Transactions on Image Processing (TIP)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
+    <li>Applied Soft Computing Journal (ASOC)</li>
     <li>IEEE Intelligent Transportation Systems Magazine (ITSM)</li>
     <li>Journal of Advanced Transportation (JAT) <a href="{{ '/assets/services/2024_ATR_Reviewer_Certificate.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>Neural Computing and Applications (NCAA)</li>

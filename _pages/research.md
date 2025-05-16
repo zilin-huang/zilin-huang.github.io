@@ -112,7 +112,7 @@ h4:after {
     line-height: 1.6;
     text-align: justify;
   ">
-    "HAL 9000 made the ‘logical’ choice—to kill the crew." This iconic moment from 2001: A Space Odyssey reveals a chilling truth: AI without empathy, alignment, or trust can be dangerous.
+    "HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without empathy, alignment, or trust can be dangerous.
     
    Our mission is to give technology a HEART—developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation ecosystem where humans and AI-powered agents coexist in harmony.
   </p>
@@ -135,6 +135,71 @@ h4:after {
 
 <h4>Team Facilities</h4>
 
+
+
+
+
+<h4>From Lab to Market</h4>
+
+<!-- <p style="text-align: justify;">
+  Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
+</p> -->
+  
+<p style="text-align: justify;">  
+I am deeply passionate about bridging the gap between scientific discovery and real-world impact. Before beginning my Ph.D. journey, I founded two technology companies in China, aiming to transform my research findings into practical solutions. Through this experience, I had the opportunity to collaborate with industry professionals and gain valuable insights into the innovation ecosystem. Encouragingly, the companies attracted over 3 million RMB in potential investment from leading institutions such as Yueke Securities and CITIC Securities. These experiences reinforced my belief that when scientific discoveries move beyond the lab and into society, they can generate meaningful and lasting value.
+</p>
+
+<!-- Entrepreneurship images -->
+<div class="row">
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2021 Qinglan Project
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2021 Qinglan Project
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Winning Guangdong Competition
+    </p>
+  </div>
+</div>
+
+<div class="row mt-1">
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Winning Guangdong Competition
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Winning Guangdong Competition
+    </p>
+  </div>
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Chuangke Guangdong Competition
+    </p>
+  </div>
+</div>
+
+<div class="row mt-1">
+  <div class="col-md-4 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      2020 Chuangke Guangdong Competition
+    </p>
+  </div>
+</div>
 
 
 <!-- <p>
