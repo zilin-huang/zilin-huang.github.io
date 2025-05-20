@@ -43,7 +43,7 @@ I am currently a fourth-year Ph.D. student at the <img src="assets/img/uwmadison
 
 <!-- My research interest lies at the intersection of <b>Artificial Intelligence (AI)</b>, <b>Robotics</b>, <b>Human-computer Interactions</b>, <b>Traffic Flow Theory</b>, <b>Control Theory</b>, <b>Cognitive Sciences</b>, and their applications to intelligent autonomous systems (e.g., autonomous vehicles, mobile robots, drones, cyber-physical systems). And, I have a strong passion for bridging the gap between technical findings and their practical implementation. Before embarking on my Ph.D. journey, I established two technology companies in China. :grin: -->
 
-I envision that future transportation systems will consist of humans and a wide range of intelligent agents (e.g., autonomous vehicles, delivery robots, and flying vehicles) coexisting and interacting in dynamic traffic environments. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that empower agents not only to ensure safety in complex settings, but more importantly, to interact naturally with humans and make decisions that are reliable, human-aligned, and socially compliant. To realize this vision, I adopt a <b>sim-to-real</b> research paradigm that integrates simulation-based development with real-world deployment in a tightly coupled, iterative loop. By advancing these capabilities, we can achieve broader societal goals—enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user <b>trust</b> and <b>satisfaction</b>—ultimately enabling a future where humans and intelligent agents coexist harmoniously.
+I envision that future transportation systems will consist of humans and a wide range of intelligent agents (e.g., autonomous vehicles, delivery robots, and flying vehicles) coexisting and interacting in dynamic mobility environments. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms, and collaborate effectively with road users. Building on this vision, my research aims to develop <b>human-centered</b>, <b>trustworthy</b>, and <b>interactive</b> autonomous systems that empower agents not only to ensure safety in complex settings, but more importantly, to interact naturally with humans and make decisions that are reliable, human-aligned, and socially compliant. To realize this vision, I adopt a <b>sim-to-real</b> research paradigm that integrates simulation-based development with real-world deployment in a tightly coupled, iterative loop. By advancing these capabilities, we can achieve broader societal goals—enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user <b>trust</b> and <b>satisfaction</b>—ultimately enabling a future where humans and intelligent agents coexist harmoniously.
 
 Technologically , I am interested in the following areas:
 
@@ -53,7 +53,6 @@ Technologically , I am interested in the following areas:
   <li>Human-AI Collaboration</li> 
   <li>Large Language Models</li>
   <li>Reinforcement Learning</li>
-  <li>Digital Twin</li>
   </ul>
 </div>
 
