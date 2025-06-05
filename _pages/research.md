@@ -139,7 +139,7 @@ h4:after {
 
 
 
-<h4>From Lab to Market</h4>
+<h4>Technology Transfer</h4>
 
 <!-- <p style="text-align: justify;">
   Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
