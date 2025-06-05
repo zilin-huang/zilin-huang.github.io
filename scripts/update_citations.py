@@ -5,10 +5,14 @@ import requests
 from bs4 import BeautifulSoup
 
 # Fetch author basics and citation count via scraping Google Scholar
-GS_USER_ID = os.getenv("GS_USER_ID", "RgO7ppoAAAAJ")
+# Determine Google Scholar user ID, stripping any whitespace and falling back to the default ID if empty
+env_user = os.getenv("GS_USER_ID", "").strip()
+GS_USER_ID = env_user if env_user else "RgO7ppoAAAAJ"
 url = f"https://scholar.google.com/citations?user={GS_USER_ID}&hl=en"
 try:
-    res = requests.get(url, timeout=10)
+    # Add a browser-like User-Agent header to avoid being blocked by Google Scholar
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    res = requests.get(url, headers=headers, timeout=10)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, 'html.parser')
     stats = soup.find_all("td", class_="gsc_rsb_std")
