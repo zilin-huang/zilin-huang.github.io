@@ -48,21 +48,21 @@ I am currently a final-year Ph.D. student at the <img src="assets/img/uwmadison-
 I envision that future transportation systems will evolve into a complex <b>human-robot-society</b> ecosystem, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., autonomous vehicles, delivery robots, and flying vehicles) in mobility environments. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms to enable seamless integration into human society. Building on this vision, my research aims to develop <b>human-centered and trustworthy autonomous systems</b> that can operate seamlessly with, alongside, and around humans. This leads to several key research questions that drive my work: <b>1)</b> How to develop an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions; <b>2)</b> How to design algorithms that enable agents to achieve human-level intelligence while ensuring their decisions are socially compliant and reliable; <b>3)</b> How to effectively transfer these capabilities from simulation to real deployment and continuously improve through real-world feedback. Through this research, we can achieve broader societal goals—enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user <b>trust</b> and <b>satisfaction</b>—ultimately enabling a future where humans and robots coexist harmoniously.
 
 Technologically, I am interested in the following areas:
-
 <div> 
   <ul>
-  <li>Autonomous Vehicles / Robots</li>
-  <li>Human-AI Collaboration</li> 
-  <li>Foundation Models (e.g., LLMs/VLMs)</li>
-  <li>World Models</li>
+  <!-- <li>Autonomous Vehicles / Robots</li> -->
+  <li>Human-in-the-loop Learning</li>
   <li>Reinforcement Learning</li>
+  <li>Foundation Models (e.g., LLMs/VLMs)</li>
+  <li>Human-AI Collaboration</li> 
+  <li>World Models</li>
   </ul>
 </div>
 
 <!-- <p style="color: var(--global-theme-color); font-style: italic;">Please feel free to reach out to me for potential research collaboration!</p> -->
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in December 2025 and will be on the job market. I welcome any inquiries about potential opportunities.</p>
+  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in winter 2025 or spring 2026 and am actively seeking research scientist or tenure-track assistant professor positions. If you are interested in collaborating or sharing thoughts, please feel free to reach out via <a href="mailto:zilin.huang@wisc.edu">Email</a> or <a href="assets/img/icon/Wechat.jpg">WeChat</a>.</p>
 </div>
 
 <!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br />  -->
