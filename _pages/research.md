@@ -154,19 +154,19 @@ I am deeply passionate about bridging the gap between scientific discovery and r
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2021 Qinglan Project
+      Qinglan Project (2021)
     </p>
   </div>
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2021 Qinglan Project
+      Qinglan Project (2021)
     </p>
   </div>
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2020 Winning Guangdong Competition
+      Winning Guangdong Competition (2020)
     </p>
   </div>
 </div>
@@ -175,19 +175,19 @@ I am deeply passionate about bridging the gap between scientific discovery and r
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2020 Winning Guangdong Competition
+      Winning Guangdong Competition (2020)
     </p>
   </div>
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2020 Winning Guangdong Competition
+      Winning Guangdong Competition (2020)
     </p>
   </div>
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2020 Chuangke Guangdong Competition
+      Chuangke Guangdong Competition (2020)
     </p>
   </div>
 </div>
@@ -196,7 +196,7 @@ I am deeply passionate about bridging the gap between scientific discovery and r
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2020 Chuangke Guangdong Competition
+      Chuangke Guangdong Competition (2020)
     </p>
   </div>
 </div>

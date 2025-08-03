@@ -231,7 +231,7 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2025 Chef Huang (黄小厨)
+        Chef Huang (黄小厨) (2025)
       </p>
     </div>
     <div class="col-md-4 mt-3">
@@ -289,19 +289,19 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 23%;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2023 Bakke Gym, UW-Madison, US
+        Bakke Gym, UW-Madison, US (2023)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2021 Basketball Team Photo
+        Basketball Team Photo (2021)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2021 Basketball Team Photo
+        Basketball Team Photo (2021)
       </p>
     </div>
   </div>
@@ -311,13 +311,13 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2020 Basketball Team Photo
+        Basketball Team Photo (2020)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2019 Basketball Team Photo
+        Basketball Team Photo (2019)
       </p>
     </div>
     <div class="col-md-4 mt-3">
@@ -328,7 +328,7 @@ h5:hover {
         </video>
       </div>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2018 Basketball Team Highlights
+        Basketball Team Highlights (2018)
       </p>
     </div>
   </div>
@@ -338,19 +338,19 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2018 Basketball Team Photo
+        Basketball Team Photo (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2018 Basketball Team Photo
+        Basketball Team Photo (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2018 Basketball Team Photo
+        Basketball Team Photo (2018)
       </p>
     </div>
   </div>
@@ -360,19 +360,19 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2017 Basketball Team Photo
+        Basketball Team Photo (2017)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2017 Basketball Team Photo
+        Basketball Team Photo (2017)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 80%;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2016 Basketball Team Photo
+        Basketball Team Photo (2016)
       </p>
     </div>
   </div>
@@ -382,7 +382,7 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2016 Basketball Team Photo
+        Basketball Team Photo (2016)
       </p>
     </div>
     <div class="col-md-4 mt-3">
@@ -393,13 +393,13 @@ h5:hover {
     </video>
       </div>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2015 Basketball Team Highlights
+        Basketball Team Highlights (2015)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2015-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2015 Basketball Team Photo
+        Basketball Team Photo (2015)
       </p>
     </div>
   </div>
@@ -409,7 +409,7 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2014-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2014 Basketball Team Photo
+        Basketball Team Photo (2014)
       </p>
     </div>
   </div>
@@ -428,19 +428,19 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2018-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2018 Astrophotography Activities
+        Astrophotography Activities (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2016 Photography Activities
+        Photography Activities (2016)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2014-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        2014 The camera I own
+        The camera I own (2014)
       </p>
     </div>
   </div>

@@ -14,7 +14,7 @@ I participated in the 3rd Annual Conference on Next-Generation Transport Systems
   <div class="col-md-10 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 85%; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 NGTS-3 Conference Presentation
+      NGTS-3 Conference Presentation (2023)
     </p>
   </div>
 </div>
@@ -23,7 +23,7 @@ I participated in the 3rd Annual Conference on Next-Generation Transport Systems
   <div class="col-md-10 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/NGTS2023/NGTS2023-4.jpg" style="width: 85%; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 NGTS-3 Conference Venue
+      NGTS-3 Conference Venue (2023)
     </p>
   </div>
 </div> 
@@ -32,7 +32,7 @@ I participated in the 3rd Annual Conference on Next-Generation Transport Systems
   <div class="col-md-10 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 85%; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 NGTS-3 Conference
+      NGTS-3 Conference (2023)
     </p>
   </div>
 </div>
@@ -41,7 +41,7 @@ I participated in the 3rd Annual Conference on Next-Generation Transport Systems
   <div class="col-md-10 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/NGTS2023/NGTS2023-2.jpg" style="width: 85%; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 NGTS-3 Conference
+      NGTS-3 Conference (2023)
     </p>
   </div>
 </div>

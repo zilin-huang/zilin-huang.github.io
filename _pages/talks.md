@@ -322,13 +322,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" style="width: 100%; height: 350px; object-fit: cover; object-position: center 70%;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2025 TRB Annual Meeting
+              TRB Annual Meeting (2025)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2025 TRB Annual Meeting
+              TRB Annual Meeting (2025)
             </p>
           </div>
         </div>
@@ -363,13 +363,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2024 TRB Annual Meeting
+              TRB Annual Meeting (2024)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2024 TRB Annual Meeting
+              TRB Annual Meeting (2024)
             </p>
           </div>
         </div>
@@ -401,7 +401,7 @@ h5:hover {
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
         <a href="/news/2023/10-19-informs-meeting/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          2023 INFORMS Annual Meeting <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+          INFORMS Annual Meeting (2023) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
         </a>
       </div>
       <div class="talk-venue">October 19, 2023 | Phoenix, Arizona, US</div>
@@ -413,13 +413,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 INFORMS Annual Meeting
+              INFORMS Annual Meeting (2023)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 INFORMS Annual Meeting
+              INFORMS Annual Meeting (2023)
             </p>
           </div>
         </div>
@@ -441,13 +441,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 ICTD Conference
+              ICTD Conference (2023)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 ICTD Conference
+              ICTD Conference (2023)
             </p>
           </div>
         </div>
@@ -469,13 +469,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 NGTS-3 Conference
+              NGTS-3 Conference (2023)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 NGTS-3 Conference
+              NGTS-3 Conference (2023)
             </p>
           </div>
         </div>
@@ -497,13 +497,13 @@ h5:hover {
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/TRB2023.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 TRB Annual Meeting
+              TRB Annual Meeting (2023)
             </p>
           </div>
           <div class="col-md-6">
             <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/TRB2023-18.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
             <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              2023 TRB Annual Meeting
+              TRB Annual Meeting (2023)
             </p>
           </div>
         </div>

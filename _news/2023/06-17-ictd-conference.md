@@ -15,13 +15,13 @@ I participated in the International Conference on Transportation and Development
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-1.jpg" style="width: 100%; height: 650px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference Presentation
+      ICTD Conference Presentation (2023)
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-2.jpg" style="width: 100%; height: 650px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference
+      ICTD Conference (2023)
     </p>
   </div>
 </div>
@@ -30,13 +30,13 @@ I participated in the International Conference on Transportation and Development
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference
+      ICTD Conference (2023)
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference Session
+      ICTD Conference Session (2023)
     </p>
   </div>
 </div>
@@ -45,13 +45,13 @@ I participated in the International Conference on Transportation and Development
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-5.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference Venue
+      ICTD Conference Venue (2023)
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-6.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference
+      ICTD Conference (2023)
     </p>
   </div>
 </div>
@@ -60,7 +60,7 @@ I participated in the International Conference on Transportation and Development
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/ICTD2023/ICTD2023-7.jpg" style="width: 100%; height: 350px; object-fit: cover; display: block; margin: 0 auto;">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      2023 ICTD Conference
+      ICTD Conference (2023)
     </p>
   </div>
 </div> 
