@@ -332,14 +332,8 @@
       object-fit: contain;
       border-radius: 6px;
       box-shadow: 0 2px 5px var(--global-shadow-color);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
       background-color: transparent;
       margin-left: 0;
-    }
-    
-    .news-image:hover {
-      transform: scale(1.05);
-      box-shadow: 0 4px 8px var(--global-shadow-color-hover);
     }
     
     /* 新闻标题样式 */
@@ -377,24 +371,13 @@
     }
     
     .news tr {
-      transition: all 0.3s ease;
       border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
     }
     
-    .news tr:hover {
-      background-color: rgba(var(--global-theme-color-rgb), 0.03);
-      padding-left: 10px;
-      border-radius: 4px;
-    }
+
     
-    /* 悬停效果 */
     .news td.news-content {
       padding-left: 10px;
-      transition: padding-left 0.3s ease;
-    }
-    
-    .news tr:hover td.news-content {
-      padding-left: 20px;
     }
     
     /* 边框样式 */

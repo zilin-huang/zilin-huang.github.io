@@ -150,6 +150,9 @@
 <img src="assets/img/icon/ORCID-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"><a href="https://orcid.org/0000-0003-3754-4821" rel="external nofollow noopener" target="_blank"> ORCID</a>
 </li>
     <li style="margin-bottom: 0.5em;">
+<img src="assets/img/icon/weixin-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> <a href="assets/img/icon/Wechat.jpg">Wechat</a>
+</li>
+    <li style="margin-bottom: 0.5em;">
 <img src="assets/img/icon/ResearchGate-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> <a href="https://www.researchgate.net/profile/Zilin-Huang-8" rel="external nofollow noopener" target="_blank">ResearchGate</a>
 </li>
     <li style="margin-bottom: 0.5em;">
@@ -165,10 +168,7 @@
 <img src="assets/img/icon/dblp-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> <a href="https://dblp.org/pid/267/6301.html" rel="external nofollow noopener" target="_blank">DBLP</a>
 </li>
     <li style="margin-bottom: 0.5em;">
-<img src="assets/img/icon/weixin-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> <a href="assets/img/icon/Wechat.jpg">Wechat</a>
-</li>
-    <li style="margin-bottom: 0.5em;">
-<img src="assets/img/icon/web-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> Website: <a href="https://zilin-huang.github.io" rel="external nofollow noopener" target="_blank">www.huang-zilin.com</a>
+<img src="assets/img/icon/CV-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"> CV: <a href="https://zilin-huang.github.io" rel="external nofollow noopener" target="_blank">Download Here</a>
 </li>
   </ul>
 </div>
@@ -244,14 +244,8 @@
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: var(--global-bg-color);
     margin-left: 0; /* Reset margin */
-  }
-  
-  .news-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px var(--global-shadow-color-hover);
   }
   
   /* 新闻标题样式 */
@@ -289,24 +283,13 @@
   }
   
   .news tr {
-    transition: all 0.3s ease;
     border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
   }
   
-  .news tr:hover {
-    background-color: rgba(var(--global-theme-color-rgb), 0.03);
-    padding-left: 10px;
-    border-radius: 4px;
-  }
+
   
-  /* Add left-right hover effect to news rows */
   .news td.news-content {
     padding-left: 10px;
-    transition: padding-left 0.3s ease;
-  }
-  
-  .news tr:hover td.news-content {
-    padding-left: 20px;
   }
   
   /* 第一个项目不需要上边框 */
@@ -1615,11 +1598,11 @@
         .visitor-container {
           background-color: rgba(245, 245, 245, 0.7);
           border-radius: 12px;
-          padding: 20px;
+          padding: 15px;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
           transition: all 0.3s ease;
-          margin-top: 20px;
-          max-width: 1100px;
+          margin-top: 15px;
+          max-width: 750px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -1642,16 +1625,19 @@
           overflow: hidden;
           border-radius: 8px;
           width: 100%;
+          max-height: 380px;
+          padding: 0 10px;
         }
         
         .visitor-map {
-          transform: scale(0.8);
+          transform: scale(0.58);
           transform-origin: center center;
           width: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
           margin: 0 auto;
+          max-height: 320px;
         }
         
         /* Fix for Clustrmaps iframe positioning */
@@ -1664,7 +1650,7 @@
         /* Ensure the map is responsive */
         @media (max-width: 768px) {
           .visitor-container {
-            padding: 15px 10px;
+            padding: 12px 10px;
           }
           
           .visitor-info {
@@ -1672,7 +1658,13 @@
           }
           
           .visitor-map {
-            transform: scale(0.7);
+            transform: scale(0.65);
+            max-height: 260px;
+          }
+          
+          .visitor-map-container {
+            max-height: 320px;
+            padding: 0 5px;
           }
         }
       </style>
