@@ -293,27 +293,21 @@ h5:hover {
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Basketball Team Photo (2021)
-      </p>
-    </div>
-    <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2021)
       </p>
     </div>
-  </div>
-  
-  <!-- Row 2 -->
-  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2020)
       </p>
     </div>
+  </div>
+  
+  <!-- Row 2 -->
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -331,16 +325,16 @@ h5:hover {
         Basketball Team Highlights (2018)
       </p>
     </div>
-  </div>
-  
-  <!-- Row 3 -->
-  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2018)
       </p>
     </div>
+  </div>
+  
+  <!-- Row 3 -->
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -353,16 +347,16 @@ h5:hover {
         Basketball Team Photo (2018)
       </p>
     </div>
-  </div>
-  
-  <!-- Row 4 -->
-  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2017)
       </p>
     </div>
+  </div>
+  
+  <!-- Row 4 -->
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -375,16 +369,16 @@ h5:hover {
         Basketball Team Photo (2016)
       </p>
     </div>
-  </div>
-  
-  <!-- Row 5 -->
-  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2016)
       </p>
     </div>
+  </div>
+  
+  <!-- Row 5 -->
+  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <div style="position: relative; height: 200px; overflow: hidden;">
         <video controls style="width: 100%; height: 200px; object-fit: cover;">
@@ -402,10 +396,6 @@ h5:hover {
         Basketball Team Photo (2015)
       </p>
     </div>
-  </div>
-  
-  <!-- Row 6 -->
-  <div class="row mt-1">
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2014-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -413,6 +403,8 @@ h5:hover {
       </p>
     </div>
   </div>
+  
+
 
   <h5 style="text-align: left;">Photography</h5>
   <p style="text-align: justify;">
