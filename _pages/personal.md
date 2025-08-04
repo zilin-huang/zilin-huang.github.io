@@ -432,7 +432,7 @@ h5:hover {
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Photography Activities (2016)
       </p>

@@ -21,17 +21,10 @@ nav_order: 8
   margin-bottom: 1.5em;
   padding-bottom: 1em;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
-  transition: all 0.3s ease;
 }
 
 .artistic-list li:last-child {
   border-bottom: none;
-}
-
-.artistic-list li:hover {
-  background-color: rgba(var(--global-theme-color-rgb), 0.03);
-  padding-left: 3em;
-  border-radius: 4px;
 }
 
 /* 数字标记样式 */
@@ -53,29 +46,15 @@ nav_order: 8
   text-align: center;
   box-shadow: 0 2px 4px var(--global-shadow-color);
   border: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
-  transition: all 0.3s ease;
-}
-
-.artistic-list li:hover:before {
-  background-color: var(--global-theme-color);
-  color: var(--global-bg-color);
-  box-shadow: 0 3px 6px var(--global-shadow-color-hover);
-  transform: scale(1.05);
 }
 
 /* 链接样式 */
 .artistic-list a {
   color: var(--global-theme-color);
   text-decoration: none;
-  transition: color 0.2s ease;
   display: inline-flex;
   align-items: center;
   font-weight: 500;
-}
-
-.artistic-list a:hover {
-  color: var(--global-hover-color);
-  text-decoration: underline;
 }
 
 .artistic-list a:after {

@@ -5,14 +5,8 @@
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: var(--global-bg-color);
     margin-left: 0; /* Reset margin */
-  }
-  
-  .news-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px var(--global-shadow-color-hover);
   }
   
   /* 新闻标题样式 */
@@ -50,24 +44,13 @@
   }
   
   .news tr {
-    transition: all 0.3s ease;
     border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
   }
   
-  .news tr:hover {
-    background-color: rgba(var(--global-theme-color-rgb), 0.03);
-    padding-left: 10px;
-    border-radius: 4px;
-  }
+
   
-  /* Add left-right hover effect to news rows */
   .news td.news-content {
     padding-left: 10px;
-    transition: padding-left 0.3s ease;
-  }
-  
-  .news tr:hover td.news-content {
-    padding-left: 20px;
   }
   
   /* 第一个项目不需要上边框 */
