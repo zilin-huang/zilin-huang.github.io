@@ -1,34 +1,32 @@
 <div class="selected-projects">
   <div class="projects-grid">
-    <!-- 暂时为空 -->
+    <div class="project-card">
+      <div class="project-title">5G Remote Control</div>
+      <video class="project-image" controls>
+        <source src="assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="project-description">
+        Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
+      </div>
+    </div>
   </div>
 </div>
 
 <style>
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
     margin-top: 20px;
   }
   
   .project-card {
-    border: 1px solid #eee;
-    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 50%;
   }
   
   .project-image {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
   }
   
   .project-info {
@@ -43,7 +41,6 @@
   }
   
   .project-description {
-    font-size: 0.9em;
     color: var(--global-text-color);
     margin-bottom: 0;
   }

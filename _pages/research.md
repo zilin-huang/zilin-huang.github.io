@@ -64,17 +64,8 @@ h4:after {
 
 /* 研究方向卡片样式 */
 .research-area {
-  border: 1px solid #eee;
-  border-radius: 8px;
-  padding: 20px;
+  padding: 0;
   margin-bottom: 25px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.research-area:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .research-area h5 {
@@ -130,10 +121,18 @@ h4:after {
 
 <h4>Research Project</h4>
 
+<div class="research-area">
+  <h5>5G Remote Control</h5>
+  <p>
+  </p>
+  <video width="50%" controls>
+    <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
-
-<h4>Team Facilities</h4>
+<!-- <h4>Team Facilities</h4> -->
 
 
 
@@ -146,7 +145,7 @@ h4:after {
 </p> -->
   
 <p style="text-align: justify;">  
-I am deeply passionate about bridging the gap between scientific discovery and real-world impact. Before beginning my Ph.D. journey, I founded two technology companies in China, aiming to transform my research findings into practical solutions. Through this experience, I had the opportunity to collaborate with industry professionals and gain valuable insights into the innovation ecosystem. Encouragingly, the companies attracted over 3 million RMB in potential investment from leading institutions such as Yueke Securities and CITIC Securities. These experiences reinforced my belief that when scientific discoveries move beyond the lab and into society, they can generate meaningful and lasting value.
+I am deeply passionate about bridging the gap between scientific discovery and real-world impact. Before beginning my Ph.D. journey, <b>I founded two technology companies</b> in China, aiming to transform my research findings into practical solutions. Through this experience, I had the opportunity to collaborate with industry professionals and gain valuable insights into the innovation ecosystem. Encouragingly, the companies attracted <b>over 3 million RMB</b> in potential investment from leading institutions such as <b>Yueke Securities</b> and <b>CITIC Securities</b>. These experiences reinforced my belief that when scientific discoveries move beyond the lab and into society, they can generate meaningful and lasting value.
 </p>
 
 <!-- Entrepreneurship images -->
@@ -202,7 +201,7 @@ I am deeply passionate about bridging the gap between scientific discovery and r
 </div>
 
 
-<!-- <p>
+<!-- 
 My research vision is to develop next-generation intelligent transportation systems through the integration of artificial intelligence, robotics, and human-centered design. My work bridges fundamental theoretical research with practical applications, creating solutions that enhance transportation safety, efficiency, and sustainability.
 </p>
 
@@ -244,8 +243,8 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
   <h5>Cognitive Systems for Mobility</h5>
   <p>
     Designing intelligent agents with human-like reasoning capabilities for navigation in dynamic environments. This research direction explores cognitive architectures that enable autonomous systems to reason about traffic situations, make decisions under uncertainty, and adapt to novel environments. My work aims to develop agents that can understand the implicit rules of the road and navigate complex social interactions in shared spaces.
-  </p>
-</div> -->
+  </p> -->
+
 <!-- 
 <h4>Research Impact</h4>
 
