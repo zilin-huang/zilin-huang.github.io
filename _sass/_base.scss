@@ -577,8 +577,8 @@ footer.sticky-bottom {
     margin-top: 2rem;
 
     li {
-      padding: 0.5rem 0 0.8rem 0;
-      margin-bottom: 1rem;
+      padding: 0.3rem 0 0.5rem 0;
+      margin-bottom: 0.8rem;
       border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
       background-color: transparent;
 
@@ -588,8 +588,8 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        min-height: 150px;
-        min-width: 200px;
+        min-height: 120px;
+        min-width: 180px;
         margin-bottom: 0;
 
         abbr {
@@ -618,15 +618,15 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
-        font-size: 110%;
-        padding-bottom: 0.2em;
+        font-size: 105%;
+        padding-bottom: 0.15em;
         color: var(--global-text-color);
       }
 
       .author {
-        font-size: 100%;
-        line-height: 1.6;
-        margin-bottom: 0.5rem;
+        font-size: 95%;
+        line-height: 1.4;
+        margin-bottom: 0.3rem;
 
         a {
           border-bottom: 1px;
@@ -647,23 +647,23 @@ footer.sticky-bottom {
       }
 
       .periodical {
-        font-size: 100%;
+        font-size: 95%;
         font-style: italic;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.5rem;
       }
 
       .links {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-right: 0.5rem;
-          margin-top: 0.5rem;
+          padding-left: 0.8rem;
+          padding-right: 0.8rem;
+          padding-top: 0.2rem;
+          padding-bottom: 0.2rem;
+          margin-right: 0.4rem;
+          margin-top: 0.3rem;
           border-radius: 4px;
-          font-size: 0.9rem;
+          font-size: 0.85rem;
           transition: all 0.15s ease;
 
           &:hover {

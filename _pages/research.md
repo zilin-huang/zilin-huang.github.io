@@ -130,7 +130,7 @@ h4:after {
       <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <p style="margin-top: 15px;">
+    <p style="margin-top: 8px;">
       Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
     </p>
   </div>
@@ -145,7 +145,7 @@ h4:after {
       <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <p style="margin-top: 15px;">
+    <p style="margin-top: 8px;">
       Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors.
     </p>
   </div>
