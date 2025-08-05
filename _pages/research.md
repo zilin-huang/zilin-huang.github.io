@@ -125,10 +125,68 @@ h4:after {
   <h5>5G Remote Control</h5>
   <p>
   </p>
-  <video width="50%" controls>
-    <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div style="width: 50%;">
+    <video width="100%" controls>
+      <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 15px;">
+      Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
+    </p>
+  </div>
+</div>
+
+<div class="research-area">
+  <h5>Multi-Agent Interaction</h5>
+  <p>
+  </p>
+  <div style="width: 50%;">
+    <video width="100%" controls>
+      <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 15px;">
+      Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors.
+    </p>
+  </div>
+  <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Right_Turn_Conflict -480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+        Right Turn Conflict
+      </p>
+    </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Nearside_Conflict_Straight_road-480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+        Nearside Conflict
+      </p>
+    </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Left_Turn_Conflict - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+        Left Turn Conflict
+      </p>
+    </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+        Farside Conflict
+      </p>
+    </div>
+  </div>
 </div>
 
 
