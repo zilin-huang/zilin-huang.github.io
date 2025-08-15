@@ -57,13 +57,14 @@ Technologically, I am interested in the following areas:
   <li>Foundation Models (e.g., LLMs/VLMs)</li>
   <li>Human-AI Collaboration</li> 
   <li>World Models</li>
+  <li>Digital Twin</li>
   </ul>
 </div>
 
 <!-- <p style="color: var(--global-theme-color); font-style: italic;">Please feel free to reach out to me for potential research collaboration!</p> -->
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in winter 2025 or spring 2026 and am actively seeking research scientist or tenure-track assistant professor positions. If you are interested in collaborating or sharing thoughts, please feel free to reach out via <a href="mailto:zilin.huang@wisc.edu">Email</a> or <a href="assets/img/icon/Wechat.jpg">WeChat</a>.</p>
+  <p style="margin: 0; font-weight: 500;">🔔 I will be graduating in spring 2026 and am actively seeking tenure-track assistant professor positions. If you are interested in collaborating or sharing thoughts, please feel free to reach out via <a href="mailto:zilin.huang@wisc.edu">Email</a> or <a href="assets/img/icon/Wechat.jpg">WeChat</a>.</p>
 </div>
 
 <!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br />  -->
