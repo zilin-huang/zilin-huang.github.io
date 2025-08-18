@@ -121,73 +121,246 @@ h4:after {
 
 <h4>Research Project</h4>
 
-<div class="research-area">
-  <h5>5G Remote Control</h5>
-  <p>
-  </p>
-  <div style="width: 50%;">
-    <video width="100%" controls>
-      <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 8px;">
-      Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
+<div class="tab-instruction">
+  <small style="color: var(--global-text-color-light); font-style: italic;">
+    💡 Click on different tabs to explore various research areas
+  </small>
+</div>
+
+  <!-- Tab Navigation -->
+  <div class="research-tabs">
+    <button class="tab-button active" onclick="showTab('simulation-platform')">
+      <span class="tab-dot" style="background-color: #4CAF50;"></span>
+      Simulation Platform Development
+    </button>
+    <button class="tab-button" onclick="showTab('socially-compliant-ai')">
+      <span class="tab-dot" style="background-color: #2196F3;"></span>
+      Human-centered AI Algorithm Design
+    </button>
+    <button class="tab-button" onclick="showTab('sim2real-transfer')">
+      <span class="tab-dot" style="background-color: #F44336;"></span>
+      Real-world Testing & Evaluation
+    </button>
+  </div>
+
+<!-- Tab Content -->
+<div id="simulation-platform" class="tab-content active">
+  <div class="research-area">
+    <h5>Multi-Agent Interaction</h5>
+    <p>
+      Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
     </p>
+    <div style="width: 50%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="margin-top: 8px;">
+        Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors in our open-world platform.
+      </p>
+    </div>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
+      <div style="width: 24%;">
+        <video width="100%" controls>
+          <source src="../assets/research/mutli-agent interaction/Right_Turn_Conflict -480p.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+          Right Turn Conflict
+        </p>
+      </div>
+      <div style="width: 24%;">
+        <video width="100%" controls>
+          <source src="../assets/research/mutli-agent interaction/Nearside_Conflict_Straight_road-480p.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+          Nearside Conflict
+        </p>
+      </div>
+      <div style="width: 24%;">
+        <video width="100%" controls>
+          <source src="../assets/research/mutli-agent interaction/Left_Turn_Conflict - 480p.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+          Left Turn Conflict
+        </p>
+      </div>
+      <div style="width: 24%;">
+        <video width="100%" controls>
+          <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road -480p.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
+          Farside Conflict
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="research-area">
-  <h5>Multi-Agent Interaction</h5>
-  <p>
-  </p>
-  <div style="width: 50%;">
-    <video width="100%" controls>
-      <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 8px;">
-      Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors.
-    </p>
+<div id="socially-compliant-ai" class="tab-content">
+  <div class="research-area">
   </div>
-  <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
-    <div style="width: 24%;">
+</div>
+
+<div id="sim2real-transfer" class="tab-content">
+  <div class="research-area">
+    <h5>5G Remote Control</h5>
+    <p>
+      Effectively transferring capabilities from simulation to real deployment and continuously improving through real-world feedback. This research addresses the critical challenge of bridging the gap between simulated and real-world performance.
+    </p>
+    <div style="width: 50%;">
       <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/Right_Turn_Conflict -480p.mp4" type="video/mp4">
+        <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-        Right Turn Conflict
-      </p>
-    </div>
-    <div style="width: 24%;">
-      <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/Nearside_Conflict_Straight_road-480p.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-        Nearside Conflict
-      </p>
-    </div>
-    <div style="width: 24%;">
-      <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/Left_Turn_Conflict - 480p.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-        Left Turn Conflict
-      </p>
-    </div>
-    <div style="width: 24%;">
-      <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road - 480p.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-        Farside Conflict
+      <p style="margin-top: 8px;">
+        Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
       </p>
     </div>
   </div>
 </div>
+
+<style>
+/* Tab Styles */
+.research-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 0;
+  background: transparent;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 24px;
+  border: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  color: var(--global-text-color-light);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+  position: relative;
+  border-bottom: 3px solid transparent;
+  user-select: none;
+  margin-right: 8px;
+  flex: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.tab-button:hover {
+  background-color: rgba(var(--global-theme-color-rgb), 0.15);
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(var(--global-theme-color-rgb), 0.2);
+}
+
+.tab-button:active {
+  transform: translateY(0);
+}
+
+.tab-button.active {
+  background-color: rgba(var(--global-theme-color-rgb), 0.1);
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  border-bottom: 3px solid var(--global-theme-color);
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.tab-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.02), rgba(var(--global-theme-color-rgb), 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.tab-button:hover::before {
+  opacity: 1;
+}
+
+.tab-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tab-button:hover .tab-dot {
+  transform: scale(1.1);
+}
+
+.tab-content {
+  display: none;
+  border: none;
+  border-radius: 0;
+  padding: 25px 0 25px 0;
+  margin-top: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .research-tabs {
+    flex-direction: column;
+  }
+  
+  .tab-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+function showTab(tabName) {
+  // Hide all tab contents
+  const tabContents = document.querySelectorAll('.tab-content');
+  tabContents.forEach(content => {
+    content.classList.remove('active');
+  });
+  
+  // Remove active class from all buttons
+  const tabButtons = document.querySelectorAll('.tab-button');
+  tabButtons.forEach(button => {
+    button.classList.remove('active');
+  });
+  
+  // Show selected tab content
+  document.getElementById(tabName).classList.add('active');
+  
+  // Add active class to clicked button
+  event.target.classList.add('active');
+}
+</script>
 
 
 <!-- <h4>Team Facilities</h4> -->
