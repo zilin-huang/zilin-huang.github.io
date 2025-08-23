@@ -57,7 +57,6 @@ Technologically, I am interested in the following areas:
   <li>Foundation Models (e.g., LLMs/VLMs)</li>
   <li>Human-AI Collaboration</li> 
   <li>World Models</li>
-  <li>Digital Twin</li>
   </ul>
 </div>
 
