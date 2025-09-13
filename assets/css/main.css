@@ -184,6 +184,12 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
+  /* Optimize image rendering performance */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  /* Enable hardware acceleration */
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 blockquote {
@@ -632,12 +638,14 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px;
-  border-bottom: 1px dashed var(--global-text-color);
-  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
   text-decoration: none;
+}
+.publications ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-text-color);
+  color: var(--global-text-color);
 }
 .publications ol.bibliography li .author > em {
   border-bottom: 1px solid;
@@ -894,6 +902,14 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   }
   .news {
     margin-top: 2rem;
+  }
+  .news .news-image {
+    /* Optimize news image loading */
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  .news .news-image.loaded {
+    opacity: 1;
   }
   .card {
     margin-bottom: 1rem;
