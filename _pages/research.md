@@ -131,22 +131,22 @@ h4:after {
   <div class="research-tabs">
     <button class="tab-button active" onclick="showTab('simulation-platform')">
       <span class="tab-dot" style="background-color: #4CAF50;"></span>
-      Simulation Platform Development
+      1. Simulation Platform Development
     </button>
     <button class="tab-button" onclick="showTab('socially-compliant-ai')">
       <span class="tab-dot" style="background-color: #2196F3;"></span>
-      Human-centered AI Algorithm Design
+      2. Human-centered AI Algorithm Design
     </button>
     <button class="tab-button" onclick="showTab('sim2real-transfer')">
       <span class="tab-dot" style="background-color: #F44336;"></span>
-      Real-world Testing & Evaluation
+      3. Real-world Testing & Evaluation
     </button>
   </div>
 
 <!-- Tab Content -->
 <div id="simulation-platform" class="tab-content active">
   <div class="research-area">
-    <h5>Multi-Agent Interaction</h5>
+    <h5>1.1 Multi-Agent Interaction</h5>
     <p>
       Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
     </p>
@@ -189,7 +189,7 @@ h4:after {
       </div>
       <div style="width: 24%;">
         <video width="100%" controls>
-          <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road -480p.mp4" type="video/mp4">
+          <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road - 480p.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
         <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
@@ -207,7 +207,7 @@ h4:after {
 
 <div id="sim2real-transfer" class="tab-content">
   <div class="research-area">
-    <h5>5G Remote Control</h5>
+    <h5>3.1 5G Remote Control</h5>
     <p>
       Effectively transferring capabilities from simulation to real deployment and continuously improving through real-world feedback. This research addresses the critical challenge of bridging the gap between simulated and real-world performance.
     </p>
@@ -227,7 +227,7 @@ h4:after {
 /* Tab Styles */
 .research-tabs {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   margin-bottom: 0;
   flex-wrap: wrap;
   padding: 0;
@@ -238,8 +238,8 @@ h4:after {
 .tab-button {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 16px 24px;
+  gap: 8px;
+  padding: 14px 18px;
   border: 1px solid #e0e0e0;
   background: #f8f9fa;
   color: var(--global-text-color-light);
@@ -251,7 +251,7 @@ h4:after {
   position: relative;
   border-bottom: 3px solid transparent;
   user-select: none;
-  margin-right: 8px;
+  margin-right: 6px;
   flex: 1;
   justify-content: center;
   min-width: 0;
@@ -331,11 +331,23 @@ h4:after {
 @media (max-width: 768px) {
   .research-tabs {
     flex-direction: column;
+    gap: 4px;
   }
   
   .tab-button {
     width: 100%;
     justify-content: center;
+    padding: 12px 16px;
+    font-size: 0.9em;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-button {
+    padding: 10px 14px;
+    font-size: 0.85em;
+    gap: 6px;
   }
 }
 </style>

@@ -52,6 +52,12 @@ table.table a {
 figure,
 img {
   max-width: 90vw;
+  /* Optimize image rendering performance */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  /* Enable hardware acceleration */
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 blockquote {
@@ -949,6 +955,16 @@ pre {
 
   .news {
     margin-top: 2rem;
+    
+    .news-image {
+      /* Optimize news image loading */
+      transition: opacity 0.3s ease;
+      opacity: 0;
+      
+      &.loaded {
+        opacity: 1;
+      }
+    }
   }
 
   .card {
