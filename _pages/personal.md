@@ -213,13 +213,33 @@ h5:hover {
 
 <h4 id="memories" style="text-align: left;">Leadership</h4>
 
-
-
-<!-- <h4 id="volunteering" style="text-align: left;">Volunteering</h4>
-
+<h5 id="volunteering" style="text-align: left;">Student Affairs</h5>
 <p style="text-align: justify;">
-  I believe in the power of volunteering to create positive change in our communities. Throughout my academic journey, I've been actively involved in various community service initiatives that have not only made a difference in people's lives but have also shaped my perspective on social responsibility and leadership.
-</p> -->
+These experiences have not only enhanced my organizational and management skills but have also provided me with valuable opportunities to serve my peers and contribute to campus life.
+</p>
+
+<ul class="memories-list">
+  <li>Member, Student Leader Advocacy Team of Guangdong Province <span class="memory-date">(2017.10-2018.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>Only two students were elected university-wide (≈ 2/40,000)</strong> </span></li>
+  <li>Member, Graduate Student Union <span class="memory-date">(2018.10-2019.10)</span></li>
+  <li>Deputy Secretary, Student Government<span class="memory-date">(2016.12-2018.05)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>The highest undergraduate student leadership position (≈ 4/40,000)</strong> </span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Assisted in organizing 20,000+ students and 700+ teams into community service work</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Assisted in organizing 30+ academic competitions at national, provincial and university level</span></li>
+  <li>Member, Student Union of Guangdong Province <span class="memory-date">(2016.04-2018.05)</span></li>
+  <li>Tutor Assistant, School of Mechanical and Electrical Engineering<span class="memory-date">(2015.09-2016.09)</span></li>
+  <li>Freshman class assistant, School of Mechanical and Electrical Engineering <span class="memory-date">(2015.09-2016.09)</span></li>
+  <li>Class Leader, School of Mechanical and Electrical Engineering <span class="memory-date">(2014.09-2015.09)</span></li>
+</ul>
+
+<h5 id="volunteering" style="text-align: left;">Volunteering</h5>
+<p style="text-align: justify;">
+I believe in the power of volunteering to create positive change in our communities. I've been actively involved in various community service initiatives that have not only made a difference in people's lives but have also shaped my perspective on social responsibility and leadership.
+</p>
+
+<ul class="memories-list">
+  <li>Invited guest speaker of "Youth Science Camp" in Chinese universities <span class="memory-date">(2018.07)</span></li>
+  <li>The founder of "Transformation Program" <span class="memory-date">(2018.04)</span></li>
+  <li>Outstanding Community Worker of "Summer Rural Social Practice" Program, Guangdong Province <span class="memory-date">(2017.09)</span></li>
+  <li>Outstanding Community Worker of "Summer Rural Social Practice" Program, China <span class="memory-date">(2016.09)</span></li>
+  <li>Excellent volunteer of "Guangzhou Export Commodities Fair" <span class="memory-date">(2016.11)</span></li>
+</ul>
 
 
 <h4 id="hobbies" style="text-align: left;">Hobbies</h4>
@@ -406,14 +426,24 @@ h5:hover {
   
 
 
-  <!-- <h5 style="text-align: left;">Photography</h5>
+  <h5 style="text-align: left;">Photography</h5>
   <p style="text-align: justify;">
-    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history." My journey in photography began with a Nikon D700, followed by a Canon 70D, and later a Canon 6D. I served as the vice president of the photography association, and regularly contributed photos to the university's official website. I am a photographer for Visual China and a member of the Guangzhou Photography Association. I also have developed an interest in astrophotography and I am a member of the Astronomy Club. This is a collection of postcards I created from my photography work <a href="{{ '/photographic_works/postcards/' | relative_url }}">here</a>. 
+    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history."   I co-founded a creative media studio with senior students, focusing on MG animation and micro-film production. Our studio's original character "Zuiyao B (最耀B)" garnered over 100 million views across platforms. You can find our works on <a href="https://www.youtube.com/playlist?list=PLnQTmrTdfHskys9PPoE_mWQStAVr59GtY" target="_blank">YouTube</a> and <a href="https://space.bilibili.com/26055201" target="_blank">Bilibili</a>. My micro-film "When Drinking Water, One Should Not Forget Its Source (饮水思源)" won the "Best Film Silver Award" (RMB ¥40,000) <a href="{{ '/assets/personal/Photography/2016-movie-award.png' | relative_url }}" target="_blank">[Certificate]</a>. Additionally, I was honored to curate and direct the college graduation commemorative video <a href="https://v.qq.com/x/page/k0702zufnaj.html" target="_blank">"The Journey (走过)"</a>.
   </p>
   
+
+<ul class="memories-list">
+  <li>Vice President, Photography Association <span class="memory-date">(2016.10-2017.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Regularly contributed photos to the university's official website</span> <br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Postcards I created from my photography work <a href="{{ '/photographic_works/postcards/' | relative_url }}">here</a></span></li>
+  <li>Member, Guangzhou Photography Association</li>
+  <li>Photographer, Visual China (视觉中国) </li>
+  <li>Member, Astronomy Club <span class="memory-date">(2016.09-2017.09)</span></li>
+</ul>
+
+
+  
   <p style="text-align: justify;">
-    During my university years, I co-founded a creative media studio with senior students, focusing on MG animation and micro-film production. Our studio's original character "Zuiyao B (最耀B)" garnered over 100 million views across platforms. You can find our works on <a href="https://www.youtube.com/playlist?list=PLnQTmrTdfHskys9PPoE_mWQStAVr59GtY" target="_blank">YouTube</a> and <a href="https://space.bilibili.com/26055201" target="_blank">Bilibili</a>. Additionally, my micro-film "Drinking Water and Remembering the Source (饮水思源)" won the "Best Film Silver Award" (RMB ¥40,000) <a href="{{ '/assets/personal/Photography/2016-movie-award.png' | relative_url }}" target="_blank">[Certificate]</a>. I'm particularly proud of my role as executive producer in the university commemorative graduation video <a href="https://v.qq.com/x/page/k0702zufnaj.html" target="_blank">"The Journey (走过)"</a>.
-  </p> -->
+    
+  </p>
   
   <!-- Photography images -->
   <!-- <div class="row">
