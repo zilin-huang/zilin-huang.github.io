@@ -4,3 +4,7 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"EMNLP":
+  url: https://aclanthology.org/events/emnlp-2025/
+  color: "#1f77b4"
