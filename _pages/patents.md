@@ -18,8 +18,8 @@ nav_order: 8
 .artistic-list li {
   position: relative;
   padding-left: 2.5em;
-  margin-bottom: 1.5em;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.8em;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
@@ -116,8 +116,8 @@ h4:after {
 @media (max-width: 768px) {
   .artistic-list li {
     padding-left: 2em;
-    padding-bottom: 1.2em;
-    margin-bottom: 1.2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
   }
   
   .artistic-list li:hover {

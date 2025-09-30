@@ -14,8 +14,8 @@ nav_order: 7
 }
 
 .conference-item {
-  padding: 15px 0px 10px 0px;
-  margin-bottom: 15px;
+  padding: 15px 0px 5px 0px;
+  margin-bottom: 5px;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
@@ -114,46 +114,6 @@ h5:hover {
   background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
 }
 
-/* Image customization variables */
-:root {
-  --talk-image-height: 300px;
-  --talk-image-width: 80%;
-  --talk-image-margin: 10px;
-  --talk-image-padding: 30px;
-}
-
-/* Image styles */
-.talk-images {
-  margin-top: 8px;
-  margin-bottom: -5px;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.talk-images .row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: var(--talk-image-margin);
-  max-width: var(--talk-image-width);
-  padding: 0;
-}
-
-.talk-images .col-md-6 {
-  padding-left: 0;
-  padding-right: var(--talk-image-padding);
-  margin-bottom: var(--talk-image-margin);
-}
-
-.talk-images img {
-  margin-bottom: 5px;
-  height: var(--talk-image-height) !important;
-  object-fit: cover;
-  width: 100%;
-}
-
-.talk-images p {
-  margin-bottom: 0;
-}
 
 /* 服务类型标签 */
 .service-type {
@@ -241,41 +201,37 @@ h5:hover {
 <div class="services-container">
   <h5 style="text-align: left;">Conference Organizer</h5>
   <ul class="services-list community-services">
-    <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, USA, February 21, 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_4.jpg" style="width: 100%; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              MARC Workshop
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_5.jpg" style="width: 100%; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              MARC Workshop
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, USA, May 16-18, 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              NGTS-3 Conference
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_2.jpg" style="width: 100%; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              NGTS-3 Conference
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
+    <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, February 21, 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
+  <div class="row" style="margin-top: 10px;">
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        MARC Workshop
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_5.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        MARC Workshop
+      </p>
+    </div>
+  </div>
+  <ul class="services-list community-services">
+    <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, US, May 16-18, 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a></li>
+  </ul>
+  <div class="row" style="margin-top: 10px;">
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        NGTS-3 Conference
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        NGTS-3 Conference
+      </p>
+    </div>
+  </div>
 </div> 
