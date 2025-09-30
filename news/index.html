@@ -350,12 +350,26 @@
       border-bottom: 1px dashed var(--global-theme-color);
       transition: all 0.3s ease;
       display: inline-block;
+      position: relative;
     }
     
     .news-title:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color-darker);
       text-decoration: none !important;
-      border-bottom: 1px dashed var(--global-theme-color) !important;
+      border-bottom: 1px solid var(--global-theme-color) !important;
+    }
+    
+    /* Add external link icon */
+    .news-title::after {
+      content: " 🔗";
+      font-size: 0.8em;
+      margin-left: 5px;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+    
+    .news-title:hover::after {
+      opacity: 1;
     }
     
     .news-title-icon {
@@ -461,7 +475,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD). <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2025/03-10-nvidia-grant/">🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD).</a>
                     
                     <div class="news-excerpt">We received two NVIDIA grants for AI research in transportation - 20,000 A100 GPU hours for SafetyGPT and two RTX PRO 6000 Blackwell GPUs for EdgeTwin Project. <a href="/news/2025/03-10-nvidia-grant/" class="read-more">Read more →</a>
 </div>
@@ -496,7 +510,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2025/01-12-trb-meeting/">👏 I attended the TRB 2025 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2025/01-12-trb-meeting/">👏 I attended the TRB 2025 Annual Meeting.</a>
                     
                     <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 104th Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2025/01-12-trb-meeting/" class="read-more">Read more →</a>
 </div>
@@ -515,7 +529,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2025/01-10-google-visit/">👏 I was invited to visit Google <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2025/01-10-google-visit/">👏 I was invited to visit Google</a>
                     
                     <div class="news-excerpt">I was invited to visit Google’s office in Washington DC on January 10, 2025. During the visit, I had the opportunity to meet with Google’s research team and discuss potential... <a href="/news/2025/01-10-google-visit/" class="read-more">Read more →</a>
 </div>
@@ -607,7 +621,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a>
                     
                     <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 103nd Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2024/01-12-trb-meeting/" class="read-more">Read more →</a>
 </div>
@@ -635,7 +649,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2023/10-19-informs-meeting/">👏 I attended the 2023 INFORMS Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2023/10-19-informs-meeting/">👏 I attended the 2023 INFORMS Annual Meeting.</a>
                     
                     <div class="news-excerpt">I participated in the 2023 INFORMS Annual Meeting (October 19) at Phoenix, Arizona, US. I presented our work “TFs-DGAN: Multi-View Temporal Factorizations-Based Dynamic Adaptive Generative Adversarial Networks for Hybrid Recovery... <a href="/news/2023/10-19-informs-meeting/" class="read-more">Read more →</a>
 </div>
@@ -654,7 +668,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2023/10-17-asu-beliv-lab-visit/">👏 I visited the BELIV Lab at Arizona State University. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2023/10-17-asu-beliv-lab-visit/">👏 I visited the BELIV Lab at Arizona State University.</a>
                     
                     <div class="news-excerpt">I visited the Battery Electric &amp; Intelligent Vehicle (BELIV) Lab at Arizona State University on October 17, 2023. During the visit, I had the opportunity to explore their cutting-edge autonomous... <a href="/news/2023/10-17-asu-beliv-lab-visit/" class="read-more">Read more →</a>
 </div>
@@ -673,7 +687,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2023/06-17-ictd-conference/">👏 I attended the International Conference on Transportation and Development (ICTD 2023). <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2023/06-17-ictd-conference/">👏 I attended the International Conference on Transportation and Development (ICTD 2023).</a>
                     
                     <div class="news-excerpt">I participated in the International Conference on Transportation and Development (ICTD 2023) on June 17, 2023, in Austin, Texas. During the conference, I presented our research work titled “Roadside Unit-Enabled... <a href="/news/2023/06-17-ictd-conference/" class="read-more">Read more →</a>
 </div>
@@ -692,7 +706,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2023/05-18-ngts-conference/">👏 I attended the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3). <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2023/05-18-ngts-conference/">👏 I attended the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3).</a>
                     
                     <div class="news-excerpt">I participated in the 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3) held on May 18, 2023, at West Lafayette, Indiana, US. I presented our research titled “Roadside Unit-Enabled Cooperative... <a href="/news/2023/05-18-ngts-conference/" class="read-more">Read more →</a>
 </div>
@@ -711,7 +725,7 @@
                     
                 </td>
                 <td class="news-content">
-                    <a class="news-title" href="/news/2023/01-12-trb-meeting/">👏 I attended the TRB 2023 Annual Meeting. <i class="fas fa-external-link-alt news-title-icon"></i></a>
+                    <a class="news-title" href="/news/2023/01-12-trb-meeting/">👏 I attended the TRB 2023 Annual Meeting.</a>
                     
                     <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 102nd Annual Meeting (January 8-12) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2023/01-12-trb-meeting/" class="read-more">Read more →</a>
 </div>
@@ -803,7 +817,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: September 27, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: September 30, 2025.
       </div>
     </footer> -->
 
@@ -813,7 +827,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: September 27, 2025.
+    Last updated: September 30, 2025.
   </div>
 </footer>
 

@@ -135,8 +135,8 @@
 
 .talk-card {
   background: var(--global-bg-color);
-  padding: 15px 0px 10px 0px;
-  margin-bottom: 15px;
+  padding: 15px 0px 8px 0px;
+  margin-bottom: 10px;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
@@ -155,52 +155,10 @@
 }
 
 .talk-topic {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 0.95em;
 }
 
-.talk-images {
-  margin-top: 8px;
-  margin-bottom: -5px;
-}
-
-/* Image customization variables */
-:root {
-  --talk-image-height: 300px;
-  --talk-image-width: 80%;
-  --talk-image-margin: 10px;
-  --talk-image-padding: 40px;
-}
-
-.talk-images .row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: var(--talk-image-margin);
-  max-width: var(--talk-image-width);
-  padding: 0;
-}
-
-.talk-images .col-md-6 {
-  padding-left: 0;
-  padding-right: var(--talk-image-padding);
-  margin-bottom: var(--talk-image-margin);
-}
-
-.talk-images img {
-  margin-bottom: 5px;
-  height: var(--talk-image-height) !important;
-  object-fit: cover;
-  width: 100%;
-}
-
-.talk-images p {
-  margin-bottom: 0;
-}
-
-.talk-images {
-  padding-left: 0;
-  margin-left: 0;
-}
 
 .year-section {
   margin-bottom: 20px;
@@ -364,9 +322,29 @@ h5:hover {
 }
 
 /* Add hover effect for talk titles with links */
+.talk-title a {
+  border-bottom: 1px dashed var(--global-theme-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
 .talk-title a:hover {
   border-bottom: 1px solid var(--global-theme-color) !important;
   color: var(--global-theme-color-darker) !important;
+  text-decoration: none;
+}
+
+/* Add external link icon */
+.talk-title a::after {
+  content: " 🔗";
+  font-size: 0.8em;
+  margin-left: 5px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.talk-title a:hover::after {
+  opacity: 1;
 }
 
 /* Year navigation sidebar styles */
@@ -429,28 +407,26 @@ h5:hover {
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2025/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          Transportation Research Board 104th Annual Meeting <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2025/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
+          Transportation Research Board 104th Annual Meeting
         </a>
       </div>
       <div class="talk-venue">January 9, 2025 | Washington, DC, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> V2X-VLM: End-to-end V2X Cooperative Autonomous Driving through Large Vision-Language Models
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" style="width: 100%; height: 350px; object-fit: cover; object-position: center 70%;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2025)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2025)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 70%;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2025)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2025)
+          </p>
         </div>
       </div>
     </div>
@@ -470,28 +446,26 @@ h5:hover {
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2024/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          Transportation Research Board 103rd Annual Meeting <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2024/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
+          Transportation Research Board 103rd Annual Meeting
         </a>
       </div>
       <div class="talk-venue">January 10, 2024 | Washington, DC, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2024)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2024)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2024)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2024)
+          </p>
         </div>
       </div>
     </div>
@@ -521,112 +495,104 @@ h5:hover {
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2023/10-19-informs-meeting/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          INFORMS Annual Meeting (2023) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2023/10-19-informs-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
+          INFORMS Annual Meeting (2023)
         </a>
       </div>
       <div class="talk-venue">October 19, 2023 | Phoenix, Arizona, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> TFs-DGAN: Multi-View Temporal Factorizations-Based Dynamic Adaptive Generative Adversarial Networks for Hybrid Recovery of Missing Traffic Data
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              INFORMS Annual Meeting (2023)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              INFORMS Annual Meeting (2023)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            INFORMS Annual Meeting (2023)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            INFORMS Annual Meeting (2023)
+          </p>
         </div>
       </div>
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2023/06-17-ictd-conference/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          International Conference on Transportation and Development (ICTD 2023) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2023/06-17-ictd-conference/" style="color: var(--global-theme-color); text-decoration: none;">
+          International Conference on Transportation and Development (ICTD 2023)
         </a>
       </div>
       <div class="talk-venue">June 17, 2023 | Austin, Texas, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              ICTD Conference (2023)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              ICTD Conference (2023)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            ICTD Conference (2023)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            ICTD Conference (2023)
+          </p>
         </div>
       </div>
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2023/05-18-ngts-conference/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          3rd Annual Conference on Next-Generation Transport Systems (NGTS-3) <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2023/05-18-ngts-conference/" style="color: var(--global-theme-color); text-decoration: none;">
+          3rd Annual Conference on Next-Generation Transport Systems (NGTS-3)
         </a>
       </div>
       <div class="talk-venue">May 18, 2023 | West Lafayette, Indiana, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              NGTS-3 Conference (2023)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              NGTS-3 Conference (2023)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            NGTS-3 Conference (2023)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            NGTS-3 Conference (2023)
+          </p>
         </div>
       </div>
     </div>
 
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <a href="/news/2023/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-          Transportation Research Board 102nd Annual Meeting <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 5px;"></i>
+        <a href="/news/2023/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
+          Transportation Research Board 102nd Annual Meeting
         </a>
       </div>
       <div class="talk-venue">January 9, 2023 | Washington, DC, US</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles under GNSS-denied Environments
       </div>
-      <div class="talk-images">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/TRB2023.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2023)
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/TRB2023-18.jpg" style="width: 100%; height: 350px; object-fit: cover;" loading="lazy">
-            <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-              TRB Annual Meeting (2023)
-            </p>
-          </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/TRB2023.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2023)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/TRB2023-18.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            TRB Annual Meeting (2023)
+          </p>
         </div>
       </div>
     </div>
@@ -680,7 +646,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: September 27, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: September 30, 2025.
       </div>
     </footer> -->
 
@@ -690,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: September 27, 2025.
+    Last updated: September 30, 2025.
   </div>
 </footer>
 
