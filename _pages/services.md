@@ -201,7 +201,7 @@ h5:hover {
 <div class="services-container">
   <h5 style="text-align: left;">Conference Organizer</h5>
   <ul class="services-list community-services">
-    <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, February 21, 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
+    <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, Feb 21 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
   <div class="row" style="margin-top: 10px;">
     <div class="col-md-4">
@@ -218,7 +218,7 @@ h5:hover {
     </div>
   </div>
   <ul class="services-list community-services">
-    <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, US, May 16-18, 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a></li>
+    <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, US, May 16-18 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
   <div class="row" style="margin-top: 10px;">
     <div class="col-md-4">
