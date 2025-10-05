@@ -310,14 +310,6 @@ h5:hover {
         </div>
       </div>
     </div>
-
-    <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">Li Auto Autonomous Driving Team</div>
-      <div class="talk-venue">March 14, 2025 | Virtual</div>
-      <div class="talk-topic">
-        <strong>Topic:</strong> VLM-RL: Vision-Language Models for Reinforcement Learning in Autonomous Driving
-      </div>
-    </div>
   </div>
 </div>
 

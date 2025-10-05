@@ -151,6 +151,32 @@ nav_order: 4
   margin-top: 0.3em;
 }
 
+/* 标题样式 */
+h4 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: var(--global-text-color);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+h4:first-of-type {
+  margin-top: 0;
+}
+
+h4:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--global-theme-color);
+  border-radius: 3px;
+}
+
 @media (max-width: 768px) {
   .teaching-container {
     flex-direction: column;
@@ -183,6 +209,7 @@ nav_order: 4
   <p class="quote-author">— William Arthur Ward</p>
 </div>
 
+<h4 style="text-align: left;">Teaching</h4>
 
 <div class="teaching-container">
   <img src="/assets/teaching/2024-CEE679.png" alt="Teaching CEE 679 AI & Data Science in Transportation 2024" class="teaching-image" loading="lazy">
@@ -240,4 +267,7 @@ nav_order: 4
       <span class="teaching-institution">University of Wisconsin-Madison</span>
     </div>
   </div>
-</div> 
+</div>
+
+<h4 style="text-align: left;">Mentoring</h4>
+
