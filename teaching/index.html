@@ -271,6 +271,32 @@
   margin-top: 0.3em;
 }
 
+/* 标题样式 */
+h4 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: var(--global-text-color);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+h4:first-of-type {
+  margin-top: 0;
+}
+
+h4:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--global-theme-color);
+  border-radius: 3px;
+}
+
 @media (max-width: 768px) {
   .teaching-container {
     flex-direction: column;
@@ -302,6 +328,8 @@
   <p class="quote-text">"The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires."</p>
   <p class="quote-author">— William Arthur Ward</p>
 </div>
+
+<h4 style="text-align: left;">Teaching</h4>
 
 <div class="teaching-container">
   <img src="/assets/teaching/2024-CEE679.png" alt="Teaching CEE 679 AI &amp; Data Science in Transportation 2024" class="teaching-image" loading="lazy">
@@ -367,6 +395,9 @@
   </div>
 </div>
 
+<h4 style="text-align: left;">Mentoring</h4>
+
+
           </article>
 
         </div>
@@ -376,7 +407,7 @@
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: October 04, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: October 05, 2025.
       </div>
     </footer> -->
 
@@ -386,7 +417,7 @@
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: October 04, 2025.
+    Last updated: October 05, 2025.
   </div>
 </footer>
 
