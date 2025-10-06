@@ -130,9 +130,9 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 10px;
-  color: var(--global-text-color);
-  font-size: 1.05em;
+  margin-bottom: 15px;
+  color: var(--global-theme-color);
+  font-size: 1.1em;
   font-weight: 600;
   padding-left: 0;
   border-left: none;
@@ -147,9 +147,9 @@ h5 {
 }
 
 h5:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.1);
-  background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
+  transform: none;
+  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.05);
+  background: linear-gradient(120deg, rgba(33, 150, 243, 0.12), rgba(3, 169, 244, 0.05));
 }
 
 /* 标签样式 */
@@ -221,7 +221,7 @@ These experiences have not only enhanced my organizational and management skills
 <ul class="memories-list">
   <li>Member, Student Leader Advocacy Team of Guangdong Province <span class="memory-date">(2017.10-2018.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>Only two students were elected university-wide (≈ 2/40,000)</strong> </span></li>
   <li>Member, Graduate Student Union <span class="memory-date">(2018.10-2019.10)</span></li>
-  <li>Deputy Secretary, Student Government<span class="memory-date">(2016.12-2018.05)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>The highest undergraduate student leadership position (≈ 4/40,000)</strong> </span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Assisted in organizing 20,000+ students and 700+ teams into community service work</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Assisted in organizing 30+ academic competitions at national, provincial and university level</span></li>
+  <li>Deputy Secretary, Student Government<span class="memory-date">(2016.12-2018.05)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>The highest undergraduate student leadership position (≈ 4/40,000)</strong> </span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Assisted in organizing 20,000+ students and 700+ teams into community service work</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Assisted in organizing 30+ academic competitions at national, provincial and university level</span></li>
   <li>Member, Student Union of Guangdong Province <span class="memory-date">(2016.04-2018.05)</span></li>
   <li>Tutor Assistant, School of Mechanical and Electrical Engineering<span class="memory-date">(2015.09-2016.09)</span></li>
   <li>Freshman class assistant, School of Mechanical and Electrical Engineering <span class="memory-date">(2015.09-2016.09)</span></li>
@@ -428,12 +428,12 @@ I believe in the power of volunteering to create positive change in our communit
 
   <h5 style="text-align: left;">Photography</h5>
   <p style="text-align: justify;">
-    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history."   I co-founded a creative media studio with senior students, focusing on MG animation and micro-film production. Our studio's original character "Zuiyao B (最耀B)" garnered over 100 million views across platforms. You can find our works on <a href="https://www.youtube.com/playlist?list=PLnQTmrTdfHskys9PPoE_mWQStAVr59GtY" target="_blank">YouTube</a> and <a href="https://space.bilibili.com/26055201" target="_blank">Bilibili</a>. My micro-film "When Drinking Water, One Should Not Forget Its Source (饮水思源)" won the "Best Film Silver Award" (RMB ¥40,000) <a href="{{ '/assets/personal/Photography/2016-movie-award.png' | relative_url }}" target="_blank">[Certificate]</a>. Additionally, I was honored to curate and direct the college graduation commemorative video <a href="https://v.qq.com/x/page/k0702zufnaj.html" target="_blank">"The Journey (走过)"</a>.
+    I have a deep passion for photography, specializing in documentary and journalistic photography. My philosophy is: "A photograph is a witness to a moment in history."   I co-founded a creative media studio with senior students, focusing on MG animation and micro-film production. Our studio's original character "Zuiyao B (最耀B)" garnered over 100 million views across platforms. You can find our works on <a href="https://www.youtube.com/playlist?list=PLnQTmrTdfHskys9PPoE_mWQStAVr59GtY" target="_blank">YouTube</a> and <a href="https://space.bilibili.com/26055201" target="_blank">Bilibili</a>. My micro-film "When Drinking Water, One Should Not Forget Its Source (饮水思源)" won the "Best Film Silver Award" (¥40,000) <a href="{{ '/assets/personal/Photography/2016-movie-award.png' | relative_url }}" target="_blank">[Certificate]</a>. Additionally, I was honored to curate and direct the college graduation commemorative video <a href="https://v.qq.com/x/page/k0702zufnaj.html" target="_blank">"The Journey (走过)"</a>.
   </p>
   
 
 <ul class="memories-list">
-  <li>Vice President, Photography Association <span class="memory-date">(2016.10-2017.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Regularly contributed photos to the university's official website</span> <br><span style="color: var(--global-text-color-light); font-size: 0.9em;">- Postcards I created from my photography work <a href="{{ '/photographic_works/postcards/' | relative_url }}">here</a></span></li>
+  <li>Vice President, Photography Association <span class="memory-date">(2016.10-2017.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Regularly contributed photos to the university's official website</span> <br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Postcards I created from my photography work <a href="{{ '/photographic_works/postcards/' | relative_url }}">here</a></span></li>
   <li>Member, Guangzhou Photography Association</li>
   <li>Photographer, Visual China (视觉中国) </li>
   <li>Member, Astronomy Club <span class="memory-date">(2016.09-2017.09)</span></li>

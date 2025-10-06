@@ -4,44 +4,44 @@ title: Talks
 permalink: /talks/
 description: 
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>
 /* Basic styles */
 .talks-container {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .talk-card {
   background: var(--global-bg-color);
-  padding: 15px 0px 8px 0px;
-  margin-bottom: 10px;
+  padding: 12px 0px 6px 0px;
+  margin-bottom: 8px;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
 .talk-title {
   font-weight: 600;
   color: var(--global-theme-color);
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   font-size: 1.1em;
 }
 
 .talk-venue {
   font-style: italic;
   color: var(--global-text-color-light);
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   font-size: 0.95em;
 }
 
 .talk-topic {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 0.95em;
 }
 
 
 .year-section {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .year-section:last-child .talk-card:last-child {
@@ -131,9 +131,9 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 10px;
-  color: var(--global-text-color);
-  font-size: 1.05em;
+  margin-bottom: 15px;
+  color: var(--global-theme-color);
+  font-size: 1.1em;
   font-weight: 600;
   padding-left: 0;
   border-left: none;
@@ -148,9 +148,9 @@ h5 {
 }
 
 h5:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.1);
-  background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
+  transform: none;
+  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.05);
+  background: linear-gradient(120deg, rgba(33, 150, 243, 0.12), rgba(3, 169, 244, 0.05));
 }
 
 /* Tag styles */

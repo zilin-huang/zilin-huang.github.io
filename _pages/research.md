@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/
+permalink: /research/
 title: Research
 description: 
 nav: true
@@ -697,77 +697,77 @@ The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustwo
 <h5>Grant of Patent</h5>
 <ol class="artistic-list">
 <li><span class="patent-type invention">发明专利</span>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN109375168A.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Invention Patent, CN109375168A</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN109375168A</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN201811368103.8.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, Sheng Zhao, Lunhui Xu, and Shanyu Tang. <em>Chinese Invention Patent, CN201811368103.8</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, Sheng Zhao, Lunhui Xu, and Shanyu Tang. <em>Invention Patent, CN201811368103.8</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>Urban traffic operation evaluation method based on ecological index. <a href="../assets/patents/patent_CN201911419439.7.pdf">PDF</a><br>
-Yongjie Lin, Weijia Zeng, Yanqing Yang, Yuming Cheng, Yuheng Liu, Haixia Guan, and <strong>Zilin Huang</strong>. <em>Chinese Invention Patent, CN201911419439.7</em>.</li>
+Yongjie Lin, Weijia Zeng, Yanqing Yang, Yuming Cheng, Yuheng Liu, Haixia Guan, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN201911419439.7</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>A device for counting the number of passengers getting on and off in a portable bus. <a href="../assets/patents/patent_CN201920581476.7.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Chinese Utility Model Patent, CN201920581476.7</em>.</li>
+<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Utility Model Patent, CN201920581476.7</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>RSSI-based road traffic jam detection and dispersion device. <a href="../assets/patents/patent_CN202021751310.4.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yuzhuang Pian, Yongjie Lin, Pan Wu, and Yuqing Zhan. <em>Chinese Utility Model Patent, CN202021751310.4</em>.</li>
+<strong>Zilin Huang</strong>, Yuzhuang Pian, Yongjie Lin, Pan Wu, and Yuqing Zhan. <em>Utility Model Patent, CN202021751310.4</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>Vehicle-mounted positioning device based on RSSI and inertial navigation. <a href="../assets/patents/patent_CN201920574767.3.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Chinese Utility Model Patent, CN201920574767.3</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574767.3</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>Micro device for positioning moving target based on RSSI. <a href="../assets/patents/patent_CN201920574719.4.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Chinese Utility Model Patent, CN201920574719.4</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574719.4</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>An obstacle avoidance system for unmanned vehicles based on machine vision and infrared sensors. <a href="../assets/patents/patent_CN202020235979.1.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Utility Model Patent, CN202020235979.1</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235979.1</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>Visual navigation system for assisting unmanned vehicles. <a href="../assets/patents/patent_CN202020235977.2.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Utility Model Patent, CN202020235977.2</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235977.2</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>A target intrusion detection device based on wireless communication signal. <a href="../assets/patents/patent_CN202020965272.6.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Utility Model Patent, CN202020965272.6</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020965272.6</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>A RSSI-based positioning and early warning device for two-passenger and one-dangerous vehicles. <a href="../assets/patents/patent_CN202021751321.2.pdf">PDF</a><br>
-Yuzhuang Pian, <strong>Zilin Huang</strong>, Yongjie Lin, Yuqing Zhan, and Pan Wu. <em>Chinese Utility Model Patent, CN202021751321.2</em>.</li>
+Yuzhuang Pian, <strong>Zilin Huang</strong>, Yongjie Lin, Yuqing Zhan, and Pan Wu. <em>Utility Model Patent, CN202021751321.2</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>A kind of elevator apparatus of wheel. <a href="../assets/patents/patent_CN201620682753.X.pdf">PDF</a><br>
-Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zilin Huang</strong>. <em>Chinese Utility Model Patent, CN201620682753.X</em>.</li>
+Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201620682753.X</em>.</li>
 
 <li><span class="patent-type utility-model">实用新型</span>Tunnel vehicle accident detection and early warning device based on RSSI. <a href="../assets/patents/patent_CN202120982224.2.pdf">PDF</a><br>
-Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Chinese Invention Patent, CN202120982224.2</em>.</li>
+Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN202120982224.2</em>.</li>
 </ol>
 
 <div class="research-area">
 <h5>Substantive Examination</h5>
 <ol class="artistic-list">
 <li><span class="patent-type invention">发明专利</span>Subway transfer bus behavior identification method, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051795.1.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Invention Patent, CN201910051795.1</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051795.1</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>The recognition methods of Metro Passenger time getting off, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051785.8.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Invention Patent, CN201910051785.8</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051785.8</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>A kind of hot spot junction of park and shift recognition methods based on IC card data. <a href="../assets/patents/patent_CN201910339482.6.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Chinese Invention Patent, CN201910339482.6</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910339482.6</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>A kind of subway station passenger flow monitoring method and system. <a href="../assets/patents/patent_CN201910338991.7.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Chinese Invention Patent, CN201910338991.7</em>.</li>
+<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Invention Patent, CN201910338991.7</em>.</li>
 
 <li><span class="patent-type invention">发明专利</span>A kind of traffic trip mode identification method based on wireless signal. <a href="../assets/patents/patent_CN201910581470.4.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Chinese Invention Patent, CN201910581470.4</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Invention Patent, CN201910581470.4</em>.</li>
 </ol>
 
 <div class="research-area">
 <h5>Computer Software Copyright</h5>
 <ol class="artistic-list">
 <li><span class="patent-type software">软件著作权</span>The Simulation System of Rapid Customization Design Platform for Hollow Glass Automatic Production Line V1.0<br>
-Kuanyuan Li, <strong>Zilin Huang</strong>, Luofang, and Chuang Zhou. <em>Chinese Computer Software Copyright, 2017SR099863; Legal Status: Authorization</em>.</li>
+Kuanyuan Li, <strong>Zilin Huang</strong>, Luofang, and Chuang Zhou. <em>Computer Software Copyright, 2017SR099863; Legal Status: Authorization</em>.</li>
 
 <li><span class="patent-type software">软件著作权</span>Intelligent Workshop Rapid Customization Design Platform System V1.0<br>
-Xiaoping Li, Luo Fang, <strong>Zilin Huang</strong>, and Chuang Zhou. <em>Chinese Computer Software Copyright, 2017SR302066; Legal Status: Authorization</em>.</li>
+Xiaoping Li, Luo Fang, <strong>Zilin Huang</strong>, and Chuang Zhou. <em>Computer Software Copyright, 2017SR302066; Legal Status: Authorization</em>.</li>
 
 <li><span class="patent-type software">软件著作权</span>Student Organization Activity Approval System V1.0<br>
-Junxing Zhang, Ruixuan Cai, Huanzeng Yang, <strong>Zilin Huang</strong>, Poyu Zhuang, Guangzheng Zhong, and Jiahao Jiang. <em>Chinese Computer Software Copyright, 2017SR099823; Legal Status: Authorization</em>.</li>
+Junxing Zhang, Ruixuan Cai, Huanzeng Yang, <strong>Zilin Huang</strong>, Poyu Zhuang, Guangzheng Zhong, and Jiahao Jiang. <em>Computer Software Copyright, 2017SR099823; Legal Status: Authorization</em>.</li>
 
 <li><span class="patent-type software">软件著作权</span>Club Activities Background Management System V1.0<br>
-Junxing Zhang, Huanzeng Yang, Poyu Zhuang, <strong>Zilin Huang</strong>, Guangzheng Zhong, and Jiahao Jiang. <em>Chinese Computer Software Copyright, 2017SR302060; Legal Status: Authorization</em>.</li>
+Junxing Zhang, Huanzeng Yang, Poyu Zhuang, <strong>Zilin Huang</strong>, Guangzheng Zhong, and Jiahao Jiang. <em>Computer Software Copyright, 2017SR302060; Legal Status: Authorization</em>.</li>
 </ol>
 </div>

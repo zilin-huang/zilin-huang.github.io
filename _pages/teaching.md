@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: 
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <style>
@@ -66,7 +66,7 @@ nav_order: 4
 }
 
 .teaching-container {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -87,7 +87,7 @@ nav_order: 4
 .teaching-image {
   width: 250px;
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   box-shadow: 0 2px 4px var(--global-shadow-color);
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -104,8 +104,8 @@ nav_order: 4
 }
 
 .teaching-item {
-  margin-bottom: 1em;
-  padding-bottom: 0.7em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
   transition: all 0.3s ease;
 }
