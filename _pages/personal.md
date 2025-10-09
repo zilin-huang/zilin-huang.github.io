@@ -199,6 +199,33 @@ h5:hover {
     padding-left: 2.2em;
   }
 }
+
+/* 篮球照片滚动条样式 */
+.basketball-scrollable {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+  overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+
+.basketball-scrollable::-webkit-scrollbar {
+  width: 8px;
+  height: 0; /* 隐藏水平滚动条 */
+}
+
+.basketball-scrollable::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.basketball-scrollable::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.basketball-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
 </style>
 
 <!-- Section navigation sidebar -->
@@ -304,6 +331,8 @@ I believe in the power of volunteering to create positive change in our communit
     I've been injured many times in my basketball journey, such as sprained ankles and scraped knees. The most severe setback occurred in early 2024 when I suffered a lower back injury requiring surgery. For the first two weeks, I was essentially immobile, confined to bed rest. However, these challenges never diminished my passion for the game. As <strong>Iverson</strong> famously said, "What doesn't kill you makes you stronger." Basketball has not only strengthened my body but also taught me invaluable life lessons about teamwork, perseverance, and rising after every fall.
   </p>
   
+  <!-- Basketball photos container with scrollbar -->
+  <div class="basketball-scrollable" style="max-height: 800px; overflow-y: auto; padding: 10px;">
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
@@ -423,7 +452,8 @@ I believe in the power of volunteering to create positive change in our communit
       </p>
     </div>
   </div>
-  
+  </div>
+  <!-- End of basketball photos container -->
 
 
   <h5 style="text-align: left;">Photography</h5>

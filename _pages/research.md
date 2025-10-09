@@ -273,7 +273,7 @@ h5:hover {
 </div>
 
 
-<h4>Research Topic</h4>
+<h4>Research Highlight</h4>
 
   <!-- Tab Navigation -->
   <div class="research-tabs">
