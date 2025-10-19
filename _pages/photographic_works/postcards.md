@@ -120,7 +120,7 @@ nav: false
     }
     
     .postcard-image {
-      height: 200px;
+      height: 220px;
     }
   }
 </style>

@@ -4,7 +4,7 @@ title: Awards
 permalink: /awards/
 description: 
 nav: true
-nav_order: 7
+nav_order: 9
 ---
 
 <style>
@@ -187,7 +187,7 @@ h5:hover {
 
 <div class="row">
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/honors/2023-Best-Presentation-Award-Photo.jpg' | relative_url }}" style="width: 100%; height: 200px; object-fit: contain;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/honors/2023-Best-Presentation-Award-Photo.jpg' | relative_url }}" style="width: 100%; height: 220px; object-fit: contain;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       NGTS-3 Best Presentation Award
     </p>

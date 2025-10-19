@@ -148,7 +148,7 @@
   }
   
   /* 滑动条样式 */
-  .news-scrollable {
+  /* .news-scrollable {
     scrollbar-width: thin;
     scrollbar-color: #888 #f0f0f0;
   }
@@ -170,20 +170,20 @@
   
   .news-scrollable::-webkit-scrollbar-thumb:hover {
     background: #666;
-  }
+  } */
   
 </style>
 
 <div class="news">
   {% if site.news != blank -%} 
   {%- assign news_size = site.news | size -%}
-  <div class="table-responsive news-scrollable" style="max-height: 700px; overflow-y: auto; padding: 10px;">
+  <div class="table-responsive" style="padding: 10px;">
     <table class="table table-sm table-borderless">
       {%- assign news = site.news | reverse -%}
       {% if site.news_limit %}
       {% assign news_limit = site.news_limit %}
       {% else %}
-      {% assign news_limit = 10 %}
+      {% assign news_limit = 5 %}
       {% endif %}
       
       <tbody class="news-items">

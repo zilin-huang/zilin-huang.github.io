@@ -59,9 +59,7 @@ h5:hover {
 }
 </style>
 
-<h4>Awarded Projects</h4>
+<h4>Projects</h4>
 
 
-
-<h4>Pending Proposals</h4>
 

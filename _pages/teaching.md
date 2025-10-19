@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: 
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>
@@ -25,7 +25,7 @@ nav_order: 5
 /* 引用样式 */
 .quote-section {
   position: relative;
-  margin: -60px 40px 40px 40px;
+  margin: -90px 40px 40px 40px;
   padding: 15px 40px;
   background: var(--global-bg-color);
   border-radius: 12px;
@@ -190,7 +190,7 @@ h4:after {
   }
   
   .quote-section {
-    margin: -60px 20px 40px 20px;
+    margin: -90px 20px 40px 20px;
     padding: 20px;
   }
   

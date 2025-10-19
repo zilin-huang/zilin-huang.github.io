@@ -203,32 +203,32 @@ h5:hover {
   <ul class="services-list community-services">
     <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, Feb 21 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
-  <div class="row" style="margin-top: 10px;">
+  <div class="row" style="margin-top: 5px;">
     <div class="col-md-4">
-      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         MARC Workshop
       </p>
     </div>
     <div class="col-md-4">
-      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_5.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_5.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         MARC Workshop
       </p>
     </div>
   </div>
-  <ul class="services-list community-services">
+  <ul class="services-list community-services" style="margin-top: 10px; margin-bottom: 5px;">
     <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, US, May 16-18 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
-  <div class="row" style="margin-top: 10px;">
+  <div class="row" style="margin-top: 5px;">
     <div class="col-md-4">
-      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         NGTS-3 Conference
       </p>
     </div>
     <div class="col-md-4">
-      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         NGTS-3 Conference
       </p>

@@ -67,6 +67,22 @@ layout: default
             }
           </style>
 
+          <!-- Upcoming Talks -->
+          <h3 style="margin-bottom: 20px;">Upcoming Talks</h3>
+          <div style="margin-bottom: 30px;">
+            <div style="display: flex; align-items: baseline; margin-bottom: 10px;">
+              <span style="font-weight: 600; color: var(--global-text-color); font-size: 1.1em; margin-right: 15px; min-width: 110px;">Jan 11, 2026</span>
+              <span style="color: var(--global-text-color); font-size: 1em;">TRB Annual Meeting, Washington DC, US</span>
+            </div>
+            <div style="display: flex; align-items: baseline; margin-bottom: 10px;">
+              <span style="font-weight: 600; color: var(--global-text-color); font-size: 1.1em; margin-right: 15px; min-width: 110px;">Jun 03, 2026</span>
+              <span style="color: var(--global-text-color); font-size: 1em;">CVPR 2026, Denver CO, US</span>
+            </div>
+          </div>
+          
+          <!-- Divider -->
+          <hr class="dashed-divider">
+
           <!-- News -->
           {% if page.news -%}
             <h3 style="display: flex; justify-content: space-between; align-items: center;">
@@ -95,22 +111,6 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Selected Projects -->
-          {% if page.selected_projects -%}
-            <!-- Divider -->
-            <hr class="dashed-divider">
-            
-            <h3 style="display: flex; justify-content: space-between; align-items: center;">
-              <div style="display: flex; align-items: center;">
-                <a href="{{ '/projects/' | relative_url }}" style="color: inherit;">Selected Projects</a>
-              </div>
-              <a href="{{ '/projects/' | relative_url }}" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-                View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
-              </a>
-            </h3>
-            {%- include selected_projects.html %}
-          {%- endif %}
-          
           <!-- Team Facilities -->
           {% if page.team_facilities -%}
             <!-- Divider -->
@@ -140,10 +140,10 @@ layout: default
         </article>
 
       <!-- Divider -->
-      <hr class="dashed-divider">
+      <!-- <hr class="dashed-divider"> -->
 
       <!-- Sponsors Section -->
-      <div class="sponsors-section">
+      <!-- <div class="sponsors-section">
         <h3>Sponsors</h3>
         <p class="sponsors-text" style="text-align: left;">We are thankful for the generous funding award and gift from the following sponsors:</p>
         
@@ -170,7 +170,7 @@ layout: default
             <img src="{{ '/assets/img/sponsors/NVIDIA.png' | relative_url }}" alt="NVIDIA" class="sponsor-img nvidia-logo" loading="lazy" decoding="async">
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- CSS for sponsors section -->
       <style>
@@ -206,7 +206,7 @@ layout: default
           border-radius: 0 4px 4px 0;
         }
         
-        .sponsors-section {
+        /* .sponsors-section {
           margin: 40px 0;
           width: 100%;
         }
@@ -269,15 +269,12 @@ layout: default
             max-height: 80px;
             object-fit: contain;
           }
-        }
+        } */
       </style>
-
-      <!-- Divider -->
-      <hr class="dashed-divider">
 
       <!-- Visitor Statistics Section -->
       <div class="visitor-statistics">
-        <h3>Global Visitor Statistics</h3>
+        <h3>Visitor Statistics</h3>
         
         <div class="visitor-container">
           <div class="visitor-map-container">
@@ -329,7 +326,7 @@ layout: default
       <!-- CSS for visitor statistics section -->
       <style>
         .visitor-statistics {
-          margin: 40px 0;
+          margin: 20px 0 40px 0;
           text-align: left;
         }
         

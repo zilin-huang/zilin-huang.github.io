@@ -105,7 +105,7 @@ nav_order: 2
   }
   
   .quote-section {
-    margin: -60px 20px 40px 20px;
+    margin: -90px 20px 40px 20px;
     padding: 20px;
   }
   
@@ -168,7 +168,7 @@ h5:hover {
 /* 引用样式 */
 .quote-section {
   position: relative;
-  margin: -60px 40px 40px 40px;
+  margin: -90px 40px 40px 40px;
   padding: 15px 40px;
   background: var(--global-bg-color);
   border-radius: 12px;
@@ -269,505 +269,117 @@ h5:hover {
 
 <div class="quote-section">
   <div class="quote-border"></div>
-  <p class="quote-text">"HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without alignment, or trust can be dangerous. My vision is to give technology a HEART—developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation systems where humans and AI-powered agents coexist in harmony.</p>
+  <p class="quote-text">"HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without alignment or trust can be dangerous. My research vision is to give technology a HEART: developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation systems where humans and AI-powered agents coexist in harmony.</p>
 </div>
 
 
-<h4>Research Highlight</h4>
+<h4>1. Simulation Platform Development</h4>
 
-  <!-- Tab Navigation -->
-  <div class="research-tabs">
-    <button class="tab-button active" onclick="showTab('simulation-platform')">
-      <span class="tab-dot" style="background-color: #4CAF50;"></span>
-      1. Simulation Platform Development
-    </button>
-    <button class="tab-button" onclick="showTab('socially-compliant-ai')">
-      <span class="tab-dot" style="background-color: #2196F3;"></span>
-      2. Human-centered AI Algorithm Design
-    </button>
-    <button class="tab-button" onclick="showTab('sim2real-transfer')">
-      <span class="tab-dot" style="background-color: #F44336;"></span>
-      3. Real-world Testing & Evaluation
-    </button>
-  </div>
-
-<!-- Tab Content -->
-<div id="simulation-platform" class="tab-content active">
-  <div class="research-area">
-    <h5>1.1 Multi-Agent Interaction</h5>
-    <p>
-      Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
+<div class="research-area">
+  <h5>1.1 Multi-Agent Interaction</h5>
+  <p>
+    Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
+  </p>
+  <div style="width: 50%;">
+    <video width="100%" controls>
+      <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors in our open-world platform.
     </p>
-    <div style="width: 50%;">
+  </div>
+  <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
+    <div style="width: 24%;">
       <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
+        <source src="../assets/research/mutli-agent interaction/Right_Turn_Conflict -480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p style="margin-top: 8px;">
-        Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors in our open-world platform.
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Right Turn Conflict
       </p>
     </div>
-    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
-      <div style="width: 24%;">
-        <video width="100%" controls>
-          <source src="../assets/research/mutli-agent interaction/Right_Turn_Conflict -480p.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-          Right Turn Conflict
-        </p>
-      </div>
-      <div style="width: 24%;">
-        <video width="100%" controls>
-          <source src="../assets/research/mutli-agent interaction/Nearside_Conflict_Straight_road-480p.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-          Nearside Conflict
-        </p>
-      </div>
-      <div style="width: 24%;">
-        <video width="100%" controls>
-          <source src="../assets/research/mutli-agent interaction/Left_Turn_Conflict - 480p.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-          Left Turn Conflict
-        </p>
-      </div>
-      <div style="width: 24%;">
-        <video width="100%" controls>
-          <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road - 480p.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="margin-top: 8px; font-size: 0.9em; text-align: center;">
-          Farside Conflict
-        </p>
-      </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Nearside_Conflict_Straight_road-480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Nearside Conflict
+      </p>
+    </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Left_Turn_Conflict - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Left Turn Conflict
+      </p>
+    </div>
+    <div style="width: 24%;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/Farside_Conflict_Straight_road - 480p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Farside Conflict
+      </p>
     </div>
   </div>
 </div>
 
-<div id="socially-compliant-ai" class="tab-content">
-  <div class="research-area">
-  </div>
+<h4>2. Human-centered AI Algorithm Design</h4>
+
+<div class="research-area">
+  <h5>2.1 Imitation Learning Pretraining</h5>
+  <p>
+    
+  </p>
 </div>
 
-<div id="sim2real-transfer" class="tab-content">
-  <div class="research-area">
-    <h5>3.1 5G Remote Control</h5>
-    <p>
-      Effectively transferring capabilities from simulation to real deployment and continuously improving through real-world feedback. This research addresses the critical challenge of bridging the gap between simulated and real-world performance.
-    </p>
-    <div style="width: 50%;">
+<div class="research-area">
+  <h5>2.2 Closed-loop Post-Training: VLM, RL and WM</h5>
+  <p>
+    
+  </p>
+</div>
+
+<div class="research-area">
+  <h5>2.3 Human-in-the-loop Adaptation</h5>
+  <p>
+    
+  </p>
+</div>
+
+<h4>3. Real-world Testing & Evaluation</h4>
+
+<div class="research-area">
+  <h5>3.1 Remote Vehicle Operations and Cloud-Based AI Deployment</h5>
+  <p>
+    Deploying VLMs and complex AI algorithms directly on vehicle computer hardware faces significant computational constraints. To address this limitation, my team and I designed a complete remote operations (teleoperation) platform for our autonomous van. Leveraging its 5G connectivity, the vehicle can be controlled in real time for driving, operation, and data collection from any location with an internet connection, such as a conference room or an off-site lab (see video examples below). More importantly, our platform is designed for remote AI model deployment. This enables a powerful hardware-in-the-loop workflow: real-time sensor data is streamed from the vehicle to a local computer or a cloud service like Amazon Web Services (AWS), where AI models can process the data and transmit control commands back to the vehicle for immediate execution.
+  </p>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/remote control/sky-remote-driving-1min.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Remote driving from the office. The van can be seen passing the window on the right at 0:02 and 0:42.
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
       <video width="100%" controls>
         <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p style="margin-top: 8px;">
-        Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.</b>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        My team and I testing remote driving function with Logitech G920 Racing Wheel and Pedals. Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.
       </p>
     </div>
   </div>
 </div>
 
-<style>
-/* Tab Styles */
-.research-tabs {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 0;
-  flex-wrap: wrap;
-  padding: 0;
-  background: transparent;
-  border-bottom: 2px solid #e9ecef;
-}
-
-.tab-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 14px 18px;
-  border: 1px solid #e0e0e0;
-  background: #f8f9fa;
-  color: var(--global-text-color-light);
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1em;
-  font-weight: 500;
-  position: relative;
-  border-bottom: 3px solid transparent;
-  user-select: none;
-  margin-right: 6px;
-  flex: 1;
-  justify-content: center;
-  min-width: 0;
-}
-
-.tab-button:hover {
-  background-color: rgba(var(--global-theme-color-rgb), 0.15);
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(var(--global-theme-color-rgb), 0.2);
-}
-
-.tab-button:active {
-  transform: translateY(0);
-}
-
-.tab-button.active {
-  background-color: rgba(var(--global-theme-color-rgb), 0.1);
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
-  border-bottom: 3px solid var(--global-theme-color);
-  margin-bottom: 0;
-  position: relative;
-  z-index: 2;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(var(--global-theme-color-rgb), 0.15);
-}
-
-.tab-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.02), rgba(var(--global-theme-color-rgb), 0.05));
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-}
-
-.tab-button:hover::before {
-  opacity: 1;
-}
-
-.tab-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.tab-button:hover .tab-dot {
-  transform: scale(1.1);
-}
-
-.tab-content {
-  display: none;
-  border: none;
-  border-radius: 0;
-  padding: 25px 0 25px 0;
-  margin-top: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .research-tabs {
-    flex-direction: column;
-    gap: 4px;
-  }
-  
-  .tab-button {
-    width: 100%;
-    justify-content: center;
-    padding: 12px 16px;
-    font-size: 0.9em;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .tab-button {
-    padding: 10px 14px;
-    font-size: 0.85em;
-    gap: 6px;
-  }
-}
-</style>
-
-<script>
-function showTab(tabName) {
-  // Hide all tab contents
-  const tabContents = document.querySelectorAll('.tab-content');
-  tabContents.forEach(content => {
-    content.classList.remove('active');
-  });
-  
-  // Remove active class from all buttons
-  const tabButtons = document.querySelectorAll('.tab-button');
-  tabButtons.forEach(button => {
-    button.classList.remove('active');
-  });
-  
-  // Show selected tab content
-  document.getElementById(tabName).classList.add('active');
-  
-  // Add active class to clicked button
-  event.target.classList.add('active');
-}
-</script>
-
 
 <!-- <h4>Team Facilities</h4> -->
-
-
-
-
-
-<h4>Technology Transfer</h4>
-
-<!-- <p style="text-align: justify;">
-  Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
-</p> -->
-  
-<p style="text-align: justify;">  
-I am deeply passionate about bridging the gap between scientific discovery and real-world impact. Before beginning my Ph.D. journey, <b>I founded two technology companies</b> in China, aiming to transform my research findings into practical solutions. Through this experience, I had the opportunity to collaborate with industry professionals and gain valuable insights into the innovation ecosystem. Encouragingly, the companies attracted <b>over 3 million RMB</b> in potential investment from leading institutions such as <b>Yueke Securities</b> and <b>CITIC Securities</b>. These experiences reinforced my belief that when scientific discoveries move beyond the lab and into society, they can generate meaningful and lasting value.
-</p>
-
-<!-- Entrepreneurship images -->
-<div class="row">
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Qinglan Project (2021)
-    </p>
-  </div>
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Qinglan Project (2021)
-    </p>
-  </div>
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Winning Guangdong Competition (2020)
-    </p>
-  </div>
-</div>
-
-<div class="row mt-1">
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Winning Guangdong Competition (2020)
-    </p>
-  </div>
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Winning Guangdong Competition (2020)
-    </p>
-  </div>
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Chuangke Guangdong Competition (2020)
-    </p>
-  </div>
-</div>
-
-<div class="row mt-1">
-  <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-chuangkeguangdong-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Chuangke Guangdong Competition (2020)
-    </p>
-  </div>
-</div>
-
-
-<!-- 
-My research vision is to develop next-generation intelligent transportation systems through the integration of artificial intelligence, robotics, and human-centered design. My work bridges fundamental theoretical research with practical applications, creating solutions that enhance transportation safety, efficiency, and sustainability.
-</p>
-
-<p>
-The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.
-</p> -->
-<!-- 
-<h4>Research Areas</h4>
-
-<div class="research-area">
-  <h5>Human-AI Collaborative Systems</h5>
-  <p>
-    Developing frameworks for effective cooperation between humans and autonomous agents in transportation contexts. My research explores how to design AI systems that can understand human intentions, adapt to human preferences, and collaborate efficiently with human operators or passengers. This includes investigating natural interaction methodologies, shared control mechanisms, and intuitive interfaces to facilitate human-AI partnerships in transportation.
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>Multi-Agent Reinforcement Learning</h5>
-  <p>
-    Creating cooperative behaviors for autonomous vehicles in complex traffic scenarios. My work in this area focuses on developing algorithms that enable multiple autonomous vehicles to coordinate their actions effectively in dynamic traffic environments. This research addresses challenges in distributed decision-making, coordination under uncertainty, and balancing individual and collective objectives in traffic management.
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>Trustworthy AI for Transportation</h5>
-  <p>
-    Building robust, explainable, and fair AI systems for critical transportation applications. This research direction explores how to develop AI systems that are reliable in diverse and unpredictable situations, capable of explaining their decisions to users, and designed to treat all road users equitably. My work addresses challenges in robustness against distribution shifts, interpretable decision-making models, and fairness considerations in autonomous systems.
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>Foundation Models for Autonomous Driving</h5>
-  <p>
-    Leveraging large language and vision models to enhance environmental perception and decision-making. My research investigates how to adapt and fine-tune foundation models to improve autonomous vehicles' ability to understand complex road scenarios, interpret traffic rules and social norms, and reason about multi-agent interactions. This includes developing multimodal approaches that combine visual perception with semantic understanding of traffic environments.
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>Cognitive Systems for Mobility</h5>
-  <p>
-    Designing intelligent agents with human-like reasoning capabilities for navigation in dynamic environments. This research direction explores cognitive architectures that enable autonomous systems to reason about traffic situations, make decisions under uncertainty, and adapt to novel environments. My work aims to develop agents that can understand the implicit rules of the road and navigate complex social interactions in shared spaces.
-  </p> -->
-
-<!-- 
-<h4>Research Impact</h4>
-
-<p>My research contributions are documented in peer-reviewed publications spanning transportation science, artificial intelligence, and robotics. My work has addressed key challenges in:</p>
-
-<ul>
-  <li>Developing robust control strategies for mixed-autonomy traffic systems</li>
-  <li>Creating trustworthy AI systems for safety-critical transportation applications</li>
-  <li>Designing adaptive human-AI interfaces for autonomous vehicle interaction</li>
-  <li>Applying foundation models to enhance environmental perception in complex driving scenarios</li>
-</ul> -->
-
-
-<!-- <h4>Selected Projects</h4>
-
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; display: flex;">
-  <img src="../../assets/img/projects_photo/frank-GCQ.gif" style="width: 300px; height: 250px; margin-right: 20px;">
-  <div>
-    <h5><strong><span style="color: #B71C1C;">Graph neural network and reinforcement learning for multi-agent cooperative control of connected autonomous vehicles</span></strong></h5>
-    <h6>Publication</h6>
-    <ul>
-      <li>Computer‐Aided Civil and Infrastructure Engineering, 2021, 36(7): 838-857.</li>
-    </ul>
-  </div>
-</div>
-
-<br>
-
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; display: flex;">
-  <img src="../../assets/img/projects_photo/Paul-research.gif" style="width: 300px; height: 250px; margin-right: 20px;">
-  <div>
-    <h5><strong><span style="color: #B71C1C;">Leveraging the capabilities of connected and autonomous vehicles and multi-agent reinforcement learning to mitigate highway bottleneck congestion</span></strong></h5>
-    <h6>Publication</h6>
-    <ul>
-      <li>Transportmetrica A: Transportation Science</li>
-    </ul>
-  </div>
-</div>
-
-<br>
-
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; display: flex;">
-  <img src="../../assets/img/projects_photo/crash_avoidance.gif" style="width: 300px; height: 250px; margin-right: 20px;">
-  <div>
-    <h5><strong><span style="color: #B71C1C;">A cooperative crash avoidance framework for autonomous vehicle under collision-imminent situations in mixed traffic stream</span></strong></h5>
-    <h6>Publication</h6>
-    <ul>
-      <li>2021 IEEE International Intelligent Transportation Systems Conference (ITSC). IEEE, 2021: 1997-2002.</li>
-    </ul>
-  </div>
-</div>
-
-
- -->
-
-<h4>Patents Property</h4>
-
-<div class="research-area">
-<h5>Grant of Patent</h5>
-<ol class="artistic-list">
-<li><span class="patent-type invention">发明专利</span>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN109375168A.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN109375168A</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN201811368103.8.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, Sheng Zhao, Lunhui Xu, and Shanyu Tang. <em>Invention Patent, CN201811368103.8</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>Urban traffic operation evaluation method based on ecological index. <a href="../assets/patents/patent_CN201911419439.7.pdf">PDF</a><br>
-Yongjie Lin, Weijia Zeng, Yanqing Yang, Yuming Cheng, Yuheng Liu, Haixia Guan, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN201911419439.7</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>A device for counting the number of passengers getting on and off in a portable bus. <a href="../assets/patents/patent_CN201920581476.7.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Utility Model Patent, CN201920581476.7</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>RSSI-based road traffic jam detection and dispersion device. <a href="../assets/patents/patent_CN202021751310.4.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yuzhuang Pian, Yongjie Lin, Pan Wu, and Yuqing Zhan. <em>Utility Model Patent, CN202021751310.4</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>Vehicle-mounted positioning device based on RSSI and inertial navigation. <a href="../assets/patents/patent_CN201920574767.3.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574767.3</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>Micro device for positioning moving target based on RSSI. <a href="../assets/patents/patent_CN201920574719.4.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574719.4</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>An obstacle avoidance system for unmanned vehicles based on machine vision and infrared sensors. <a href="../assets/patents/patent_CN202020235979.1.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235979.1</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>Visual navigation system for assisting unmanned vehicles. <a href="../assets/patents/patent_CN202020235977.2.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235977.2</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>A target intrusion detection device based on wireless communication signal. <a href="../assets/patents/patent_CN202020965272.6.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020965272.6</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>A RSSI-based positioning and early warning device for two-passenger and one-dangerous vehicles. <a href="../assets/patents/patent_CN202021751321.2.pdf">PDF</a><br>
-Yuzhuang Pian, <strong>Zilin Huang</strong>, Yongjie Lin, Yuqing Zhan, and Pan Wu. <em>Utility Model Patent, CN202021751321.2</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>A kind of elevator apparatus of wheel. <a href="../assets/patents/patent_CN201620682753.X.pdf">PDF</a><br>
-Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201620682753.X</em>.</li>
-
-<li><span class="patent-type utility-model">实用新型</span>Tunnel vehicle accident detection and early warning device based on RSSI. <a href="../assets/patents/patent_CN202120982224.2.pdf">PDF</a><br>
-Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN202120982224.2</em>.</li>
-</ol>
-
-<div class="research-area">
-<h5>Substantive Examination</h5>
-<ol class="artistic-list">
-<li><span class="patent-type invention">发明专利</span>Subway transfer bus behavior identification method, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051795.1.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051795.1</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>The recognition methods of Metro Passenger time getting off, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051785.8.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051785.8</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>A kind of hot spot junction of park and shift recognition methods based on IC card data. <a href="../assets/patents/patent_CN201910339482.6.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910339482.6</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>A kind of subway station passenger flow monitoring method and system. <a href="../assets/patents/patent_CN201910338991.7.pdf">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Invention Patent, CN201910338991.7</em>.</li>
-
-<li><span class="patent-type invention">发明专利</span>A kind of traffic trip mode identification method based on wireless signal. <a href="../assets/patents/patent_CN201910581470.4.pdf">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Invention Patent, CN201910581470.4</em>.</li>
-</ol>
-
-<div class="research-area">
-<h5>Computer Software Copyright</h5>
-<ol class="artistic-list">
-<li><span class="patent-type software">软件著作权</span>The Simulation System of Rapid Customization Design Platform for Hollow Glass Automatic Production Line V1.0<br>
-Kuanyuan Li, <strong>Zilin Huang</strong>, Luofang, and Chuang Zhou. <em>Computer Software Copyright, 2017SR099863; Legal Status: Authorization</em>.</li>
-
-<li><span class="patent-type software">软件著作权</span>Intelligent Workshop Rapid Customization Design Platform System V1.0<br>
-Xiaoping Li, Luo Fang, <strong>Zilin Huang</strong>, and Chuang Zhou. <em>Computer Software Copyright, 2017SR302066; Legal Status: Authorization</em>.</li>
-
-<li><span class="patent-type software">软件著作权</span>Student Organization Activity Approval System V1.0<br>
-Junxing Zhang, Ruixuan Cai, Huanzeng Yang, <strong>Zilin Huang</strong>, Poyu Zhuang, Guangzheng Zhong, and Jiahao Jiang. <em>Computer Software Copyright, 2017SR099823; Legal Status: Authorization</em>.</li>
-
-<li><span class="patent-type software">软件著作权</span>Club Activities Background Management System V1.0<br>
-Junxing Zhang, Huanzeng Yang, Poyu Zhuang, <strong>Zilin Huang</strong>, Guangzheng Zhong, and Jiahao Jiang. <em>Computer Software Copyright, 2017SR302060; Legal Status: Authorization</em>.</li>
-</ol>
-</div>

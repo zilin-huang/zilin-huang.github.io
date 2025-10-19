@@ -13,50 +13,6 @@ nav_order: 10
   margin-bottom: 20px;
 }
 
-/* 添加导航栏样式 */
-.section-nav {
-  position: fixed;
-  left: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
-}
-
-.section-nav a {
-  display: block;
-  padding: 8px 25px;
-  margin: 6px 0;
-  color: var(--global-theme-color);
-  text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  font-size: 1em;
-  text-align: center;
-  position: relative;
-  background-color: transparent;
-}
-
-.section-nav a:hover {
-  background-color: rgba(var(--global-theme-color-rgb), 0.1);
-}
-
-.section-nav a.active {
-  background-color: var(--global-theme-color);
-  color: white;
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .section-nav {
-    display: none;
-  }
-}
-
 .memories-list {
   list-style-type: disc;
   padding-left: 1.5em;
@@ -228,19 +184,12 @@ h5:hover {
 }
 </style>
 
-<!-- Section navigation sidebar -->
-<div class="section-nav">
-  <a href="#memories">Memories</a>
-  <a href="#hobbies">Hobbies</a>
-</div>
-
 <h4 id="memories" style="text-align: left;">Memories</h4>
 
 
 
 <h4 id="memories" style="text-align: left;">Leadership</h4>
 
-<h5 id="volunteering" style="text-align: left;">Student Affairs</h5>
 <p style="text-align: justify;">
 These experiences have not only enhanced my organizational and management skills but have also provided me with valuable opportunities to serve my peers and contribute to campus life.
 </p>
@@ -253,14 +202,6 @@ These experiences have not only enhanced my organizational and management skills
   <li>Tutor Assistant, School of Mechanical and Electrical Engineering<span class="memory-date">(2015.09-2016.09)</span></li>
   <li>Freshman class assistant, School of Mechanical and Electrical Engineering <span class="memory-date">(2015.09-2016.09)</span></li>
   <li>Class Leader, School of Mechanical and Electrical Engineering <span class="memory-date">(2014.09-2015.09)</span></li>
-</ul>
-
-<h5 id="volunteering" style="text-align: left;">Volunteering</h5>
-<p style="text-align: justify;">
-I believe in the power of volunteering to create positive change in our communities. I've been actively involved in various community service initiatives that have not only made a difference in people's lives but have also shaped my perspective on social responsibility and leadership.
-</p>
-
-<ul class="memories-list">
   <li>Invited guest speaker of "Youth Science Camp" in Chinese universities <span class="memory-date">(2018.07)</span></li>
   <li>The founder of "Transformation Program" <span class="memory-date">(2018.04)</span></li>
   <li>Outstanding Community Worker of "Summer Rural Social Practice" Program, Guangdong Province <span class="memory-date">(2017.09)</span></li>
@@ -280,19 +221,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Chef Huang (黄小厨) 
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         ‌Chicken Clay Pot‌ (啫啫鸡煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Seafood Tofu Clay Pot (海鲜豆腐煲)
       </p>
@@ -302,19 +243,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 2 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Beef Clay Pot (牛肉煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-5.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-5.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Fish-Fragrant Eggplant Clay Pot (鱼香茄子煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-6.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-6.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Beef Brisket Clay Pot (牛腩煲)
       </p>
@@ -336,19 +277,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 23%;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 220px; object-fit: cover; object-position: center 23%;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Bakke Gym, UW-Madison (2023)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2021)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2020-baksetball-team-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2020)
       </p>
@@ -358,14 +299,14 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 2 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2019)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <div style="position: relative; height: 200px; overflow: hidden;">
-        <video controls style="width: 100%; height: 200px; object-fit: cover;">
+      <div style="position: relative; height: 220px; overflow: hidden;">
+        <video controls style="width: 100%; height: 220px; object-fit: cover;">
           <source src="../assets/personal/basketball/2018-basketball-team-highlights.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -375,7 +316,7 @@ I believe in the power of volunteering to create positive change in our communit
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2018)
       </p>
@@ -385,19 +326,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 3 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center bottom;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-2.jpg" style="width: 100%; height: 220px; object-fit: cover; object-position: center bottom;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2017)
       </p>
@@ -407,19 +348,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 4 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2017-baksetball-team-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2017)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-1.jpg" style="width: 100%; height: 200px; object-fit: cover; object-position: center 80%;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-1.jpg" style="width: 100%; height: 220px; object-fit: cover; object-position: center 80%;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2016)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2016-baksetball-team-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2016)
       </p>
@@ -429,8 +370,8 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Row 5 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <div style="position: relative; height: 200px; overflow: hidden;">
-        <video controls style="width: 100%; height: 200px; object-fit: cover;">
+      <div style="position: relative; height: 220px; overflow: hidden;">
+        <video controls style="width: 100%; height: 220px; object-fit: cover;">
           <source src="../assets/personal/basketball/2015-baksetball-team-highlights.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -440,13 +381,13 @@ I believe in the power of volunteering to create positive change in our communit
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2015-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2015-baksetball-team.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2015)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2014-baksetball-team.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2014-baksetball-team.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2014)
       </p>
@@ -478,19 +419,19 @@ I believe in the power of volunteering to create positive change in our communit
   <!-- Photography images -->
   <!-- <div class="row">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2018-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2018-photography.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Astrophotography Activities (2018)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography1.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2016-photography1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Photography Activities (2016)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2014-photography.jpg" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/Photography/2014-photography.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         The camera I own (2014)
       </p>
@@ -507,42 +448,3 @@ I believe in the power of volunteering to create positive change in our communit
   </p>
 
 </div> -->
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const sectionLinks = document.querySelectorAll('.section-nav a');
-  
-  // Set first section as active by default
-  sectionLinks[0].classList.add('active');
-  
-  // Update active state on scroll
-  function updateActiveSection() {
-    const scrollPosition = window.scrollY;
-    const sections = document.querySelectorAll('h4[id]');
-    
-    sections.forEach((section, index) => {
-      const sectionTop = section.offsetTop - 100;
-      const sectionBottom = sectionTop + section.offsetHeight;
-      
-      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-        sectionLinks.forEach(link => link.classList.remove('active'));
-        sectionLinks[index].classList.add('active');
-      }
-    });
-  }
-  
-  // Update active state on click
-  sectionLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      sectionLinks.forEach(l => l.classList.remove('active'));
-      e.target.classList.add('active');
-    });
-  });
-  
-  window.addEventListener('scroll', updateActiveSection);
-  updateActiveSection();
-});
-</script>
-
-
-
