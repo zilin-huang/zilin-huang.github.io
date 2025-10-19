@@ -83,16 +83,19 @@
                 <a class="nav-link" href="/projects/">Projects</a>
               </li>
               <li class="nav-item ">
+                <a class="nav-link" href="/products/">Products</a>
+              </li>
+              <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">Teaching</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/talks/">Talks</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/awards/">Awards</a>
+                <a class="nav-link" href="/services/">Services</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/services/">Services</a>
+                <a class="nav-link" href="/awards/">Awards</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/news/">News</a>
@@ -231,6 +234,22 @@
               border-radius: 3px;
             }
           </style>
+
+          <!-- Upcoming Talks -->
+          <h3 style="margin-bottom: 20px;">Upcoming Talks</h3>
+          <div style="margin-bottom: 30px;">
+            <div style="display: flex; align-items: baseline; margin-bottom: 10px;">
+              <span style="font-weight: 600; color: var(--global-text-color); font-size: 1.1em; margin-right: 15px; min-width: 110px;">Jan 11, 2026</span>
+              <span style="color: var(--global-text-color); font-size: 1em;">TRB Annual Meeting, Washington DC, US</span>
+            </div>
+            <div style="display: flex; align-items: baseline; margin-bottom: 10px;">
+              <span style="font-weight: 600; color: var(--global-text-color); font-size: 1.1em; margin-right: 15px; min-width: 110px;">Jun 03, 2026</span>
+              <span style="color: var(--global-text-color); font-size: 1em;">CVPR 2026, Denver CO, US</span>
+            </div>
+          </div>
+          
+          <!-- Divider -->
+          <hr class="dashed-divider">
 
           <!-- News -->
           <h3 style="display: flex; justify-content: space-between; align-items: center;">
@@ -389,7 +408,7 @@
   }
   
   /* 滑动条样式 */
-  .news-scrollable {
+  /* .news-scrollable {
     scrollbar-width: thin;
     scrollbar-color: #888 #f0f0f0;
   }
@@ -411,12 +430,12 @@
   
   .news-scrollable::-webkit-scrollbar-thumb:hover {
     background: #666;
-  }
+  } */
   
 </style>
 
 <div class="news">
-  <div class="table-responsive news-scrollable" style="max-height: 700px; overflow-y: auto; padding: 10px;">
+  <div class="table-responsive" style="padding: 10px;">
     <table class="table table-sm table-borderless">
       
       <tbody class="news-items">
@@ -488,75 +507,6 @@
           <td class="news-content">
             📢 We currently released one paper: <a href="https://arxiv.org/abs/2409.00858" rel="external nofollow noopener" target="_blank">Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving</a>.
  
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Jun 13, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2024/huang_cv2x.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            🎉 Paper <a href="https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/abstract/document/10556814" rel="external nofollow noopener" target="_blank">Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles</a> is published on <em>IEEE Transactions on Intelligent Transportation Systems</em>.
- 
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Apr 8, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2024/huang_haim.gif" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            🎉 Paper <a href="https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106" rel="external nofollow noopener" target="_blank">Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving</a> is published on <em>Communications in Transportation Research</em>.
- 
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Jan 12, 2024</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2024/TRB.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            <a class="news-title" href="/news/2024/01-12-trb-meeting/">👏 I attended the TRB 2024 Annual Meeting.</a>
-            
-            <div class="news-excerpt">I participated in the Transportation Research Board (TRB) 103nd Annual Meeting (January 7-11) at the Washington, D.C. Convention Center. We presented our work in multiple poster and lectern sessions, engaging... <a href="/news/2024/01-12-trb-meeting/" class="read-more">Read more →</a>
-</div>
-             
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Oct 19, 2023</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2023/Informs.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            <a class="news-title" href="/news/2023/10-19-informs-meeting/">👏 I attended the 2023 INFORMS Annual Meeting.</a>
-            
-            <div class="news-excerpt">I participated in the 2023 INFORMS Annual Meeting (October 19) at Phoenix, Arizona, US. I presented our work “TFs-DGAN: Multi-View Temporal Factorizations-Based Dynamic Adaptive Generative Adversarial Networks for Hybrid Recovery... <a href="/news/2023/10-19-informs-meeting/" class="read-more">Read more →</a>
-</div>
-             
-          </td>
-        </tr> 
-        <tr>
-          <th scope="row" class="date-col">Oct 17, 2023</th>
-          <td class="image-col">
-            
-            <img src="/assets/news_photo/news_thumbnails/2023/ASU.jpg" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: cover;">
-            
-          </td>
-          <td class="news-content">
-            <a class="news-title" href="/news/2023/10-17-asu-beliv-lab-visit/">👏 I visited the BELIV Lab at Arizona State University.</a>
-            
-            <div class="news-excerpt">I visited the Battery Electric &amp; Intelligent Vehicle (BELIV) Lab at Arizona State University on October 17, 2023. During the visit, I had the opportunity to explore their cutting-edge autonomous... <a href="/news/2023/10-17-asu-beliv-lab-visit/" class="read-more">Read more →</a>
-</div>
-             
           </td>
         </tr>
       </tbody>
@@ -1342,7 +1292,7 @@
         <div class="periodical">
 
             
-            In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshop
+            In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshop
             
 
             
@@ -2051,72 +2001,6 @@
 </div>
 
 
-          <!-- Selected Projects -->
-          <!-- Divider -->
-            <hr class="dashed-divider">
-            
-            <h3 style="display: flex; justify-content: space-between; align-items: center;">
-              <div style="display: flex; align-items: center;">
-                <a href="/projects/" style="color: inherit;">Selected Projects</a>
-              </div>
-              <a href="/projects/" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
-                View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
-              </a>
-            </h3>
-<div class="selected-projects">
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-title">5G Remote Control</div>
-      <video class="project-image" controls>
-        <source src="assets/research/remote%20control/remote%20control%20-%204speed%20-%20480p.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </source></video>
-      <div class="project-description">
-        Advanced remote control system leveraging 5G technology for real-time control and monitoring capabilities. <b>Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank" rel="external nofollow noopener">YouTube</a>.</b>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  .projects-grid {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
-  }
-  
-  .project-card {
-    overflow: hidden;
-    width: 50%;
-  }
-  
-  .project-image {
-    width: 100%;
-  }
-  
-  .project-info {
-    padding: 15px;
-  }
-  
-  .project-title {
-    color: var(--global-theme-color);
-    margin-bottom: 8px;
-    font-size: 1.1em;
-    font-weight: 600;
-  }
-  
-  .project-description {
-    color: var(--global-text-color);
-    margin-bottom: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .projects-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style> 
-          
           <!-- Team Facilities -->
           
 
@@ -2135,10 +2019,10 @@
         </article>
 
       <!-- Divider -->
-      <hr class="dashed-divider">
+      <!-- <hr class="dashed-divider"> -->
 
       <!-- Sponsors Section -->
-      <div class="sponsors-section">
+      <!-- <div class="sponsors-section">
         <h3>Sponsors</h3>
         <p class="sponsors-text" style="text-align: left;">We are thankful for the generous funding award and gift from the following sponsors:</p>
         
@@ -2165,7 +2049,7 @@
             <img src="/assets/img/sponsors/NVIDIA.png" alt="NVIDIA" class="sponsor-img nvidia-logo" loading="lazy" decoding="async">
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- CSS for sponsors section -->
       <style>
@@ -2201,7 +2085,7 @@
           border-radius: 0 4px 4px 0;
         }
         
-        .sponsors-section {
+        /* .sponsors-section {
           margin: 40px 0;
           width: 100%;
         }
@@ -2264,15 +2148,12 @@
             max-height: 80px;
             object-fit: contain;
           }
-        }
+        } */
       </style>
-
-      <!-- Divider -->
-      <hr class="dashed-divider">
 
       <!-- Visitor Statistics Section -->
       <div class="visitor-statistics">
-        <h3>Global Visitor Statistics</h3>
+        <h3>Visitor Statistics</h3>
         
         <div class="visitor-container">
           <div class="visitor-map-container">
@@ -2324,7 +2205,7 @@
       <!-- CSS for visitor statistics section -->
       <style>
         .visitor-statistics {
-          margin: 40px 0;
+          margin: 20px 0 40px 0;
           text-align: left;
         }
         
@@ -2408,7 +2289,7 @@
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2025 Zilin  Huang. Last updated: October 09, 2025.
+        &copy; Copyright 2025 Zilin  Huang. Last updated: October 19, 2025.
       </div>
     </footer> -->
 
@@ -2418,7 +2299,7 @@
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2025 Zilin  Huang.
-    Last updated: October 09, 2025.
+    Last updated: October 19, 2025.
   </div>
 </footer>
 
