@@ -280,14 +280,25 @@ h5:hover {
   <p>
     Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
   </p>
-  <div style="width: 50%;">
-    <video width="100%" controls>
-      <source src="../assets/research/mutli-agent interaction/website - 6speed - 480p.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Multi-agent interaction simulation demonstrating complex traffic scenarios and cooperative behaviors in our open-world platform.
-    </p>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/sky-drive-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Sky-Drive demo: distributed, multi-agent VR experiment.
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/sky-drive-2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Sky-Drive overview.
+      </p>
+    </div>
   </div>
   <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
     <div style="width: 24%;">
@@ -296,7 +307,7 @@ h5:hover {
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Right Turn Conflict
+        Safety-Critical Scenario: Right Turn Conflict.
       </p>
     </div>
     <div style="width: 24%;">
@@ -305,7 +316,7 @@ h5:hover {
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Nearside Conflict
+        Safety-Critical Scenario: Nearside Conflict.
       </p>
     </div>
     <div style="width: 24%;">
@@ -314,7 +325,7 @@ h5:hover {
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Left Turn Conflict
+        Safety-Critical Scenario: Left Turn Conflict.
       </p>
     </div>
     <div style="width: 24%;">
@@ -323,7 +334,7 @@ h5:hover {
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Farside Conflict
+        Safety-Critical Scenario: Farside Conflict.
       </p>
     </div>
   </div>
@@ -361,25 +372,25 @@ h5:hover {
   </p>
   <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; justify-content: center;">
     <div>
-      <img src="../assets/research/testbed/AV1.png" alt="Autonomous Vehicle Testbed 1" style="width: auto; height: 370px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <img src="../assets/research/testbed/AV1.png" alt="Autonomous Vehicle Testbed 1" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Autonomous Van with Sensor Suite
       </p>
     </div>
     <div>
-      <img src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 2" style="width: auto; height: 370px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <img src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 2" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Driver Cockpit and Control Interface
       </p>
     </div>
     <div>
-      <img src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 3" style="width: auto; height: 370px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      <img src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 3" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Computing Hardware and Sensor Integration
       </p>
     </div>
       <div>
-        <img src="../assets/research/testbed/AV4.jpg" alt="Autonomous Vehicle Testbed 4" style="width: auto; height: 370px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="../assets/research/testbed/AV4.jpg" alt="Autonomous Vehicle Testbed 4" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
         <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
           Portable Traffic Light
         </p>
@@ -387,25 +398,25 @@ h5:hover {
     </div>
     <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; justify-content: center;">
       <div>
-        <img src="../assets/research/testbed/AV5.jpg" alt="Autonomous Vehicle Testbed 5" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="../assets/research/testbed/AV5.jpg" alt="Autonomous Vehicle Testbed 5" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
         <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
           Testbed
         </p>
       </div>
       <div>
-        <img src="../assets/research/testbed/AV6.jpg" alt="Autonomous Vehicle Testbed 6" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="../assets/research/testbed/AV6.jpg" alt="Autonomous Vehicle Testbed 6" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
         <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
           Sensor Configuration
         </p>
       </div>
       <div>
-        <img src="../assets/research/testbed/AV8.png" alt="Autonomous Vehicle Testbed 8" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="../assets/research/testbed/AV8.png" alt="Autonomous Vehicle Testbed 8" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
         <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
           V2X experiment equipment
         </p>
       </div>
       <div>
-        <img src="../assets/research/testbed/AV7.png" alt="Autonomous Vehicle Testbed 7" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="../assets/research/testbed/AV7.png" alt="Autonomous Vehicle Testbed 7" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
         <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
           5G mmWave Mobile Hotspot
         </p>
@@ -414,7 +425,7 @@ h5:hover {
 </div>
 
 <div class="research-area">
-  <h5>3.2 Remote Vehicle Operations and Cloud-Based AI Deployment</h5>
+  <h5>3.3 Remote Vehicle Operations and Cloud-Based AI Deployment</h5>
   <p>
     Deploying VLMs and complex AI algorithms directly on vehicle computer hardware faces significant computational constraints. To address this limitation, my team and I designed a complete remote operations (teleoperation) platform for our autonomous van. Leveraging its 5G connectivity, the vehicle can be controlled in real time for driving, operation, and data collection from any location with an internet connection, such as a conference room or an off-site lab (see video examples below). More importantly, our platform is designed for remote AI model deployment. This enables a powerful hardware-in-the-loop workflow: real-time sensor data is streamed from the vehicle to a local computer or a cloud service like Amazon Web Services (AWS), where AI models can process the data and transmit control commands back to the vehicle for immediate execution.
   </p>
