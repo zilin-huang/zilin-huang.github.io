@@ -273,13 +273,18 @@ h5:hover {
 </div>
 
 
-<h4>1. Simulation Platform Development</h4>
+<h4>1. Simulation Platform & Dataset</h4>
 
 <div class="research-area">
-  <h5>1.1 Multi-Agent Interaction</h5>
+  <h5>1.1 Sky-Drive: Multi-Agent Interaction</h5>
   <p>
-    Developing an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions. This platform enables comprehensive testing and validation of autonomous systems in complex, dynamic environments.
+    Existing simulators primarily focus on either optimizing traffic flow efficiency or validating single-vehicle performance, lacking comprehensive support for distributed multi-agent interactions. To address this gap, my team and I have developed Sky-Drive, a novel distributed multi-agent simulation platform that enables synchronized, human-AI collaborative driving research. Sky-Drive integrates Unreal Engine, CARLA, ROS, WebSocket, and custom scenario generation pipelines through a distributed architecture that supports synchronized simulation across multiple terminals. It enables real-time behavior modeling of pedestrians, human-driven vehicles (HVs), and autonomous vehicles (AVs), along with collaborative testing where multiple researchers can observe and intervene from different perspectives. Sky-Drive provides a comprehensive Human/Hardware-in-the-Loop (HiL) setup for immersive simulation and behavioral analysis. This setup includes specialized equipment to create a realistic and data-rich testing environment:
   </p>
+  <ul>
+    <li><strong>VR Headsets:</strong> The HTC Vive Pro Eye (with eye-tracking) and Meta Quest Pro are used to create immersive experiences and explore new possibilities in human-AI-machine interaction.</li>
+    <li><strong>Human/Hardware-in-the-Loop (HiL) System:</strong> This system enables researchers to test and validate control systems, algorithms, and human-machine interfaces in a safe and controlled environment. By integrating hardware components and human input into the loop, researchers can evaluate the performance and reliability of their designs under realistic conditions.</li>
+    <li><strong>Synchronization and Driving with Racing Wheel & Pedals:</strong> This enhances the realism of driving simulations and is designed to synchronize the simulation with the remote driving of our real-world autonomous van, allowing for more accurate studies of human behavior and interaction in vehicle-related research.</li>
+  </ul>
   <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
     <div style="flex: 1; min-width: 300px;">
       <video width="100%" controls>
@@ -287,7 +292,7 @@ h5:hover {
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Sky-Drive demo: distributed, multi-agent VR experiment.
+        My team and I are conducting the Sky-Drive Demo: distributed, multi-agent VR experiment.
       </p>
     </div>
     <div style="flex: 1; min-width: 300px;">
@@ -340,7 +345,7 @@ h5:hover {
   </div>
 </div>
 
-<h4>2. Human-centered AI Algorithm Design</h4>
+<h4>2. Human-centered AI Algorithm</h4>
 
 <div class="research-area">
   <h5>2.1 Imitation Learning Pretraining</h5>
@@ -422,6 +427,33 @@ h5:hover {
         </p>
       </div>
     </div>
+</div>
+
+<div class="research-area">
+  <h5>3.2 End-to-End Driving Policy Testing and Refinement</h5>
+  <p>
+    To validate the effectiveness of designed end-to-end (E2E) algorithms in real-world scenarios, my team and I deploy these models onto our lab-developed autonomous van for systematic testing and iterative refinement. Real-time sensor data streams from our multi-modal perception suite (LiDAR, cameras, and radar) are fed into these E2E models, which output steering, throttle, and brake commands at 20Hz, enabling smooth vehicle control. Through extensive real-world testing on public roads and our campus testbed, we continuously collect performance data and edge cases that inform model improvements.
+  </p>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/E2E/end-to-end-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Live demo at 2025 AAA Safe Mobility Conference, Madison, WI.
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/E2E/end-to-end-2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        End-to-end autonomous driving in urban and rural environments (McKee Road, Madison).
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="research-area">
