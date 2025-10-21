@@ -272,6 +272,11 @@ h5:hover {
   <p class="quote-text">"HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without alignment or trust can be dangerous. My research vision is to give technology a HEART: developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation systems where humans and AI-powered agents coexist in harmony.</p>
 </div>
 
+<div style="background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(3, 169, 244, 0.02)); border-left: 4px solid var(--global-theme-color); padding: 20px 30px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+  <p style="margin: 0; font-size: 1.05em; line-height: 1.8; color: var(--global-text-color); text-align: justify;">
+    <em>The research presented on this page represents the collective effort and dedication of my exceptional team. None of these ambitious ideas could have been transformed into reality without their invaluable contributions, creativity, and unwavering commitment. I am deeply grateful for their collaborative spirit and the synergy that makes our vision possible.</em>
+  </p>
+</div>
 
 <h4>1. Simulation Platform & Dataset</h4>
 
