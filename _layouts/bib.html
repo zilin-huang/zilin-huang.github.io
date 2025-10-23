@@ -2,7 +2,7 @@
 ---
 
 <div class="row align-items-start">
-    <div class="col-sm-4 abbr">
+    <div class="col-sm-3 abbr">
         {% if entry.teaser %}
         <div style="position: relative;">
             <img src="../assets/teaser/{{entry.teaser}}" class="teaser img-fluid z-depth-1" loading="lazy">
@@ -28,12 +28,12 @@
         {% endif %}
     </div>
 
-    <div id="{{entry.key}}" class="col-sm-8">
+    <div id="{{entry.key}}" class="col-sm-9">
         {% if entry.type == "thesis" %}
         {{reference}}
         {% else %}
         <div class="title">
-            {{entry.title}}{% if entry.selected %} <span style="font-size: 20px;">🔥🔥🔥</span>{% endif %}
+            {{entry.title}}{% if entry.selected %} <span style="font-size: 20px;">🔥</span>{% endif %}
         </div>
         <div class="author">
             {% for author in entry.author_array %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🎉 Received Two NVIDIA Academic Grant Program Awards ($43,800 USD).
+title: 🎉 We received Two NVIDIA Academic Grant Program Awards ($43,800 USD).
 date: 2025-03-20 15:59:00-0400
 inline: false
 related_posts: false

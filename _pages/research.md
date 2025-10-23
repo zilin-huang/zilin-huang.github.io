@@ -273,34 +273,20 @@ h5:hover {
 </div>
 
 
-<div style="background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(3, 169, 244, 0.02)); border-left: 4px solid var(--global-theme-color); padding: 20px 30px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+<!-- <div style="background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(3, 169, 244, 0.02)); border-left: 4px solid var(--global-theme-color); padding: 20px 30px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
   <p style="margin: 0; font-size: 1.05em; line-height: 1.8; color: var(--global-text-color); text-align: justify;">
     <em>I'm incredibly grateful to all my collaborators—without their help and support, there's no way I could have turned these ideas into reality. </em>
   </p>
-</div>
+</div> -->
 
 <h4>1. Simulation Platform & Dataset</h4>
 
 <div class="research-area">
   <h5>1.1 Sky-Drive: Multi-Agent Interaction</h5>
   <p>
-    Existing simulators primarily focus on either optimizing traffic flow efficiency or validating single-vehicle performance, lacking comprehensive support for distributed multi-agent interactions. To address this gap, my team and I have developed Sky-Drive, a novel distributed multi-agent simulation platform that enables synchronized, human-AI collaborative driving research. Sky-Drive integrates Unreal Engine, CARLA, ROS, WebSocket, and custom scenario generation pipelines through a distributed architecture that supports synchronized simulation across multiple terminals. It enables real-time behavior modeling of pedestrians, human-driven vehicles (HVs), and autonomous vehicles (AVs), along with collaborative testing where multiple researchers can observe and intervene from different perspectives. Sky-Drive provides a comprehensive Human/Hardware-in-the-Loop (HiL) setup for immersive simulation and behavioral analysis. This setup includes specialized equipment to create a realistic and data-rich testing environment:
+    Existing simulators often optimize traffic flow or validate a single vehicle, but lack distributed, multi-agent support. To address this gap, my colleagues and I at Sky-Lab developed Sky-Drive—a long-term effort with many contributors; I have been involved since Summer 2023. Sky-Drive integrates Unreal Engine/CARLA, ROS, WebSocket, and custom scenario pipelines to run synchronized simulations across multiple terminals. Unlike single-vehicle or flow-only tools, Sky-Drive emphasizes synchronized interactions among pedestrians, human-driven vehicles (HVs), and autonomous vehicles (AVs), and supports multi-participant intervention and co-study for human-AI collaborative driving research.
   </p>
-  <ul>
-    <li><strong>VR Headsets:</strong> The HTC Vive Pro Eye (with eye-tracking) and Meta Quest Pro are used to create immersive experiences and explore new possibilities in human-AI-machine interaction.</li>
-    <li><strong>Human/Hardware-in-the-Loop (HiL) System:</strong> This system enables researchers to test and validate control systems, algorithms, and human-machine interfaces in a safe and controlled environment. By integrating hardware components and human input into the loop, researchers can evaluate the performance and reliability of their designs under realistic conditions.</li>
-    <li><strong>Synchronization and Driving with Racing Wheel & Pedals:</strong> This enhances the realism of driving simulations and is designed to synchronize the simulation with the remote driving of our real-world autonomous van, allowing for more accurate studies of human behavior and interaction in vehicle-related research.</li>
-  </ul>
   <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
-    <div style="flex: 1; min-width: 300px;">
-      <video width="100%" controls>
-        <source src="../assets/research/mutli-agent interaction/sky-drive-1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        My team and I are conducting the Sky-Drive Demo: distributed, multi-agent VR experiment.
-      </p>
-    </div>
     <div style="flex: 1; min-width: 300px;">
       <video width="100%" controls>
         <source src="../assets/research/mutli-agent interaction/sky-drive-2.mp4" type="video/mp4">
@@ -308,6 +294,15 @@ h5:hover {
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Sky-Drive overview.
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/mutli-agent interaction/sky-drive-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        My colleagues and I at Sky-Lab are conducting the multi-agent VR experiment.
       </p>
     </div>
   </div>
@@ -379,7 +374,7 @@ h5:hover {
 <div class="research-area">
   <h5>3.1 Real-World Autonomous Driving Testbed</h5>
   <p>
-     While simulation provides a safe and scalable environment for algorithm development, the sim-to-real gap remains a fundamental challenge. I am dedicated to transferring our developed human-centered AI algorithms to real-world environments to validate their effectiveness and robustness. Our primary platform is an electric Ford E-Transit van retrofitted with a complete autonomous driving stack: a drive-by-wire system, multi-modal sensor suite (e.g., 3 LiDARs, 7 cameras, and radars), 5G connectivity via NETGEAR Nighthawk M6 Pro, and high-performance onboard computing (RTX A6000). We have also deployed portable roadside units (Siemens RSUs, Cohda MK6C OBU) and traffic signals that can be configured to create customizable traffic scenarios at intersections and along corridors. This integrated Cyber-Physical Systems (CPS) testbed, combined with high-performance Lambda Servers that our team possesses, featuring multiple NVIDIA GPUs (RTX PRO 6000, A6000, 4090, and 4080), enables comprehensive testing of human-centered AI algorithms in real traffic conditions.
+     While simulation is safe and scalable, the sim-to-real gap remains a core challenge. At Sky-Lab, we maintain a real-world testbed that I actively use with my colleagues to validate human-centered AI algorithms. Our primary platform is a retrofit electric Ford E-Transit with a full autonomy stack: drive-by-wire, a multi-modal sensor suite (3 LiDARs, 7 cameras, radar), 5G connectivity (NETGEAR Nighthawk M6 Pro), and on-board GPU computing (RTX A6000). We also deploy portable RSUs/OBUs (e.g., Siemens RSUs, Cohda MK6C) and configurable traffic signals to create intersection and corridor scenarios. Combined with Sky-Lab’s Lambda servers (RTX Pro 6000, A6000, 4090, 4080), this cyber-physical setup lets me run end-to-end evaluations, collect edge cases, and iterate quickly on model design and safety checks in real traffic conditions.
   </p>
   <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; justify-content: center;">
     <div>
@@ -389,13 +384,13 @@ h5:hover {
       </p>
     </div>
     <div>
-      <img src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 2" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
+      <img src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 2" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Driver Cockpit and Control Interface
       </p>
     </div>
     <div>
-      <img src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 3" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
+      <img src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 3" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Computing Hardware and Sensor Integration
       </p>
@@ -436,20 +431,11 @@ h5:hover {
 </div>
 
 <div class="research-area">
-  <h5>3.2 End-to-End Driving Policy Testing and Refinement</h5>
+  <h5>3.2 End-to-End Autonomous Driving</h5>
   <p>
-    To validate the effectiveness of designed end-to-end (E2E) algorithms in real-world scenarios, my team and I deploy these models onto our lab-developed autonomous van for systematic testing and iterative refinement. Real-time sensor data streams from our multi-modal perception suite (LiDAR, cameras, and radar) are fed into these E2E models, which output steering, throttle, and brake commands at 20Hz, enabling smooth vehicle control. Through extensive real-world testing on public roads and our campus testbed, we continuously collect performance data and edge cases that inform model improvements.
+    To evaluate designed end-to-end (E2E) driving policies in the real world, my colleagues and I at Sky-Lab deploy them on our lab-developed autonomous van for systematic testing and iterative refinement. Real-time streams from the multimodal perception suite (LiDAR, cameras, radar) feed the E2E policy, which outputs steering, throttle, and brake commands at ~20 Hz for closed-loop control. Through extensive testing on public roads and our campus testbed, we continuously log performance and edge cases to inform model improvements.
   </p>
   <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px;">
-    <div style="flex: 1; min-width: 300px;">
-      <video width="100%" controls>
-        <source src="../assets/research/E2E/end-to-end-1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Live demo at 2025 AAA Safe Mobility Conference, Madison, WI.
-      </p>
-    </div>
     <div style="flex: 1; min-width: 300px;">
       <video width="100%" controls>
         <source src="../assets/research/E2E/end-to-end-2.mp4" type="video/mp4">
@@ -459,31 +445,40 @@ h5:hover {
         End-to-end autonomous driving in urban and rural environments (McKee Road, Madison).
       </p>
     </div>
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/E2E/end-to-end-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Live demo at 2025 AAA Safe Mobility Conference, Madison, WI.
+      </p>
+    </div>
   </div>
 </div>
 
 <div class="research-area">
   <h5>3.3 Remote Vehicle Operations and Cloud-Based AI Deployment</h5>
   <p>
-    Deploying VLMs and complex AI algorithms directly on vehicle computer hardware faces significant computational constraints. To address this limitation, my team and I designed a complete remote operations (teleoperation) platform for our autonomous van. Leveraging its 5G connectivity, the vehicle can be controlled in real time for driving, operation, and data collection from any location with an internet connection, such as a conference room or an off-site lab (see video examples below). More importantly, our platform is designed for remote AI model deployment. This enables a powerful hardware-in-the-loop workflow: real-time sensor data is streamed from the vehicle to a local computer or a cloud service like Amazon Web Services (AWS), where AI models can process the data and transmit control commands back to the vehicle for immediate execution.
+    Deploying large VLMs and complex AI stacks directly on vehicle hardware is often compute-limited. To overcome this, my colleagues and I at Sky-Lab built a remote operations (teleoperation) and remote-inference platform for our autonomous van. Using 5G connectivity, we can control the vehicle in real time for driving, operations, and data collection from anywhere (e.g., a conference room or off-site lab). More importantly, the platform supports remote AI deployment: real-time sensor streams are sent from the van to a local workstation or cloud (e.g., AWS), where models process the data and return control commands for immediate execution.
   </p>
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-    <div style="flex: 1; min-width: 300px;">
-      <video width="100%" controls>
-        <source src="../assets/research/remote control/sky-remote-driving-1min.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Prof. Chen remote driving from the office. The van can be seen passing the window on the right at 0:02 and 0:42.
-      </p>
-    </div>
     <div style="flex: 1; min-width: 300px;">
       <video width="100%" controls>
         <source src="../assets/research/remote control/remote control - 4speed - 480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        My team and I testing remote driving function with Logitech G920 Racing Wheel and Pedals. Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.
+        My colleagues and I testing remote driving function with Logitech G920 Racing Wheel and Pedals. Full video on <a href="https://www.youtube.com/embed/Lj6kqDByaEI?si=c1Jzdf6PukLNb1c4" target="_blank">YouTube</a>.
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <video width="100%" controls>
+        <source src="../assets/research/remote control/sky-remote-driving-1min.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Prof. Chen remote driving from the office. 
       </p>
     </div>
   </div>
