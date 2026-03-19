@@ -44,10 +44,10 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-theme-color-rgb: 38, 152, 186; /* RGB values for $cyan-color */
-  --global-hover-color-rgb: 38, 152, 186; /* RGB values for $cyan-color */
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color};
+  --global-theme-color-rgb: 0, 118, 223; /* RGB values for $blue-color */
+  --global-hover-color-rgb: 0, 118, 223; /* RGB values for $blue-color */
   --global-shadow-color: rgba(0, 0, 0, 0.2);
   --global-shadow-color-hover: rgba(0, 0, 0, 0.3);
   --global-footer-bg-color: #{$grey-color-light};
