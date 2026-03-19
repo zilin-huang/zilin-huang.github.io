@@ -43,10 +43,10 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e0e0e0;
   --global-text-color-light: #e0e0e0;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
-  --global-theme-color-rgb: 38, 152, 186; /* RGB values for $cyan-color */
-  --global-hover-color-rgb: 38, 152, 186; /* RGB values for $cyan-color */
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+  --global-theme-color-rgb: 0, 118, 223; /* RGB values for $blue-color */
+  --global-hover-color-rgb: 0, 118, 223; /* RGB values for $blue-color */
   --global-shadow-color: rgba(0, 0, 0, 0.2);
   --global-shadow-color-hover: rgba(0, 0, 0, 0.3);
   --global-footer-bg-color: #e0e0e0;
