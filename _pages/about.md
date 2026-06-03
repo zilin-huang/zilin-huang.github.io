@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Research Associate <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 1217 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
+subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Postdoctoral Research Associate <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 1217 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
 
 #  Research Assistant | Teaching Assistant<br>
 
@@ -27,7 +27,7 @@ social: true # includes social icons at the bottom of the page
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/GoogleScholar-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en">Google Scholar</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/LinkedIn-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.linkedin.com/in/zilin-huang/">LinkedIn</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/GitHub-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://github.com/zilin-huang">GitHub</a></li>
-    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Twitter-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/>  <a href="https://x.com/Zilin_Huang_UWM">Twitter</a></li>
+    <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/Twitter-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/>  <a href="https://x.com/Zilin_Huang_UWM">X.com</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ORCID-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/><a href="https://orcid.org/0000-0003-3754-4821"> ORCID</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/weixin-icon.png" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="assets/img/icon/Wechat.jpg">Wechat</a></li>
     <li style="margin-bottom: 0.5em;"><img src="assets/img/icon/ResearchGate-icon.jpg" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/> <a href="https://www.researchgate.net/profile/Zilin-Huang-8">ResearchGate</a></li>
@@ -42,38 +42,47 @@ social: true # includes social icons at the bottom of the page
 </div>
 
 ---
-Hey, thanks for stopping by! :wave:
+Hi, thanks for stopping by! :wave:
 
-I am currently a Research Associate at the <img src="assets/img/uwmadison-logo.png" width="24" height="26" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, where I received my Ph.D. advised by Prof. [Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Faculty/Chen_Sikai/). I am also a Visiting Research Associate at the <img src="assets/img/Purdue-logo.png" width="20" height="20" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>, working with Prof. [Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416).
-<!-- , and the founding member of <img src="assets/img/sky-lab-logo-red.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px; border-radius: 3px;"/> [Sky-Lab](https://sky-lab-uw.github.io/).  -->
-I am also affiliated with the <img src="assets/img/sponsors/CCAT.png" width="35" height="20" style="vertical-align: middle; margin: 0 2px;"/> [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267) and the <img src="assets/img/SHRC-logo.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px;"/> [Smart Highway Research Center (SHRC)](https://uwmarc.wisc.edu/). Also, I have a strong passion for bridging technical findings with practical applications. Prior to my Ph.D. journey, I founded two technology companies in China.
+I am currently a Research Associate at the <img src="assets/img/uwmadison-logo.png" width="24" height="26" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, and a Visiting Research Associate at the <img src="assets/img/Purdue-logo.png" width="20" height="20" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>. 
+I am a founding member of <img src="assets/img/sky-lab-logo-red.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px; border-radius: 3px;"/> [Sky-Lab](https://sky-lab-uw.github.io/). 
+I am also affiliated with the <img src="assets/img/sponsors/CCAT.png" width="35" height="20" style="vertical-align: middle; margin: 0 2px;"/> [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267) and the <img src="assets/img/SHRC-logo.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px;"/> [Smart Highway Research Center (SHRC)](https://uwmarc.wisc.edu/). 
+I received my Ph.D. and M.S. degrees from the University of Wisconsin-Madison, advised by Prof. [Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Faculty/Chen_Sikai/).
+Before joining UW-Madison, I worked with Prof. [Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416) at Purdue University. I have a strong passion for translating technical findings into practical applications. Prior to my Ph.D. studies, I founded two technology companies in China. For more information, please refer to my <a href="https://zilin-huang.github.io">CV</a>.
 
 <!--  I received my Master's degree from South China University of Technology and Bachelor's degree from Guangdong University of Technology, ranking 1st in my major each year throughout seven years (1/100 undergrad; 1/50 grad). -->
 
-<span style="color: var(--global-theme-color);"><b>Research Statement:</b></span> I envision that future transportation systems will evolve into a complex <b>human-robot-society</b> ecosystem, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., autonomous vehicles, delivery robots, drones, and flying vehicles) in mobility environments. These agents must not only operate safely, but also understand human behaviors, preferences, and social norms to enable seamless integration into human society. Building on this vision, my research aims to develop <b>human-centered and trustworthy autonomous systems</b> that can operate seamlessly with, alongside, and around humans. This leads to several key research questions that drive my work: <b>1)</b> How to develop an open-world simulation platform that supports unified simulation of diverse human and agents with realistic physical and social interactions; <b>2)</b> How to design algorithms that enable agents to achieve human-level intelligence while ensuring their decisions are socially compliant and reliable; <b>3)</b> How to effectively transfer these capabilities from simulation to real deployment and continuously improve through real-world feedback. Through this research, we can achieve broader societal goals—enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user <b>trust</b> and <b>satisfaction</b>—ultimately enabling a future where humans and robots coexist harmoniously.
 
-Technologically, I am interested in the following areas:
+<div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
+  <p style="margin: 0; font-weight: 500;">📢 I am on the 2026-2027 job market !</p>
+</div>
+---
+
+<h3><a href="{{ '/research/' | relative_url }}" style="color: inherit;">Research Statement</a></h3>
+
+
+My research sits at the intersection of <b>embodied intelligence</b>, <b>physical AI</b>, and <b>human-centered transportation systems</b>. I envision future mobility environments as <b>human-robot-society</b> ecosystems, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., autonomous vehicles, delivery robots, drones, and flying vehicles) in the physical world. These agents must understand complex environments, make safe decisions, adapt to human preferences and social norms, and remain reliable under open-world uncertainty.
+
+Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that enable autonomous agents to operate safely with, alongside, and around humans, and to collaborate naturally with people in real-world mobility environments. This agenda is driven by three key research questions: <b>1)</b> how can we develop closed-loop simulation platforms that support the unified modeling of diverse humans, autonomous agents, and intelligent infrastructure with realistic physical and social interactions? <b>2)</b> how can we design algorithms that enable agents to understand complex environments, reason about actions, and make safe, socially compliant, and reliable decisions? <b>3)</b> how can we transfer these embodied capabilities from simulation to real-world deployment and continuously improve them through real-world feedback and human interaction?
+
+<div style="text-align: center; margin: 1.5em 0;">
+  <img src="assets/research/my_vision.jpg" style="max-width: 100%; border-radius: 8px;"/>
+</div>
+
+Through this research, I aim to advance future transportation systems with enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user trust and satisfaction, ultimately enabling a future where humans and robots coexist harmoniously.
+
+
+<!-- Technologically, I am interested in the following areas:
 <div> 
   <ul>
-  <!-- <li>Autonomous Vehicles / Robots</li> -->
   <li>Human-in-the-loop Learning</li>
   <li>Reinforcement Learning</li>
   <li>Foundation Models (e.g., LLMs/VLMs)</li>
   <li>Human-AI Collaboration</li> 
   <li>World Models</li>
   </ul>
-</div>
+</div> -->
 
 <!-- <p style="color: var(--global-theme-color); font-style: italic;">Please feel free to reach out to me for potential research collaboration!</p> -->
 
-<div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">📢 
-  <!-- I am currently seeking tenure-track <span style="color: var(--global-theme-color);">Assistant Professor</span> positions.  -->
-  I am very open to research discussions and industry collaborations. If you would like to discuss potential opportunities or share insights, please feel free to reach out via <a href="mailto:zilin.huang@wisc.edu">Email</a> or <a href="assets/img/icon/Wechat.jpg">WeChat</a>.</p>
-</div>
-
-
-
-
 <!-- The ultimate goal of my research is to develop <b>Human-centered</b>, <b>Trustworthy</b>, and <b>Interactive</b> autonomous embodied agents that can perceive, understand, and reason about complex transportation environments; safely interact and collaborate with road users; and efficiently coordinate with other intelligent agents so that they can benefit society in daily life by enhancing travel <b>Safety</b>, <b>Mobility</b>, <b>Efficiency</b>, and <b>Sustainability</b>.<br />  -->
-
