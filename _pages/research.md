@@ -212,7 +212,7 @@ h5:hover {
 .research-header {
   width: 100%;
   height: 250px;
-  background-image: url('../../assets/research/av_background.jpg');
+  background-image: url('../../assets/research/vision_background.png');
   background-size: cover;
   background-position: center 80%;
   margin-bottom: 30px;
@@ -267,10 +267,10 @@ h5:hover {
 
 <!-- <h4>Research Vision</h4> -->
 
-<div class="quote-section">
+<!-- <div class="quote-section">
   <div class="quote-border"></div>
   <p class="quote-text">"HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without alignment or trust can be dangerous. My research vision is to give technology a HEART: developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation systems where humans and AI-powered agents coexist in harmony.</p>
-</div>
+</div> -->
 
 
 <!-- <div style="background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(3, 169, 244, 0.02)); border-left: 4px solid var(--global-theme-color); padding: 20px 30px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
