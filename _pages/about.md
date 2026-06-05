@@ -63,14 +63,13 @@ Before joining UW-Madison, I worked with Prof. [Samuel Labi](https://engineering
 
 My research sits at the intersection of <b>embodied intelligence</b>, <b>physical AI</b>, and <b>human-centered transportation systems</b>. I envision future mobility environments as <b>human-robot-society</b> ecosystems, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., autonomous vehicles, delivery robots, drones, and flying vehicles) in the physical world. These agents must understand complex environments, make safe decisions, adapt to human preferences and social norms, and remain reliable under open-world uncertainty.
 
-Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that enable autonomous agents to operate safely with, alongside, and around humans. This agenda is driven by three key research questions: <b>1)</b> how can we develop closed-loop simulation platforms that support the unified modeling of diverse humans, autonomous agents, and intelligent infrastructure with realistic physical and social interactions? <b>2)</b> how can we design algorithms that enable agents to understand complex environments, reason about actions, and make safe, socially compliant, and reliable decisions? <b>3)</b> how can we transfer these embodied capabilities from simulation to real-world deployment and continuously improve them through real-world feedback and human interaction?
+Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that enable autonomous agents to operate safely with, alongside, and around humans. This agenda is driven by three key research questions: <b>1)</b> how can we develop closed-loop simulation platforms that support the unified modeling of humans and diverse autonomous agents with realistic physical and social interactions? <b>2)</b> how can we design algorithms that enable agents to understand complex environments, reason about actions, and make safe, socially compliant, and reliable decisions? <b>3)</b> how can we transfer these embodied capabilities from simulation to real-world deployment and continuously improve them through real-world feedback and human interaction?
 
 Through this research, I aim to advance future transportation systems with enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user trust and satisfaction, ultimately enabling a future where humans and robots coexist harmoniously.
 
-<div style="text-align: center; margin: 1.5em 0;">
-  <img src="assets/research/my_vision.jpg" style="max-width: 100%; border-radius: 8px;"/>
+<div style="text-align: center;">
+  <img src="assets/research/visionshort.jpg" style="max-width: 90%; border-radius: 8px;"/>
 </div>
-
 
 <!-- Technologically, I am interested in the following areas:
 <div> 

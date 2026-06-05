@@ -279,6 +279,10 @@ h5:hover {
   </p>
 </div> -->
 
+<div style="text-align: center;">
+  <img src="../../assets/research/visionfull.jpg" style="max-width: 90%; border-radius: 8px;"/>
+</div>
+
 <h4>1. Simulation Platform & Dataset</h4>
 
 <div class="research-area">

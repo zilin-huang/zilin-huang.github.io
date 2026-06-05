@@ -86,7 +86,7 @@ layout: default
             <h3 style="display: flex; justify-content: space-between; align-items: center;">
               <div style="display: flex; align-items: center;">
                 <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a>
-                <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en" class="citations-container" target="_blank"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">404</span></span></a>
+                <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en" class="citations-container" target="_blank"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">1190</span></span></a>
               </div>
               <a href="{{ '/publications/' | relative_url }}" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
                 View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
@@ -261,39 +261,15 @@ layout: default
         <h3>Visitor Statistics</h3>
         
         <div class="visitor-container">
-          <div class="visitor-map-container">
-            <div class="visitor-map">
-              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=a&t=tt&d=Ua0zZzeE3XHL81hvm5CP8-7Jf6tbfY30p6GcYxFzU5c&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9'></script>
-            </div>
+          <div class="visitor-map">
+            <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=CaZchN91gfT1nq2mxAMf5a9QRRABuRaXOBEzgFgnK9k'></script>
           </div>
         </div>
       </div>
 
-      <!-- Script to extract visitor count from Clustrmaps -->
+      <!-- Citation count updater -->
       <script>
         document.addEventListener('DOMContentLoaded', function() {
-          // Function to check for the visitor count and update it
-          function updateVisitorCount() {
-            // Look for the element that contains the total pageviews
-            const clusterMapTitle = document.querySelector('.clustrmaps-map-title');
-            if (clusterMapTitle) {
-              const titleText = clusterMapTitle.textContent;
-              const match = titleText.match(/([0-9,]+)\s+Total\s+Pageviews/i);
-              if (match && match[1]) {
-                document.getElementById('visitor-count').textContent = match[1];
-              }
-            } else {
-              // If not found yet, try again after a short delay
-              setTimeout(updateVisitorCount, 500);
-            }
-          }
-          
-          // Start checking for the visitor count
-          setTimeout(updateVisitorCount, 1000);
-          
-          // Update citation count from Google Scholar
-          // In a production environment, this would need to be handled by a backend service
-          // or with a CORS proxy due to Google Scholar's restrictions
           fetch('/assets/js/citation-count.json?v=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
@@ -315,76 +291,16 @@ layout: default
         }
         
         .visitor-container {
-          background-color: transparent;
-          border-radius: 0;
-          padding: 0;
-          box-shadow: none;
-          transition: none;
           margin-top: 15px;
-          max-width: 750px;
+          max-width: 50%;
           margin-left: auto;
           margin-right: auto;
-        }
-        
-        .visitor-container:hover {
-          box-shadow: none;
-          transform: none;
-        }
-        
-        .visitor-info {
-          margin-bottom: 15px;
-          color: #555;
-          font-size: 0.95rem;
-        }
-        
-        .visitor-map-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          overflow: hidden;
-          border-radius: 0;
-          width: 100%;
-          max-height: 450px;
-          padding: 0;
+          text-align: center;
         }
         
         .visitor-map {
-          transform: scale(0.58);
-          transform-origin: center center;
-          width: 100%;
           display: flex;
           justify-content: center;
-          align-items: center;
-          margin: 0 auto;
-          max-height: 400px;
-        }
-        
-        /* Fix for Clustrmaps iframe positioning */
-        .visitor-map iframe,
-        .visitor-map > div {
-          margin: 0 auto !important;
-          display: block !important;
-        }
-        
-        /* Ensure the map is responsive */
-        @media (max-width: 768px) {
-          .visitor-container {
-            padding: 0;
-          }
-          
-          .visitor-info {
-            font-size: 0.85rem;
-          }
-          
-          .visitor-map {
-            transform: scale(0.65);
-            max-height: 320px;
-          }
-          
-          .visitor-map-container {
-            max-height: 380px;
-            padding: 0;
-          }
         }
       </style>
 

@@ -1,7 +1,7 @@
 <style>
   .news-image {
-    width: 160px;
-    height: 100px;
+    width: 140px;
+    height: 90px;
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
@@ -100,6 +100,10 @@
     color: var(--global-text-color-light);
     margin-top: 4px;
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   
   .read-more {
