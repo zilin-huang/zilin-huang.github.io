@@ -113,6 +113,10 @@ nav_order: 2
     font-size: 1em;
     line-height: 1.6;
   }
+
+  .testbed-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 
 /* 标题样式 */
@@ -380,58 +384,56 @@ h5:hover {
   <p>
      While simulation is safe and scalable, the sim-to-real gap remains a core challenge. At Sky-Lab, we maintain a real-world testbed that I actively use with my colleagues to validate human-centered AI algorithms. Our primary platform is a retrofit electric Ford E-Transit with a full autonomy stack: drive-by-wire, a multi-modal sensor suite (3 LiDARs, 7 cameras, radar), 5G connectivity (NETGEAR Nighthawk M6 Pro), and on-board GPU computing (RTX A6000). We also deploy portable RSUs/OBUs (e.g., Siemens RSUs, Cohda MK6C) and configurable traffic signals to create intersection and corridor scenarios. Combined with Sky-Lab’s Lambda servers (RTX Pro 6000, A6000, 4090, 4080), this cyber-physical setup lets me run end-to-end evaluations, collect edge cases, and iterate quickly on model design and safety checks in real traffic conditions.
   </p>
-  <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; justify-content: center;">
-    <div>
-      <img src="../assets/research/testbed/AV1.png" alt="Autonomous Vehicle Testbed 1" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 20px;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV1.png" alt="Autonomous Vehicle Testbed 1" style="width: 100%; height: 300px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
         Autonomous Van with Sensor Suite
       </p>
     </div>
-    <div>
-      <img src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 2" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV3.png" alt="Autonomous Vehicle Testbed 2" style="width: 100%; height: 300px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
         Driver Cockpit and Control Interface
       </p>
     </div>
-    <div>
-      <img src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 3" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV2.png" alt="Autonomous Vehicle Testbed 3" style="width: 100%; height: 300px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
         Computing Hardware
       </p>
     </div>
-      <div>
-        <img src="../assets/research/testbed/AV4.jpg" alt="Autonomous Vehicle Testbed 4" style="width: auto; height: 350px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-        <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-          Portable Traffic Light
-        </p>
-      </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV4.jpg" alt="Autonomous Vehicle Testbed 4" style="width: 100%; height: 300px; object-fit: cover; object-position: top;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
+        Portable Traffic Light
+      </p>
     </div>
-    <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; justify-content: center;">
-      <div>
-        <img src="../assets/research/testbed/AV5.jpg" alt="Autonomous Vehicle Testbed 5" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-        <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-          Testbed
-        </p>
-      </div>
-      <div>
-        <img src="../assets/research/testbed/AV6.jpg" alt="Autonomous Vehicle Testbed 6" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-        <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-          Sensor Configuration
-        </p>
-      </div>
-      <div>
-        <img src="../assets/research/testbed/AV8.png" alt="Autonomous Vehicle Testbed 8" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-        <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-          V2X experiment equipment
-        </p>
-      </div>
-      <div>
-        <img src="../assets/research/testbed/AV7.png" alt="Autonomous Vehicle Testbed 7" style="width: auto; height: 200px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy" decoding="async">
-        <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-          5G mmWave Mobile Hotspot
-        </p>
-      </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV5.jpg" alt="Autonomous Vehicle Testbed 5" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
+        Testbed
+      </p>
     </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV6.jpg" alt="Autonomous Vehicle Testbed 6" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
+        Sensor Configuration
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV8.png" alt="Autonomous Vehicle Testbed 8" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
+        V2X Experiment Equipment
+      </p>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img class="img-fluid rounded z-depth-1" src="../assets/research/testbed/AV7.png" alt="Autonomous Vehicle Testbed 7" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 8px; color: var(--global-text-color-light); font-size: 0.85em;">
+        5G mmWave Mobile Hotspot
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="research-area">
