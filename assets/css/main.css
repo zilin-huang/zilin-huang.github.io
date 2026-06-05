@@ -660,7 +660,7 @@ footer.sticky-bottom {
 .publications ol.bibliography li .periodical {
   font-size: 95%;
   font-style: italic;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 .publications ol.bibliography li .links a.btn {
   color: var(--global-text-color);

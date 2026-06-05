@@ -193,12 +193,12 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
 
 <p>My research sits at the intersection of <b>embodied intelligence</b>, <b>physical AI</b>, and <b>human-centered transportation systems</b>. I envision future mobility environments as <b>human-robot-society</b> ecosystems, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., autonomous vehicles, delivery robots, drones, and flying vehicles) in the physical world. These agents must understand complex environments, make safe decisions, adapt to human preferences and social norms, and remain reliable under open-world uncertainty.</p>
 
-<p>Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that enable autonomous agents to operate safely with, alongside, and around humans. This agenda is driven by three key research questions: <b>1)</b> how can we develop closed-loop simulation platforms that support the unified modeling of diverse humans, autonomous agents, and intelligent infrastructure with realistic physical and social interactions? <b>2)</b> how can we design algorithms that enable agents to understand complex environments, reason about actions, and make safe, socially compliant, and reliable decisions? <b>3)</b> how can we transfer these embodied capabilities from simulation to real-world deployment and continuously improve them through real-world feedback and human interaction?</p>
+<p>Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that enable autonomous agents to operate safely with, alongside, and around humans. This agenda is driven by three key research questions: <b>1)</b> how can we develop closed-loop simulation platforms that support the unified modeling of humans and diverse autonomous agents with realistic physical and social interactions? <b>2)</b> how can we design algorithms that enable agents to understand complex environments, reason about actions, and make safe, socially compliant, and reliable decisions? <b>3)</b> how can we transfer these embodied capabilities from simulation to real-world deployment and continuously improve them through real-world feedback and human interaction?</p>
 
 <p>Through this research, I aim to advance future transportation systems with enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, along with improved user trust and satisfaction, ultimately enabling a future where humans and robots coexist harmoniously.</p>
 
-<div style="text-align: center; margin: 1.5em 0;">
-  <img src="assets/research/my_vision.jpg" style="max-width: 100%; border-radius: 8px;">
+<div style="text-align: center;">
+  <img src="assets/research/visionshort.jpg" style="max-width: 90%; border-radius: 8px;">
 </div>
 
 <!-- Technologically, I am interested in the following areas:
@@ -254,8 +254,8 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
             </h3>
 <style>
   .news-image {
-    width: 160px;
-    height: 100px;
+    width: 140px;
+    height: 90px;
     object-fit: contain; /* 默认值，会被内联样式覆盖 */
     border-radius: 6px;
     box-shadow: 0 2px 5px var(--global-shadow-color);
@@ -354,6 +354,10 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
     color: var(--global-text-color-light);
     margin-top: 4px;
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   
   .read-more {
@@ -515,7 +519,7 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
           <h3 style="display: flex; justify-content: space-between; align-items: center;">
               <div style="display: flex; align-items: center;">
                 <a href="/publications/" style="color: inherit;">Selected Publications</a>
-                <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" class="citations-container" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">404</span></span></a>
+                <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" class="citations-container" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap"></i> citations <span class="citations-count"><span id="citation-count">1190</span></span></a>
               </div>
               <a href="/publications/" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
                 View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
@@ -527,7 +531,395 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
-            <img src="../assets/teaser/2025_huang_skydrive.gif" class="teaser img-fluid z-depth-1" loading="lazy">
+            <img src="../assets/teaser/2026_huang_sim2realad.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="huang2026sim2real" class="col-sm-9">
+        
+        <div class="title">
+            Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving <span style="font-size: 20px;">🔥</span>
+        </div>
+        <div class="author">
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            <em><b>Zilin Huang</b></em>,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Boyue Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen<sup>*</sup>
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2604.03497
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2604.03497" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div></li>
+<li><div class="row align-items-start">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_huang_drivevlmrl.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="huang2026drivevlm" class="col-sm-9">
+        
+        <div class="title">
+            DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving <span style="font-size: 20px;">🔥</span>
+        </div>
+        <div class="author">
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            <em><b>Zilin Huang</b></em>,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yansong Qu,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sicong Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen<sup>*</sup>
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2603.18315
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2603.18315" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div></li>
+<li><div class="row align-items-start">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_huang_skydrive.webp" class="teaser img-fluid z-depth-1" loading="lazy">
         </div>
         
 
@@ -1322,6 +1714,202 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
             
             
             <a href="https://mp.weixin.qq.com/s/VTMYuAAFYNHX2t8lamcw3Q" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">中文解读</a>
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div></li>
+<li><div class="row align-items-start">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_sheng_curricuvlm.gif" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">TR-C</abbr>
+        
+        
+    </div>
+
+    <div id="sheng2025curricuvlm" class="col-sm-9">
+        
+        <div class="title">
+            CurricuVLM: Towards Safe Autonomous Driving via Personalized Safety-Critical Curriculum Learning with Vision-Language Models <span style="font-size: 20px;">🔥</span>
+        </div>
+        <div class="author">
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng<sup>+</sup>,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            <em><b>Zilin Huang<sup>+</sup></b></em>,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yansong Qu,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yue Leng,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sruthi Bhavanam,
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen<sup>*</sup>
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Transportation Research Part C: Emerging Technologies
+            
+
+            
+            (<b>TR-C</b>)
+            <!--            TR-C-->
+            
+            
+            , 2025
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2502.15119" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://zihaosheng.github.io/CurricuVLM/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            <a href="https://github.com/zihaosheng/CurricuVLM" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+            
+            
+            <a href="https://github.com/zihaosheng/CurricuVLM/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">
+              <i class="fas fa-star"></i>
+              <span class="stars" data-github-repo="zihaosheng/CurricuVLM"></span>
+            </a>
+            
+            
+            <a href="https://mp.weixin.qq.com/s/j4Ja3g8rSsPWQe3GdGqC-g" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">中文解读</a>
             
             
             
@@ -2150,39 +2738,15 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
         <h3>Visitor Statistics</h3>
         
         <div class="visitor-container">
-          <div class="visitor-map-container">
-            <div class="visitor-map">
-              <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=0e1633&amp;w=a&amp;t=tt&amp;d=Ua0zZzeE3XHL81hvm5CP8-7Jf6tbfY30p6GcYxFzU5c&amp;co=0b4975&amp;cmo=3acc3a&amp;cmn=ff5353&amp;ct=cdd4d9"></script>
-            </div>
+          <div class="visitor-map">
+            <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=a&amp;t=tt&amp;d=CaZchN91gfT1nq2mxAMf5a9QRRABuRaXOBEzgFgnK9k"></script>
           </div>
         </div>
       </div>
 
-      <!-- Script to extract visitor count from Clustrmaps -->
+      <!-- Citation count updater -->
       <script>
         document.addEventListener('DOMContentLoaded', function() {
-          // Function to check for the visitor count and update it
-          function updateVisitorCount() {
-            // Look for the element that contains the total pageviews
-            const clusterMapTitle = document.querySelector('.clustrmaps-map-title');
-            if (clusterMapTitle) {
-              const titleText = clusterMapTitle.textContent;
-              const match = titleText.match(/([0-9,]+)\s+Total\s+Pageviews/i);
-              if (match && match[1]) {
-                document.getElementById('visitor-count').textContent = match[1];
-              }
-            } else {
-              // If not found yet, try again after a short delay
-              setTimeout(updateVisitorCount, 500);
-            }
-          }
-          
-          // Start checking for the visitor count
-          setTimeout(updateVisitorCount, 1000);
-          
-          // Update citation count from Google Scholar
-          // In a production environment, this would need to be handled by a backend service
-          // or with a CORS proxy due to Google Scholar's restrictions
           fetch('/assets/js/citation-count.json?v=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
@@ -2204,76 +2768,16 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
         }
         
         .visitor-container {
-          background-color: transparent;
-          border-radius: 0;
-          padding: 0;
-          box-shadow: none;
-          transition: none;
           margin-top: 15px;
-          max-width: 750px;
+          max-width: 50%;
           margin-left: auto;
           margin-right: auto;
-        }
-        
-        .visitor-container:hover {
-          box-shadow: none;
-          transform: none;
-        }
-        
-        .visitor-info {
-          margin-bottom: 15px;
-          color: #555;
-          font-size: 0.95rem;
-        }
-        
-        .visitor-map-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          overflow: hidden;
-          border-radius: 0;
-          width: 100%;
-          max-height: 450px;
-          padding: 0;
+          text-align: center;
         }
         
         .visitor-map {
-          transform: scale(0.58);
-          transform-origin: center center;
-          width: 100%;
           display: flex;
           justify-content: center;
-          align-items: center;
-          margin: 0 auto;
-          max-height: 400px;
-        }
-        
-        /* Fix for Clustrmaps iframe positioning */
-        .visitor-map iframe,
-        .visitor-map > div {
-          margin: 0 auto !important;
-          display: block !important;
-        }
-        
-        /* Ensure the map is responsive */
-        @media (max-width: 768px) {
-          .visitor-container {
-            padding: 0;
-          }
-          
-          .visitor-info {
-            font-size: 0.85rem;
-          }
-          
-          .visitor-map {
-            transform: scale(0.65);
-            max-height: 320px;
-          }
-          
-          .visitor-map-container {
-            max-height: 380px;
-            padding: 0;
-          }
         }
       </style>
 
@@ -2283,7 +2787,7 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2026 Zilin  Huang. Last updated: June 04, 2026.
+        &copy; Copyright 2026 Zilin  Huang. Last updated: June 05, 2026.
       </div>
     </footer> -->
 
@@ -2293,7 +2797,7 @@ Before joining UW-Madison, I worked with Prof. <a href="https://engineering.purd
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2026 Zilin  Huang.
-    Last updated: June 04, 2026.
+    Last updated: June 05, 2026.
   </div>
 </footer>
 
