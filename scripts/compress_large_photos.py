@@ -18,12 +18,12 @@ import os
 from PIL import Image
 
 ASSETS_DIR = "assets"
-# Only touch photos larger than this.
-THRESHOLD_MB = 10.0
-# Aim a little below 10 MB so results sit comfortably under the cap.
-TARGET_MB = 9.0
+# Only touch photos larger than this (MB). Overridable via --threshold.
+THRESHOLD_MB = 5.0
+# Aim a little below the cap so results sit comfortably under it (--target).
+TARGET_MB = 4.7
 # Highest -> lowest quality to try; the first one under TARGET_MB wins.
-QUALITY_LADDER = [98, 95, 92, 90, 88, 85]
+QUALITY_LADDER = [98, 95, 92, 90, 88, 85, 82]
 
 
 def mb(num_bytes: int) -> float:
@@ -46,7 +46,7 @@ def encode_jpeg(im: Image.Image, quality: int, exif: bytes, icc: bytes) -> bytes
     return buf.getvalue()
 
 
-def compress(path: str, dry_run: bool = False) -> int:
+def compress(path: str, target_mb: float, dry_run: bool = False) -> int:
     src_bytes = os.path.getsize(path)
     im = Image.open(path)
     im.load()
@@ -56,7 +56,7 @@ def compress(path: str, dry_run: bool = False) -> int:
     if im.mode not in ("RGB", "L"):
         im = im.convert("RGB")
 
-    target = int(TARGET_MB * 1024 * 1024)
+    target = int(target_mb * 1024 * 1024)
     chosen_q = None
     chosen_data = None
     for q in QUALITY_LADDER:
@@ -95,9 +95,11 @@ def compress(path: str, dry_run: bool = False) -> int:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--threshold", type=float, default=THRESHOLD_MB)
+    parser.add_argument("--target", type=float, default=TARGET_MB)
     args = parser.parse_args()
 
-    threshold = THRESHOLD_MB * 1024 * 1024
+    threshold = args.threshold * 1024 * 1024
     targets = []
     for root, _dirs, files in os.walk(ASSETS_DIR):
         for name in files:
@@ -108,14 +110,14 @@ def main() -> None:
 
     targets.sort(key=os.path.getsize, reverse=True)
     if not targets:
-        print(f"No JPEGs over {THRESHOLD_MB} MB found.")
+        print(f"No JPEGs over {args.threshold} MB found.")
         return
 
     total_src = 0
     total_dst = 0
     for p in targets:
         total_src += os.path.getsize(p)
-        total_dst += compress(p, dry_run=args.dry_run)
+        total_dst += compress(p, args.target, dry_run=args.dry_run)
 
     print(
         f"TOTAL: {mb(total_src):.2f} MB -> {mb(total_dst):.2f} MB "
