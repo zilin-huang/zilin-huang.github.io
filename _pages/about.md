@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Postdoctoral Research Associate <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 1217 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
+subtitle: <img src="assets/img/zilin_huang.jpg" width = "240" height = "240" align=right style="box-shadow:5px 5px 15px#888888;"/> <img src="assets/img/chinese_zilin_huang.png" width = "170" height = "50" /> <p>Research Associate <br>​Department of Civil and Environmental Engineering <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 1217 <br> Email:&nbsp;<a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
 
 #  Research Assistant | Teaching Assistant<br>
 
@@ -46,9 +46,9 @@ Hi, thanks for stopping by! :wave:
 
 I am currently a Research Associate at the <img src="assets/img/uwmadison-logo.png" width="24" height="26" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, and a Visiting Research Associate at the <img src="assets/img/Purdue-logo.png" width="20" height="20" style="vertical-align: middle; margin: 0 2px;"/> <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>. 
 I am a founding member of <img src="assets/img/sky-lab-logo-red.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px; border-radius: 3px;"/> [Sky-Lab](https://sky-lab-uw.github.io/). 
-I am also affiliated with the <img src="assets/img/sponsors/CCAT.png" width="35" height="20" style="vertical-align: middle; margin: 0 2px;"/> [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267) and the <img src="assets/img/SHRC-logo.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px;"/> [Smart Highway Research Center (SHRC)](https://uwmarc.wisc.edu/). 
+I am also affiliated with the <img src="assets/img/sponsors/CCAT.png" width="35" height="20" style="vertical-align: middle; margin: 0 2px;"/> [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/?_ga=2.3994608.1136169267.1672760509-568050463.1668408267), the <img src="assets/img/SHRC-logo.jpg" width="35" height="24" style="vertical-align: middle; margin: 0 2px;"/> [Smart Highway Research Center (SHRC)](https://uwmarc.wisc.edu/), and the [Tribal and Rural Autonomous Vehicles for Efficiency, Livability and Safety (TRAVELS) Center](https://engineering.wisc.edu/news/with-uw-madison-leadership-autonomous-vehicles-could-bridge-transportation-gaps-for-people-living-in-rural-areas/). 
 I received my Ph.D. and M.S. degrees from the University of Wisconsin-Madison, advised by Prof. [Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Faculty/Chen_Sikai/).
-Before joining UW-Madison, I worked with Prof. [Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416) at Purdue University. I have a strong passion for translating technical findings into practical applications. Prior to my Ph.D. studies, I founded two technology companies in China. For more information, please refer to my <a href="https://zilin-huang.github.io">CV</a>.
+Before joining UW-Madison, I worked with Prof. [Samuel Labi](https://engineering.purdue.edu/CE/People/ptProfile?resource_id=2416) at Purdue University. I have a strong passion for translating technical findings into practical applications. Prior to my Ph.D. studies, I founded two technology companies in China.
 
 <!--  I received my Master's degree from South China University of Technology and Bachelor's degree from Guangdong University of Technology, ranking 1st in my major each year throughout seven years (1/100 undergrad; 1/50 grad). -->
 
