@@ -156,6 +156,7 @@ h5:hover {
 <div class="services-container">
   <h5 style="text-align: left;">Journal Reviewer</h5>
   <ul class="services-list academic-services">
+    <li>Nature Communications</li>
     <li>IEEE Transactions on Intelligent Transportation Systems (TITS)</li>
     <li>IEEE Transactions on Vehicular Technology (TVT)</li>
     <li>Accident Analysis and Prevention (AAP)</li>
