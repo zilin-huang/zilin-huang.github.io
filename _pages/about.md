@@ -53,7 +53,7 @@ I received my Ph.D. and M.S. degrees from the University of Wisconsin–Madison,
 
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">📢 I am on the 2026-2027 job market !</p>
+  <p style="margin: 0; font-weight: 500;">📢 I am on the 2026–2027 academic job market and seeking faculty positions.</p>
 </div>
 ---
 
@@ -64,7 +64,7 @@ My research lies at the intersection of <b>Physical AI</b> and <b>human-centered
 
 Building on this vision, my research aims to develop <b><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd t<u>r</u>ustworthy au<u>t</u>onomous (HEART) systems</b> that can safely operate, interact, and continuously improve alongside humans in the physical world. This agenda centers on three questions: <b>1)</b> How can autonomous agents understand complex physical and social environments and make safe, reliable, and socially aware decisions? <b>2)</b> How can capabilities learned in simulation or from large-scale pretrained models be transferred and grounded in real physical systems across differences in embodiment, sensing, and hardware? <b>3)</b> How can autonomous agents achieve safe recursive self-improvement through physical interaction, failure discovery, and real-world feedback?
 
-Through this research, I aim to advance future transportation systems with enhanced <b>safety</b>, <b>mobility</b>, and <b>efficiency</b>, while improving user trust and satisfaction. Ultimately, my goal is to enable humans and autonomous systems to safely coexist and collaborate in the physical world.
+To address these questions, I integrate <b>VLMs</b>, <b>VLAs</b>, and <b>world models</b> with <b>reinforcement learning</b>, <b>cross-embodiment learning</b>, <b>Sim2Real transfer</b>, closed-loop simulation, and real-world deployment. Ultimately, my goal is to advance <b>safer</b>, <b>more efficient</b>, and <b>human-centered</b> transportation systems where humans and autonomous agents can coexist and collaborate in the physical world.
 
 <div style="text-align: center;">
   <img src="assets/research/visionshort.jpg" style="max-width: 90%; border-radius: 8px;"/>
