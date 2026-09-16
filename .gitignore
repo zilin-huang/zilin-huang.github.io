@@ -11,3 +11,10 @@ node_modules/
 vendor
 __pycache__/
 *.pyc
+/assets/news_photo/news_all/2026/defense-exam-originals/
+/assets/news_photo/news_all/2026/commencement-originals/
+/assets/news_photo/news_all/2026/NGTS-originals/
+/assets/news_photo/news_all/2026/COE-mentor-award-origianls/
+/assets/news_photo/news_all/2026/CEE-mentor-award-origianls/
+/assets/news_photo/news_all/2025/CVPR-originals/
+/assets/image-originals/

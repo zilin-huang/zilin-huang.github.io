@@ -178,7 +178,7 @@ collections:
     permalink: /projects/:path/
 
 # news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 10 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -204,6 +204,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - assets/news_photo/news_all/2026/defense-exam-originals
+  - assets/news_photo/news_all/2026/commencement-originals
+  - assets/news_photo/news_all/2026/NGTS-originals
+  - assets/news_photo/news_all/2026/COE-mentor-award-origianls
+  - assets/news_photo/news_all/2026/CEE-mentor-award-origianls
+  - assets/news_photo/news_all/2025/CVPR-originals
+  - assets/image-originals
 keep_files:
   - CNAME
   - .nojekyll

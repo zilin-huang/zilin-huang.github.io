@@ -1,35 +1,36 @@
 ---
 layout: post
 title: 👏 I visited the BELIV Lab at Arizona State University.
-date: 2023-10-17 15:00:00-0400
+date: 2023-10-17 15:00:00-0700
 inline: false
 related_posts: false
 image: 2023/ASU.jpg
 image_fit: cover
+excerpt: I visited the BELIV Lab at Arizona State University to learn about its research in connected, automated, and electric vehicles.
 ---
 
-I visited the [Battery Electric & Intelligent Vehicle (BELIV) Lab](https://faculty.engineering.asu.edu/jzhao/) at Arizona State University on October 17, 2023. During the visit, I had the opportunity to explore their cutting-edge autonomous vehicle technology and learn about their research initiatives. The BELIV lab is affiliated with The Polytechnic School at the Ira A. Fulton Schools of Engineering and is led by Dr. Junfeng Zhao, an Assistant Professor at Arizona State University. It was fascinating to see their innovative work in connected and automated vehicles, battery electric vehicles, and smart mobility systems.
+I visited the [Battery Electric & Intelligent Vehicle (BELIV) Lab](https://faculty.engineering.asu.edu/jzhao/) at Arizona State University on October 17, 2023. I explored the lab’s autonomous vehicle platforms and learned about its research in connected and automated vehicles, battery electric vehicles, and smart mobility systems. The BELIV Lab is part of The Polytechnic School within the Ira A. Fulton Schools of Engineering and is led by Prof. Junfeng Zhao.
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-2.jpg" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-2.jpg" srcset="/assets/news_photo/news_all/2023/asu2023/asu2023-2-1600.webp 1600w, /assets/news_photo/news_all/2023/asu2023/asu2023-2.jpg 4032w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="A sensor-equipped autonomous research vehicle in the BELIV Lab at Arizona State University" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Visiting the BELIV Lab autonomous vehicle platform
+      A sensor-equipped autonomous vehicle in the BELIV Lab.
     </p>
   </div>
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-3.jpg" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-3.jpg" srcset="/assets/news_photo/news_all/2023/asu2023/asu2023-3-1600.webp 1600w, /assets/news_photo/news_all/2023/asu2023/asu2023-3.jpg 4032w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Side view of an autonomous research vehicle in the BELIV Lab at Arizona State University" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Visiting the BELIV Lab autonomous vehicle platform
+      The BELIV Lab’s autonomous research vehicle.
     </p>
   </div>
 </div>
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-1.jpg" style="width: 100%; height: 600px; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/asu2023/asu2023-1.jpg" srcset="/assets/news_photo/news_all/2023/asu2023/asu2023-1-1600.webp 1200w, /assets/news_photo/news_all/2023/asu2023/asu2023-1.jpg 3024w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with a colleague during his visit to Arizona State University" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Visiting the BELIV Lab autonomous vehicle platform
+      With a colleague during the visit to Arizona State University.
     </p>
   </div>
 </div>

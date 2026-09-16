@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-4-08 16:11:00-0400
+date: 2024-04-08 16:11:00-0500
 inline: true
 related_posts: false
 image: 2024/huang_haim.webp
@@ -8,4 +8,4 @@ image_fit: cover
 ---
 
 
-🎉 Paper [Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving](https://www-sciencedirect-com.ezproxy.library.wisc.edu/science/article/pii/S2772424724000106) is published on *Communications in Transportation Research*. 
+🎉 Our paper, [Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving](https://www.sciencedirect.com/science/article/pii/S2772424724000106), was published in *Communications in Transportation Research*.
