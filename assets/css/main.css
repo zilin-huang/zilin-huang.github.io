@@ -184,12 +184,7 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
-  /* Optimize image rendering performance */
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  /* Enable hardware acceleration */
-  transform: translateZ(0);
-  will-change: transform;
+  image-rendering: auto;
 }
 
 blockquote {
@@ -944,6 +939,26 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   }
   .profile {
     width: 40%;
+  }
+}
+.news-photo-grid {
+  display: grid;
+  grid-template-columns: var(--news-grid-columns, 1fr 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+.news-photo-grid > [class*=col-] {
+  flex: none;
+  width: auto;
+  max-width: none;
+  padding: 0;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 767.98px) {
+  .news-photo-grid {
+    grid-template-columns: 1fr;
   }
 }
 /*******************************************************************************
