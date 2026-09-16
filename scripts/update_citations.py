@@ -20,6 +20,10 @@ GOOGLE_SCHOLAR_URL = (
     "https://scholar.google.com/citations"
     f"?user={GOOGLE_SCHOLAR_ID}&hl=en"
 )
+GOOGLE_SCHOLAR_READER_URL = (
+    "https://r.jina.ai/http://scholar.google.com/citations"
+    f"?user={GOOGLE_SCHOLAR_ID}&hl=en&cstart=0&pagesize=100"
+)
 MAX_RETRIES = 3
 
 
@@ -56,8 +60,30 @@ def parse_google_scholar_count(html: str) -> int:
     return count
 
 
+def parse_google_scholar_reader_count(markdown: str) -> int:
+    """Sum per-paper Google Scholar citations from the reader response."""
+    if (
+        "Title: Zilin Huang" not in markdown
+        or f"user={GOOGLE_SCHOLAR_ID}" not in markdown
+    ):
+        raise ValueError("The Google Scholar reader returned the wrong profile")
+
+    citation_counts = re.findall(
+        r"\[([\d,]+)\]\(https?://scholar\.google\.com/scholar\?oi=bibs[^)]*\)",
+        markdown,
+        flags=re.IGNORECASE,
+    )
+    if not citation_counts:
+        raise ValueError("No per-paper Google Scholar citation counts were found")
+
+    count = sum(int(value.replace(",", "")) for value in citation_counts)
+    if count <= 0:
+        raise ValueError(f"Google Scholar returned an invalid citation count: {count}")
+    return count
+
+
 def fetch_google_scholar() -> Optional[int]:
-    """Fetch the citation count directly from the public Scholar profile."""
+    """Fetch Google Scholar directly, then through a read-only web reader."""
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -66,27 +92,49 @@ def fetch_google_scholar() -> Optional[int]:
         "Accept-Language": "en-US,en;q=0.9",
     }
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            response = requests.get(
-                GOOGLE_SCHOLAR_URL,
-                headers=headers,
-                timeout=30,
-            )
-            print(f"Google Scholar attempt {attempt}: HTTP {response.status_code}")
-            response.raise_for_status()
-            count = parse_google_scholar_count(response.text)
-            print(f"Google Scholar citation count: {count}")
-            return count
-        except (requests.RequestException, ValueError) as error:
-            print(
-                f"Google Scholar attempt {attempt}/{MAX_RETRIES} failed: {error}",
-                file=sys.stderr,
-            )
-            if attempt < MAX_RETRIES:
+    sources = (
+        ("direct", GOOGLE_SCHOLAR_URL, parse_google_scholar_count),
+        (
+            "reader",
+            GOOGLE_SCHOLAR_READER_URL,
+            parse_google_scholar_reader_count,
+        ),
+    )
+
+    for source_name, url, parser in sources:
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                response = requests.get(url, headers=headers, timeout=30)
+                print(
+                    f"Google Scholar {source_name} attempt {attempt}: "
+                    f"HTTP {response.status_code}"
+                )
+                response.raise_for_status()
+                count = parser(response.text)
+                print(
+                    f"Google Scholar citation count via {source_name}: {count}"
+                )
+                return count
+            except (requests.RequestException, ValueError) as error:
+                print(
+                    f"Google Scholar {source_name} attempt "
+                    f"{attempt}/{MAX_RETRIES} failed: {error}",
+                    file=sys.stderr,
+                )
+                if response_is_forbidden(error) or attempt == MAX_RETRIES:
+                    break
                 time.sleep(5 * attempt)
 
     return None
+
+
+def response_is_forbidden(error: Exception) -> bool:
+    """Return whether a request failed because Google blocked the runner."""
+    return (
+        isinstance(error, requests.HTTPError)
+        and error.response is not None
+        and error.response.status_code == 403
+    )
 
 
 def write_count(count: int) -> None:
