@@ -24,6 +24,8 @@ GOOGLE_SCHOLAR_READER_URL = (
     "https://r.jina.ai/http://scholar.google.com/citations"
     f"?user={GOOGLE_SCHOLAR_ID}&hl=en&cstart=0&pagesize=100"
 )
+SERPAPI_URL = "https://serpapi.com/search.json"
+SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 MAX_RETRIES = 3
 
 
@@ -82,8 +84,54 @@ def parse_google_scholar_reader_count(markdown: str) -> int:
     return count
 
 
+def parse_serpapi_count(payload: dict) -> int:
+    """Extract the all-time Google Scholar count from a SerpAPI response."""
+    for row in payload.get("cited_by", {}).get("table", []):
+        citations = row.get("citations")
+        if citations and citations.get("all") is not None:
+            count = int(citations["all"])
+            if count <= 0:
+                break
+            return count
+    raise ValueError("SerpAPI returned no Google Scholar citation count")
+
+
+def fetch_google_scholar_via_serpapi() -> Optional[int]:
+    """Fetch Google Scholar through SerpAPI on datacenter-hosted runners."""
+    if not SERPAPI_API_KEY:
+        return None
+
+    try:
+        response = requests.get(
+            SERPAPI_URL,
+            params={
+                "engine": "google_scholar_author",
+                "author_id": GOOGLE_SCHOLAR_ID,
+                "api_key": SERPAPI_API_KEY,
+                "hl": "en",
+            },
+            timeout=30,
+        )
+        payload = response.json()
+        if response.status_code != 200:
+            error = payload.get("error", "unknown API error")
+            raise RuntimeError(f"SerpAPI HTTP {response.status_code}: {error}")
+        if payload.get("error"):
+            raise RuntimeError(f"SerpAPI error: {payload['error']}")
+
+        count = parse_serpapi_count(payload)
+        print(f"Google Scholar citation count via SerpAPI: {count}")
+        return count
+    except (requests.RequestException, ValueError, RuntimeError) as error:
+        print(f"Google Scholar SerpAPI request failed: {error}", file=sys.stderr)
+        return None
+
+
 def fetch_google_scholar() -> Optional[int]:
-    """Fetch Google Scholar directly, then through a read-only web reader."""
+    """Fetch Google Scholar through the best source available."""
+    if SERPAPI_API_KEY:
+        return fetch_google_scholar_via_serpapi()
+
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -151,7 +199,8 @@ def main() -> int:
     count = fetch_google_scholar()
     if count is None:
         print(
-            "Google Scholar could not be read; preserving the existing citation count.",
+            "Google Scholar could not be read; preserving the existing citation count. "
+            "GitHub-hosted runners require the SERPAPI_API_KEY repository secret.",
             file=sys.stderr,
         )
         return 1
