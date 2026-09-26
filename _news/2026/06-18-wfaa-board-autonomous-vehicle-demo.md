@@ -13,8 +13,6 @@ We were delighted to present autonomous vehicle research from [Sky-Lab](https://
 
 The session, **“Transportation of the Future: College of Engineering's Autonomous Vehicle Fleet,”** offered guests a hands-on look at how our team is advancing autonomous transportation. We introduced the College of Engineering's autonomous vehicle fleet, shared our research activities and the mission of the [TRAVELS Center](https://engineering.wisc.edu/news/with-uw-madison-leadership-autonomous-vehicles-could-bridge-transportation-gaps-for-people-living-in-rural-areas/), and demonstrated the autonomous shuttle's passenger-request and pick-up process. Guests also had the opportunity to take short rides in the research vehicle and experience the system firsthand.
 
-It was rewarding for our team to see university and alumni leaders engage directly with our work and discuss how autonomous systems can improve mobility, safety, and quality of life. 🚐
-
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp" srcset="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing-1600.webp 1600w, /assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="WFAA Board of Directors and Alumni Council members learning about Sky-Lab and CATS Lab autonomous vehicle research" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">

@@ -13,7 +13,7 @@ We were excited to join the **WisDOT Safer Together Community Event** at Rennebo
 
 At our remote vehicle operation station, visitors explored how a driver can interact with a research vehicle through a steering-wheel control setup and live computer interface. We also displayed our autonomous research vehicle and discussed how connected, automated, and remotely operated technologies can support safer and more accessible transportation.
 
-The event brought researchers, transportation professionals, families, and community organizations together around a shared goal: making mobility safer for everyone. We enjoyed answering questions, offering hands-on demonstrations, and seeing visitors engage directly with the technology. 🚐
+More details about the event and its transportation safety partners are available in [WisDOT's official report](https://wisconsindot.gov/Pages/about-wisdot/newsroom/news-rel/082626-safer-together-event.aspx). 🚐
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">

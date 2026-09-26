@@ -15,6 +15,8 @@ To my advisor, Prof. [Sikai (Sky) Chen](https://directory.engr.wisc.edu/cee/Facu
 
 Here’s to the next chapter. 💗
 
+Videos from the ceremonies are available here: [UW–Madison Spring 2026 Commencement — May 8 full ceremony](https://www.youtube.com/watch?v=3xZWItAZdmg) and [2026 College of Engineering Graduate Recognition Event](https://www.youtube.com/watch?v=tInTAratpw4).
+
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/commencement/commencement-advisor.webp" srcset="/assets/news_photo/news_all/2026/commencement/commencement-advisor-1600.webp 1600w, /assets/news_photo/news_all/2026/commencement/commencement-advisor.webp 3800w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with his advisor at the UW–Madison CEE commencement" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
