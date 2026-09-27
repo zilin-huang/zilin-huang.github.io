@@ -53,7 +53,7 @@ I received my Ph.D. and M.S. degrees from the University of Wisconsin–Madison,
 
 
 <div style="background-color: rgba(var(--global-theme-color-rgb), 0.1); border-left: 4px solid var(--global-theme-color); padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <p style="margin: 0; font-weight: 500;">📢 I am on the 2026–2027 academic job market and seeking faculty positions.</p>
+  <p style="margin: 0; font-weight: 500;">📢 I am on the 2026–2027 academic job market and am also exploring research scientist positions in industry.</p>
 </div>
 ---
 
