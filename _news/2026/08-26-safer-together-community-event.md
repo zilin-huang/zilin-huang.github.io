@@ -6,10 +6,10 @@ inline: false
 related_posts: false
 image: 2026/safer-together-demo.jpg
 image_fit: cover
-excerpt: Our Sky-Lab team shared remote-driving and autonomous vehicle research with the Madison community at WisDOT's Safer Together event.
+excerpt: We shared remote-driving and autonomous vehicle research with the Madison community at WisDOT's Safer Together event.
 ---
 
-We were excited to join the **WisDOT Safer Together Community Event** at Rennebohm Park on August 26, 2026. From 3:00 to 7:00 p.m., our team from [Sky-Lab](https://sky-lab-uw.github.io/) shared remote-driving and autonomous vehicle research with community members of all ages.
+We were excited to join the **WisDOT Safer Together Community Event** at Rennebohm Park on August 26, 2026. From 3:00 to 7:00 p.m., our team at [Sky-Lab](https://sky-lab-uw.github.io/) shared remote-driving and autonomous vehicle research with community members of all ages.
 
 At our remote vehicle operation station, visitors explored how a driver can interact with a research vehicle through a steering-wheel control setup and live computer interface. We also displayed our autonomous research vehicle and discussed how connected, automated, and remotely operated technologies can support safer and more accessible transportation.
 

@@ -6,18 +6,18 @@ inline: false
 related_posts: false
 image: 2026/wfaa-board-demo.jpg
 image_fit: cover
-excerpt: Our team demonstrated autonomous vehicle research from Sky-Lab and the CATS Lab to members of the Wisconsin Foundation and Alumni Association Board of Directors and Alumni Council.
+excerpt: We demonstrated autonomous vehicle research to members of the Wisconsin Foundation and Alumni Association Board of Directors and Alumni Council.
 ---
 
-We were delighted to present autonomous vehicle research from [Sky-Lab](https://sky-lab-uw.github.io/) and the [CATS Lab](https://catslab.engr.wisc.edu/) to members of the **Wisconsin Foundation and Alumni Association (WFAA) Board of Directors and Alumni Council** at Union South on June 18, 2026.
+We were delighted to present our work at [Sky-Lab](https://sky-lab-uw.github.io/), together with colleagues from the [CATS Lab](https://catslab.engr.wisc.edu/), to members of the **Wisconsin Foundation and Alumni Association (WFAA) Board of Directors and Alumni Council** at Union South on June 18, 2026.
 
 The session, **“Transportation of the Future: College of Engineering's Autonomous Vehicle Fleet,”** offered guests a hands-on look at how our team is advancing autonomous transportation. We introduced the College of Engineering's autonomous vehicle fleet, shared our research activities and the mission of the [TRAVELS Center](https://engineering.wisc.edu/news/with-uw-madison-leadership-autonomous-vehicles-could-bridge-transportation-gaps-for-people-living-in-rural-areas/), and demonstrated the autonomous shuttle's passenger-request and pick-up process. Guests also had the opportunity to take short rides in the research vehicle and experience the system firsthand.
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp" srcset="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing-1600.webp 1600w, /assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="WFAA Board of Directors and Alumni Council members learning about Sky-Lab and CATS Lab autonomous vehicle research" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp" srcset="/assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing-1600.webp 1600w, /assets/news_photo/news_all/2026/wfaa-board-demo/wfaa-board-demo-briefing.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="WFAA Board of Directors and Alumni Council members learning about CATS Lab and Sky-Lab autonomous vehicle research" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Introducing Sky-Lab and CATS Lab autonomous vehicle research.
+      Introducing CATS Lab and Sky-Lab autonomous vehicle research.
     </p>
   </div>
   <div class="col-md-6 mt-3">

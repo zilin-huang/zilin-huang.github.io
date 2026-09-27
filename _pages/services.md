@@ -40,6 +40,14 @@ nav_order: 8
   border-bottom: none;
 }
 
+.conference-gallery {
+  margin-bottom: 0;
+}
+
+.conference-gallery p {
+  margin-bottom: 0;
+}
+
 /* 移除悬停效果 */
 .services-list li:hover {
   background-color: transparent;
@@ -201,10 +209,10 @@ h5:hover {
 
 <div class="services-container">
   <h5 style="text-align: left;">Conference Organizer</h5>
-  <ul class="services-list community-services">
+  <ul class="services-list community-services" style="margin-bottom: 5px;">
     <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, Feb 21 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
-  <div class="row" style="margin-top: 5px;">
+  <div class="row conference-gallery" style="margin-top: 5px;">
     <div class="col-md-4">
       <img class="img-fluid rounded z-depth-1" src="../assets/services/MARC/2024_MARC_4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -218,10 +226,10 @@ h5:hover {
       </p>
     </div>
   </div>
-  <ul class="services-list community-services" style="margin-top: 10px; margin-bottom: 5px;">
+  <ul class="services-list community-services" style="margin-top: 0; margin-bottom: 5px;">
     <li class="conference-item">Session Chair, 3rd Annual Conference on Next-Generation Transport Systems (NGTS-3), West Lafayette, IN, US, May 16-18 2023 <a href="{{ '/assets/services/NGTS/2023_NGTS_Flyer.pdf' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
-  <div class="row" style="margin-top: 5px;">
+  <div class="row conference-gallery" style="margin-top: 5px;">
     <div class="col-md-4">
       <img class="img-fluid rounded z-depth-1" src="../assets/services/NGTS/2023_NGTS_1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -235,4 +243,4 @@ h5:hover {
       </p>
     </div>
   </div>
-</div> 
+</div>

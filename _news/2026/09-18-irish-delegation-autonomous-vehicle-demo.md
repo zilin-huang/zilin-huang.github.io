@@ -6,14 +6,29 @@ inline: false
 related_posts: false
 image: 2026/ireland-delegation-demo.jpg
 image_fit: cover
-excerpt: The CATS Lab and Sky-Lab demonstrated connected and autonomous vehicle research to an Irish delegation visiting UW–Madison.
+excerpt: We demonstrated connected and autonomous vehicle research to an Irish delegation visiting UW–Madison.
 ---
 
-We were pleased to welcome an Irish delegation of government officials, industry leaders, and organizers of the **Aer Lingus College Football Classic** to UW–Madison on September 18, 2026. During their visit to Union South, the [CATS Lab](https://catslab.engr.wisc.edu/) and [Sky-Lab](https://sky-lab-uw.github.io/) showcased our connected and autonomous vehicle research.
+We were pleased to welcome an Irish delegation of government officials, industry leaders, and organizers of the **Aer Lingus College Football Classic** to UW–Madison on September 18, 2026. During their visit to Union South, our team at [Sky-Lab](https://sky-lab-uw.github.io/), together with colleagues from the [CATS Lab](https://catslab.engr.wisc.edu/), showcased our connected and autonomous vehicle research.
 
 Our teams introduced the delegation to UW–Madison's autonomous vehicle platforms, the sensing and computing systems that support them, and ongoing research aimed at making transportation safer, smarter, and more accessible.
 
 More details about the delegation's visit are available in [UW–Madison's official report](https://news.wisc.edu/ireland-meet-uw-madison/). 🚐
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-poster-presentation.webp" srcset="/assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-poster-presentation-1600.webp 1600w, /assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-poster-presentation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Presenting CATS Lab and Sky-Lab connected and autonomous vehicle research to the Irish delegation" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Presenting CATS Lab and Sky-Lab research to members of the Irish delegation.
+    </p>
+  </div>
+  <div class="col-md-6 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-research-vehicles.webp" srcset="/assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-research-vehicles-1600.webp 1600w, /assets/news_photo/news_all/2026/Ireland-demo/irish-delegation-research-vehicles.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Irish delegation gathered beside the College of Engineering's connected and autonomous research vehicles" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Introducing the College of Engineering's connected and autonomous vehicle fleet.
+    </p>
+  </div>
+</div>
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">

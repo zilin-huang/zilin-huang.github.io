@@ -274,6 +274,7 @@ h5:hover {
 
 <!-- Year navigation sidebar -->
 <div class="year-nav">
+  <a href="#year-2026">2026</a>
   <a href="#year-2025">2025</a>
   <a href="#year-2024">2024</a>
   <a href="#year-2023">2023</a>
@@ -281,6 +282,25 @@ h5:hover {
 </div>
 
 <h4 style="text-align: left;">Presentations (e.g., Talks/Lectures)</h4>
+
+<h5 id="year-2026" style="text-align: left;">2026</h5>
+<div class="talks-container">
+  <div class="year-section">
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">
+        <span class="talk-tag invited">Invited Talk</span>
+        <a href="https://zxc-tju.github.io/itsc2026-hav-workshop/" style="color: var(--global-theme-color); text-decoration: none;">
+          IEEE ITSC 2026 Workshop: Designing &amp; Evaluating AI-Empowered Human–AV Interaction
+        </a>
+      </div>
+      <div class="talk-venue">September 15, 2026 | Aula 5, Stazione Marittima, Naples, Italy</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Sky-Drive: A Distributed Multiagent Simulation Platform for Human-AI Collaborative and Socially Aware Future Transportation
+      </div>
+      <div><strong>Invited by:</strong> Prof. Haotian Shi</div>
+    </div>
+  </div>
+</div>
 
 <h5 id="year-2025" style="text-align: left;">2025</h5>
 <div class="talks-container">
