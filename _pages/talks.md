@@ -15,9 +15,17 @@ nav_order: 7
 
 .talk-card {
   background: var(--global-bg-color);
-  padding: 12px 0px 6px 0px;
-  margin-bottom: 8px;
-  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
+  padding: 12px 0 0;
+  margin-bottom: 15px;
+  border-bottom: none;
+}
+
+.talk-card + .talk-card {
+  padding-top: 0;
+}
+
+.talk-card .row p {
+  margin-bottom: 0;
 }
 
 .talk-title {
