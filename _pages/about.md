@@ -56,13 +56,18 @@ I received my Ph.D. and M.S. degrees from the University of Wisconsin–Madison 
 </div>
 ---
 
-## Research Statement
+<h3 style="display: flex; justify-content: space-between; align-items: center;">
+  <a href="{{ '/research/' | relative_url }}" style="color: inherit;">Research Statement</a>
+  <a href="{{ '/research/' | relative_url }}" class="view-all-link" style="font-size: 0.9em; color: var(--global-theme-color); text-decoration: none; border-bottom: 1px dashed var(--global-theme-color); transition: all 0.3s ease;">
+    View All <i class="fas fa-arrow-right" style="font-size: 0.8em; margin-left: 5px;"></i>
+  </a>
+</h3>
 
 My research focuses on developing **generalizable and deployable Physical AI**. I envision future mobility as a **human–robot–society ecosystem**, where humans coexist, interact, and collaborate with diverse autonomous agents (e.g., self-driving vehicles, delivery robots, drones, and other embodied systems). To thrive in such environments, these agents must understand complex physical and social contexts, reason about their actions, adapt to human preferences and social norms, and operate safely and reliably under open-world uncertainty.
 
 Building on this vision, my research addresses three interconnected questions: **1)** How can autonomous agents understand complex physical and social environments and make safe, reliable, and human-aware decisions? I integrate human-guided reinforcement learning, physics-informed feedback, and foundation-model-based semantic reasoning to improve safe decision-making, as demonstrated in [HAIM-DRL](https://arxiv.org/abs/2401.03160), [PE-RLHF](https://www.sciencedirect.com/science/article/pii/S0968090X25002669), [VLM-RL](https://www.sciencedirect.com/science/article/pii/S0968090X25003250), and [DriveVLM-RL](https://arxiv.org/abs/2603.18315). **2)** How can capabilities learned in simulation or encoded in foundation models generalize, adapt, and transfer to real physical systems? Through [Sim2Real-AD](https://arxiv.org/abs/2604.03497), TRIAGE, DOSE, ExecGap, and MadisonTwin, I investigate deployment gaps, model selection, data-efficient adaptation, and execution-aware evaluation across environments and physical platforms. **3)** How can autonomous agents safely and continuously improve through physical interaction, failure discovery, and real-world feedback? My work on [Sky-Drive](https://arxiv.org/abs/2504.18010), Sealed-Loop, and RoadCert explores closed-loop testing, independent evaluation designed to resist reward hacking, and verifiable, safety-aware policy improvement under limited real-world testing budgets.
 
-My long-term goal is to develop **human-centered, embodied, adaptive, reliable, and trustworthy (HEART) autonomous systems** that can safely learn, interact, and collaborate with people in the physical world. Ultimately, I hope to bring the benefits of Physical AI into everyday life, enabling safer, more efficient, and human-centered transportation and robotic systems that improve people's lives and benefit communities worldwide.
+My long-term goal is to develop <strong><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd T<u>r</u>ustworthy Au<u>t</u>onomous Systems (HEART)</strong> that can safely learn, interact, and collaborate with people in the physical world. Ultimately, I hope to bring the benefits of Physical AI into everyday life, enabling safer, more efficient, and human-centered transportation and robotic systems that improve people's lives and benefit communities worldwide.
 
 <div style="text-align: center;">
   <img src="assets/research/visionshort.jpg" style="max-width: 90%; border-radius: 8px;"/>
