@@ -166,6 +166,51 @@
   font-weight: 500;
 }
 
+.publication-year-section {
+  scroll-margin-top: 100px;
+}
+
+.publication-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 22px;
+}
+
+.publication-filter {
+  padding: 5px 14px;
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.3);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-theme-color);
+  font: inherit;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.publication-filter:hover,
+.publication-filter.active {
+  background: var(--global-theme-color);
+  color: white;
+}
+
+.author-note {
+  display: block;
+  margin: 12px 0 6px;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+}
+
+.publications {
+  margin-top: 1rem;
+}
+
+.publication-year-section:first-child h2.year {
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+}
+
 @media (max-width: 768px) {
   .year-nav {
     display: none;
@@ -174,6 +219,7 @@
 </style>
 
 <!-- Year navigation sidebar -->
+
 <div class="year-nav">
   
     <a href="#year-2026">2026</a>
@@ -194,19 +240,33 @@
   
 </div>
 
-<p>The list below may not be up to date, please check <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Google Scholar</a> for my latest publications.</p>
+<p>For citation metrics and the latest updates, please visit my <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Google Scholar</a> profile.</p>
+
+<div class="publication-filters" role="group" aria-label="Filter publications">
+  <button type="button" class="publication-filter active" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="publication-filter" data-filter="selected" aria-pressed="false">Selected</button>
+  <button type="button" class="publication-filter" data-filter="journal" aria-pressed="false">Journal</button>
+  <button type="button" class="publication-filter" data-filter="conference" aria-pressed="false">Conference</button>
+  <button type="button" class="publication-filter" data-filter="preprint" aria-pressed="false">Preprint</button>
+</div>
 
 <hr>
 
+<p><span class="author-note"><sup>+</sup> Equal contribution; <sup>*</sup> Corresponding author.</span></p>
+
 <div class="publications">
 
-  <h2 class="year" id="year-2026">2026</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2026">
+    <h2 class="year">2026</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
-            <img src="../assets/teaser/2026_huang_sim2realad.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+            <img src="../assets/teaser/2026_sheng_wistmp.webp" class="teaser img-fluid z-depth-1" loading="lazy">
         </div>
         
 
@@ -219,16 +279,34 @@
         
     </div>
 
-    <div id="huang2026sim2real" class="col-sm-9">
+    <div id="sheng2026wistmp" class="col-sm-9">
         
         <div class="title">
-            Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving <span style="font-size: 20px;">🔥</span>
+            Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System
         </div>
         <div class="author">
             
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -240,8 +318,62 @@
             
             
             
-            <em><b>Zilin Huang</b></em>,
+            Pei Li,
             
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yen-Jung Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yuhao Luo,
             
             
             
@@ -269,6 +401,225 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Steven T. Parker,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            David A. Noyce,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2610.10650
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2610.10650" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://zihaosheng.github.io/TMP-LLM/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_yang_beyondleaderboard.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="yang2026beyond" class="col-sm-9">
+        
+        <div class="title">
+            Beyond the Leaderboard: Counterfactual Diagnosis of End-to-End and VLA Driving Policies Under Domain Shift
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Ruolin Yang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Buoyue Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yuhao Luo,
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -289,6 +640,92 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2609.22582
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2609.22582" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_qian_xembodied.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="qian2026xembodied" class="col-sm-9">
+        
+        <div class="title">
+            XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments
+        </div>
+        <div class="author">
+            
+            
+            
             
 
             
@@ -300,8 +737,888 @@
             
             
             
-            Boyue Wang,
+            Kangan Qian,
             
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            ChuChu Xie,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yang Zhong,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jingrui Pang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Siwen Jiao,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sicong Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yunlong Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kun Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Mengmeng Yang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Hao Ye,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Guanghao Zhang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Hangjun Ye,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Guang Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Long Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Diange Yang
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2604.18484
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2604.18484" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_you_v2xqa.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="you2026v2xqa" class="col-sm-9">
+        
+        <div class="title">
+            V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Pei Li,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhuoyu Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Weizhe Tang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Rui Gan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jiaxi Liu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yan Zhao,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sikai Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Bin Ran
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2604.02710
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2604.02710" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            <a href="https://github.com/junwei0001/V2X-QA" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+            
+            
+            <a href="https://github.com/junwei0001/V2X-QA/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">
+              <i class="fas fa-star"></i>
+              <span class="stars" data-github-repo="junwei0001/V2X-QA"></span>
+            </a>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_qu_foundrl.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">COMMTR</abbr>
+        
+        
+    </div>
+
+    <div id="qu2026foundrl" class="col-sm-9">
+        
+        <div class="title">
+            Found-RL: Foundation Model-Enhanced Reinforcement Learning via Asynchronous VLM Feedback for Autonomous Driving
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yansong Qu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jiancong Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yuhao Luo,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Tianyi Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yiheng Feng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Samuel Labi,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Communications in Transportation Research
+            
+
+            
+            (<b>COMMTR</b>)
+            <!--            COMMTR-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2602.10458" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://doi.org/10.26599/COMMTR.2026.9640027" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            <a href="https://github.com/ys-qu/found-rl" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+            
+            
+            <a href="https://github.com/ys-qu/found-rl/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">
+              <i class="fas fa-star"></i>
+              <span class="stars" data-github-repo="ys-qu/found-rl"></span>
+            </a>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_tang_hermes.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="tang2026hermes" class="col-sm-9">
+        
+        <div class="title">
+            HERMES: A Holistic End-to-End Risk-Aware Multimodal Embodied System with Vision-Language Models for Long-Tail Autonomous Driving
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Weizhe Tang,
             
             
             
@@ -329,6 +1646,24 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jiaxi Liu,
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -340,7 +1675,299 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            Zhaoyi Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Rui Gan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Pei Li,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sikai Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Feng Wei,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Bin Ran
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            arXiv preprint arXiv:2602.00993
+            
+
+            
+            (<b>Preprint</b>)
+            <!--            Preprint-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2602.00993" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="true">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2026_huang_sim2realad.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">Preprint</abbr>
+        
+        
+    </div>
+
+    <div id="huang2026sim2real" class="col-sm-9">
+        
+        <div class="title">
+            Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving <span style="font-size: 20px;">🔥</span>
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Boyue Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
             
             
             
@@ -385,8 +2012,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -413,7 +2044,6 @@
             
             
             
-            
 
             
             
@@ -423,10 +2053,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -445,7 +2072,6 @@
             
             
             Zihao Sheng,
-            
             
             
             
@@ -473,7 +2099,6 @@
             
             
             
-            
 
             
             
@@ -485,7 +2110,6 @@
             
             
             Yansong Qu,
-            
             
             
             
@@ -513,7 +2137,6 @@
             
             
             
-            
 
             
             
@@ -533,7 +2156,6 @@
             
             
             
-            
 
             
             
@@ -544,7 +2166,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -589,16 +2211,16 @@
             
         </div>
     </div>
-</div></li>
-</ol>
+</div>
+</li>
+<li>
 
-  <h2 class="year" id="year-2025">2025</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
-            <img src="../assets/teaser/2025_qian_agentthink.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+            <img src="../assets/teaser/2025_luo_mtrdrive.png" class="teaser img-fluid z-depth-1" loading="lazy">
         </div>
         
 
@@ -606,17 +2228,35 @@
 
         
         
-        <abbr class="badge"><a href="https://aclanthology.org/events/emnlp-2025/" target="_blank" rel="external nofollow noopener">EMNLP</a></abbr>
+        <abbr class="badge">ICRA</abbr>
         
         
     </div>
 
-    <div id="qian2025agentthink" class="col-sm-9">
+    <div id="luo2025mtrdrive" class="col-sm-9">
         
         <div class="title">
-            AgentThink: A Unified Framework for Tool-Augmented Chain-of-Thought Reasoning in Vision-Language Models for Autonomous Driving
+            MTRDrive: Memory-Tool Synergistic Reasoning for Robust Autonomous Driving in Corner Cases
         </div>
         <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Ziang Luo,
+            
+            
+            
             
             
             
@@ -641,7 +2281,6 @@
             
             
             
-            
 
             
             
@@ -652,28 +2291,7 @@
             
             
             
-            Sicong Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yang Zhong,
-            
+            Jiahua Wang,
             
             
             
@@ -692,108 +2310,7 @@
             
             
             
-            Ziang Luo,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Tianze Zhu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Kun Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Mengmeng Yang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zheng Fu,
-            
+            Yuechen Luo,
             
             
             
@@ -821,7 +2338,6 @@
             
             
             
-            
 
             
             
@@ -832,28 +2348,7 @@
             
             
             
-            Yining Shi,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            He Zhe Lim,
-            
+            Zheng Fu,
             
             
             
@@ -872,28 +2367,7 @@
             
             
             
-            Li Liu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Tianbao Zhou,
-            
+            Yunlong Wang,
             
             
             
@@ -912,9 +2386,25 @@
             
             
             
-            Huang Yu,
+            Sicong Jiang,
             
             
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -941,7 +2431,6 @@
             
             
             
-            
 
             
             
@@ -952,28 +2441,7 @@
             
             
             
-            Guang Li,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Guang Chen,
-            
+            Yuhao Yang,
             
             
             
@@ -1001,6 +2469,1876 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Mengmeng Yang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Xiaojian Dong,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kun Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Diange Yang
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            2026 IEEE International Conference on Robotics and Automation
+            
+
+            
+            (<b>ICRA</b>)
+            <!--            ICRA-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2509.20843" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_you_seal.png" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">AAP</abbr>
+        
+        
+    </div>
+
+    <div id="you2025seal" class="col-sm-9">
+        
+        <div class="title">
+            SEAL: Vision-Language Model-Based Safe End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Pei Li,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhuoyu Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Rui Gan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Haotian Shi,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Bin Ran
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Accident Analysis and Prevention
+            
+
+            
+            (<b>AAP</b>)
+            <!--            AAP-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2506.21041" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_sheng_safeplug.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">CHAIN</abbr>
+        
+        
+    </div>
+
+    <div id="sheng2025safeplug" class="col-sm-9">
+        
+        <div class="title">
+            SafePLUG: Empowering Multimodal LLMs with Pixel-Level Insight and Temporal Grounding for Traffic Accident Understanding
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yansong Qu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jiancong Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yuhao Luo,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yen-Jung Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yue Leng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            CHAIN
+            
+
+            
+            (<b>CHAIN</b>)
+            <!--            CHAIN-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2508.06763" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://zihaosheng.github.io/SafePLUG/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_sheng_curricuvlm.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">TR-C</abbr>
+        
+        
+    </div>
+
+    <div id="sheng2025curricuvlm" class="col-sm-9">
+        
+        <div class="title">
+            CurricuVLM: Towards Safe Autonomous Driving via Personalized Safety-Critical Curriculum Learning with Vision-Language Models <span style="font-size: 20px;">🔥</span>
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang<sup>+</sup></u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yansong Qu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yue Leng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sruthi Bhavanam,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Transportation Research Part C: Emerging Technologies
+            
+
+            
+            (<b>TR-C</b>)
+            <!--            TR-C-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2502.15119" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://zihaosheng.github.io/CurricuVLM/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            <a href="https://github.com/zihaosheng/CurricuVLM" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+            
+            
+            <a href="https://github.com/zihaosheng/CurricuVLM/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">
+              <i class="fas fa-star"></i>
+              <span class="stars" data-github-repo="zihaosheng/CurricuVLM"></span>
+            </a>
+            
+            
+            <a href="https://mp.weixin.qq.com/s/j4Ja3g8rSsPWQe3GdGqC-g" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">中文解读</a>
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_qian_IROS.png" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">ICRA</abbr>
+        
+        
+    </div>
+
+    <div id="qian2025fasionad" class="col-sm-9">
+        
+        <div class="title">
+            FASIONAD: Adaptive Uncertainty-Gated Fast–Slow Fusion Framework for Safe Autonomous Driving
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Ziang Luo,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sicong Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kangan Qian,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Tianze Zhu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Siwen Jiao,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jinyu Miao,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zheng Fu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yang Zhong,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yunlong Wang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Hao Ye,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Mengmeng Yang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kun Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Diange Yang
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            2026 IEEE International Conference on Robotics and Automation
+            
+
+            
+            (<b>ICRA</b>)
+            <!--            ICRA-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2503.08162" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2024_you_v2xvlm.png" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">TR-C</abbr>
+        
+        
+    </div>
+
+    <div id="you2024v2x" class="col-sm-9">
+        
+        <div class="title">
+            V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Junwei You,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhuoyu Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Haotian Shi,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Rui Gan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Keshu Wu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Xi Cheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Xiaopeng Li,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Bin Ran
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Transportation Research Part C: Emerging Technologies
+            
+
+            
+            (<b>TR-C</b>)
+            <!--            TR-C-->
+            
+            
+            , 2026
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://arxiv.org/abs/2408.09251" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+</ol>
+  </section>
+
+  <section class="publication-year-section" id="year-2025">
+    <h2 class="year">2025</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="other" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2024_huang_cv2x.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge">CCAT</abbr>
+        
+        
+    </div>
+
+    <div id="huang2025vrusafety" class="col-sm-9">
+        
+        <div class="title">
+            Using Connected Intelligent Transportation to Enhance Vulnerable Road User Safety
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zihao Sheng,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sue Ahn,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            David A. Noyce,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            and Sikai Chen
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="periodical">
+
+            
+            Center for Connected and Automated Transportation Final Report
+            
+
+            
+            (<b>CCAT</b>)
+            <!--            CCAT-->
+            
+            
+            , 2025
+            
+        </div>
+        
+
+        <div class="links">
+            
+            
+            
+            <a href="https://rosap.ntl.bts.gov/view/dot/89376/dot_89376_DS1.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
+            
+            
+            
+            
+            
+            <a href="https://doi.org/10.21231/W55Q-GM71" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
+    <div class="col-sm-3 abbr">
+        
+        <div style="position: relative;">
+            <img src="../assets/teaser/2025_qian_agentthink.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+        </div>
+        
+
+        
+
+        
+        
+        <abbr class="badge"><a href="https://aclanthology.org/events/emnlp-2025/" target="_blank" rel="external nofollow noopener">EMNLP</a></abbr>
+        
+        
+    </div>
+
+    <div id="qian2025agentthink" class="col-sm-9">
+        
+        <div class="title">
+            AgentThink: A Unified Framework for Tool-Augmented Chain-of-Thought Reasoning in Vision-Language Models for Autonomous Driving
+        </div>
+        <div class="author">
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kangan Qian,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Sicong Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yang Zhong,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Ziang Luo,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Tianze Zhu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kun Jiang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Mengmeng Yang,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zheng Fu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Jinyu Miao,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yining Shi,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            He Zhe Lim,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Li Liu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Tianbao Zhou,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Huang Yu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yifei Hu,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Guang Li,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Guang Chen,
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Hao Ye,
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -1013,7 +4351,6 @@
             
             
             Lijun Sun,
-            
             
             
             
@@ -1089,8 +4426,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -1117,7 +4458,6 @@
             
             
             
-            
 
             
             
@@ -1137,7 +4477,6 @@
             
             
             
-            
 
             
             
@@ -1148,8 +4487,7 @@
             
             
             
-            Chengyuan Ma<sup>*</sup>,
-            
+            Chengyuan Ma,
             
             
             
@@ -1177,7 +4515,6 @@
             
             
             
-            
 
             
             
@@ -1189,7 +4526,6 @@
             
             
             Zheng Li,
-            
             
             
             
@@ -1217,7 +4553,6 @@
             
             
             
-            
 
             
             
@@ -1237,7 +4572,6 @@
             
             
             
-            
 
             
             
@@ -1247,10 +4581,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -1269,7 +4600,6 @@
             
             
             Zihao Sheng,
-            
             
             
             
@@ -1297,7 +4627,6 @@
             
             
             
-            
 
             
             
@@ -1317,7 +4646,6 @@
             
             
             
-            
 
             
             
@@ -1329,7 +4657,6 @@
             
             
             Sikai Chen,
-            
             
             
             
@@ -1393,8 +4720,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="preprint" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -1414,10 +4745,9 @@
     <div id="qu2025vlsafe" class="col-sm-9">
         
         <div class="title">
-            VL-SAFE: Vision-Language Guided Safety-Aware Reinforcement Learning with World Models for Autonomous Driving
+            VLM-SAFE: Vision-Language Model-Guided Safety-Aware Reinforcement Learning with World Models for Autonomous Driving
         </div>
         <div class="author">
-            
             
             
             
@@ -1441,7 +4771,6 @@
             
             
             
-            
 
             
             
@@ -1451,10 +4780,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -1473,7 +4799,6 @@
             
             
             Zihao Sheng,
-            
             
             
             
@@ -1501,6 +4826,24 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Yue Leng,
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -1512,8 +4855,7 @@
             
             
             
-            Sikai Chen<sup>*</sup>,
-            
+            Samuel Labi,
             
             
             
@@ -1532,7 +4874,7 @@
             
             
             
-            and Samuel Labi
+            and Sikai Chen
             
             
             
@@ -1587,8 +4929,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -1600,7 +4946,7 @@
 
         
         
-        <abbr class="badge">Preprint</abbr>
+        <abbr class="badge">WACV</abbr>
         
         
     </div>
@@ -1611,7 +4957,6 @@
             EvaDrive: Evolutionary Adversarial Policy Optimization for End-to-End Autonomous Driving
         </div>
         <div class="author">
-            
             
             
             
@@ -1627,7 +4972,6 @@
             
             
             Siwen Jiao,
-            
             
             
             
@@ -1655,7 +4999,6 @@
             
             
             
-            
 
             
             
@@ -1667,7 +5010,6 @@
             
             
             Hao Ye,
-            
             
             
             
@@ -1695,7 +5037,6 @@
             
             
             
-            
 
             
             
@@ -1707,7 +5048,6 @@
             
             
             Ziang Luo,
-            
             
             
             
@@ -1735,7 +5075,6 @@
             
             
             
-            
 
             
             
@@ -1745,10 +5084,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -1767,7 +5103,6 @@
             
             
             Yangyi Fang,
-            
             
             
             
@@ -1795,7 +5130,6 @@
             
             
             
-            
 
             
             
@@ -1807,7 +5141,6 @@
             
             
             Zheng Fu,
-            
             
             
             
@@ -1835,7 +5168,6 @@
             
             
             
-            
 
             
             
@@ -1847,7 +5179,6 @@
             
             
             Kun Jiang,
-            
             
             
             
@@ -1875,7 +5206,6 @@
             
             
             
-            
 
             
             
@@ -1887,7 +5217,6 @@
             
             
             Rui Fan,
-            
             
             
             
@@ -1917,12 +5246,12 @@
         <div class="periodical">
 
             
-            arXiv preprint arXiv:2508.09158
+            IEEE/CVF Winter Conference on Applications of Computer Vision 2027
             
 
             
-            (<b>Preprint</b>)
-            <!--            Preprint-->
+            (<b>WACV</b>)
+            <!--            WACV-->
             
             
             , 2025
@@ -1951,802 +5280,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2025_luo_mtrdrive.png" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
+</div>
+</li>
+<li>
 
-        
 
-        
-        
-        <abbr class="badge">Preprint</abbr>
-        
-        
-    </div>
-
-    <div id="luo2025mtrdrive" class="col-sm-9">
-        
-        <div class="title">
-            MTRDrive: Memory-Tool Synergistic Reasoning for Robust Autonomous Driving in Corner Cases
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Ziang Luo,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Kangan Qian,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Jiahua Wang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yuechen Luo,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Jinyu Miao,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zheng Fu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yunlong Wang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Sicong Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yifei Hu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yuhao Yang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Hao Ye,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Mengmeng Yang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Xiaojian Dong,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Kun Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Diange Yang
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            arXiv preprint arXiv:2509.20843
-            
-
-            
-            (<b>Preprint</b>)
-            <!--            Preprint-->
-            
-            
-            , 2025
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2509.20843" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2025_you_seal.png" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
-
-        
-
-        
-        
-        <abbr class="badge">Preprint</abbr>
-        
-        
-    </div>
-
-    <div id="you2025seal" class="col-sm-9">
-        
-        <div class="title">
-            SEAL: Vision-Language Model-Based Safe End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Junwei You,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Pei Li,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zhuoyu Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Rui Gan,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Haotian Shi,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Bin Ran<sup>*</sup>
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            arXiv preprint arXiv:2506.21041
-            
-
-            
-            (<b>Preprint</b>)
-            <!--            Preprint-->
-            
-            
-            , 2025
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2506.21041" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2025_sheng_safeplug.webp" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
-
-        
-
-        
-        
-        <abbr class="badge">Preprint</abbr>
-        
-        
-    </div>
-
-    <div id="sheng2025safeplug" class="col-sm-9">
-        
-        <div class="title">
-            SafePLUG: Empowering Multimodal LLMs with Pixel-Level Insight and Temporal Grounding for Traffic Accident Understanding
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zihao Sheng,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yen-Jung Chen,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yansong Qu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yuhao Luo,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yue Leng,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Sikai Chen<sup>*</sup>
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            arXiv preprint arXiv:2508.06763
-            
-
-            
-            (<b>Preprint</b>)
-            <!--            Preprint-->
-            
-            
-            , 2025
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2508.06763" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            <a href="https://zihaosheng.github.io/SafePLUG/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -2773,7 +5312,6 @@
             
             
             
-            
 
             
             
@@ -2783,30 +5321,7 @@
             
             
             
-            
-            <em><b>Zilin Huang<sup>+</sup></b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zihao Sheng<sup>+</sup>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -2824,8 +5339,26 @@
             
             
             
-            Zhengyang Wan<sup>+</sup>,
+            Zihao Sheng,
             
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Zhengyang Wan,
             
             
             
@@ -2853,7 +5386,6 @@
             
             
             
-            
 
             
             
@@ -2865,7 +5397,6 @@
             
             
             Yuhao Luo,
-            
             
             
             
@@ -2893,7 +5424,6 @@
             
             
             
-            
 
             
             
@@ -2905,7 +5435,6 @@
             
             
             Pei Li,
-            
             
             
             
@@ -2933,7 +5462,6 @@
             
             
             
-            
 
             
             
@@ -2945,7 +5473,6 @@
             
             
             Jiancong Chen,
-            
             
             
             
@@ -2973,7 +5500,6 @@
             
             
             
-            
 
             
             
@@ -2985,7 +5511,6 @@
             
             
             Jiayi Meng,
-            
             
             
             
@@ -3013,7 +5538,6 @@
             
             
             
-            
 
             
             
@@ -3024,7 +5548,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -3079,8 +5603,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -3107,7 +5635,6 @@
             
             
             
-            
 
             
             
@@ -3118,28 +5645,7 @@
             
             
             
-            Sicong Jiang<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang<sup>+</sup></b></em>,
-            
+            Sicong Jiang,
             
             
             
@@ -3157,9 +5663,25 @@
             
             
             
+            <strong class="self-author"><u>Zilin Huang<sup>+</sup></u></strong>,
             
-            Kangan Qian<sup>+</sup>,
             
+            
+            
+            
+            
+            
+
+            
+            
+
+            
+
+            
+            
+            
+            
+            Kangan Qian,
             
             
             
@@ -3187,7 +5709,6 @@
             
             
             
-            
 
             
             
@@ -3199,7 +5720,6 @@
             
             
             Tianze Zhu,
-            
             
             
             
@@ -3227,7 +5747,6 @@
             
             
             
-            
 
             
             
@@ -3239,7 +5758,6 @@
             
             
             Yihong Tang,
-            
             
             
             
@@ -3267,7 +5785,6 @@
             
             
             
-            
 
             
             
@@ -3279,7 +5796,6 @@
             
             
             Yunlong Wang,
-            
             
             
             
@@ -3307,7 +5823,6 @@
             
             
             
-            
 
             
             
@@ -3319,7 +5834,6 @@
             
             
             Hao Ye,
-            
             
             
             
@@ -3347,7 +5861,6 @@
             
             
             
-            
 
             
             
@@ -3359,7 +5872,6 @@
             
             
             Xin Zhao,
-            
             
             
             
@@ -3387,7 +5899,6 @@
             
             
             
-            
 
             
             
@@ -3399,7 +5910,6 @@
             
             
             Zheng Fu,
-            
             
             
             
@@ -3427,7 +5937,6 @@
             
             
             
-            
 
             
             
@@ -3439,7 +5948,6 @@
             
             
             Kun Jiang,
-            
             
             
             
@@ -3467,7 +5975,6 @@
             
             
             
-            
 
             
             
@@ -3479,7 +5986,6 @@
             
             
             Seongjin Choi,
-            
             
             
             
@@ -3553,8 +6059,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -3581,7 +6091,6 @@
             
             
             
-            
 
             
             
@@ -3601,7 +6110,6 @@
             
             
             
-            
 
             
             
@@ -3611,10 +6119,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -3633,7 +6138,6 @@
             
             
             Yansong Qu,
-            
             
             
             
@@ -3661,7 +6165,6 @@
             
             
             
-            
 
             
             
@@ -3672,7 +6175,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -3729,12 +6232,16 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
-            <img src="../assets/teaser/2025_sheng_curricuvlm.webp" class="teaser img-fluid z-depth-1" loading="lazy">
+            <img src="../assets/teaser/2024_huang_vlmrl.webp" class="teaser img-fluid z-depth-1" loading="lazy">
         </div>
         
 
@@ -3747,16 +6254,32 @@
         
     </div>
 
-    <div id="sheng2025curricuvlm" class="col-sm-9">
+    <div id="huang2024vlmrl" class="col-sm-9">
         
         <div class="title">
-            CurricuVLM: Towards Safe Autonomous Driving via Personalized Safety-Critical Curriculum Learning with Vision-Language Models <span style="font-size: 20px;">🔥</span>
+            VLM-RL: A Unified Vision Language Models and Reinforcement Learning Framework for Safe Autonomous Driving <span style="font-size: 20px;">🔥</span>
         </div>
         <div class="author">
             
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
             
 
             
@@ -3768,28 +6291,7 @@
             
             
             
-            Zihao Sheng<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang<sup>+</sup></b></em>,
-            
+            Zihao Sheng,
             
             
             
@@ -3817,203 +6319,6 @@
             
             
             
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yue Leng,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Sruthi Bhavanam,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Sikai Chen<sup>*</sup>
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            Transportation Research Part C: Emerging Technologies
-            
-
-            
-            (<b>TR-C</b>)
-            <!--            TR-C-->
-            
-            
-            , 2025
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2502.15119" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            <a href="https://zihaosheng.github.io/CurricuVLM/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Website</a>
-            
-            
-            
-            
-            <a href="https://github.com/zihaosheng/CurricuVLM" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
-            
-            
-            <a href="https://github.com/zihaosheng/CurricuVLM/stargazers" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">
-              <i class="fas fa-star"></i>
-              <span class="stars" data-github-repo="zihaosheng/CurricuVLM"></span>
-            </a>
-            
-            
-            <a href="https://mp.weixin.qq.com/s/j4Ja3g8rSsPWQe3GdGqC-g" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">中文解读</a>
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2024_huang_vlmrl.webp" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
-
-        
-
-        
-        
-        <abbr class="badge">TR-C</abbr>
-        
-        
-    </div>
-
-    <div id="huang2024vlmrl" class="col-sm-9">
-        
-        <div class="title">
-            VLM-RL: A Unified Vision Language Models and Reinforcement Learning Framework for Safe Autonomous Driving <span style="font-size: 20px;">🔥</span>
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang<sup>+</sup></b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zihao Sheng<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yansong Qu<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
 
             
             
@@ -4033,7 +6338,6 @@
             
             
             
-            
 
             
             
@@ -4044,7 +6348,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -4101,8 +6405,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -4129,7 +6437,6 @@
             
             
             
-            
 
             
             
@@ -4139,10 +6446,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -4169,7 +6473,6 @@
             
             
             
-            
 
             
             
@@ -4180,7 +6483,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -4237,8 +6540,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -4265,7 +6572,6 @@
             
             
             
-            
 
             
             
@@ -4277,7 +6583,6 @@
             
             
             Yansong Qu,
-            
             
             
             
@@ -4305,7 +6610,6 @@
             
             
             
-            
 
             
             
@@ -4315,10 +6619,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -4337,7 +6638,6 @@
             
             
             Zihao Sheng,
-            
             
             
             
@@ -4365,7 +6665,6 @@
             
             
             
-            
 
             
             
@@ -4376,7 +6675,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -4421,8 +6720,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -4449,7 +6752,6 @@
             
             
             
-            
 
             
             
@@ -4469,7 +6771,6 @@
             
             
             
-            
 
             
             
@@ -4479,10 +6780,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -4509,7 +6807,6 @@
             
             
             
-            
 
             
             
@@ -4520,7 +6817,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -4565,452 +6862,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2025_qian_IROS.png" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
+</div>
+</li>
+<li>
 
-        
 
-        
-        
-        <abbr class="badge">Preprint</abbr>
-        
-        
-    </div>
-
-    <div id="qian2025fasionad" class="col-sm-9">
-        
-        <div class="title">
-            FASIONAD++: Integrating High-Level Instruction and Information Bottleneck in FAst-Slow fusION Systems for Enhanced Safety in Autonomous Driving with Adaptive Feedback
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Kangan Qian,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Ziang Luo,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Sicong Jiang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Jinyu Miao,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zhikun Ma,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Tianze Zhu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Jiayin Li,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yangfan He,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zheng Fu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Yining Shi,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Boyue Wang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Hezhe Lin,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Ziyu Chen<sup>*</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Jiangbo Yu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Xinyu Jiao,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Mengmeng Yang,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Kun Jiang<sup>*</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Diange Yang<sup>*</sup>
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            arXiv preprint arXiv:2503.08162
-            
-
-            
-            (<b>Preprint</b>)
-            <!--            Preprint-->
-            
-            
-            , 2025
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2503.08162" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5037,7 +6894,6 @@
             
             
             
-            
 
             
             
@@ -5057,7 +6913,6 @@
             
             
             
-            
 
             
             
@@ -5068,8 +6923,7 @@
             
             
             
-            Tiantian Chen<sup>*</sup>,
-            
+            Tiantian Chen,
             
             
             
@@ -5087,10 +6941,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -5117,7 +6968,6 @@
             
             
             
-            
 
             
             
@@ -5128,7 +6978,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -5173,8 +7023,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5201,7 +7055,6 @@
             
             
             
-            
 
             
             
@@ -5213,7 +7066,6 @@
             
             
             Junwei You,
-            
             
             
             
@@ -5241,7 +7093,6 @@
             
             
             
-            
 
             
             
@@ -5261,7 +7112,6 @@
             
             
             
-            
 
             
             
@@ -5271,10 +7121,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -5293,7 +7140,6 @@
             
             
             Jiaxi Liu,
-            
             
             
             
@@ -5321,7 +7167,6 @@
             
             
             
-            
 
             
             
@@ -5332,8 +7177,7 @@
             
             
             
-            Haotian Shi<sup>*</sup>,
-            
+            Haotian Shi,
             
             
             
@@ -5361,7 +7205,6 @@
             
             
             
-            
 
             
             
@@ -5373,7 +7216,6 @@
             
             
             Keke Long,
-            
             
             
             
@@ -5401,7 +7243,6 @@
             
             
             
-            
 
             
             
@@ -5412,8 +7253,7 @@
             
             
             
-            Sikai Chen<sup>*</sup>,
-            
+            Sikai Chen,
             
             
             
@@ -5477,12 +7317,18 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
-  <h2 class="year" id="year-2024">2024</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2024">
+    <h2 class="year">2024</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5509,7 +7355,6 @@
             
             
             
-            
 
             
             
@@ -5519,10 +7364,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -5541,7 +7383,6 @@
             
             
             Zihao Sheng,
-            
             
             
             
@@ -5569,7 +7410,6 @@
             
             
             
-            
 
             
             
@@ -5580,7 +7420,7 @@
             
             
             
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -5637,8 +7477,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5665,7 +7509,6 @@
             
             
             
-            
 
             
             
@@ -5685,6 +7528,22 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
             
 
             
@@ -5696,27 +7555,7 @@
             
             
             
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -5771,8 +7610,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="true">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5799,6 +7642,22 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
             
 
             
@@ -5810,28 +7669,7 @@
             
             
             
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Sikai Chen<sup>*</sup>,
-            
+            Sikai Chen,
             
             
             
@@ -5859,7 +7697,6 @@
             
             
             
-            
 
             
             
@@ -5879,7 +7716,6 @@
             
             
             
-            
 
             
             
@@ -5891,7 +7727,6 @@
             
             
             Soyoung Ahn,
-            
             
             
             
@@ -5963,8 +7798,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -5991,7 +7830,6 @@
             
             
             
-            
 
             
             
@@ -6011,6 +7849,22 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
             
 
             
@@ -6022,27 +7876,7 @@
             
             
             
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -6087,8 +7921,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -6115,7 +7953,6 @@
             
             
             
-            
 
             
             
@@ -6135,6 +7972,22 @@
             
             
             
+
+            
+            
+
+            
+
+            
+            
+            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
+            
+            
+            
+            
+            
+            
             
 
             
@@ -6146,27 +7999,7 @@
             
             
             
-            <em><b>Zilin Huang</b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Sikai Chen<sup>*</sup>
+            and Sikai Chen
             
             
             
@@ -6211,252 +8044,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
-    <div class="col-sm-3 abbr">
-        
-        <div style="position: relative;">
-            <img src="../assets/teaser/2024_you_v2xvlm.png" class="teaser img-fluid z-depth-1" loading="lazy">
-        </div>
-        
+</div>
+</li>
+<li>
 
-        
 
-        
-        
-        <abbr class="badge">Preprint</abbr>
-        
-        
-    </div>
-
-    <div id="you2024v2x" class="col-sm-9">
-        
-        <div class="title">
-            V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models
-        </div>
-        <div class="author">
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Junwei You<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Haotian Shi<sup>*</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Zhuoyu Jiang<sup>+</sup>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            <em><b>Zilin Huang<sup>+</sup></b></em>,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Rui Gan,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Keshu Wu,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Xi Cheng,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            Xiaopeng Li,
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-
-            
-
-            
-            
-            
-            
-            and Bin Ran
-            
-            
-            
-            
-            
-        </div>
-
-        <div class="periodical">
-
-            
-            arXiv preprint arXiv:2408.09251
-            
-
-            
-            (<b>Preprint</b>)
-            <!--            Preprint-->
-            
-            
-            , 2024
-            
-        </div>
-        
-
-        <div class="links">
-            
-            
-            
-            <a href="https://arxiv.org/abs/2408.09251" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">PDF</a>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</div></li>
-<li><div class="row align-items-start">
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -6483,7 +8076,6 @@
             
             
             
-            
 
             
             
@@ -6503,7 +8095,6 @@
             
             
             
-            
 
             
             
@@ -6514,8 +8105,7 @@
             
             
             
-            Ying Chen<sup>*</sup>,
-            
+            Ying Chen,
             
             
             
@@ -6543,7 +8133,6 @@
             
             
             
-            
 
             
             
@@ -6563,7 +8152,6 @@
             
             
             
-            
 
             
             
@@ -6573,10 +8161,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -6595,7 +8180,6 @@
             
             
             Yifeng Ding,
-            
             
             
             
@@ -6659,12 +8243,18 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
-  <h2 class="year" id="year-2023">2023</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2023">
+    <h2 class="year">2023</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -6691,7 +8281,6 @@
             
             
             
-            
 
             
             
@@ -6702,8 +8291,7 @@
             
             
             
-            Sikai Chen<sup>*</sup>,
-            
+            Sikai Chen,
             
             
             
@@ -6731,7 +8319,6 @@
             
             
             
-            
 
             
             
@@ -6751,7 +8338,6 @@
             
             
             
-            
 
             
             
@@ -6761,10 +8347,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -6783,7 +8366,6 @@
             
             
             Yanshen Chen,
-            
             
             
             
@@ -6847,8 +8429,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -6875,7 +8461,6 @@
             
             
             
-            
 
             
             
@@ -6895,7 +8480,6 @@
             
             
             
-            
 
             
             
@@ -6905,10 +8489,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>*,
-            
-            
+            <strong class="self-author"><u>Zilin Huang<sup>*</sup></u></strong>,
             
             
             
@@ -6927,7 +8508,6 @@
             
             
             Sikai Chen,
-            
             
             
             
@@ -6955,7 +8535,6 @@
             
             
             
-            
 
             
             
@@ -6967,7 +8546,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -7031,8 +8609,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7059,7 +8641,6 @@
             
             
             
-            
 
             
             
@@ -7071,7 +8652,6 @@
             
             
             Jinlong Li,
-            
             
             
             
@@ -7099,7 +8679,6 @@
             
             
             
-            
 
             
             
@@ -7109,10 +8688,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -7139,7 +8715,6 @@
             
             
             
-            
 
             
             
@@ -7150,7 +8725,7 @@
             
             
             
-            and Lunhui Xu<sup>*</sup>
+            and Lunhui Xu
             
             
             
@@ -7195,12 +8770,18 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
-  <h2 class="year" id="year-2022">2022</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2022">
+    <h2 class="year">2022</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7227,7 +8808,6 @@
             
             
             
-            
 
             
             
@@ -7239,7 +8819,6 @@
             
             
             Yuzhuang Pian,
-            
             
             
             
@@ -7267,7 +8846,6 @@
             
             
             
-            
 
             
             
@@ -7277,10 +8855,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -7343,8 +8918,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7371,7 +8950,6 @@
             
             
             
-            
 
             
             
@@ -7383,7 +8961,6 @@
             
             
             Jinlong Li,
-            
             
             
             
@@ -7411,7 +8988,6 @@
             
             
             
-            
 
             
             
@@ -7423,7 +8999,6 @@
             
             
             Ruonan Li,
-            
             
             
             
@@ -7451,7 +9026,6 @@
             
             
             
-            
 
             
             
@@ -7461,7 +9035,7 @@
             
             
             
-            and <em><b>Zilin Huang</b></em>
+            and <strong class="self-author"><u>Zilin Huang</u></strong>
             
             
             
@@ -7505,8 +9079,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7533,7 +9111,6 @@
             
             
             
-            
 
             
             
@@ -7545,7 +9122,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -7573,7 +9149,6 @@
             
             
             
-            
 
             
             
@@ -7593,7 +9168,6 @@
             
             
             
-            
 
             
             
@@ -7604,8 +9178,7 @@
             
             
             
-            Xiaochen Li<sup>*</sup>,
-            
+            Xiaochen Li,
             
             
             
@@ -7623,10 +9196,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -7653,7 +9223,6 @@
             
             
             
-            
 
             
             
@@ -7665,7 +9234,6 @@
             
             
             Guilin Li,
-            
             
             
             
@@ -7729,8 +9297,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7757,7 +9329,6 @@
             
             
             
-            
 
             
             
@@ -7769,7 +9340,6 @@
             
             
             Jinlong Li,
-            
             
             
             
@@ -7797,7 +9367,6 @@
             
             
             
-            
 
             
             
@@ -7809,7 +9378,6 @@
             
             
             Ruonan Li,
-            
             
             
             
@@ -7837,7 +9405,6 @@
             
             
             
-            
 
             
             
@@ -7847,10 +9414,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -7877,7 +9441,6 @@
             
             
             
-            
 
             
             
@@ -7888,7 +9451,7 @@
             
             
             
-            and Xiaochen Li<sup>*</sup>
+            and Xiaochen Li
             
             
             
@@ -7933,8 +9496,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -7961,7 +9528,6 @@
             
             
             
-            
 
             
             
@@ -7973,7 +9539,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -8001,7 +9566,6 @@
             
             
             
-            
 
             
             
@@ -8013,7 +9577,6 @@
             
             
             Jinlong Li,
-            
             
             
             
@@ -8041,7 +9604,6 @@
             
             
             
-            
 
             
             
@@ -8051,7 +9613,7 @@
             
             
             
-            and <em><b>Zilin Huang</b></em>
+            and <strong class="self-author"><u>Zilin Huang</u></strong>
             
             
             
@@ -8095,11 +9657,17 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
-  <h2 class="year" id="year-2021">2021</h2>
-  <ol class="bibliography"><li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2021">
+    <h2 class="year">2021</h2>
+    <ol class="bibliography"><li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8126,7 +9694,6 @@
             
             
             
-            
 
             
             
@@ -8146,7 +9713,6 @@
             
             
             
-            
 
             
             
@@ -8156,10 +9722,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>*,
-            
-            
+            <strong class="self-author"><u>Zilin Huang<sup>*</sup></u></strong>,
             
             
             
@@ -8178,7 +9741,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -8242,11 +9804,17 @@
             
         </div>
     </div>
-</div></li></ol>
+</div>
+</li></ol>
+  </section>
 
-  <h2 class="year" id="year-2020">2020</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2020">
+    <h2 class="year">2020</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8273,7 +9841,6 @@
             
             
             
-            
 
             
             
@@ -8283,10 +9850,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -8313,7 +9877,6 @@
             
             
             
-            
 
             
             
@@ -8324,7 +9887,7 @@
             
             
             
-            and Yongjie Lin<sup>*</sup>
+            and Yongjie Lin
             
             
             
@@ -8369,8 +9932,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8397,7 +9964,6 @@
             
             
             
-            
 
             
             
@@ -8417,7 +9983,6 @@
             
             
             
-            
 
             
             
@@ -8427,10 +9992,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -8449,7 +10011,6 @@
             
             
             Yuzhuang Pian,
-            
             
             
             
@@ -8477,7 +10038,6 @@
             
             
             
-            
 
             
             
@@ -8489,7 +10049,6 @@
             
             
             Jinlong Li,
-            
             
             
             
@@ -8553,12 +10112,18 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
-  <h2 class="year" id="year-2019">2019</h2>
-  <ol class="bibliography">
-<li><div class="row align-items-start">
+  <section class="publication-year-section" id="year-2019">
+    <h2 class="year">2019</h2>
+    <ol class="bibliography">
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8585,7 +10150,6 @@
             
             
             
-            
 
             
             
@@ -8595,10 +10159,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -8617,7 +10178,6 @@
             
             
             Xianyuan Zhu,
-            
             
             
             
@@ -8645,7 +10205,6 @@
             
             
             
-            
 
             
             
@@ -8657,7 +10216,6 @@
             
             
             Lunhui Xu,
-            
             
             
             
@@ -8721,8 +10279,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="journal" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8749,7 +10311,6 @@
             
             
             
-            
 
             
             
@@ -8759,10 +10320,7 @@
             
             
             
-            
-            <em><b>Zilin Huang</b></em>,
-            
-            
+            <strong class="self-author"><u>Zilin Huang</u></strong>,
             
             
             
@@ -8789,7 +10347,6 @@
             
             
             
-            
 
             
             
@@ -8800,8 +10357,7 @@
             
             
             
-            Yongjie Lin<sup>*</sup>,
-            
+            Yongjie Lin,
             
             
             
@@ -8821,7 +10377,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -8885,8 +10440,12 @@
             
         </div>
     </div>
-</div></li>
-<li><div class="row align-items-start">
+</div>
+</li>
+<li>
+
+
+<div class="row align-items-start publication-entry" data-category="conference" data-selected="false">
     <div class="col-sm-3 abbr">
         
         <div style="position: relative;">
@@ -8913,7 +10472,6 @@
             
             
             
-            
 
             
             
@@ -8925,7 +10483,6 @@
             
             
             Pan Wu,
-            
             
             
             
@@ -8953,7 +10510,6 @@
             
             
             
-            
 
             
             
@@ -8963,7 +10519,7 @@
             
             
             
-            and <em><b>Zilin Huang</b></em>
+            and <strong class="self-author"><u>Zilin Huang</u></strong>
             
             
             
@@ -9007,33 +10563,73 @@
             
         </div>
     </div>
-</div></li>
+</div>
+</li>
 </ol>
+  </section>
 
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const yearLinks = document.querySelectorAll('.year-nav a');
+  const yearSections = document.querySelectorAll('.publication-year-section');
+  const filterButtons = document.querySelectorAll('.publication-filter');
+  const publicationEntries = document.querySelectorAll('.publication-entry');
   
   // Set first year as active by default
-  yearLinks[0].classList.add('active');
+  if (yearLinks.length) yearLinks[0].classList.add('active');
+
+  function applyFilter(filter) {
+    publicationEntries.forEach(entry => {
+      const matches = filter === 'all'
+        || (filter === 'selected' && entry.dataset.selected === 'true')
+        || entry.dataset.category === filter;
+      entry.closest('li').hidden = !matches;
+    });
+
+    yearSections.forEach(section => {
+      const hasVisibleEntries = Array.from(section.querySelectorAll('.publication-entry'))
+        .some(entry => !entry.closest('li').hidden);
+      section.hidden = !hasVisibleEntries;
+
+      const yearLink = document.querySelector(`.year-nav a[href="#${section.id}"]`);
+      if (yearLink) yearLink.hidden = !hasVisibleEntries;
+    });
+
+    updateActiveYear();
+  }
   
   // Update active state on scroll
   function updateActiveYear() {
     const scrollPosition = window.scrollY;
-    const yearSections = document.querySelectorAll('.year');
+    const visibleSections = Array.from(yearSections).filter(section => !section.hidden);
     
-    yearSections.forEach((section, index) => {
+    visibleSections.forEach((section, index) => {
       const sectionTop = section.offsetTop - 100;
-      const sectionBottom = sectionTop + section.offsetHeight;
+      const nextSection = visibleSections[index + 1];
+      const sectionBottom = nextSection
+        ? nextSection.offsetTop - 100
+        : document.documentElement.scrollHeight;
       
       if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
         yearLinks.forEach(link => link.classList.remove('active'));
-        yearLinks[index].classList.add('active');
+        const activeLink = document.querySelector(`.year-nav a[href="#${section.id}"]`);
+        if (activeLink) activeLink.classList.add('active');
       }
     });
   }
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterButtons.forEach(item => {
+        const isActive = item === button;
+        item.classList.toggle('active', isActive);
+        item.setAttribute('aria-pressed', isActive);
+      });
+      applyFilter(button.dataset.filter);
+    });
+  });
   
   // Update active state on click
   yearLinks.forEach(link => {
@@ -9044,6 +10640,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   window.addEventListener('scroll', updateActiveYear);
+  applyFilter('all');
   updateActiveYear();
 });
 </script>
@@ -9058,7 +10655,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Footer -->    <!-- 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2026 Zilin  Huang. Last updated: October 09, 2026.
+        &copy; Copyright 2026 Zilin  Huang. Last updated: October 15, 2026.
       </div>
     </footer> -->
 
@@ -9068,7 +10665,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <footer class="fixed-bottom">
   <div class="container mt-0 text-center">
     © Copyright 2026 Zilin  Huang.
-    Last updated: October 09, 2026.
+    Last updated: October 15, 2026.
   </div>
 </footer>
 

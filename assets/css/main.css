@@ -637,6 +637,12 @@ footer.sticky-bottom {
   line-height: 1.4;
   margin-bottom: 0.3rem;
 }
+.publications ol.bibliography li .author .self-author {
+  display: inline-block;
+  color: var(--global-text-color);
+  font-weight: 700;
+  line-height: 1.15;
+}
 .publications ol.bibliography li .author a {
   border-bottom: 1px;
 }
