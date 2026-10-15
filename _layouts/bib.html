@@ -1,7 +1,18 @@
 ---
 ---
 
-<div class="row align-items-start">
+{% assign publication_category = "other" %}
+{% if entry.abbr == "Preprint" or entry.journal contains "arXiv preprint" %}
+  {% assign publication_category = "preprint" %}
+{% elsif entry.type == "inproceedings" or entry.journal contains "Conference" or entry.journal contains "Proceedings" or entry.journal contains "Symposium" %}
+  {% assign publication_category = "conference" %}
+{% elsif entry.type == "article" %}
+  {% unless entry.journal contains "Final Report" %}
+    {% assign publication_category = "journal" %}
+  {% endunless %}
+{% endif %}
+
+<div class="row align-items-start publication-entry" data-category="{{ publication_category }}" data-selected="{% if entry.selected %}true{% else %}false{% endif %}">
     <div class="col-sm-3 abbr">
         {% if entry.teaser %}
         <div style="position: relative;">
@@ -38,13 +49,9 @@
         <div class="author">
             {% for author in entry.author_array %}
             {% assign author_is_self = false %}
-            {% assign author_is_coauthor = false %}
             {% if author.last contains site.scholar.last_name%}
             {% if site.scholar.first_name contains author.first%}
             {% assign author_is_self = true %}
-            {% if author.last contains "*" %}
-            {% assign author_is_coauthor = true %}
-            {% endif %}
             {% endif %}
             {% endif %}
             {% assign coauthor_url = nil %}
@@ -70,22 +77,14 @@
 
             {% if forloop.length == 1 %}
             {% if author_is_self %}
-            {% if author_is_coauthor %}
-            <em><b>{{author.first}} {{site.scholar.last_name}}</b></em>*
-            {% else %}
-            <em><b>{{author.first}} {{author.last}}</b></em>
-            {% endif %}
+            <strong class="self-author"><u>{{author.first}} {{author.last}}</u></strong>
             {% else %}
             {{author.first}} {{author.last}}
             {% endif %}
             {% else %}
             {% unless forloop.last %}
             {% if author_is_self %}
-            {% if author_is_coauthor %}
-            <em><b>{{author.first}} {{site.scholar.last_name}}</b></em>*,
-            {% else %}
-            <em><b>{{author.first}} {{author.last}}</b></em>,
-            {% endif %}
+            <strong class="self-author"><u>{{author.first}} {{author.last}}</u></strong>,
             {% else %}
             {% if coauthor_url %}
             <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
@@ -95,7 +94,7 @@
             {% endif %}
             {% else %}
             {% if author_is_self %}
-            and <em><b>{{author.first}} {{author.last}}</b></em>
+            and <strong class="self-author"><u>{{author.first}} {{author.last}}</u></strong>
             {% else %}
             {% if coauthor_url %}
             and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>

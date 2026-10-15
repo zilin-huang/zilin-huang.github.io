@@ -4,7 +4,7 @@ title: Personal
 permalink: /personal/
 description: 
 nav: true
-nav_order: 10
+nav_order: 11
 ---
 
 <style>

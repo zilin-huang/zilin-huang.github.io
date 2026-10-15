@@ -61,42 +61,13 @@ h5:hover {
 /* 专利相关样式 */
 /* 基础列表样式 */
 .artistic-list {
-  counter-reset: item;
-  list-style-type: none;
-  padding-left: 0;
+  list-style-type: disc;
+  padding-left: 1.35em;
 }
 
 .artistic-list li {
-  position: relative;
-  padding-left: 2.4em;
+  padding-left: 3px;
   margin-bottom: 0.5em;
-  padding-bottom: 0.4em;
-  border-bottom: none;
-}
-
-.artistic-list li:last-child {
-  border-bottom: none;
-}
-
-/* 数字标记样式 */
-.artistic-list li:before {
-  position: absolute;
-  left: 0;
-  top: -0.1em;
-  counter-increment: item;
-  content: counter(item);
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.05em;
-  width: 1.7em;
-  height: 1.7em;
-  line-height: 1.7em;
-  border-radius: 50%;
-  background-color: var(--global-card-bg-color);
-  color: var(--global-theme-color);
-  text-align: center;
-  box-shadow: 0 2px 4px var(--global-shadow-color);
-  border: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
 }
 
 /* 链接样式 */
@@ -145,13 +116,8 @@ h5:hover {
 /* 响应式调整 */
 @media (max-width: 768px) {
   .artistic-list li {
-    padding-left: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-  }
-  
-  .artistic-list li:hover {
-    padding-left: 2.2em;
+    padding-left: 3px;
+    margin-bottom: 0.8em;
   }
 }
 
@@ -159,11 +125,6 @@ h5:hover {
 .research-area {
   padding: 0;
   margin-bottom: 25px;
-  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
-  padding-bottom: 20px;
-}
-
-.research-area:last-child {
   border-bottom: none;
 }
 
@@ -178,13 +139,57 @@ h5:hover {
   margin-bottom: 12px;
   text-align: justify;
 }
+
+.funding-subheading {
+  margin: 5px 0 15px;
+}
+
+.funding-list {
+  margin-bottom: 20px;
+  padding-left: 1.35em;
+}
+
+.funding-list li {
+  margin-bottom: 10px;
+  padding-left: 3px;
+}
+
+.funding-project-title {
+  display: block;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.funding-project-meta {
+  display: block;
+  margin-top: 2px;
+  color: var(--global-text-color-light);
+  font-size: 0.92em;
+  line-height: 1.45;
+}
+
 </style>
 
-<h4>Projects</h4>
+<h4>Funded Research Projects</h4>
 
+<h5 class="funding-subheading">Currently Participated Projects</h5>
+<ul class="funding-list">
+  <li><span class="funding-project-title">Domain-Specific Foundation Models for Safe and Intelligent Transportation</span><span class="funding-project-meta">Funding source: Wisconsin Alumni Research Foundation (WARF) · Award total: $56,315 · Period: 07/01/2026–06/30/2027 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Safe and Trustworthy Human-Centered Mobility: Leveraging Foundation Models and Digital Twins for Vulnerable Road User–Vehicle Interactions</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Towards Safe and Efficient Autonomous Driving: A Synergistic Approach with Human Expertise and Multimodal Large Language Models</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Using Connected Intelligent Transportation to Enhance Vulnerable Road User Safety: Phase II Real-World Testing and Deployment</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $250,000 · Period: 01/01/2025–12/31/2026 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Tribal &amp; Rural Autonomous Vehicles for Efficiency, Livability and Safety (TRAVELS)</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation (USDOT) · Award total: $30,000,000 · Period: 03/01/2026–02/28/2032 · Role: Research Contributor</span></li>
+</ul>
 
+<h5 class="funding-subheading">Previously Participated Projects</h5>
+<ul class="funding-list">
+  <li><span class="funding-project-title">SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $40,000 in computing resources and unrestricted gift support · Period: 04/01/2025–09/30/2026 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">EdgeTwin: An Edge AI-Enabled Digital Twin Framework for Intelligent Traffic Infrastructure Management and Safety</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $19,998 in hardware and unrestricted gift support · Period: 07/01/2025–06/30/2026 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Promoting CAV Deployment by Enhancing the Perception Phase of Autonomous Driving Using Explainable AI</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $120,000 · Period: 04/01/2022–03/31/2023 · Role: Research Contributor</span></li>
+  <li><span class="funding-project-title">Leveraging Control Theory to Facilitate UAV Application for CAV Deployment</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $100,000 · Period: 04/01/2022–03/31/2023 · Role: Research Contributor</span></li>
+</ul>
 
-<h4>Technology Transfer</h4>
+<h4>Entrepreneurship &amp; Technology Transfer</h4>
 
 <!-- <p style="text-align: justify;">
   Growing up in Shenzhen, China, I witnessed the city's remarkable transformation from a small fishing village into a global technology hub - what many call the "Shenzhen speed." This environment planted the seeds of entrepreneurial spirit in me from an early age. During high school, I ventured into selling phone cards, coordinating food delivery services for school, setting up market stalls, selling courses, and organizing the campus laundry market. These experiences laid the foundation for my understanding of business models. 
@@ -247,11 +252,11 @@ I am deeply passionate about bridging the gap between scientific discovery and r
 </div>
 
 
-<h4>Patents Property</h4>
+<h4>Patents &amp; Intellectual Property</h4>
 
 <div class="research-area">
-<h5>Grant of Patent</h5>
-<ol class="artistic-list">
+<h5>Granted Patents</h5>
+<ul class="artistic-list">
 <li><span class="patent-type invention">发明专利</span>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN109375168A.pdf" target="_blank">PDF</a><br>
 Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN109375168A</em>.</li>
 
@@ -290,11 +295,12 @@ Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zili
 
 <li><span class="patent-type utility-model">实用新型</span>Tunnel vehicle accident detection and early warning device based on RSSI. <a href="../assets/patents/patent_CN202120982224.2.pdf" target="_blank">PDF</a><br>
 Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN202120982224.2</em>.</li>
-</ol>
+</ul>
+</div>
 
 <div class="research-area">
-<h5>Substantive Examination</h5>
-<ol class="artistic-list">
+<h5>Patent Applications Under Examination</h5>
+<ul class="artistic-list">
 <li><span class="patent-type invention">发明专利</span>Subway transfer bus behavior identification method, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051795.1.pdf" target="_blank">PDF</a><br>
 <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051795.1</em>.</li>
 
@@ -309,11 +315,12 @@ Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuan
 
 <li><span class="patent-type invention">发明专利</span>A kind of traffic trip mode identification method based on wireless signal. <a href="../assets/patents/patent_CN201910581470.4.pdf" target="_blank">PDF</a><br>
 Yongjie Lin, <strong>Zilin Huang</strong>. <em>Invention Patent, CN201910581470.4</em>.</li>
-</ol>
+</ul>
+</div>
 
 <div class="research-area">
-<h5>Computer Software Copyright</h5>
-<ol class="artistic-list">
+<h5>Software Copyrights</h5>
+<ul class="artistic-list">
 <li><span class="patent-type software">软件著作权</span>The Simulation System of Rapid Customization Design Platform for Hollow Glass Automatic Production Line V1.0<br>
 Kuanyuan Li, <strong>Zilin Huang</strong>, Luofang, and Chuang Zhou. <em>Computer Software Copyright, 2017SR099863; Legal Status: Authorization</em>.</li>
 
@@ -325,8 +332,5 @@ Junxing Zhang, Ruixuan Cai, Huanzeng Yang, <strong>Zilin Huang</strong>, Poyu Zh
 
 <li><span class="patent-type software">软件著作权</span>Club Activities Background Management System V1.0<br>
 Junxing Zhang, Huanzeng Yang, Poyu Zhuang, <strong>Zilin Huang</strong>, Guangzheng Zhong, and Jiahao Jiang. <em>Computer Software Copyright, 2017SR302060; Legal Status: Authorization</em>.</li>
-</ol>
+</ul>
 </div>
-
-
-

@@ -637,6 +637,13 @@ footer.sticky-bottom {
         line-height: 1.4;
         margin-bottom: 0.3rem;
 
+        .self-author {
+          display: inline-block;
+          color: var(--global-text-color);
+          font-weight: 700;
+          line-height: 1.15;
+        }
+
         a {
           border-bottom: 1px;
 

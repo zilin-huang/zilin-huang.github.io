@@ -5,6 +5,7 @@ title: Research
 description: 
 nav: true
 nav_order: 2
+wide_content: true
 ---
 
 <style>
@@ -263,34 +264,129 @@ h5:hover {
   margin-bottom: 12px;
   text-align: justify;
 }
+
+.theme-question {
+  font-weight: 600;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.project-links a,
+.project-links span {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid rgba(var(--global-theme-color-rgb), 0.25);
+  border-radius: 999px;
+  background: rgba(var(--global-theme-color-rgb), 0.06);
+}
+
+.platform-subsection {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px dashed rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.platform-subsection h6 {
+  color: var(--global-text-color);
+  font-size: 1.05em;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.research-prose {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research-framework img {
+  width: 90%;
+  max-width: 1120px;
+}
+
+@media (max-width: 768px) {
+  .research-framework img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body.wide-content-page > .container.mt-5 {
+    max-width: 1280px;
+  }
+}
 </style>
 
 <div class="research-header">
   <div class="research-header-title"><u>H</u>uman-c<u>e</u>ntered <u>a</u>nd Trustwo<u>r</u>thy Au<u>t</u>onomous Systems (HEART)</div>
 </div>
 
-<!-- <h4>Research Vision</h4> -->
+<div class="research-prose">
+<h4>Research Vision</h4>
 
-<!-- <div class="quote-section">
-  <div class="quote-border"></div>
-  <p class="quote-text">"HAL 9000 made the 'logical' choice—to kill the crew." This moment from 《2001: A Space Odyssey》 reveals a chilling truth: AI without alignment or trust can be dangerous. My research vision is to give technology a HEART: developing human-centered and trustworthy autonomous systems that truly understand, adapt to, and collaborate with humans. This is the key to building a future transportation systems where humans and AI-powered agents coexist in harmony.</p>
-</div> -->
+<p>
+  My research interests lie at the intersection of <strong>Physical AI</strong> and <strong>human-centered transportation systems</strong>. I envision future mobility as a <strong>human–robot–society ecosystem</strong>, where humans coexist, interact, and collaborate with diverse autonomous agents, including self-driving vehicles, delivery robots, drones, and other embodied systems. To thrive in such environments, these agents must understand complex physical and social contexts, reason about their actions, adapt to human preferences and social norms, and operate safely and reliably under open-world uncertainty.
+</p>
 
-
-<!-- <div style="background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(3, 169, 244, 0.02)); border-left: 4px solid var(--global-theme-color); padding: 20px 30px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-  <p style="margin: 0; font-size: 1.05em; line-height: 1.8; color: var(--global-text-color); text-align: justify;">
-    <em>I'm incredibly grateful to all my collaborators—without their help and support, there's no way I could have turned these ideas into reality. </em>
-  </p>
-</div> -->
-
-<div style="text-align: center;">
-  <img src="../../assets/research/visionfull.jpg" style="max-width: 90%; border-radius: 8px;"/>
+<p>
+  My long-term goal is to develop <strong>Human-centered and Trustworthy Autonomous Systems (HEART)</strong> that can safely learn, interact, and collaborate with people in the physical world.
+</p>
 </div>
 
-<h4>1. Simulation Platform & Dataset</h4>
+<div class="research-framework" style="text-align: center;">
+  <img src="../../assets/research/visionfull.jpg" alt="Research framework for Human-centered and Trustworthy Autonomous Systems" style="border-radius: 8px;"/>
+</div>
+
+<div class="research-prose">
+<h4>Research Theme 1: Human-Aware Intelligence and Decision-Making</h4>
 
 <div class="research-area">
-  <h5>1.1 Sky-Drive: Multi-Agent Interaction</h5>
+  <p class="theme-question">How can autonomous agents understand complex physical and social environments and make safe, reliable, and human-aware decisions?</p>
+  <p>I integrate human-guided reinforcement learning, physics-informed feedback, and foundation-model-based semantic reasoning to provide meaningful supervision for safer and more intelligent autonomous behavior.</p>
+  <div class="project-links">
+    <a href="https://zilin-huang.github.io/HAIM-DRL-website/" target="_blank">HAIM-DRL</a>
+    <a href="https://www.huang-zilin.com/PE-RLHF-website/" target="_blank">PE-RLHF</a>
+    <a href="https://www.huang-zilin.com/VLM-RL-website/" target="_blank">VLM-RL</a>
+    <a href="https://arxiv.org/abs/2602.10458" target="_blank">Found-RL</a>
+  </div>
+</div>
+
+<h4>Research Theme 2: Generalization, Adaptation, and Real-World Deployment</h4>
+
+<div class="research-area">
+  <p class="theme-question">How can capabilities learned in simulation or encoded in foundation models generalize, adapt, and transfer to real physical systems?</p>
+  <p>I investigate deployment gaps, model selection, data-efficient adaptation, and evaluation across environments, embodiments, sensing configurations, and physical platforms.</p>
+  <div class="project-links">
+    <a href="https://arxiv.org/abs/2604.03497" target="_blank">Sim2Real-AD</a>
+    <a href="https://arxiv.org/abs/2603.18315" target="_blank">DriveVLM-RL</a>
+    <span>TRIAGE</span>
+    <span>DOSE</span>
+    <span>ExecGap</span>
+  </div>
+</div>
+
+<h4>Research Theme 3: Safe Continuous Improvement and Evaluation</h4>
+
+<div class="research-area">
+  <p class="theme-question">How can autonomous agents safely and continuously improve through physical interaction, failure discovery, and real-world feedback?</p>
+  <p>I explore closed-loop testing, independent evaluation designed to resist reward hacking, and verifiable policy improvement under limited real-world testing budgets.</p>
+  <div class="project-links">
+    <a href="https://arxiv.org/abs/2504.18010" target="_blank">Sky-Drive</a>
+    <span>Sealed-Loop</span>
+    <span>RoadCert</span>
+  </div>
+</div>
+</div>
+
+<h4>Research Platforms</h4>
+
+<div class="research-area">
+  <h5>Sky-Drive Simulation Platform</h5>
   <p>
     Existing simulators often optimize traffic flow or validate a single vehicle, but lack distributed, multi-agent support. To address this gap, my colleagues and I at Sky-Lab developed Sky-Drive—a long-term effort with many contributors; I have been involved since Summer 2023. Sky-Drive integrates Unreal Engine/CARLA, ROS, WebSocket, and custom scenario pipelines to run synchronized simulations across multiple terminals. Unlike single-vehicle or flow-only tools, Sky-Drive emphasizes synchronized interactions among pedestrians, human-driven vehicles (HVs), and autonomous vehicles (AVs), and supports multi-participant intervention and co-study for human-AI collaborative driving research.
   </p>
@@ -354,33 +450,8 @@ h5:hover {
   </div>
 </div>
 
-<h4>2. Human-centered AI Algorithm</h4>
-
 <div class="research-area">
-  <h5>2.1 Imitation Learning Pretraining</h5>
-  <p>
-    
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>2.2 Closed-loop Post-Training: VLM, RL and WM</h5>
-  <p>
-    
-  </p>
-</div>
-
-<div class="research-area">
-  <h5>2.3 Human-in-the-loop Adaptation</h5>
-  <p>
-    
-  </p>
-</div>
-
-<h4>3. Real-world Testing & Evaluation</h4>
-
-<div class="research-area">
-  <h5>3.1 Real-World Autonomous Driving Testbed</h5>
+  <h5>Autonomous Vehicle Testbed</h5>
   <p>
      While simulation is safe and scalable, the sim-to-real gap remains a core challenge. At Sky-Lab, we maintain a real-world testbed that I actively use with my colleagues to validate human-centered AI algorithms. Our primary platform is a retrofit electric Ford E-Transit with a full autonomy stack: drive-by-wire, a multi-modal sensor suite (3 LiDARs, 7 cameras, radar), 5G connectivity (NETGEAR Nighthawk M6 Pro), and on-board GPU computing (RTX A6000). We also deploy portable RSUs/OBUs (e.g., Siemens RSUs, Cohda MK6C) and configurable traffic signals to create intersection and corridor scenarios. Combined with Sky-Lab’s Lambda servers (RTX Pro 6000, A6000, 4090, 4080), this cyber-physical setup lets me run end-to-end evaluations, collect edge cases, and iterate quickly on model design and safety checks in real traffic conditions.
   </p>
@@ -434,10 +505,9 @@ h5:hover {
       </p>
     </div>
   </div>
-</div>
 
-<div class="research-area">
-  <h5>3.2 End-to-End Autonomous Driving</h5>
+  <div class="platform-subsection">
+  <h6>End-to-End Autonomous Driving</h6>
   <p>
     To evaluate designed end-to-end (E2E) driving policies in the real world, my colleagues and I at Sky-Lab deploy them on our lab-developed autonomous van for systematic testing and iterative refinement. Real-time streams from the multimodal perception suite (LiDAR, cameras, radar) feed the E2E policy, which outputs steering, throttle, and brake commands at ~20 Hz for closed-loop control. Through extensive testing on public roads and our campus testbed, we continuously log performance and edge cases to inform model improvements.
   </p>
@@ -461,10 +531,11 @@ h5:hover {
       </p>
     </div>
   </div>
+  </div>
 </div>
 
 <div class="research-area">
-  <h5>3.3 Remote Vehicle Operations and Cloud-Based AI Deployment</h5>
+  <h5>Remote Operation and Cloud Deployment</h5>
   <p>
     Deploying large VLMs and complex AI stacks directly on vehicle hardware is often compute-limited. To overcome this, my colleagues and I at Sky-Lab built a remote operations (teleoperation) and remote-inference platform for our autonomous van. Using 5G connectivity, we can control the vehicle in real time for driving, operations, and data collection from anywhere (e.g., a conference room or off-site lab). More importantly, the platform supports remote AI deployment: real-time sensor streams are sent from the van to a local workstation or cloud (e.g., AWS), where models process the data and return control commands for immediate execution.
   </p>
@@ -490,4 +561,14 @@ h5:hover {
   </div>
 </div>
 
+<div class="research-prose">
+<h4>Future Directions</h4>
 
+<p>
+  Looking ahead, I plan to develop embodied foundation models that can generalize across environments, embodiments, sensing configurations, and hardware while remaining grounded in physical constraints and human expectations. This direction will connect foundation-model reasoning with data-efficient adaptation and rigorous evaluation on real physical platforms.
+</p>
+
+<p>
+  I also aim to build autonomous systems that can learn from physical interaction, failure discovery, and real-world feedback without weakening safety. By combining closed-loop simulation, real-world testing, and independent verification, I hope to make continuous improvement both practical and trustworthy.
+</p>
+</div>
