@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
 nav_order: 3
 ---
@@ -99,7 +100,7 @@ nav_order: 3
 </style>
 
 <!-- Year navigation sidebar -->
-{% assign publication_years = site.data.publication_years %}
+{% assign publication_years = site.data.publication_years | default: page.years %}
 <div class="year-nav">
   {% for y in publication_years %}
     <a href="#year-{{y}}">{{y}}</a>

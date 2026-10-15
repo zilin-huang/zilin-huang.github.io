@@ -9,9 +9,7 @@ module Jekyll
       bibliography_path = File.join(site.source, "_bibliography", "papers.bib")
       bibliography = BibTeX.open(bibliography_path)
 
-      years = bibliography.each_with_object([]) do |item, result|
-        next unless item.is_a?(BibTeX::Entry)
-
+      years = bibliography.each_entry.each_with_object([]) do |item, result|
         year = item[:year].to_s[/\d{4}/]
         result << year.to_i if year
       end
