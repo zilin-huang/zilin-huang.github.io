@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 👏 I was invited to visit Google.
+title: 👏 I visited Google's Washington, D.C., office.
 date: 2025-01-10 16:00:00-0500
 inline: false
 related_posts: false
@@ -9,7 +9,7 @@ image_fit: cover
 excerpt: I visited Google's Washington, D.C., office to meet with its research team and discuss potential collaborations.
 ---
 
-I was invited to visit Google’s office in Washington, D.C., on January 10, 2025. During the visit, I met with members of Google’s research team to discuss potential collaborations and exchange perspectives on emerging research and technology.
+I visited Google’s office in Washington, D.C., on January 10, 2025. During the visit, I met with members of Google’s research team to discuss potential collaborations and exchange perspectives on emerging research and technology.
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">

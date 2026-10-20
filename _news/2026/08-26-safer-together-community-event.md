@@ -32,15 +32,15 @@ More details about the event and its transportation safety partners are availabl
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/safer-together-demo/community-conversation.webp" srcset="/assets/news_photo/news_all/2026/safer-together-demo/community-conversation-1600.webp 1600w, /assets/news_photo/news_all/2026/safer-together-demo/community-conversation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Researchers discussing remote-driving technology with a community visitor" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/safer-together-demo/community-conversation.webp" srcset="/assets/news_photo/news_all/2026/safer-together-demo/community-conversation-1600.webp 1600w, /assets/news_photo/news_all/2026/safer-together-demo/community-conversation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Discussing remote-driving research with WisDOT Strategic Initiatives Policy Advisor Brad Basten" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Discussing how the remote-driving system works.
+      Discussing remote-driving research with Brad Basten, WisDOT Strategic Initiatives Policy Advisor for connected and automated vehicles.
     </p>
   </div>
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/safer-together-demo/research-discussion.webp" srcset="/assets/news_photo/news_all/2026/safer-together-demo/research-discussion-1600.webp 1600w, /assets/news_photo/news_all/2026/safer-together-demo/research-discussion.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="A conversation beside the remote-driving demonstration station" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/safer-together-demo/research-discussion.webp" srcset="/assets/news_photo/news_all/2026/safer-together-demo/research-discussion-1600.webp 1600w, /assets/news_photo/news_all/2026/safer-together-demo/research-discussion.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Sharing the remote-driving demonstration with WisDOT Deputy Secretary Scott Lawry" style="width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Connecting with transportation and community partners.
+      Sharing our remote-driving demonstration with WisDOT Deputy Secretary Scott Lawry.
     </p>
   </div>
 </div>

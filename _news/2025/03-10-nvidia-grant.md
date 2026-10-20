@@ -1,22 +1,22 @@
 ---
 layout: post
-title: 🎉 We received two NVIDIA Academic Grant Program awards valued at $43,800.
+title: 🎉 We received support from the NVIDIA Academic Grant Program.
 date: 2025-03-20 15:59:00-0500
 inline: false
 related_posts: false
 image: 2025/Nvidia-gpus.webp
 image_fit: cover
-excerpt: We received two NVIDIA grants for transportation AI research, including 20,000 A100 GPU hours for SafetyGPT and two RTX PRO 6000 Blackwell GPUs for EdgeTwin.
+excerpt: Two of our transportation AI projects received computing and hardware support from the NVIDIA Academic Grant Program.
 ---
 
-We are thrilled to announce that two of our projects have been selected for inclusion in the NVIDIA Academic Grant Program!
+Two of our projects received support from the NVIDIA Academic Grant Program:
 
 NVIDIA generously awarded the University of Wisconsin-Madison the following resources:
 
 1. **20,000 A100 GPU-Hours on Saturn Cloud** (valued at $25,800 USD) for our project **SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management**
 2. **Two RTX PRO 6000 Blackwell GPUs** (valued at $18,000 USD) for our project **EdgeTwin: An Edge AI-Enabled Digital Twin for Intelligent Traffic Management**
 
-These grants, with a combined value of **$43,800 USD**, will significantly accelerate our research in developing specialized AI models for transportation safety applications and intelligent traffic management systems.
+These resources, with a combined value of **$43,800 USD**, will support our ongoing research on specialized AI models for transportation safety and intelligent traffic management.
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">

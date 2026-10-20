@@ -168,7 +168,7 @@ h5:hover {
 </p> -->
   
 <p style="text-align: justify;">  
-I am deeply passionate about bridging the gap between scientific discovery and real-world impact. Before beginning my Ph.D. journey, <b>I founded two technology companies</b> in China, aiming to transform my research findings into practical solutions. Through this experience, I had the opportunity to collaborate with industry professionals and gain valuable insights into the innovation ecosystem. Encouragingly, the companies attracted <b>over 3 million RMB</b> in potential investment from leading institutions such as <b>Yueke Securities</b> and <b>CITIC Securities</b>. These experiences reinforced my belief that when scientific discoveries move beyond the lab and into society, they can generate meaningful and lasting value.
+Prior to my Ph.D. studies, I co-founded two technology companies in China. Through this experience, I worked with industry professionals on practical applications of research and gained experience in technology development and commercialization. The companies also engaged in discussions concerning more than <b>3 million RMB</b> in potential investment with institutions including <b>Yueke Securities</b> and <b>CITIC Securities</b>.
 </p>
 
 <!-- Entrepreneurship images -->
