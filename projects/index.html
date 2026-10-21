@@ -260,6 +260,36 @@ h5:hover {
   line-height: 1.45;
 }
 
+/* Four-column gallery layout. */
+.project-four-column-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.project-four-column-gallery > .row {
+  display: contents;
+}
+
+.project-four-column-gallery .col-md-4 {
+  width: auto;
+  max-width: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.project-four-column-gallery .col-md-4 img {
+  height: 165px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .project-four-column-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 </style>
 
 <h4>Funded Research Projects</h4>
@@ -310,6 +340,7 @@ Prior to my Ph.D. studies, I co-founded two technology companies in China. Throu
 </p>
 
 <!-- Entrepreneurship images -->
+<div class="project-four-column-gallery">
 <div class="row">
   <div class="col-md-4 mt-3">
     <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
@@ -359,6 +390,7 @@ Prior to my Ph.D. studies, I co-founded two technology companies in China. Throu
       Chuangke Guangdong Competition (2020)
     </p>
   </div>
+</div>
 </div>
 
 <h4>Patents &amp; Intellectual Property</h4>

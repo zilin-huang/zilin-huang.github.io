@@ -256,6 +256,35 @@ h5:hover {
   border: 1px solid rgba(255, 152, 0, 0.2);
 }
 
+/* Four-column gallery layout. */
+.four-column-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.four-column-gallery > .row {
+  display: contents;
+}
+
+.four-column-gallery .col-md-4 {
+  width: auto;
+  max-width: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.four-column-gallery .col-md-4 img,
+.four-column-gallery .col-md-4 video {
+  height: 165px !important;
+  object-fit: cover;
+}
+
+.four-column-gallery .col-md-4 > div {
+  height: 165px !important;
+}
+
 /* 日期样式 */
 .memory-date {
   font-size: 0.9em;
@@ -265,6 +294,10 @@ h5:hover {
 
 /* 响应式调整 */
 @media (max-width: 768px) {
+  .four-column-gallery {
+    grid-template-columns: 1fr;
+  }
+
   .memories-list li {
     padding-left: 2em;
     padding-bottom: 0.8em;
@@ -312,6 +345,7 @@ h5:hover {
     Cooking has become one of my greatest passions in recent years. I specialize in Cantonese cuisine, particularly in making soups, pan-frying steaks, and preparing salmon. Honestly, I didn't know how to cook before coming to the USA. But gradually, I discovered the joy of cooking. It helps me relax and unwind after intense research work, providing a balance to the mental demands of academic life. Now, cooking has become a way for me to understand different cultures through their cuisines. I believe that good food has the power to bring people together and create lasting memories.
   </p>
 
+  <div class="four-column-gallery">
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
@@ -355,6 +389,7 @@ h5:hover {
       </p>
     </div>
   </div>
+  </div>
 
 
   <h5 style="text-align: left;">Basketball</h5>
@@ -367,7 +402,7 @@ h5:hover {
   </p>
   
   <!-- Basketball photos container with scrollbar -->
-  <div class="basketball-scrollable" style="max-height: 800px; overflow-y: auto; padding: 10px;">
+  <div class="basketball-scrollable four-column-gallery" style="max-height: 800px; overflow-y: auto; padding: 10px;">
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
