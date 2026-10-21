@@ -4,7 +4,7 @@ title: 🌟 I received the College of Engineering Graduate Student Mentoring Awa
 date: 2026-05-14 17:30:00-0500
 inline: false
 related_posts: false
-image: 2026/coe-mentor-award.jpg
+image: 2026/coe-mentor-award-advisor-cee.jpg
 image_fit: cover
 excerpt: I received the College of Engineering Award for Graduate Student Mentorship and Service in recognition of excellence in research leadership.
 ---
@@ -22,6 +22,21 @@ Onward, together. ✨
 More details about the awards, recipients, and their contributions to graduate student mentoring are available in the [UW-Madison College of Engineering's full report](https://engineering.wisc.edu/blog/college-recognizes-graduate-mentoring-excellence/).
 
 <div class="row justify-content-center">
+  <div class="col-md-6 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-advisor-and-cee.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-advisor-and-cee-1600.webp 1600w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-advisor-and-cee.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang holding the mentoring award with colleagues from Civil and Environmental Engineering" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Celebrating the mentoring award with colleagues from Civil and Environmental Engineering.
+    </p>
+  </div>
+  <div class="col-md-6 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-leadership.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-leadership-1600.webp 1600w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-leadership.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang holding the mentoring award with College of Engineering and Civil and Environmental Engineering leadership" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Celebrating with College of Engineering and Civil and Environmental Engineering leadership.
+    </p>
+  </div>
+</div>
+
+<div class="row justify-content-center">
   <div class="col-md-10 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-cee.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-cee-1600.webp 1600w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-cee.webp 3200w" sizes="(max-width: 1199px) 100vw, 920px" alt="Zilin Huang and another award recipient with Civil and Environmental Engineering leadership" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
@@ -32,13 +47,13 @@ More details about the awards, recipients, and their contributions to graduate s
 
 <div class="row justify-content-center">
   <div class="col-md-5 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait-1600.webp 1600w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait.webp 2133w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang holding the College of Engineering Graduate Student Mentoring Award" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait-1600.webp 1067w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-portrait.webp 2133w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang holding the College of Engineering Graduate Student Mentoring Award" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Receiving the award for Excellence in Research Leadership.
     </p>
   </div>
   <div class="col-md-5 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague-1600.webp 1600w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague.webp 2133w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang celebrating the mentoring award with a fellow award recipient" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague.webp" srcset="/assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague-1600.webp 1067w, /assets/news_photo/news_all/2026/COE-mentor-award/coe-mentor-award-with-colleague.webp 2133w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang celebrating the mentoring award with a fellow award recipient" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Celebrating this recognition with a fellow award recipient.
     </p>

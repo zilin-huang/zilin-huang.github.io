@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.jekyll-preview.yml
 .DS_store
 .ruby-version
 .tweet-cache
@@ -20,3 +21,4 @@ __pycache__/
 /assets/news_photo/news_all/2026/safer together demo/
 /assets/news_photo/news_all/2025/CVPR-originals/
 /assets/image-originals/
+/old site/
