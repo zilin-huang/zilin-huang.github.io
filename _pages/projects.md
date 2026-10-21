@@ -205,19 +205,19 @@ Prior to my Ph.D. studies, I co-founded two technology companies in China. Throu
 <div class="project-four-column-gallery">
 <div class="row">
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-3.jpg" srcset="../assets/personal/entrepreneurship/2021-qinglan-3-thumb-900.webp 900w, ../assets/personal/entrepreneurship/2021-qinglan-3-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Qinglan Project (2021)
     </p>
   </div>
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2021-qinglan-4.jpg" srcset="../assets/personal/entrepreneurship/2021-qinglan-4-thumb-900.webp 900w, ../assets/personal/entrepreneurship/2021-qinglan-4-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Qinglan Project (2021)
     </p>
   </div>
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-2.jpg" srcset="../assets/personal/entrepreneurship/2020-wininguangdong-2-thumb-900.webp 900w, ../assets/personal/entrepreneurship/2020-wininguangdong-2-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Winning Guangdong Competition (2020)
     </p>
@@ -226,13 +226,13 @@ Prior to my Ph.D. studies, I co-founded two technology companies in China. Throu
 
 <div class="row mt-1">
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-4.jpg" srcset="../assets/personal/entrepreneurship/2020-wininguangdong-4-thumb-900.webp 900w, ../assets/personal/entrepreneurship/2020-wininguangdong-4-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Winning Guangdong Competition (2020)
     </p>
   </div>
   <div class="col-md-4 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="../assets/personal/entrepreneurship/2020-wininguangdong-6.png" srcset="../assets/personal/entrepreneurship/2020-wininguangdong-6-thumb-900.webp 900w, ../assets/personal/entrepreneurship/2020-wininguangdong-6-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Winning Guangdong Competition (2020)
     </p>

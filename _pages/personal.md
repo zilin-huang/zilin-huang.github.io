@@ -286,13 +286,13 @@ h5:hover {
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" style="width: 100%; height: 220px; object-fit: cover; object-position: center 23%;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2023-baksetball-person.jpg" srcset="../assets/personal/basketball/2023-baksetball-person-thumb-900.webp 900w, ../assets/personal/basketball/2023-baksetball-person-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover; object-position: center 23%;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Bakke Gym, UW-Madison (2023)
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2021-baksetball-team-2.jpg" srcset="../assets/personal/basketball/2021-baksetball-team-2-thumb-900.webp 900w, ../assets/personal/basketball/2021-baksetball-team-2-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2021)
       </p>
@@ -308,7 +308,7 @@ h5:hover {
   <!-- Row 2 -->
   <div class="row mt-1">
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2019-baksetball-team.jpg" srcset="../assets/personal/basketball/2019-baksetball-team-thumb-900.webp 900w, ../assets/personal/basketball/2019-baksetball-team-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2019)
       </p>
@@ -325,7 +325,7 @@ h5:hover {
       </p>
     </div>
     <div class="col-md-4 mt-3">
-      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+      <img class="img-fluid rounded z-depth-1" src="../assets/personal/basketball/2018-baksetball-team-0.jpg" srcset="../assets/personal/basketball/2018-baksetball-team-0-thumb-900.webp 900w, ../assets/personal/basketball/2018-baksetball-team-0-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 33vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
         Basketball Team Photo (2018)
       </p>

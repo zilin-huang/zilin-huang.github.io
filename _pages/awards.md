@@ -185,6 +185,7 @@ h5:hover {
     <li>CEE Academic Stewardship &amp; Leadership Award, University of Wisconsin–Madison, May 2026 <a href="{{ '/news/2026/05-01-cee-academic-stewardship-leadership-award/' | relative_url }}">[News]</a></li>
     <li>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, US, Jun 2023 <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
     <li>Student Research Grants Competition (SRGC) Award, University of Wisconsin-Madison, May 2023 ($1,500)</li>
+    <li>National Second Prize for Forum Presentation, 10th National Optoelectronic Information Doctoral Academic Forum, Guangzhou, China, Sep 2019</li>
   </ul>
 </div>
 

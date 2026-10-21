@@ -19,6 +19,14 @@ This website keeps original media locally and publishes optimized derivatives.
 - Leave already-small, clear images unchanged.
 - Do not apply the photo target blindly to logos, icons, diagrams, screenshots, or transparent UI assets.
 
+## Fixed-size thumbnails
+
+- Never rely on the browser to shrink a multi-megapixel original directly into a small fixed-height card or gallery thumbnail.
+- For an image displayed at roughly 200–450 CSS pixels, provide dedicated 900- and 1600-pixel WebP candidates through `srcset` and an accurate `sizes` attribute; keep the original only as the fallback `src` when useful.
+- Generate thumbnail derivatives with a gentle downsampling filter (currently ImageMagick `Mitchell`) and do not apply an additional unsharp mask. Browser downscaling of a very large source and repeated sharpening can produce brittle edges, visible noise, or an over-sharpened appearance.
+- Use a `-thumb-900.webp` / `-thumb-1600.webp` suffix for thumbnail-only derivatives. Width descriptors must match the files' actual pixel widths.
+- Before adding a new fixed-size gallery image, check its source dimensions and file size. Images wider than about 2400 pixels or larger than about 1 MB should normally receive thumbnail derivatives.
+
 ## Motion media
 
 - Do not process MP4, GIF, or animated WebP files as static images.
