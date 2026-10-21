@@ -139,7 +139,7 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -280,16 +280,13 @@ h5:hover {
 }
 </style>
 
-<!-- Year navigation sidebar -->
+<!-- Talk-type navigation sidebar -->
 <div class="year-nav">
-  <a href="#year-2026">2026</a>
-  <a href="#year-2025">2025</a>
-  <a href="#year-2024">2024</a>
-  <a href="#year-2023">2023</a>
-  <a href="#earlier">Earlier</a>
+  <a href="#invited-talks">Invited Talks</a>
+  <a href="#conference-presentations">Conference Presentations</a>
 </div>
 
-<h4 style="text-align: left;">Presentations (e.g., Talks/Lectures)</h4>
+<h4 id="invited-talks" style="text-align: left;">Invited Talks</h4>
 
 <h5 id="year-2026" style="text-align: left;">2026</h5>
 <div class="talks-container">
@@ -309,6 +306,30 @@ h5:hover {
     </div>
   </div>
 </div>
+
+<h5 id="invited-2024" style="text-align: left;">2024</h5>
+<div class="talks-container">
+  <div class="year-section">
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">School of Civil Engineering & Transportation, South China University of Technology</div>
+      <div class="talk-venue">April 9, 2024 | Virtual</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
+      </div>
+      <div><strong>Invited by:</strong> Prof. Ling Huang</div>
+    </div>
+
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">Transportation Alliance Official Account （"交通邦"）</div>
+      <div class="talk-venue">February 25, 2024 | Virtual</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4 id="conference-presentations" style="text-align: left;">Conference Presentations</h4>
 
 <h5 id="year-2025" style="text-align: left;">2025</h5>
 <div class="talks-container">
@@ -370,22 +391,6 @@ h5:hover {
       </div>
     </div>
 
-    <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">Transportation Alliance Official Account （"交通邦"）</div>
-      <div class="talk-venue">February 25, 2024 | Virtual</div>
-      <div class="talk-topic">
-        <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
-      </div>
-    </div>
-
-    <div class="talk-card" style="padding-left: 0;">
-      <div class="talk-title">School of Civil Engineering & Transportation, South China University of Technology</div>
-      <div class="talk-venue">April 9, 2024 | Virtual</div>
-      <div class="talk-topic">
-        <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
-      </div>
-      <div><strong>Invited by:</strong> Prof. Ling Huang</div>
-    </div>
   </div>
 </div>
 
@@ -498,39 +503,37 @@ h5:hover {
   </div>
 </div>
 
-<!-- Add JavaScript for active state -->
+<!-- Add JavaScript for active section state -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const yearLinks = document.querySelectorAll('.year-nav a');
+  const sectionLinks = document.querySelectorAll('.year-nav a');
+  const sections = document.querySelectorAll('h4[id]');
   
-  // Set first year as active by default
-  yearLinks[0].classList.add('active');
+  // Set the first section as active by default
+  sectionLinks[0].classList.add('active');
   
   // Update active state on scroll
-  function updateActiveYear() {
-    const scrollPosition = window.scrollY;
-    const yearSections = document.querySelectorAll('h5[id^="year-"]');
-    
-    yearSections.forEach((section, index) => {
-      const sectionTop = section.offsetTop - 100;
-      const sectionBottom = sectionTop + section.offsetHeight;
-      
-      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-        yearLinks.forEach(link => link.classList.remove('active'));
-        yearLinks[index].classList.add('active');
-      }
+  function updateActiveSection() {
+    const scrollPosition = window.scrollY + 120;
+    let activeIndex = 0;
+
+    sections.forEach((section, index) => {
+      if (scrollPosition >= section.offsetTop) activeIndex = index;
     });
+
+    sectionLinks.forEach(link => link.classList.remove('active'));
+    if (sectionLinks[activeIndex]) sectionLinks[activeIndex].classList.add('active');
   }
   
   // Update active state on click
-  yearLinks.forEach(link => {
+  sectionLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-      yearLinks.forEach(l => l.classList.remove('active'));
+      sectionLinks.forEach(l => l.classList.remove('active'));
       e.target.classList.add('active');
     });
   });
   
-  window.addEventListener('scroll', updateActiveYear);
-  updateActiveYear();
+  window.addEventListener('scroll', updateActiveSection);
+  updateActiveSection();
 });
 </script>

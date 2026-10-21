@@ -36,7 +36,7 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -103,7 +103,7 @@ h5:hover {
 .research-area h5 {
   color: var(--global-theme-color);
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 1.1em;
 }
 
@@ -113,7 +113,7 @@ h5:hover {
 }
 
 .funding-subheading {
-  margin: 5px 0 15px;
+  margin: 5px 0 10px;
 }
 
 .funding-list {

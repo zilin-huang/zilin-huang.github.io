@@ -40,6 +40,22 @@ nav_order: 8
   border-bottom: none;
 }
 
+.reviewer-list {
+  columns: 2;
+  column-gap: 2.5rem;
+}
+
+.reviewer-list li {
+  break-inside: avoid;
+}
+
+.service-date {
+  margin-left: 5px;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
 .conference-gallery {
   margin-bottom: 0;
 }
@@ -100,7 +116,7 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -147,6 +163,10 @@ h5:hover {
 
 /* 响应式调整 */
 @media (max-width: 768px) {
+  .reviewer-list {
+    columns: 1;
+  }
+
   .services-list li {
     padding-left: 2em;
     padding-bottom: 0.8em;
@@ -159,11 +179,11 @@ h5:hover {
 }
 </style>
 
-<h4 style="text-align: left;">Academic Services</h4>
+<h4 style="text-align: left;">Editorial &amp; Peer-Review Service</h4>
 
 <div class="services-container">
-  <h5 style="text-align: left;">Journal Reviewer</h5>
-  <ul class="services-list academic-services">
+  <h5 style="text-align: left;">Journal Review</h5>
+  <ul class="services-list academic-services reviewer-list">
     <li>Nature Communications</li>
     <li>IEEE Transactions on Intelligent Transportation Systems (TITS)</li>
     <li>IEEE Transactions on Vehicular Technology (TVT)</li>
@@ -180,7 +200,7 @@ h5:hover {
     <li>IEEE Intelligent Transportation Systems Magazine (ITSM)</li>
     <li>Journal of Advanced Transportation (JAT) <a href="{{ '/assets/services/2024_ATR_Reviewer_Certificate.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>Neural Computing and Applications (NCAA)</li>
-    <li>Sensor</li>
+    <li>Sensors</li>
     <li>IEEE Access</li>
     <li>Applied Intelligence</li>
     <li>Scientific Reports</li>
@@ -188,7 +208,7 @@ h5:hover {
 </div>
 
 <div class="services-container">
-  <h5 style="text-align: left;">Conference Reviewer</h5>
+  <h5 style="text-align: left;">Conference Review</h5>
   <ul class="services-list academic-services">
     <li>Transportation Research Board Annual Meeting (TRB)</li>
     <li>IEEE Intelligent Vehicles Symposium (IV)</li>
@@ -196,21 +216,30 @@ h5:hover {
   </ul>
 </div>
 
-<div class="services-container">
-  <h5 style="text-align: left;">Membership</h5>
-  <ul class="services-list academic-services">
-    <li>IEEE Student Member</li>
-    <li>ASCE Student Member</li>
-    <li>COTA Student Member</li>
-  </ul>
-</div>
-
-<h4 style="text-align: left;">Community Services</h4>
+<h4 style="text-align: left;">Conference Service</h4>
 
 <div class="services-container">
-  <h5 style="text-align: left;">Conference Organizer</h5>
+  <h5 style="text-align: left;">Organization &amp; Session Leadership</h5>
   <ul class="services-list community-services" style="margin-bottom: 5px;">
-    <li class="conference-item">Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, Feb 21 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
+    <li class="conference-item">Workshop Organizer, 3rd Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era: Opportunities, Challenges and Futures (MEIS @ CVPR 2026), Denver, CO, US, Jun 4 2026 <a href="https://coop-intelligence.github.io/" target="_blank" rel="noopener noreferrer">[Website]</a></li>
+    <li class="conference-item">Committee Chair, 5th Annual Conference on Next-Generation Transport Systems (NGTS 2026), West Lafayette, IN, US, May 22 2026 <a href="https://nextranspurdue.wixsite.com/ngts5/copy-of-organizing-committee" target="_blank" rel="noopener noreferrer">[Website]</a></li>
+  </ul>
+  <div class="row conference-gallery" style="margin-top: 5px;">
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/2026%20NGTS/DSC05298.JPG" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        Student team at NGTS 2026
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid rounded z-depth-1" src="../assets/services/2026%20NGTS/f3d12644618c787e5b7203a97587e3de.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+      <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+        NGTS 2026 organizing committee
+      </p>
+    </div>
+  </div>
+  <ul class="services-list community-services" style="margin-bottom: 5px;">
+    <li class="conference-item">Workshop Organizer, Modified Asphalt Research Center (MARC) Future Research Focus Workshop, Madison, WI, US, Feb 21 2024 <a href="{{ '/assets/services/MARC/2024_MARC_1.jpg' | relative_url }}" target="_blank">[Flyer]</a></li>
   </ul>
   <div class="row conference-gallery" style="margin-top: 5px;">
     <div class="col-md-4">
@@ -243,4 +272,40 @@ h5:hover {
       </p>
     </div>
   </div>
+</div>
+
+<h4 style="text-align: left;">Professional Memberships</h4>
+
+<div class="services-container">
+  <ul class="services-list academic-services">
+    <li>IEEE Student Member</li>
+    <li>ASCE Student Member</li>
+    <li>COTA Student Member</li>
+  </ul>
+</div>
+
+<h4 style="text-align: left;">Leadership &amp; Outreach</h4>
+
+<div class="services-container">
+  <h5 style="text-align: left;">Student Leadership</h5>
+  <ul class="services-list community-services">
+    <li>Member, Graduate Student Union <span class="service-date">(Oct 2018–Oct 2019)</span></li>
+    <li>Member, Student Leader Advocacy Team of Guangdong Province <span class="service-date">(Oct 2017–Oct 2018)</span></li>
+    <li>Deputy Secretary, Student Government <span class="service-date">(Dec 2016–May 2018)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">Assisted with community-service activities and academic competitions.</span></li>
+    <li>Member, Student Union of Guangdong Province <span class="service-date">(Apr 2016–May 2018)</span></li>
+    <li>Tutor Assistant, School of Mechanical and Electrical Engineering <span class="service-date">(Sep 2015–Sep 2016)</span></li>
+    <li>Freshman Class Assistant, School of Mechanical and Electrical Engineering <span class="service-date">(Sep 2015–Sep 2016)</span></li>
+    <li>Class Leader, School of Mechanical and Electrical Engineering <span class="service-date">(Sep 2014–Sep 2015)</span></li>
+  </ul>
+</div>
+
+<div class="services-container">
+  <h5 style="text-align: left;">Outreach &amp; Volunteering</h5>
+  <ul class="services-list community-services">
+    <li>Invited Guest Speaker, Youth Science Camp for Chinese Universities <span class="service-date">(Jul 2018)</span></li>
+    <li>Founder, Transformation Program <span class="service-date">(Apr 2018)</span></li>
+    <li>Outstanding Community Worker, Summer Rural Social Practice Program, Guangdong Province <span class="service-date">(Sep 2017)</span></li>
+    <li>Volunteer, Guangzhou Export Commodities Fair <span class="service-date">(Nov 2016)</span></li>
+    <li>Outstanding Community Worker, Summer Rural Social Practice Program, China <span class="service-date">(Sep 2016)</span></li>
+  </ul>
 </div>

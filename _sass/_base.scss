@@ -63,6 +63,12 @@ blockquote {
   font-size: 1.2rem;
 }
 
+// Keep lists aligned consistently beneath subsection headings.
+h5 + ul,
+h5 + ol {
+  margin-top: 0;
+}
+
 // Math
 
 .equation {

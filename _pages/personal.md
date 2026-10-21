@@ -86,7 +86,7 @@ h4:after {
 
 h5 {
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -183,32 +183,6 @@ h5:hover {
   background: #666;
 }
 </style>
-
-<h4 id="memories" style="text-align: left;">Memories</h4>
-
-
-
-<h4 id="memories" style="text-align: left;">Leadership</h4>
-
-<p style="text-align: justify;">
-These experiences have not only enhanced my organizational and management skills but have also provided me with valuable opportunities to serve my peers and contribute to campus life.
-</p>
-
-<ul class="memories-list">
-  <li>Member, Student Leader Advocacy Team of Guangdong Province <span class="memory-date">(2017.10-2018.10)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>Only two students were elected university-wide (≈ 2/40,000)</strong> </span></li>
-  <li>Member, Graduate Student Union <span class="memory-date">(2018.10-2019.10)</span></li>
-  <li>Deputy Secretary, Student Government<span class="memory-date">(2016.12-2018.05)</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;"><strong>The highest undergraduate student leadership position (≈ 4/40,000)</strong> </span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Assisted in organizing 20,000+ students and 700+ teams into community service work</span><br><span style="color: var(--global-text-color-light); font-size: 0.9em;">• Assisted in organizing 30+ academic competitions at national, provincial and university level</span></li>
-  <li>Member, Student Union of Guangdong Province <span class="memory-date">(2016.04-2018.05)</span></li>
-  <li>Tutor Assistant, School of Mechanical and Electrical Engineering<span class="memory-date">(2015.09-2016.09)</span></li>
-  <li>Freshman class assistant, School of Mechanical and Electrical Engineering <span class="memory-date">(2015.09-2016.09)</span></li>
-  <li>Class Leader, School of Mechanical and Electrical Engineering <span class="memory-date">(2014.09-2015.09)</span></li>
-  <li>Invited guest speaker of "Youth Science Camp" in Chinese universities <span class="memory-date">(2018.07)</span></li>
-  <li>The founder of "Transformation Program" <span class="memory-date">(2018.04)</span></li>
-  <li>Outstanding Community Worker of "Summer Rural Social Practice" Program, Guangdong Province <span class="memory-date">(2017.09)</span></li>
-  <li>Outstanding Community Worker of "Summer Rural Social Practice" Program, China <span class="memory-date">(2016.09)</span></li>
-  <li>Excellent volunteer of "Guangzhou Export Commodities Fair" <span class="memory-date">(2016.11)</span></li>
-</ul>
-
 
 <h4 id="hobbies" style="text-align: left;">Hobbies</h4>
 

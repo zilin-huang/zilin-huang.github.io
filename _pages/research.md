@@ -256,7 +256,7 @@ h5:hover {
 .research-area h5 {
   color: var(--global-theme-color);
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 1.1em;
 }
 
