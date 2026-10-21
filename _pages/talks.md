@@ -28,6 +28,16 @@ nav_order: 7
   margin-bottom: 0;
 }
 
+/* Keep conference photos supportive of the talk details on desktop. */
+.talk-card .row > .col-md-4 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.talk-card .row > .col-md-4 img {
+  height: 190px !important;
+}
+
 .talk-title {
   font-weight: 600;
   color: var(--global-theme-color);
@@ -198,6 +208,16 @@ h5:hover {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .talk-card .row > .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .talk-card .row > .col-md-4 img {
+    height: auto !important;
+    max-height: 320px;
+  }
+
   .talks-list li {
     padding-left: 2em;
     padding-bottom: 0.8em;

@@ -32,7 +32,7 @@ Prof. Pang used the steering-wheel control station and live video interface to r
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/NAE-Pang-demo/jong-shi-pang-remote-driving-discussion.webp" srcset="/assets/news_photo/news_all/2026/NAE-Pang-demo/jong-shi-pang-remote-driving-discussion-1600.webp 1600w, /assets/news_photo/news_all/2026/NAE-Pang-demo/jong-shi-pang-remote-driving-discussion.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Sky-Lab members discussing the remote-driving system with Jong-Shi Pang and visitors" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Discussing the remote-driving system with Prof. Pang and visitors.
+      Discussing the remote-driving system with Dr. Steven T. Parker, Prof. Sikai Chen, Prof. Bin Ran, and Prof. Jong-Shi Pang.
     </p>
   </div>
 </div>

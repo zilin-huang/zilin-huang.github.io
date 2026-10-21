@@ -64,6 +64,15 @@ nav_order: 8
   margin-bottom: 0;
 }
 
+.conference-gallery > .col-md-4 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.conference-gallery > .col-md-4 img {
+  height: 190px !important;
+}
+
 /* 移除悬停效果 */
 .services-list li:hover {
   background-color: transparent;
@@ -163,6 +172,16 @@ h5:hover {
 
 /* 响应式调整 */
 @media (max-width: 768px) {
+  .conference-gallery > .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .conference-gallery > .col-md-4 img {
+    height: auto !important;
+    max-height: 320px;
+  }
+
   .reviewer-list {
     columns: 1;
   }
