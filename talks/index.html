@@ -135,9 +135,9 @@
 
 .talk-card {
   background: var(--global-bg-color);
-  padding: 12px 0 0;
-  margin-bottom: 15px;
-  border-bottom: none;
+  padding: 12px 0 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
 .talk-card + .talk-card {
@@ -182,7 +182,7 @@
   margin-bottom: 15px;
 }
 
-.year-section:last-child .talk-card:last-child {
+.year-section > .talk-card:last-child {
   border-bottom: none;
 }
 
@@ -268,27 +268,24 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin: 8px 0;
   color: var(--global-theme-color);
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
-  padding-left: 0;
-  border-left: none;
+  line-height: 1.2;
+  padding: 0 0 0 8px;
+  border-left: 3px solid rgba(var(--global-theme-color-rgb), 0.45);
   position: relative;
-  display: inline-block;
-  background: linear-gradient(120deg, rgba(33, 150, 243, 0.12), rgba(3, 169, 244, 0.05));
-  padding: 5px 12px;
-  border-radius: 8px;
-  border: 1px solid rgba(33, 150, 243, 0.15);
-  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.05);
-  transition: all 0.3s ease;
+  display: block;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 h5:hover {
   transform: none;
-  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.05);
-  background: linear-gradient(120deg, rgba(33, 150, 243, 0.12), rgba(3, 169, 244, 0.05));
+  box-shadow: none;
+  background: none;
 }
 
 /* Tag styles */
@@ -433,7 +430,6 @@ h5:hover {
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
-        <span class="talk-tag invited">Invited Talk</span>
         <a href="https://zxc-tju.github.io/itsc2026-hav-workshop/" style="color: var(--global-theme-color); text-decoration: none;" rel="external nofollow noopener" target="_blank">
           IEEE ITSC 2026 Workshop: Designing &amp; Evaluating AI-Empowered Human–AV Interaction
         </a>
@@ -466,6 +462,23 @@ h5:hover {
       <div class="talk-venue">February 25, 2024 | Virtual</div>
       <div class="talk-topic">
         <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5 id="invited-2020" style="text-align: left;">2020</h5>
+<div class="talks-container">
+  <div class="year-section">
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">
+        <a href="https://www.bilibili.com/video/BV1TK411J7bD" style="color: var(--global-theme-color); text-decoration: none;" rel="external nofollow noopener" target="_blank">
+          “Transportation·Future” Online Academic Lecture
+        </a>
+      </div>
+      <div class="talk-venue">June 2020 | Virtual</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Location Awareness and Travel Mode Classification Method for Moving Targets
       </div>
     </div>
   </div>
@@ -520,7 +533,7 @@ h5:hover {
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp" srcset="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award-1600.webp 1600w, ../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp 3200w" sizes="(max-width: 768px) 100vw, 30vw" alt="Zilin Huang receiving the Best Presentation Award at NGTS 2026" style="width: 100%; height: 220px; object-fit: cover; object-position: center 45%;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp" srcset="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award-1600.webp 1600w, ../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp 3200w" sizes="(max-width: 768px) 100vw, 30vw" alt="Zilin Huang receiving the Best Presentation Award at NGTS 2026" style="width: 100%; height: 220px; object-fit: cover; object-position: center 43%;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             Best Presentation Award at NGTS 2026
           </p>
@@ -545,13 +558,13 @@ h5:hover {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" style="width: 100%; height: 220px; object-fit: cover; object-position: center 70%;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-2.jpg" srcset="../assets/news_photo/news_all/2025/trb2025/trb2025-2-thumb-900.webp 900w, ../assets/news_photo/news_all/2025/trb2025/trb2025-2-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover; object-position: center 70%;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             TRB Annual Meeting (2025)
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/trb2025/trb2025-3.jpg" srcset="../assets/news_photo/news_all/2025/trb2025/trb2025-3-thumb-900.webp 900w, ../assets/news_photo/news_all/2025/trb2025/trb2025-3-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             TRB Annual Meeting (2025)
           </p>
@@ -576,13 +589,13 @@ h5:hover {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-9.jpg" srcset="../assets/news_photo/news_all/2024/trb2024/trb2024-9-thumb-900.webp 900w, ../assets/news_photo/news_all/2024/trb2024/trb2024-9-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             TRB Annual Meeting (2024)
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" srcset="../assets/news_photo/news_all/2024/trb2024/trb2024-2-thumb-900.webp 900w, ../assets/news_photo/news_all/2024/trb2024/trb2024-2-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             TRB Annual Meeting (2024)
           </p>
@@ -608,13 +621,13 @@ h5:hover {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-2.jpg" srcset="../assets/news_photo/news_all/2023/informs2023/informs2023-2-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/informs2023/informs2023-2-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             INFORMS Annual Meeting (2023)
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/informs2023/informs2023-3.jpg" srcset="../assets/news_photo/news_all/2023/informs2023/informs2023-3-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/informs2023/informs2023-3-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             INFORMS Annual Meeting (2023)
           </p>
@@ -634,13 +647,13 @@ h5:hover {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_thumbnails/2023/ICTD.jpg" srcset="../assets/news_photo/news_thumbnails/2023/ICTD-thumb-900.webp 900w, ../assets/news_photo/news_thumbnails/2023/ICTD-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             ICTD Conference (2023)
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8.jpg" srcset="../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/ICTD2023/ICTD2023-8-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             ICTD Conference (2023)
           </p>
@@ -660,13 +673,13 @@ h5:hover {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1.jpg" srcset="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-1-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             NGTS-3 Conference (2023)
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3.jpg" srcset="../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/NGTS2023/NGTS2023-3-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             NGTS-3 Conference (2023)
           </p>
@@ -692,9 +705,65 @@ h5:hover {
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/TRB2023-18.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2023/trb2023/TRB2023-18.jpg" srcset="../assets/news_photo/news_all/2023/trb2023/TRB2023-18-thumb-900.webp 900w, ../assets/news_photo/news_all/2023/trb2023/TRB2023-18-thumb-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 30vw" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             TRB Annual Meeting (2023)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5 id="year-2020" style="text-align: left;">2020</h5>
+<div class="talks-container">
+  <div class="year-section">
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">Transportation Research Board 99th Annual Meeting (TRB 2020)</div>
+      <div class="talk-venue">January 2020 | Washington, DC, US</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Low-Cost WiFi-Based Detection System for Traffic Monitoring and Recognition
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5 id="year-2019" style="text-align: left;">2019</h5>
+<div class="talks-container">
+  <div class="year-section">
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">10th National Optoelectronic Information Doctoral Academic Forum</div>
+      <div class="talk-venue">September 2019 | Guangzhou, China</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> An Outdoor Pedestrian Tracking and Location Method Based on RSSI
+      </div>
+    </div>
+
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">11th International Symposium on Intelligence Computation and Applications (ISICA 2019)</div>
+      <div class="talk-venue">August 2019 | Guangzhou, China</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Imputation Methods Used in Missing Traffic Data: A Literature Review
+      </div>
+    </div>
+
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">5th International Conference on Transportation Information and Safety (ICTIS 2019)</div>
+      <div class="talk-venue">July 2019 | Liverpool, UK</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> A Novel WiFi-Oriented RSSI Signal Processing Method
+      </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ictis-2019-1.webp" alt="Zilin Huang attending ICTIS 2019 in Liverpool" style="width: 100%; height: 220px; object-fit: cover; object-position: center 62%;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            At ICTIS 2019 in Liverpool
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ictis-2019-2.webp" alt="Zilin Huang at the ICTIS 2019 conference venue" style="width: 100%; height: 220px; object-fit: cover; object-position: center 54%;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            At the ICTIS 2019 conference venue
           </p>
         </div>
       </div>
