@@ -43,6 +43,12 @@ More details about the conference, presentations, and award recipients are avail
 
 <div class="row justify-content-center">
   <div class="col-md-5 mt-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/NGTS/ngts-poster-discussion.webp" srcset="/assets/news_photo/news_all/2026/NGTS/ngts-poster-discussion-1600.webp 1600w, /assets/news_photo/news_all/2026/NGTS/ngts-poster-discussion.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang discussing research with an attendee during the NGTS 2026 poster session" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
+    <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+      Discussing research during the NGTS 2026 poster session.
+    </p>
+  </div>
+  <div class="col-md-5 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp" srcset="/assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award-1600.webp 1600w, /assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 42vw, 445px" alt="Zilin Huang receiving the Best Presentation Award at NGTS 2026" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
       Receiving the Best Presentation Award at NGTS 2026.

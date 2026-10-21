@@ -19,13 +19,13 @@ More about the broader campus visit is available in [UW–Madison Federal Relati
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-federal-research-briefing.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-federal-research-briefing-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-federal-research-briefing.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Wisconsin congressional staff attending a briefing on federally supported research at UW–Madison" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      A briefing on federally supported research at UW–Madison.
+      Prof. David A. Noyce briefing Wisconsin congressional staff on federally supported research at UW–Madison.
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-engineering-presentation.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-engineering-presentation-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-engineering-presentation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Presenting connected and autonomous transportation research to Wisconsin congressional staff" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Presenting connected and autonomous transportation research.
+      Prof. Sikai (Sky) Chen presenting connected and autonomous transportation research.
     </p>
   </div>
 </div>
@@ -34,13 +34,13 @@ More about the broader campus visit is available in [UW–Madison Federal Relati
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-arriving-at-demo.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-arriving-at-demo-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-arriving-at-demo.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Wisconsin congressional staff arriving at the outdoor autonomous vehicle demonstration" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Arriving at the outdoor autonomous vehicle demonstration.
+      Prof. Xiaopeng Li leading the group to the outdoor autonomous vehicle demonstration.
     </p>
   </div>
   <div class="col-md-6 mt-3">
-    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Connected and autonomous research vehicles displayed outside Union South" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
+    <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-fleet.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Connected and autonomous research vehicles displayed outside the Engineering Centers Building" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Connected and autonomous research vehicles outside Union South.
+      Connected and autonomous research vehicles outside the Engineering Centers Building (ECB).
     </p>
   </div>
 </div>
@@ -70,7 +70,7 @@ More about the broader campus visit is available in [UW–Madison Federal Relati
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-vehicle-demo.webp" srcset="/assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-vehicle-demo-1600.webp 1600w, /assets/news_photo/news_all/2025/congress-demo/congressional-staff-autonomous-vehicle-demo.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Introducing an autonomous research vehicle to members of Wisconsin's congressional delegation staff at UW–Madison" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Introducing our autonomous research vehicle to Wisconsin congressional staff.
+      Prof. Sikai (Sky) Chen introducing our autonomous research vehicle to Wisconsin congressional staff.
     </p>
   </div>
 </div>

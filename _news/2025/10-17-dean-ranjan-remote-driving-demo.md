@@ -34,7 +34,7 @@ More about the visit is available in [Dean Devesh Ranjan's LinkedIn post](https:
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/dean-day/dean-ranjan-research-presentation.webp" srcset="/assets/news_photo/news_all/2025/dean-day/dean-ranjan-research-presentation-1600.webp 1600w, /assets/news_photo/news_all/2025/dean-day/dean-ranjan-research-presentation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Presenting Sky-Lab's connected and autonomous vehicle research to Dean Devesh Ranjan" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Presenting our connected and autonomous vehicle research.
+      Prof. Sikai (Sky) Chen presenting our connected and autonomous vehicle research to Dean Devesh Ranjan.
     </p>
   </div>
 </div>
@@ -58,13 +58,13 @@ More about the visit is available in [Dean Devesh Ranjan's LinkedIn post](https:
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/dean-day/sky-lab-remote-driving-presentation.webp" srcset="/assets/news_photo/news_all/2025/dean-day/sky-lab-remote-driving-presentation-1600.webp 1600w, /assets/news_photo/news_all/2025/dean-day/sky-lab-remote-driving-presentation.webp 3200w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Sky-Lab presenting its remote-driving and autonomous vehicle research" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Sharing our remote-driving and autonomous vehicle research.
+      Prof. Sikai (Sky) Chen sharing our remote-driving and autonomous vehicle research with Dean Devesh Ranjan.
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2025/dean-day/dean-ranjan-sky-lab-team.webp" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Dean Devesh Ranjan with Sky-Lab members" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Dean Ranjan with Sky-Lab members.
+      Dean Devesh Ranjan with Sky-Lab and CATS Lab members.
     </p>
   </div>
 </div>

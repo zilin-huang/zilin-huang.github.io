@@ -13,7 +13,7 @@ On October 16, 2026, I attended the [2026 Southeast Wisconsin Transportation Sym
 
 During the symposium, I gave a brief presentation titled **“Sky-Drive: Open-Source Simulation Platform for Human–AI Collaborative and Socially Aware Transportation.”** I shared our ongoing work on the distributed multi-agent simulation platform and its use in studying interactions among autonomous vehicles, human-driven vehicles, pedestrians, and other transportation agents.
 
-I appreciated the opportunity to share our work and learn from transportation researchers and practitioners from across Wisconsin.
+I appreciated the opportunity to share our work and learn from transportation researchers and practitioners from across Wisconsin. More details are available in [UWM College of Engineering & Applied Science's symposium recap](https://uwm.edu/engineering/transportation-symposium-goes-next-level/).
 
 <div class="row justify-content-center">
   <div class="col-md-6 mt-3">

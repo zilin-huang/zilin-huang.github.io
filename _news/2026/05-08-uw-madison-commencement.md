@@ -27,7 +27,7 @@ Videos from the ceremonies are available here: [UW–Madison Spring 2026 Commenc
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/commencement/commencement-faculty.webp" srcset="/assets/news_photo/news_all/2026/commencement/commencement-faculty-1600.webp 1600w, /assets/news_photo/news_all/2026/commencement/commencement-faculty.webp 3600w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with faculty members at the UW–Madison CEE commencement" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      Celebrating with CEE faculty members.
+      With Prof. Sikai (Sky) Chen and Prof. Greg Harrington.
     </p>
   </div>
 </div>
@@ -93,7 +93,7 @@ Videos from the ceremonies are available here: [UW–Madison Spring 2026 Commenc
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2026/commencement/commencement-engineering-hall.webp" srcset="/assets/news_photo/news_all/2026/commencement/commencement-engineering-hall-1600.webp 1600w, /assets/news_photo/news_all/2026/commencement/commencement-engineering-hall.webp 3600w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with friends outside Engineering Hall after commencement" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With friends outside Engineering Hall.
+      Celebrating with Sky-Lab members and friends.
     </p>
   </div>
 </div>

@@ -22,7 +22,7 @@ I attended the Transportation Research Board (TRB) 103rd Annual Meeting, held Ja
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg" srcset="/assets/news_photo/news_all/2024/trb2024/trb2024-2-1600.webp 1600w, /assets/news_photo/news_all/2024/trb2024/trb2024-2.jpg 4032w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with a colleague at the TRB 2024 Annual Meeting entrance display" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With a colleague at the TRB 2024 Annual Meeting.
+      At the TRB 2024 Annual Meeting.
     </p>
   </div>
 </div>
@@ -32,13 +32,13 @@ I attended the Transportation Research Board (TRB) 103rd Annual Meeting, held Ja
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2024/trb2024/trb2024-3.jpg" srcset="/assets/news_photo/news_all/2024/trb2024/trb2024-3-1600.webp 1600w, /assets/news_photo/news_all/2024/trb2024/trb2024-3.jpg 3490w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with a colleague at the TRB 2024 Annual Meeting" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With a colleague at TRB 2024.
+      With Prof. Sikai (Sky) Chen at TRB 2024.
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2024/trb2024/trb2024-4.jpg" srcset="/assets/news_photo/news_all/2024/trb2024/trb2024-4-1600.webp 1600w, /assets/news_photo/news_all/2024/trb2024/trb2024-4.jpg 3542w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with Sky-Lab members at the TRB 2024 Annual Meeting" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With Sky-Lab members at TRB 2024.
+      With Prof. David A. Noyce, Prof. Sikai (Sky) Chen, and members of Sky-Lab and CATS Lab at TRB 2024.
     </p>
   </div>
 </div>
@@ -47,13 +47,13 @@ I attended the Transportation Research Board (TRB) 103rd Annual Meeting, held Ja
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2024/trb2024/trb2024-5.jpg" srcset="/assets/news_photo/news_all/2024/trb2024/trb2024-5-1600.webp 1600w, /assets/news_photo/news_all/2024/trb2024/trb2024-5.jpg 4032w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with a fellow researcher at the TRB 2024 Annual Meeting" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With a fellow researcher at TRB 2024.
+      With Prof. Pei Li at the TRB 2024 Annual Meeting.
     </p>
   </div>
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2024/trb2024/trb2024-6.jpg" srcset="/assets/news_photo/news_all/2024/trb2024/trb2024-6-1600.webp 1600w, /assets/news_photo/news_all/2024/trb2024/trb2024-6.jpg 4096w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with colleagues at the TRB 2024 Annual Meeting" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With colleagues at TRB 2024.
+      With friends at the TRB 2024 Annual Meeting.
     </p>
   </div>
 </div>

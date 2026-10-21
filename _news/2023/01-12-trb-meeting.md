@@ -47,7 +47,7 @@ I attended the Transportation Research Board (TRB) 102nd Annual Meeting, held Ja
   <div class="col-md-6 mt-3">
     <img class="img-fluid rounded z-depth-1" src="/assets/news_photo/news_all/2023/trb2023/TRB2023-5.jpg" srcset="/assets/news_photo/news_all/2023/trb2023/TRB2023-5-1600.webp 1600w, /assets/news_photo/news_all/2023/trb2023/TRB2023-5.jpg 4032w" sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 540px" alt="Zilin Huang with a fellow researcher in front of his poster at TRB 2023" style="width: 100%; display: block; margin: 0 auto;" loading="lazy">
     <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-      With a fellow researcher during the poster session.
+      With Prof. Pei Li.
     </p>
   </div>
   <div class="col-md-6 mt-3">
