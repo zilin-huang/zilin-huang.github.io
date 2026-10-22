@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description: "Research vision, themes, platforms, and future directions in human-centered and trustworthy autonomous systems."
 nav: true
 nav_order: 2
 wide_content: true
@@ -225,7 +225,7 @@ h5:hover {
   background-position: center 80%;
   margin-bottom: 30px;
   border-radius: 5px;
-  margin-top: -20px;
+  margin-top: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -257,7 +257,7 @@ h5:hover {
 }
 
 .research-area h5 {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-weight: 600;
   margin-bottom: 8px;
   font-size: 1.1em;

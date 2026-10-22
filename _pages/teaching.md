@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: 
+description: "Teaching and mentoring experience in transportation engineering, artificial intelligence, and data science."
 nav: true
 nav_order: 6
 ---
@@ -59,15 +59,15 @@ nav_order: 6
 
 .teaching-course {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2em;
   color: var(--global-text-color);
   margin-bottom: 0.3em;
 }
 
 .teaching-semester {
-  font-weight: bold;
-  color: var(--global-theme-color);
+  font-weight: 500;
+  color: var(--global-text-color-light);
 }
 
 .teaching-role {

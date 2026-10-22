@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Personal
+title: Fun
 permalink: /personal/
-description: 
+description: "Life beyond research: food, basketball, photography, and the arts."
 nav: true
 nav_order: 11
 ---
@@ -89,7 +89,7 @@ h4:after {
 h5 {
   margin-top: 0;
   margin-bottom: 8px;
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-size: 1.1em;
   font-weight: 600;
   padding-left: 0;
@@ -241,19 +241,22 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-1.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Chef Huang (黄小厨) 
+        Chef Huang<br>
+        (黄小厨)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-2.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        ‌Chicken Clay Pot‌ (啫啫鸡煲)
+        Chicken Clay Pot<br>
+        (啫啫鸡煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-3.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Seafood Tofu Clay Pot (海鲜豆腐煲)
+        Seafood Tofu Clay Pot<br>
+        (海鲜豆腐煲)
       </p>
     </div>
   </div>
@@ -263,19 +266,22 @@ h5:hover {
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-4.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Beef Clay Pot (牛肉煲)
+        Beef Clay Pot<br>
+        (牛肉煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-5.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Fish-Fragrant Eggplant Clay Pot (鱼香茄子煲)
+        Fish-Fragrant Eggplant Clay Pot<br>
+        (鱼香茄子煲)
       </p>
     </div>
     <div class="col-md-4 mt-3">
       <img class="img-fluid rounded z-depth-1" src="../assets/personal/chef/2025-chef-6.jpg" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
       <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-        Beef Brisket Clay Pot (牛腩煲)
+        Beef Brisket Clay Pot<br>
+        (牛腩煲)
       </p>
     </div>
   </div>

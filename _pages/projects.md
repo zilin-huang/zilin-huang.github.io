@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description:
+description: "Funded research, technology transfer, patents, and software."
 nav: true
 nav_order: 4
 ---
@@ -37,7 +37,7 @@ h4:after {
 h5 {
   margin-top: 0;
   margin-bottom: 8px;
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-size: 1.1em;
   font-weight: 600;
   padding-left: 0;
@@ -106,7 +106,7 @@ h5:hover {
 }
 
 .research-area h5 {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-weight: 600;
   margin-bottom: 8px;
   font-size: 1.1em;
@@ -200,8 +200,8 @@ h5:hover {
 <h5 class="funding-subheading">Previously Led Projects</h5>
 <ul class="funding-list">
   <li><span class="funding-project-title">Design of a City Traffic State Monitoring System Based on RSSI Communication Signals</span><span class="funding-project-meta">Funding source: Special Fund for Science and Technology Innovation Strategy of Guangdong Province (Key Project) · Award total: ¥60,000 · Period: 04/2019–12/2021 · Role: Project Principal · Project No. pdjh2020a0030</span></li>
-  <li><span class="funding-project-title">Traffic Status Perception and Monitoring Technology Based on WiFi Scanner Data</span><span class="funding-project-meta">Funding source: SCUT Postgraduate Professional Competition Program (Key Project) · Award total: ¥20,000 · Period: 12/2019–12/2020 · Role: Project Principal · Project No. j2tw201904005</span></li>
-  <li><span class="funding-project-title">Urban Traffic Flow Network Sensing System Based on Dedicated Short-Range Communications (DSRC)</span><span class="funding-project-meta">Funding source: SCUT Postgraduate Professional Competition Program · Award total: ¥5,000 · Period: 12/2018–12/2019 · Role: Project Principal · Project No. j2tw202004010</span></li>
+  <li><span class="funding-project-title">Traffic Status Perception and Monitoring Technology Based on WiFi Scanner Data</span><span class="funding-project-meta">Funding source: South China University of Technology Postgraduate Professional Competition Program (Key Project) · Award total: ¥20,000 · Period: 12/2019–12/2020 · Role: Project Principal · Project No. j2tw201904005</span></li>
+  <li><span class="funding-project-title">Urban Traffic Flow Network Sensing System Based on Dedicated Short-Range Communications (DSRC)</span><span class="funding-project-meta">Funding source: South China University of Technology Postgraduate Professional Competition Program · Award total: ¥5,000 · Period: 12/2018–12/2019 · Role: Project Principal · Project No. j2tw202004010</span></li>
   <li><span class="funding-project-title">A Digital Twin-Based Approach for the Design and Multi-Objective Optimization of a Hollow Glass Production Line</span><span class="funding-project-meta">Funding source: Special Fund for Science and Technology Innovation Cultivation of Guangdong University Students · Award total: ¥20,000 · Period: 12/2016–12/2017 · Role: Project Principal · Project No. phjh2017b0161</span></li>
 </ul>
 

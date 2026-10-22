@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Services
+title: Service
 permalink: /services/
-description: 
+description: "Editorial, peer-review, conference, leadership, and professional service."
 nav: true
 nav_order: 8
 ---
@@ -74,12 +74,12 @@ nav_order: 8
 }
 
 .conference-gallery > .col-md-4 {
-  flex: 0 0 30%;
-  max-width: 30%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .conference-gallery > .col-md-4 img {
-  height: 190px !important;
+  height: 165px !important;
 }
 
 /* 移除悬停效果 */
@@ -135,7 +135,7 @@ h4:after {
 h5 {
   margin-top: 0;
   margin-bottom: 8px;
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-size: 1.1em;
   font-weight: 600;
   padding-left: 0;

@@ -2,7 +2,7 @@
 layout: page
 title: Talks
 permalink: /talks/
-description: 
+description: "Invited talks and conference presentations on intelligent transportation and autonomous driving."
 nav: true
 nav_order: 7
 ---
@@ -28,21 +28,25 @@ nav_order: 7
   margin-bottom: 0;
 }
 
-/* Keep conference photos supportive of the talk details on desktop. */
+/* Match the four-column thumbnail scale used on the Fun page. */
 .talk-card .row > .col-md-4 {
-  flex: 0 0 30%;
-  max-width: 30%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .talk-card .row > .col-md-4 img {
-  height: 190px !important;
+  height: 165px !important;
 }
 
 .talk-title {
-  font-weight: 600;
-  color: var(--global-theme-color);
+  font-weight: 500;
+  color: var(--global-text-color);
   margin-bottom: 5px;
   font-size: 1.1em;
+}
+
+.talk-title a {
+  color: var(--global-theme-color);
 }
 
 .talk-venue {
@@ -233,56 +237,7 @@ h4:after {
   opacity: 1;
 }
 
-/* Year navigation sidebar styles */
-.year-nav {
-  position: fixed;
-  left: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  border: 1px solid rgba(var(--global-theme-color-rgb), 0.15);
-}
-
-.year-nav a {
-  display: block;
-  padding: 8px 25px;
-  margin: 6px 0;
-  color: var(--global-theme-color);
-  text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  font-size: 1em;
-  text-align: center;
-  position: relative;
-  background-color: transparent;
-}
-
-.year-nav a:hover {
-  background-color: rgba(var(--global-theme-color-rgb), 0.1);
-}
-
-.year-nav a.active {
-  background-color: var(--global-theme-color);
-  color: white;
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .year-nav {
-    display: none;
-  }
-}
 </style>
-
-<!-- Talk-type navigation sidebar -->
-<div class="year-nav">
-  <a href="#invited-talks">Invited Talks</a>
-  <a href="#conference-presentations">Conference Presentations</a>
-</div>
 
 <h4 id="invited-talks" style="text-align: left;">Invited Talks</h4>
 
@@ -591,38 +546,3 @@ h4:after {
     </div>
   </div>
 </div>
-
-<!-- Add JavaScript for active section state -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const sectionLinks = document.querySelectorAll('.year-nav a');
-  const sections = document.querySelectorAll('h4[id]');
-  
-  // Set the first section as active by default
-  sectionLinks[0].classList.add('active');
-  
-  // Update active state on scroll
-  function updateActiveSection() {
-    const scrollPosition = window.scrollY + 120;
-    let activeIndex = 0;
-
-    sections.forEach((section, index) => {
-      if (scrollPosition >= section.offsetTop) activeIndex = index;
-    });
-
-    sectionLinks.forEach(link => link.classList.remove('active'));
-    if (sectionLinks[activeIndex]) sectionLinks[activeIndex].classList.add('active');
-  }
-  
-  // Update active state on click
-  sectionLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      sectionLinks.forEach(l => l.classList.remove('active'));
-      e.target.classList.add('active');
-    });
-  });
-  
-  window.addEventListener('scroll', updateActiveSection);
-  updateActiveSection();
-});
-</script>

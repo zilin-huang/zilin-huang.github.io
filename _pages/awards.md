@@ -2,7 +2,7 @@
 layout: page
 title: Awards
 permalink: /awards/
-description: 
+description: "Selected research, presentation, innovation, and academic honors."
 nav: true
 nav_order: 9
 ---
@@ -115,6 +115,14 @@ h5:hover {
   background: linear-gradient(120deg, rgba(33, 150, 243, 0.18), rgba(3, 169, 244, 0.08));
 }
 
+.award-category {
+  margin-top: 16px;
+}
+
+h4 + .award-category {
+  margin-top: 0;
+}
+
 /* 强调文本 */
 .awards-list li strong {
   font-weight: 600;
@@ -179,20 +187,22 @@ h5:hover {
 </style>
 
 
-<h4 style="text-align: left;">Research &amp; Presentation Awards</h4>
+<h4 style="text-align: left;">Selected Awards &amp; Honors</h4>
+
+<h5 class="award-category" style="text-align: left;">Research &amp; Presentation Awards</h5>
 
 <div class="honors-container">
   <ul class="awards-list">
     <li>Best Presentation Award, 5th Annual Conference on Next-Generation Transport Systems (NGTS 2026), West Lafayette, IN, US, May 2026 <a href="{{ '/news/2026/05-22-ngts-2026-best-presentation-award/' | relative_url }}">[News]</a></li>
     <li>College of Engineering Graduate Student Mentoring Award, University of Wisconsin–Madison, May 2026 <a href="{{ '/news/2026/05-14-coe-graduate-mentoring-award/' | relative_url }}">[News]</a></li>
     <li>CEE Academic Stewardship &amp; Leadership Award, University of Wisconsin–Madison, May 2026 <a href="{{ '/news/2026/05-01-cee-academic-stewardship-leadership-award/' | relative_url }}">[News]</a></li>
-    <li>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, US, Jun 2023 <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
+    <li>Best Presentation Award, 3rd Annual Conference of Next-Generation Transportation Systems (NGTS-3), West Lafayette, US, Jun 2023 <a href="{{ '/assets/honors/2023-Best-Presentation-Award.pdf' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>Student Research Grants Competition (SRGC) Award, University of Wisconsin-Madison, May 2023 ($1,500)</li>
     <li>National Second Prize for Forum Presentation, 10th National Optoelectronic Information Doctoral Academic Forum, Guangzhou, China, Sep 2019</li>
   </ul>
 </div>
 
-<h4 style="text-align: left;">Innovation &amp; Entrepreneurship Awards</h4>
+<h5 class="award-category" style="text-align: left;">Innovation &amp; Entrepreneurship Awards</h5>
 
 <div class="honors-container">
   <ul class="awards-list">
@@ -205,22 +215,24 @@ h5:hover {
     <li>"Young Entrepreneur in Guangdong" Competition Award, PI, Guangzhou Province, Oct 2020 (¥30,000) <a href="{{ 'https://baijiahao.baidu.com/s?id=1672187346796437301&wfr=spider&for=pc' | relative_url }}" target="_blank">[News Links]</a><br>
     <span class="award-description">Awarded to the young entrepreneur with promise of business success.</span></li>
     <li>Top 100 PhD and Postdoctoral Innovation Achievements Award, PI, Guangdong Province, May 2019 <a href="{{ '/assets/honors/2019-100-PhD-and-Postdoctoral-Innovation.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
-    <li>Graduate Student Academic Competition Award, PI, SCUT, Dec 2019 (¥20,000)<br>
+    <li>Graduate Student Academic Competition Award, PI, South China University of Technology, Dec 2019 (¥20,000)<br>
     <span class="award-description">Awarded to students with very strong research potential (Key project, No. j2tw201904005).</span></li>
-    <li>Graduate Student Academic Competition Award, PI, SCUT, Dec 2018 (¥5,000)<br>
+    <li>Graduate Student Academic Competition Award, PI, South China University of Technology, Dec 2018 (¥5,000)<br>
     <span class="award-description">Awarded to students with strong research potential (No. j2tw202004010).</span></li>
     <li>Special Funds Project for Science and Technology Innovation Strategy Award, PI, Guangdong Province, Dec 2017 (¥20,000 + ¥10,000)<br>
     <span class="award-description">Awarded to students with strong research potential (No. phjh2017b0161 & No. phjh2017b0169).</span></li>
   </ul>
 </div>
 
-<h4 style="text-align: left;">Honors</h4>
+<h5 class="award-category" style="text-align: left;">Honors</h5>
 
 <div class="honors-container">
   <ul class="awards-list">
     <li>Outstanding Master's Degree Graduates, Guangdong Province, Jun 2021 (≈ 1/340) <a href="{{ '/assets/honors/2021-outstanding-graduate-guangdong-province.jpg' | relative_url }}" target="_blank">[Certificate]</a><br>
     <span class="award-description">The highest graduate student honor, awarded to one graduate student with outstanding research potential and promise.</span></li>
-    <li>Top 10 Outstanding Undergraduate Students, Apr 2018 (≈ 10/40,000)<br>
+    <li>Outstanding Graduates of Guangdong University of Technology, 2018 (Top 1%)<br>
+    <span class="award-description">Selected for the 2018 Admission Guide of Guangdong University of Technology.</span></li>
+    <li>Top 10 Outstanding Undergraduate Students, 2017 (≈ 10/40,000)<br>
     <span class="award-description">The highest undergraduate honor, awarded to the top 10 students with outstanding research potential and prospects.</span></li>
     <li>Top 10 Student Leader in Student Government, Oct 2017 (≈ 10/40,000)</li>
     <li>Outstanding Leader in Student Government, Guangdong Province, China, May 2017 (≈ 5/40,000)<br>
@@ -228,19 +240,19 @@ h5:hover {
     <li>Outstanding Individual in the “Summer Rural Social Practice Program”, Guangdong Province, Dec 2016 (≈ 6/40,000)<br>
     <span class="award-description">Awarded to the student with excellent work in “Summer Rural Social Practice Program” of Guangdong Province.</span></li>  
     <li>Top 10 Student Volunteers for Social Work, Oct 2016 (≈ 10/40,000)</li>
-    <li>Outstanding Bachelor's Degree Graduates, Jul 2018 (≈ 10/780)</li>
+    <li>Top 10 Outstanding Graduates of School of Mechanical Engineering, Jul 2018 (≈ 10/780)</li>
   </ul>
 </div>
 
-<h4 style="text-align: left;">Scholarships</h4>
+<h5 class="award-category" style="text-align: left;">Scholarships</h5>
 
 <div class="honors-container">
   <ul class="awards-list">
     <li>National Scholarship for Graduate Student, China, Dec 2020 (¥20,000) <a href="{{ '/assets/honors/2020-national-scholarship.jpg' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>National Scholarship for Graduate Student, China, Dec 2019 (¥20,000) <a href="{{ '/assets/honors/2019-national-scholarship.jpg' | relative_url }}" target="_blank">[Certificate]</a></li>
-    <li>Science and Innovation Scholarships for Outstanding Graduate Students, SCUT, 2019-2021 (¥2,500 × 3)<br>
+    <li>Science and Innovation Scholarships for Outstanding Graduate Students, South China University of Technology, 2019-2021 (¥2,500 × 3)<br>
     <span class="award-description">Awarded for three consecutive years in 2019-2021 (three times).</span></li>
-    <li>2nd Prize Scholarship for Excellent Graduate Student, SCUT, 2018-2021 (¥10,000 × 3)<br>
+    <li>2nd Prize Scholarship for Excellent Graduate Student, South China University of Technology, 2018-2021 (¥10,000 × 3)<br>
     <span class="award-description">Awarded for three consecutive years in 2018-2021 (three times).</span></li>
     <li>Science and Innovation Scholarships for Outstanding Undergraduate Students, Oct 2017 (Top 1%)</li>
     <li>Outstanding Volunteers Scholarship for Social Work, Oct 2017 (Top 1%)</li>
@@ -250,7 +262,7 @@ h5:hover {
   </ul>
 </div>
 
-<h4 style="text-align: left;">Academic Competitions</h4>
+<h5 class="award-category" style="text-align: left;">Academic Competitions</h5>
 
 <div class="honors-container">
   <ul class="awards-list">
@@ -271,3 +283,5 @@ h5:hover {
     <span class="award-description">The competition selected 262 2nd prizes from more than 120,000 projects in China.</span></li>
   </ul>
 </div> 
+
+<h4>Other Awards &amp; Honors</h4>
