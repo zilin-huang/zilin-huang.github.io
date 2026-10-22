@@ -15,6 +15,7 @@ wide_content: true
   counter-reset: item;
   list-style-type: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .artistic-list li {
@@ -27,6 +28,8 @@ wide_content: true
 
 .artistic-list li:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* 数字标记样式 */
@@ -124,8 +127,8 @@ wide_content: true
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -147,8 +150,8 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--global-text-color);
   font-size: 1.05em;
   font-weight: 600;
@@ -244,9 +247,9 @@ h5:hover {
 /* 研究方向卡片样式 */
 .research-area {
   padding: 0;
-  margin-bottom: 25px;
+  margin-bottom: 14px;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .research-area:last-child {
@@ -256,13 +259,21 @@ h5:hover {
 .research-area h5 {
   color: var(--global-theme-color);
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 1.1em;
 }
 
 .research-area p {
   margin-bottom: 12px;
   text-align: justify;
+}
+
+.research-area img + p {
+  margin: 8px 0 0 !important;
+}
+
+.research-area + h4 {
+  margin-top: 16px;
 }
 
 .theme-question {
@@ -286,8 +297,8 @@ h5:hover {
 }
 
 .platform-subsection {
-  margin-top: 25px;
-  padding-top: 20px;
+  margin-top: 18px;
+  padding-top: 14px;
   border-top: 1px dashed rgba(var(--global-theme-color-rgb), 0.15);
 }
 

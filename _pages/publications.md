@@ -55,7 +55,7 @@ nav_order: 3
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 18px 0 22px;
+  margin: 12px 0 14px;
 }
 
 .publication-filter {
@@ -84,12 +84,12 @@ nav_order: 3
 }
 
 .publications {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .publication-year-section:first-child h2.year {
-  margin-top: 1.5rem;
-  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
 }
 
 @media (max-width: 768px) {

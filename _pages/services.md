@@ -10,12 +10,13 @@ nav_order: 8
 <style>
 /* 基础样式 */
 .services-container {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .conference-item {
-  padding: 15px 0px 5px 0px;
-  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.3em;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
 
@@ -26,6 +27,8 @@ nav_order: 8
 .services-list {
   list-style-type: disc;
   padding-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .services-list li {
@@ -38,6 +41,8 @@ nav_order: 8
 
 .services-list li:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .reviewer-list {
@@ -57,11 +62,15 @@ nav_order: 8
 }
 
 .conference-gallery {
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 
 .conference-gallery p {
-  margin-bottom: 0;
+  margin: 8px 0 0 !important;
+}
+
+.conference-gallery + .services-list {
+  margin-top: 6px !important;
 }
 
 .conference-gallery > .col-md-4 {
@@ -101,8 +110,8 @@ nav_order: 8
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -124,8 +133,8 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;

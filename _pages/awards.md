@@ -19,6 +19,7 @@ nav_order: 9
   list-style-type: disc;
   padding-left: 1.5em;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .awards-list li {
@@ -32,6 +33,8 @@ nav_order: 9
 
 .awards-list li:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* 移除悬停效果 */
@@ -66,8 +69,8 @@ nav_order: 9
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -89,8 +92,8 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--global-text-color);
   font-size: 1.05em;
   font-weight: 600;

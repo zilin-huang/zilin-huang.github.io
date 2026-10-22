@@ -28,6 +28,8 @@ nav_order: 11
 
 .memories-list li:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* 移除悬停效果 */
@@ -62,8 +64,8 @@ nav_order: 11
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -85,8 +87,8 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -163,6 +165,14 @@ h5:hover {
 
 .four-column-gallery .col-md-4 > div {
   height: 165px !important;
+}
+
+.four-column-gallery p {
+  margin: 8px 0 0 !important;
+}
+
+.four-column-gallery + h5 {
+  margin-top: 12px;
 }
 
 /* 日期样式 */
@@ -420,10 +430,6 @@ h5:hover {
 </ul>
 
 
-  
-  <p style="text-align: justify;">
-    
-  </p>
   
   <!-- Photography images -->
   <!-- <div class="row">

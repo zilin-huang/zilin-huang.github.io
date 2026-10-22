@@ -69,6 +69,14 @@ h5 + ol {
   margin-top: 0;
 }
 
+// Keep image captions compact and consistent across news and gallery content.
+.post-content .row [class*="col-"] > img + p,
+.post-content .news-photo-grid [class*="col-"] > img + p,
+.post-content .row [class*="col-"] > video + p,
+.post-content .news-photo-grid [class*="col-"] > video + p {
+  margin: 8px 0 0 !important;
+}
+
 // Math
 
 .equation {

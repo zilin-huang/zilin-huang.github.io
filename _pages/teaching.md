@@ -98,8 +98,8 @@ nav_order: 6
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;

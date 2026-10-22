@@ -10,12 +10,12 @@ nav_order: 7
 <style>
 /* Basic styles */
 .talks-container {
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 .talk-card {
   background: var(--global-bg-color);
-  padding: 12px 0 8px;
+  padding: 0 0 8px;
   margin-bottom: 8px;
   border-bottom: 1px dashed rgba(var(--global-theme-color-rgb), 0.1);
 }
@@ -59,11 +59,13 @@ nav_order: 7
 
 
 .year-section {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .year-section > .talk-card:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .year-badge {
@@ -125,8 +127,8 @@ nav_order: 7
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -145,27 +147,6 @@ h4:after {
   height: 3px;
   background: var(--global-theme-color);
   border-radius: 3px;
-}
-
-h5 {
-  margin: 8px 0;
-  color: var(--global-theme-color);
-  font-size: 1em;
-  font-weight: 600;
-  line-height: 1.2;
-  padding: 0 0 0 8px;
-  border-left: 3px solid rgba(var(--global-theme-color-rgb), 0.45);
-  position: relative;
-  display: block;
-  background: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-h5:hover {
-  transform: none;
-  box-shadow: none;
-  background: none;
 }
 
 /* Tag styles */
@@ -305,7 +286,6 @@ h5:hover {
 
 <h4 id="invited-talks" style="text-align: left;">Invited Talks</h4>
 
-<h5 id="year-2026" style="text-align: left;">2026</h5>
 <div class="talks-container">
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
@@ -320,12 +300,7 @@ h5:hover {
       </div>
       <div><strong>Invited by:</strong> Prof. Haotian Shi</div>
     </div>
-  </div>
-</div>
 
-<h5 id="invited-2024" style="text-align: left;">2024</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">School of Civil Engineering & Transportation, South China University of Technology</div>
       <div class="talk-venue">April 9, 2024 | Virtual</div>
@@ -342,12 +317,7 @@ h5:hover {
         <strong>Topic:</strong> Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving
       </div>
     </div>
-  </div>
-</div>
 
-<h5 id="invited-2020" style="text-align: left;">2020</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
         <a href="https://www.bilibili.com/video/BV1TK411J7bD" style="color: var(--global-theme-color); text-decoration: none;">
@@ -364,7 +334,6 @@ h5:hover {
 
 <h4 id="conference-presentations" style="text-align: left;">Conference Presentations</h4>
 
-<h5 id="conference-2026" style="text-align: left;">2026</h5>
 <div class="talks-container">
   <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
@@ -418,12 +387,7 @@ h5:hover {
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<h5 id="year-2025" style="text-align: left;">2025</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
         <a href="/news/2025/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
@@ -449,12 +413,7 @@ h5:hover {
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<h5 id="year-2024" style="text-align: left;">2024</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
         <a href="/news/2024/01-12-trb-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
@@ -481,12 +440,6 @@ h5:hover {
       </div>
     </div>
 
-  </div>
-</div>
-
-<h5 id="year-2023" style="text-align: left;">2023</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">
         <a href="/news/2023/10-19-informs-meeting/" style="color: var(--global-theme-color); text-decoration: none;">
@@ -590,12 +543,7 @@ h5:hover {
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<h5 id="year-2020" style="text-align: left;">2020</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">Transportation Research Board 99th Annual Meeting (TRB 2020)</div>
       <div class="talk-venue">January 2020 | Washington, DC, US</div>
@@ -603,12 +551,7 @@ h5:hover {
         <strong>Topic:</strong> Low-Cost WiFi-Based Detection System for Traffic Monitoring and Recognition
       </div>
     </div>
-  </div>
-</div>
 
-<h5 id="year-2019" style="text-align: left;">2019</h5>
-<div class="talks-container">
-  <div class="year-section">
     <div class="talk-card" style="padding-left: 0;">
       <div class="talk-title">10th National Optoelectronic Information Doctoral Academic Forum</div>
       <div class="talk-venue">September 2019 | Guangzhou, China</div>
