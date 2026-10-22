@@ -261,64 +261,67 @@ Prior to my Ph.D. studies, I co-founded two technology companies in China. Throu
 <div class="research-area">
 <h5>Granted Patents</h5>
 <ul class="artistic-list">
-<li>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN109375168A.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN109375168A</em>.</li>
+<li>An RSSI fitting method for tracking low-speed moving vehicles. <a href="../assets/patents/patent_CN201811368105.7.pdf" target="_blank">PDF</a><br>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention patent · Application No. CN201811368105.7</em>.</li>
 
 <li>A RSSI-based method for positioning low-speed moving vehicles. <a href="../assets/patents/patent_CN201811368103.8.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, Sheng Zhao, Lunhui Xu, and Shanyu Tang. <em>Invention Patent, CN201811368103.8</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, Sheng Zhao, Lunhui Xu, and Shanyu Tang. <em>Invention patent · Application No. CN201811368103.8</em>.</li>
 
 <li>Urban traffic operation evaluation method based on ecological index. <a href="../assets/patents/patent_CN201911419439.7.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, Weijia Zeng, Yanqing Yang, Yuming Cheng, Yuheng Liu, Haixia Guan, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN201911419439.7</em>.</li>
+Yongjie Lin, Weijia Zeng, Yanqing Yang, Yuming Cheng, Yuheng Liu, Haixia Guan, and <strong>Zilin Huang</strong>. <em>Invention patent · Application No. CN201911419439.7</em>.</li>
 
 <li>A device for counting the number of passengers getting on and off in a portable bus. <a href="../assets/patents/patent_CN201920581476.7.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Utility Model Patent, CN201920581476.7</em>.</li>
+<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Utility model patent · Application No. CN201920581476.7</em>.</li>
 
 <li>RSSI-based road traffic jam detection and dispersion device. <a href="../assets/patents/patent_CN202021751310.4.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, Yuzhuang Pian, Yongjie Lin, Pan Wu, and Yuqing Zhan. <em>Utility Model Patent, CN202021751310.4</em>.</li>
+<strong>Zilin Huang</strong>, Yuzhuang Pian, Yongjie Lin, Pan Wu, and Yuqing Zhan. <em>Utility model patent · Application No. CN202021751310.4</em>.</li>
 
 <li>Vehicle-mounted positioning device based on RSSI and inertial navigation. <a href="../assets/patents/patent_CN201920574767.3.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574767.3</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility model patent · Application No. CN201920574767.3</em>.</li>
 
 <li>Micro device for positioning moving target based on RSSI. <a href="../assets/patents/patent_CN201920574719.4.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201920574719.4</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Utility model patent · Application No. CN201920574719.4</em>.</li>
 
 <li>An obstacle avoidance system for unmanned vehicles based on machine vision and infrared sensors. <a href="../assets/patents/patent_CN202020235979.1.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235979.1</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility model patent · Application No. CN202020235979.1</em>.</li>
 
 <li>Visual navigation system for assisting unmanned vehicles. <a href="../assets/patents/patent_CN202020235977.2.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020235977.2</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility model patent · Application No. CN202020235977.2</em>.</li>
 
 <li>A target intrusion detection device based on wireless communication signal. <a href="../assets/patents/patent_CN202020965272.6.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility Model Patent, CN202020965272.6</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>, and Lunhui Xu. <em>Utility model patent · Application No. CN202020965272.6</em>.</li>
 
 <li>A RSSI-based positioning and early warning device for two-passenger and one-dangerous vehicles. <a href="../assets/patents/patent_CN202021751321.2.pdf" target="_blank">PDF</a><br>
-Yuzhuang Pian, <strong>Zilin Huang</strong>, Yongjie Lin, Yuqing Zhan, and Pan Wu. <em>Utility Model Patent, CN202021751321.2</em>.</li>
+Yuzhuang Pian, <strong>Zilin Huang</strong>, Yongjie Lin, Yuqing Zhan, and Pan Wu. <em>Utility model patent · Application No. CN202021751321.2</em>.</li>
 
 <li>A kind of elevator apparatus of wheel. <a href="../assets/patents/patent_CN201620682753.X.pdf" target="_blank">PDF</a><br>
-Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zilin Huang</strong>. <em>Utility Model Patent, CN201620682753.X</em>.</li>
+Chao He, Zhanqin Yu, Zequan Hong, Chengzhao Zhang, Ziping Chen, and <strong>Zilin Huang</strong>. <em>Utility model patent · Application No. CN201620682753.X</em>.</li>
 
 <li>Tunnel vehicle accident detection and early warning device based on RSSI. <a href="../assets/patents/patent_CN202120982224.2.pdf" target="_blank">PDF</a><br>
-Binrao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Invention Patent, CN202120982224.2</em>.</li>
+Bin Rao, Zhihong Ye, Yongjie Lin, Haochuan Zhong, Yuqing Zhan, Jiajun Wu, Yuzhuang Pian, and <strong>Zilin Huang</strong>. <em>Utility model patent · Application No. CN202120982224.2</em>.</li>
+
+<li>RSSI-based smart-city pedestrian traffic collection device.<br>
+Chao He, Han Wang, Guoqing Wu, Yuzhuang Pian, <strong>Zilin Huang</strong>, and Jianhong Chen. <em>Utility model application · Application No. CN202021782535.6</em>.</li>
 </ul>
 </div>
 
 <div class="research-area">
-<h5>Patent Applications Under Examination</h5>
+<h5>Pending Patent Applications</h5>
 <ul class="artistic-list">
 <li>Subway transfer bus behavior identification method, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051795.1.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051795.1</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention patent application · Application No. CN201910051795.1</em>.</li>
 
 <li>The recognition methods of Metro Passenger time getting off, system, computer equipment and storage medium. <a href="../assets/patents/patent_CN201910051785.8.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910051785.8</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention patent application · Application No. CN201910051785.8</em>.</li>
 
 <li>A kind of hot spot junction of park and shift recognition methods based on IC card data. <a href="../assets/patents/patent_CN201910339482.6.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention Patent, CN201910339482.6</em>.</li>
+<strong>Zilin Huang</strong>, and Lunhui Xu. <em>Invention patent application · Application No. CN201910339482.6</em>.</li>
 
 <li>A kind of subway station passenger flow monitoring method and system. <a href="../assets/patents/patent_CN201910338991.7.pdf" target="_blank">PDF</a><br>
-<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Invention Patent, CN201910338991.7</em>.</li>
+<strong>Zilin Huang</strong>, Yongjie Lin, and Lunhui Xu. <em>Invention patent application · Application No. CN201910338991.7</em>.</li>
 
 <li>A kind of traffic trip mode identification method based on wireless signal. <a href="../assets/patents/patent_CN201910581470.4.pdf" target="_blank">PDF</a><br>
-Yongjie Lin, <strong>Zilin Huang</strong>. <em>Invention Patent, CN201910581470.4</em>.</li>
+Yongjie Lin, <strong>Zilin Huang</strong>. <em>Invention patent application · Application No. CN201910581470.4</em>.</li>
 </ul>
 </div>
 
