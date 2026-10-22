@@ -132,8 +132,8 @@
 h4 {
   position: relative;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-top: 30px;
   color: var(--global-text-color);
   font-size: 1.3em;
   font-weight: 600;
@@ -155,8 +155,8 @@ h4:after {
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--global-theme-color);
   font-size: 1.1em;
   font-weight: 600;
@@ -183,11 +183,16 @@ h5:hover {
 .artistic-list {
   list-style-type: disc;
   padding-left: 1.35em;
+  margin-bottom: 0;
 }
 
 .artistic-list li {
   padding-left: 3px;
   margin-bottom: 0.5em;
+}
+
+.artistic-list li:last-child {
+  margin-bottom: 0;
 }
 
 /* 链接样式 */
@@ -216,14 +221,14 @@ h5:hover {
 /* 研究方向卡片样式 */
 .research-area {
   padding: 0;
-  margin-bottom: 25px;
+  margin-bottom: 14px;
   border-bottom: none;
 }
 
 .research-area h5 {
   color: var(--global-theme-color);
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 1.1em;
 }
 
@@ -233,11 +238,11 @@ h5:hover {
 }
 
 .funding-subheading {
-  margin: 5px 0 10px;
+  margin: 0 0 8px;
 }
 
 .funding-list {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   padding-left: 1.35em;
 }
 
@@ -246,9 +251,14 @@ h5:hover {
   padding-left: 3px;
 }
 
+.funding-list li:last-child {
+  margin-bottom: 0;
+}
+
 .funding-project-title {
   display: block;
-  font-weight: 400;
+  color: var(--global-text-color);
+  font-weight: 300;
   line-height: 1.45;
 }
 
@@ -284,6 +294,10 @@ h5:hover {
   object-fit: cover;
 }
 
+.project-four-column-gallery p {
+  margin: 8px 0 0 !important;
+}
+
 @media (max-width: 768px) {
   .project-four-column-gallery {
     grid-template-columns: 1fr;
@@ -297,35 +311,60 @@ h5:hover {
 <h5 class="funding-subheading">Currently Participated Projects</h5>
 <ul class="funding-list">
   <li>
-<span class="funding-project-title">Domain-Specific Foundation Models for Safe and Intelligent Transportation</span><span class="funding-project-meta">Funding source: Wisconsin Alumni Research Foundation (WARF) · Award total: $56,315 · Period: 07/01/2026–06/30/2027 · Role: Research Contributor</span>
+<span class="funding-project-title">Domain-Specific Foundation Models for Safe and Intelligent Transportation</span><span class="funding-project-meta">Funding source: Wisconsin Alumni Research Foundation (WARF) · Award total: $56,315 · Period: 07/01/2026–06/30/2027 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">Safe and Trustworthy Human-Centered Mobility: Leveraging Foundation Models and Digital Twins for Vulnerable Road User–Vehicle Interactions</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Research Contributor</span>
+<span class="funding-project-title">Safe and Trustworthy Human-Centered Mobility: Leveraging Foundation Models and Digital Twins for Vulnerable Road User–Vehicle Interactions</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">Towards Safe and Efficient Autonomous Driving: A Synergistic Approach with Human Expertise and Multimodal Large Language Models</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Research Contributor</span>
+<span class="funding-project-title">Towards Safe and Efficient Autonomous Driving: A Synergistic Approach with Human Expertise and Multimodal Large Language Models</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $170,000 · Period: 01/01/2026–12/31/2026 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">Using Connected Intelligent Transportation to Enhance Vulnerable Road User Safety: Phase II Real-World Testing and Deployment</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $250,000 · Period: 01/01/2025–12/31/2026 · Role: Research Contributor</span>
+<span class="funding-project-title">Using Connected Intelligent Transportation to Enhance Vulnerable Road User Safety: Phase II Real-World Testing and Deployment</span><span class="funding-project-meta">Funding source: USDOT through CCAT with OVCR match funding · Award total: $250,000 · Period: 01/01/2025–12/31/2026 · Role: Project Core Member</span>
 </li>
   <li>
 <span class="funding-project-title">Tribal &amp; Rural Autonomous Vehicles for Efficiency, Livability and Safety (TRAVELS)</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation (USDOT) · Award total: $30,000,000 · Period: 03/01/2026–02/28/2032 · Role: Research Contributor</span>
 </li>
 </ul>
 
+<h5 class="funding-subheading">Previously Led Projects</h5>
+<ul class="funding-list">
+  <li>
+<span class="funding-project-title">Design of a City Traffic State Monitoring System Based on RSSI Communication Signals</span><span class="funding-project-meta">Funding source: Special Fund for Science and Technology Innovation Strategy of Guangdong Province (Key Project) · Award total: ¥60,000 · Period: 04/2019–12/2021 · Role: Project Principal · Project No. pdjh2020a0030</span>
+</li>
+  <li>
+<span class="funding-project-title">Traffic Status Perception and Monitoring Technology Based on WiFi Scanner Data</span><span class="funding-project-meta">Funding source: SCUT Postgraduate Professional Competition Program (Key Project) · Award total: ¥20,000 · Period: 12/2019–12/2020 · Role: Project Principal · Project No. j2tw201904005</span>
+</li>
+  <li>
+<span class="funding-project-title">Urban Traffic Flow Network Sensing System Based on Dedicated Short-Range Communications (DSRC)</span><span class="funding-project-meta">Funding source: SCUT Postgraduate Professional Competition Program · Award total: ¥5,000 · Period: 12/2018–12/2019 · Role: Project Principal · Project No. j2tw202004010</span>
+</li>
+  <li>
+<span class="funding-project-title">A Digital Twin-Based Approach for the Design and Multi-Objective Optimization of a Hollow Glass Production Line</span><span class="funding-project-meta">Funding source: Special Fund for Science and Technology Innovation Cultivation of Guangdong University Students · Award total: ¥20,000 · Period: 12/2016–12/2017 · Role: Project Principal · Project No. phjh2017b0161</span>
+</li>
+</ul>
+
 <h5 class="funding-subheading">Previously Participated Projects</h5>
 <ul class="funding-list">
   <li>
-<span class="funding-project-title">SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $40,000 in computing resources and unrestricted gift support · Period: 04/01/2025–09/30/2026 · Role: Research Contributor</span>
+<span class="funding-project-title">SafetyGPT: Domain-Specific Multi-Modal LLM for Transport Safety and Management</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $40,000 in computing resources and unrestricted gift support · Period: 04/01/2025–09/30/2026 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">EdgeTwin: An Edge AI-Enabled Digital Twin Framework for Intelligent Traffic Infrastructure Management and Safety</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $19,998 in hardware and unrestricted gift support · Period: 07/01/2025–06/30/2026 · Role: Research Contributor</span>
+<span class="funding-project-title">EdgeTwin: An Edge AI-Enabled Digital Twin Framework for Intelligent Traffic Infrastructure Management and Safety</span><span class="funding-project-meta">Funding source: NVIDIA · Award total: $19,998 in hardware and unrestricted gift support · Period: 07/01/2025–06/30/2026 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">Promoting CAV Deployment by Enhancing the Perception Phase of Autonomous Driving Using Explainable AI</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $120,000 · Period: 04/01/2022–03/31/2023 · Role: Research Contributor</span>
+<span class="funding-project-title">Promoting CAV Deployment by Enhancing the Perception Phase of Autonomous Driving Using Explainable AI</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $120,000 · Period: 04/01/2022–03/31/2023 · Role: Project Core Member</span>
 </li>
   <li>
-<span class="funding-project-title">Leveraging Control Theory to Facilitate UAV Application for CAV Deployment</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $100,000 · Period: 04/01/2022–03/31/2023 · Role: Research Contributor</span>
+<span class="funding-project-title">Leveraging Control Theory to Facilitate UAV Application for CAV Deployment</span><span class="funding-project-meta">Funding source: U.S. Department of Transportation through CCAT · Award total: $100,000 · Period: 04/01/2022–03/31/2023 · Role: Project Core Member</span>
+</li>
+  <li>
+<span class="funding-project-title">Long-Distance Bus Corridor Signal Priority and Speed Guidance Coordinated Ecological Control</span><span class="funding-project-meta">Funding source: National Natural Science Foundation of China (Youth Program) · Award total: ¥240,000 · Period: 01/2020–12/2022 · Role: Project Core Member · Project No. F030205</span>
+</li>
+  <li>
+<span class="funding-project-title">Research on Key Technologies for Multi-Source Data Fusion and Hidden-Danger Perception Systems</span><span class="funding-project-meta">Funding source: National Key R&amp;D Program of China, “Comprehensive Transportation and Intelligent Transportation” Key Special Project · Award total: ¥264,700 · Period: 01/2019–12/2021 · Role: Project Core Member · Project No. 2018YFB1601601</span>
+</li>
+  <li>
+<span class="funding-project-title">Research and Development of Intelligent Patrol Robot Technology and Equipment for Unattended Substations in Hazardous Environments</span><span class="funding-project-meta">Funding source: Guangzhou Science and Technology Innovation Project, Key Technologies R&amp;D Program · Award total: ¥1,000,000 · Period: 04/2018–03/2020 · Role: Project Core Member · Project No. 201803030045</span>
 </li>
 </ul>
 
