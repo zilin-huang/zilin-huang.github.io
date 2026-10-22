@@ -272,8 +272,11 @@ h5 + ol {
   }
 }
 .post-description {
-  margin-bottom: 2rem;
-  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 .post-description a {
   color: inherit;
@@ -281,6 +284,20 @@ h5 + ol {
 .post-description a:hover {
   color: var(--global-theme-color);
   text-decoration: none;
+}
+
+.page-header {
+  margin-bottom: 1.25rem;
+}
+
+.page-header .post-description {
+  margin-bottom: 0;
+}
+
+.post-header .post-title {
+  margin-bottom: 0;
+  color: var(--global-text-color);
+  font-weight: 600;
 }
 
 .navbar {
