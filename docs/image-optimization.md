@@ -27,6 +27,22 @@ This website keeps original media locally and publishes optimized derivatives.
 - Use a `-thumb-900.webp` / `-thumb-1600.webp` suffix for thumbnail-only derivatives. Width descriptors must match the files' actual pixel widths.
 - Before adding a new fixed-size gallery image, check its source dimensions and file size. Images wider than about 2400 pixels or larger than about 1 MB should normally receive thumbnail derivatives.
 
+### Remembered thumbnail recipe
+
+- Always generate each derivative directly from the preserved original. Do not resize an already-resized thumbnail a second time.
+- Use ImageMagick's `-filter Mitchell` immediately before `-resize`. Do not add `-sharpen`, `-unsharp`, or an equivalent sharpening operation anywhere in the thumbnail pipeline.
+- Crop only when the component requires a fixed aspect ratio. For a news-list cover displayed at `280 × 180` CSS pixels, generate a `560 × 360` WebP (2× density) from the original with Mitchell resampling instead of sending a large gallery image to the browser.
+- For responsive gallery thumbnails, generate the 900- and 1600-pixel candidates independently from the original, then declare their true widths in `srcset` and describe the rendered width accurately in `sizes`.
+- Never upscale a source. If the original is smaller than a planned candidate, omit that candidate and use the best available native-size derivative.
+- After generation, verify pixel dimensions and inspect the page at its real rendered size. Apparent harshness should first be investigated as excessive browser downscaling, repeated resizing, or source noise—not corrected by adding sharpening.
+
+Reference command pattern (the crop geometry is component-specific):
+
+```sh
+magick ORIGINAL -auto-orient -filter Mitchell -resize '560x360^' \
+  -gravity center -extent 560x360 -quality 88 THUMBNAIL.webp
+```
+
 ## Motion media
 
 - Do not process MP4, GIF, or animated WebP files as static images.

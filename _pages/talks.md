@@ -239,7 +239,7 @@ h4:after {
 
 </style>
 
-<h4 id="invited-talks" style="text-align: left;">Invited Talks</h4>
+<h4 id="invited-talks" style="text-align: left;">Invited Talks / Lectures</h4>
 
 <div class="talks-container">
   <div class="year-section">
@@ -331,13 +331,39 @@ h4:after {
         <div class="col-md-4">
           <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2026/NGTS/ngts-presentation.webp" srcset="../assets/news_photo/news_all/2026/NGTS/ngts-presentation-1600.webp 1600w, ../assets/news_photo/news_all/2026/NGTS/ngts-presentation.webp 3200w" sizes="(max-width: 768px) 100vw, 30vw" alt="Zilin Huang presenting at NGTS 2026" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-            Presenting Sim2Real-AD at NGTS 2026
+            Sim2Real-AD at NGTS 2026
           </p>
         </div>
         <div class="col-md-4">
           <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp" srcset="../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award-1600.webp 1600w, ../assets/news_photo/news_all/2026/NGTS/ngts-best-presentation-award.webp 3200w" sizes="(max-width: 768px) 100vw, 30vw" alt="Zilin Huang receiving the Best Presentation Award at NGTS 2026" style="width: 100%; height: 220px; object-fit: cover; object-position: center 43%;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
-            Best Presentation Award at NGTS 2026
+            NGTS 2026 Best Presentation
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-card" style="padding-left: 0;">
+      <div class="talk-title">
+        <a href="/news/2025/04-09-aaa-safe-mobility-conference-sky-drive/" style="color: var(--global-theme-color); text-decoration: none;">
+          2025 AAA Safe Mobility Conference
+        </a>
+      </div>
+      <div class="talk-venue">April 9, 2025 | Madison, WI, US</div>
+      <div class="talk-topic">
+        <strong>Topic:</strong> Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human–AI Collaborative and Socially Aware Future Transportation
+      </div>
+      <div class="row" style="margin-top: 8px;">
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-poster-presentation-thumb-900.webp" srcset="../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-poster-presentation-thumb-900.webp 900w, ../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-poster-presentation-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 25vw" alt="Zilin Huang presenting Sky-Drive at the 2025 AAA Safe Mobility Conference" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            Sky-Drive at AAA 2025
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-team-thumb-900.webp" srcset="../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-team-thumb-900.webp 900w, ../assets/news_photo/news_all/2025/AAA-conference/aaa-sky-drive-team-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 25vw" alt="Keke Long, Zilin Huang, and Pei Li with the Sky-Drive poster at the 2025 AAA Safe Mobility Conference" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+          <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
+            Sky-Drive Poster Session
           </p>
         </div>
       </div>
@@ -531,13 +557,13 @@ h4:after {
       </div>
       <div class="row" style="margin-top: 8px;">
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ictis-2019-1.webp" alt="Zilin Huang attending ICTIS 2019 in Liverpool" style="width: 100%; height: 220px; object-fit: cover; object-position: center 62%;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ICTIS%202019/ictis-2019-1.webp" alt="Zilin Huang attending ICTIS 2019 in Liverpool" style="width: 100%; height: 220px; object-fit: cover; object-position: center 62%;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             At ICTIS 2019 in Liverpool
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ictis-2019-2.webp" alt="Zilin Huang at the ICTIS 2019 conference venue" style="width: 100%; height: 220px; object-fit: cover; object-position: center 54%;" loading="lazy">
+          <img class="img-fluid rounded z-depth-1" src="../assets/news_photo/news_all/2019/ICTIS%202019/ictis-2019-2.webp" alt="Zilin Huang at the ICTIS 2019 conference venue" style="width: 100%; height: 220px; object-fit: cover; object-position: center 54%;" loading="lazy">
           <p style="text-align: center; margin-top: 10px; color: var(--global-text-color-light); font-size: 0.9em;">
             At the ICTIS 2019 conference venue
           </p>

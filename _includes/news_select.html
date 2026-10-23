@@ -193,7 +193,7 @@
       <tbody class="news-items">
       {% for item in news limit: news_limit %} 
         <tr>
-          <th scope="row" class="date-col">{{ item.date | date: "%b %-d, %Y" }}</th>
+          <th scope="row" class="date-col">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: "%b %-d, %Y" }}{% endif %}</th>
           <td class="image-col">
             {% if item.image %}
             <img src="{{ item.image | prepend: '/assets/news_photo/news_thumbnails/' | relative_url }}" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: {% if item.image_fit %}{{ item.image_fit }}{% else %}contain{% endif %};">
@@ -214,7 +214,7 @@
       </tbody>
     </table>
   </div>
-  {%- else -%} 
+  {%- else -%}
   <p>No news so far...</p>
-  {%- endif %} 
-</div> 
+  {%- endif %}
+</div>

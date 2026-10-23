@@ -195,7 +195,7 @@
                 {% assign current_year = year %}
             {% endif %}
             <tr>
-                <th scope="row" class="date-col">{{ item.date | date: "%b %-d, %Y" }}</th>
+                <th scope="row" class="date-col">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: "%b %-d, %Y" }}{% endif %}</th>
                 <td class="image-col">
                     {% if item.image %}
                     <img src="{{ item.image | prepend: '/assets/news_photo/news_thumbnails/' | relative_url }}" alt="News thumbnail" class="news-image fade-in" loading="lazy" decoding="async" style="object-fit: {% if item.image_fit %}{{ item.image_fit }}{% else %}contain{% endif %};">
@@ -218,8 +218,7 @@
             {% endif %}
         {% endfor %}
     </div><!-- End of table-responsive -->
-    {%- else -%} 
+    {%- else -%}
     <p>No news so far...</p>
-    {%- endif %} 
+    {%- endif %}
 </div><!-- End of news -->
-    

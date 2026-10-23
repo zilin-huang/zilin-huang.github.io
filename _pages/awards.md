@@ -229,10 +229,10 @@ h4 + .award-category {
 <div class="honors-container">
   <ul class="awards-list">
     <li>Outstanding Master's Degree Graduates, Guangdong Province, Jun 2021 (≈ 1/340) <a href="{{ '/assets/honors/2021-outstanding-graduate-guangdong-province.jpg' | relative_url }}" target="_blank">[Certificate]</a><br>
-    <span class="award-description">The highest graduate student honor, awarded to one graduate student with outstanding research potential and promise.</span></li>
+    <span class="award-description">The highest graduate student honor, awarded to 1 graduate student with outstanding research potential and promise.</span></li>
     <li>Outstanding Graduates of Guangdong University of Technology, 2018 (Top 1%)<br>
     <span class="award-description">Selected for the 2018 Admission Guide of Guangdong University of Technology.</span></li>
-    <li>Top 10 Outstanding Undergraduate Students, 2017 (≈ 10/40,000)<br>
+    <li>Top 10 Outstanding Undergraduate Students, 2017 (≈ 10/40,000) <a href="{{ '/assets/honors/2017-top-10-outstanding-undergraduate-students.jpg' | relative_url }}" target="_blank">[Certificate]</a><br>
     <span class="award-description">The highest undergraduate honor, awarded to the top 10 students with outstanding research potential and prospects.</span></li>
     <li>Top 10 Student Leader in Student Government, Oct 2017 (≈ 10/40,000)</li>
     <li>Outstanding Leader in Student Government, Guangdong Province, China, May 2017 (≈ 5/40,000)<br>
@@ -251,14 +251,14 @@ h4 + .award-category {
     <li>National Scholarship for Graduate Student, China, Dec 2020 (¥20,000) <a href="{{ '/assets/honors/2020-national-scholarship.jpg' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>National Scholarship for Graduate Student, China, Dec 2019 (¥20,000) <a href="{{ '/assets/honors/2019-national-scholarship.jpg' | relative_url }}" target="_blank">[Certificate]</a></li>
     <li>Science and Innovation Scholarships for Outstanding Graduate Students, South China University of Technology, 2019-2021 (¥2,500 × 3)<br>
-    <span class="award-description">Awarded for three consecutive years in 2019-2021 (three times).</span></li>
+    <span class="award-description">Awarded for 3 consecutive years in 2019-2021 (3 times).</span></li>
     <li>2nd Prize Scholarship for Excellent Graduate Student, South China University of Technology, 2018-2021 (¥10,000 × 3)<br>
-    <span class="award-description">Awarded for three consecutive years in 2018-2021 (three times).</span></li>
+    <span class="award-description">Awarded for 3 consecutive years in 2018-2021 (3 times).</span></li>
     <li>Science and Innovation Scholarships for Outstanding Undergraduate Students, Oct 2017 (Top 1%)</li>
     <li>Outstanding Volunteers Scholarship for Social Work, Oct 2017 (Top 1%)</li>
     <li>Outstanding Student Leadership Scholarship, Oct 2017 (Top 1%)</li>
     <li>1st Prize Scholarship for Excellent Undergraduate Student, 2015-2017 (Top 2%, ¥2,500 × 3)<br>
-    <span class="award-description">Awarded for three consecutive years in 2015-2017 (three times).</span></li>
+    <span class="award-description">Awarded for 3 consecutive years in 2015-2017 (3 times).</span></li>
   </ul>
 </div>
 
