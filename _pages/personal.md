@@ -201,9 +201,12 @@ h5:hover {
 
 /* 篮球照片滚动条样式 */
 .basketball-scrollable {
+  max-height: 440px;
   scrollbar-width: thin;
   scrollbar-color: #888 #f0f0f0;
+  overflow-y: auto;
   overflow-x: hidden; /* 隐藏水平滚动条 */
+  overscroll-behavior: contain;
 }
 
 .basketball-scrollable::-webkit-scrollbar {
@@ -298,7 +301,7 @@ h5:hover {
   </p>
   
   <!-- Basketball photos container with scrollbar -->
-  <div class="basketball-scrollable four-column-gallery" style="max-height: 800px; overflow-y: auto; padding: 10px;">
+  <div class="basketball-scrollable four-column-gallery" style="padding: 10px;">
   <!-- Row 1 -->
   <div class="row">
     <div class="col-md-4 mt-3">
