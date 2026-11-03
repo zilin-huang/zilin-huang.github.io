@@ -6,10 +6,10 @@ inline: false
 related_posts: false
 image: 2021/masters-thesis-defense.webp
 image_fit: cover
-excerpt: I successfully defended my Master’s thesis on location awareness and travel mode classification based on RSSI.
+excerpt: I successfully defended my Master’s thesis on location-awareness and mode classification in intelligent vehicle-infrastructure cooperative systems.
 ---
 
-I successfully defended my Master’s thesis, ***Research on Location Awareness and Travel Mode Classification Based on RSSI in Intelligent Vehicle Infrastructure Cooperative System***, on June 6, 2021. The thesis received two peer reviews, both rated **Excellent**.
+I successfully defended my Master’s thesis, ***Location-Awareness and Mode Classification in Intelligent Vehicle-Infrastructure Cooperative Systems***, on June 6, 2021. The thesis received two peer reviews, both rated **Excellent**.
 
 I am grateful to my advisors, committee members, labmates, friends, and family for their guidance and support throughout this journey.
 
