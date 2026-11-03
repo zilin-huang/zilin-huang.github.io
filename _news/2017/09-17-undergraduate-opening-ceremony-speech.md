@@ -11,7 +11,7 @@ excerpt: I spoke at the 2017 undergraduate opening ceremony of Guangdong Univers
 
 On September 17, 2017, I was invited to speak at the undergraduate opening ceremony of Guangdong University of Technology as an outstanding student representative. The ceremonies welcomed more than **8,000 incoming undergraduate students** across the university’s three campuses.
 
-The opportunity followed my selection as one of the university’s **Top 10 Outstanding Undergraduate Students**. Sharing my experience with the new students, faculty members, and families was both an honor and a memorable part of my undergraduate experience.
+Sharing my experience with the new students, faculty members, and families was both an honor and a memorable part of my undergraduate experience.
 
 Official coverage: [Guangdong University of Technology’s report on the 2017 undergraduate opening ceremony](https://www.gdut.edu.cn/info/1709/7390.htm).
 

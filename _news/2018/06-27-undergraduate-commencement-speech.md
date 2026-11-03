@@ -11,7 +11,7 @@ excerpt: I represented the graduating class and spoke at the 2018 undergraduate 
 
 On June 27, 2018, I represented the graduating class and spoke at the undergraduate degree ceremony of the School of Electromechanical Engineering at Guangdong University of Technology.
 
-I completed my Bachelor’s degree and was recognized as one of the **Top 10 Outstanding Graduates of the School of Electromechanical Engineering**. Addressing classmates, faculty members, and families made the ceremony especially meaningful and marked the conclusion of an important chapter in my life.
+Addressing classmates, faculty members, and families made the ceremony especially meaningful and marked the conclusion of an important chapter in my life.
 
 <div class="row justify-content-center">
   <div class="col-md-8 mt-3">
