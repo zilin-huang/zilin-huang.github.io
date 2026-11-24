@@ -206,13 +206,13 @@ h4 + .award-category {
 
 <div class="honors-container">
   <ul class="awards-list">
-    <li>"Qinglan Plan" Competition Award, PI, Guangzhou Province, Aug 2021 (¥50,000) <a href="{{ 'https://www.panyu.gov.cn/tgl/qkgsxj/content/post_6903583.html' | relative_url }}" target="_blank">[News Links]</a><br>
+    <li>"Qinglan Plan" Competition Award, PI, Guangzhou, Aug 2021 (¥50,000) <a href="{{ 'https://www.panyu.gov.cn/tgl/qkgsxj/content/post_6903583.html' | relative_url }}" target="_blank">[News Links]</a><br>
     <span class="award-description">Awarded to students with high potential for commercial translation of their research.</span></li>
     <li>Special Funds Project for Science and Technology Innovation Strategy Award, PI, Guangdong Province, Dec 2020 (¥60,000) <a href="{{ 'https://www.gdcyl.org/xxb/ShowArticle.asp?ArticleID=241940' | relative_url }}" target="_blank">[News Links]</a><br>
     <span class="award-description">Awarded to students with very strong research potential (Key project, No. pdjh2020a0030).</span></li>
     <li>"Win in Guangzhou" Competition Award, PI, Guangzhou, Nov 2020 (¥50,000 + ¥100,000 startup fund) <a href="{{ 'https://www.gz.gov.cn/zwgk/zdly/jycy/gzdt/content/mpost_6999222.html' | relative_url }}" target="_blank">[News Links]</a><br>
     <span class="award-description">Awarded to the young entrepreneur with promise of business success.</span></li>
-    <li>"Young Entrepreneur in Guangdong" Competition Award, PI, Guangzhou Province, Oct 2020 (¥30,000) <a href="{{ 'https://baijiahao.baidu.com/s?id=1672187346796437301&wfr=spider&for=pc' | relative_url }}" target="_blank">[News Links]</a><br>
+    <li>"Young Entrepreneur in Guangdong" Competition Award, PI, Guangdong Province, Oct 2020 (¥30,000) <a href="{{ 'https://baijiahao.baidu.com/s?id=1672187346796437301&wfr=spider&for=pc' | relative_url }}" target="_blank">[News Links]</a><br>
     <span class="award-description">Awarded to the young entrepreneur with promise of business success.</span></li>
     <li>Top 100 PhD and Postdoctoral Innovation Achievements Award, PI, Guangdong Province, May 2019 <a href="{{ '/assets/honors/2019-100-PhD-and-Postdoctoral-Innovation.pdf' | relative_url }}" target="_blank">[Certificate]</a> </li>
     <li>Graduate Student Academic Competition Award, PI, South China University of Technology, Dec 2019 (¥20,000)<br>
